@@ -1,0 +1,275 @@
+/* Islamdle — shared core.
+ *
+ * Everything the homepage and the game both need: the daily seed, the mode
+ * registry, difficulty, and saved progress. No DOM work happens here.
+ */
+window.Islamdle = (function () {
+  "use strict";
+
+  var EPOCH = Date.UTC(2026, 0, 1);   // set #1 = 1 Jan 2026 UTC
+  var DAY = 86400000;
+  var STORE = "islamdle.v2";
+  var LEVEL_KEY = "islamdle.level";
+
+  var LEVELS = ["easy", "medium", "hard"];
+
+  /* ----------------------------------------------------------- modes --- */
+
+  // Order here is the order shown on the homepage.
+  var MODES = {
+    "five-clues": {
+      label: "Five Clues",
+      tag: "One answer",
+      icon: "٥",
+      blurb: "Clues appear one at a time. Name the thing before you run out — " +
+             "the earlier you get it, the better your score.",
+      time: "1 min",
+      levels: {
+        easy: "Pillars and terms everyone knows.",
+        medium: "More context needed before it clicks.",
+        hard: "Specific, but still fair."
+      }
+    },
+    "spot-mistake": {
+      label: "Spot the Mistake",
+      tag: "Three statements",
+      icon: "؟",
+      blurb: "Two statements are correct and one is not. Find the one that is wrong.",
+      time: "1 min",
+      levels: {
+        easy: "The error is obvious once you read it.",
+        medium: "One subtle error among plausible facts.",
+        hard: "Two statements both sound right."
+      }
+    },
+    "order-events": {
+      label: "Order the Events",
+      tag: "Put them in order",
+      icon: "⇅",
+      blurb: "Events from the Seerah and early Islamic history, shuffled. " +
+             "Put them back into the order they happened.",
+      time: "2 min",
+      levels: {
+        easy: "Two events, far apart in time.",
+        medium: "Three events to sequence.",
+        hard: "Five events with close timelines."
+      }
+    },
+    "missing-piece": {
+      label: "The Missing Piece",
+      tag: "Complete the set",
+      icon: "◇",
+      blurb: "A well-known set is shown with one item taken out. Name what is missing.",
+      time: "1 min",
+      levels: {
+        easy: "Sets almost everyone can complete.",
+        medium: "Sets you need to have learned.",
+        hard: "Longer sets, and the order matters."
+      }
+    },
+    "scramble": {
+      label: "Ayah Scramble",
+      tag: "Rebuild the verse",
+      icon: "آ",
+      blurb: "The words of a short, familiar ayah are shuffled. Put them back " +
+             "in the right order.",
+      time: "2 min",
+      levels: {
+        easy: "Four or five words, very familiar.",
+        medium: "Six to eight words.",
+        hard: "Longer passages, fewer moves."
+      }
+    },
+    "surah": {
+      label: "Which Surah",
+      tag: "Narrow it down",
+      icon: "۩",
+      blurb: "Guess the surah. Each guess compares revelation place, length, " +
+             "juz and verse count against the answer.",
+      time: "2 min",
+      levels: {
+        easy: "Drawn from the best-known surahs.",
+        medium: "Any surah of reasonable length.",
+        hard: "All 114, including the short ones."
+      }
+    }
+  };
+
+  var ORDER = Object.keys(MODES);
+
+  /* ------------------------------------------------------ daily seed --- */
+
+  function puzzleNumber() {
+    var now = new Date();
+    var today = Date.UTC(now.getUTCFullYear(), now.getUTCMonth(), now.getUTCDate());
+    return Math.floor((today - EPOCH) / DAY) + 1;
+  }
+
+  function hash(str) {
+    var h = 2166136261;
+    for (var i = 0; i < str.length; i++) {
+      h ^= str.charCodeAt(i);
+      h = (h + (h << 1) + (h << 4) + (h << 7) + (h << 8) + (h << 24)) >>> 0;
+    }
+    return h >>> 0;
+  }
+
+  function gcd(a, b) { while (b) { var t = b; b = a % b; a = t; } return a; }
+
+  // Walks the pool in a fixed pseudo-random order, keyed by mode AND level so
+  // the three levels move through their pools independently.
+  //
+  // The step is coprime to the pool length, which makes this a single endless
+  // cycle: every entry appears once per poolLength days and the gap between
+  // any entry's repeats is always exactly poolLength. Re-seeding the offset
+  // per cycle would look more random but lets an entry recur a few days after
+  // its last appearance, right across a cycle boundary — so it is not done.
+  function dailyIndex(key, poolLength, n) {
+    if (poolLength <= 1) return 0;
+    n = n || puzzleNumber();
+    var offset = hash(key + "|offset") % poolLength;
+    var step = 1 + (hash(key + "|step") % (poolLength - 1));
+    while (gcd(step, poolLength) !== 1) step = (step % (poolLength - 1)) + 1;
+    return (offset + (n - 1) * step) % poolLength;
+  }
+
+  function msToReset() {
+    var now = new Date();
+    var next = Date.UTC(now.getUTCFullYear(), now.getUTCMonth(), now.getUTCDate() + 1);
+    return Math.max(0, next - now.getTime());
+  }
+
+  function formatCountdown(ms) {
+    function pad(n) { return n < 10 ? "0" + n : String(n); }
+    return pad(Math.floor(ms / 3600000)) + ":" +
+           pad(Math.floor(ms / 60000) % 60) + ":" +
+           pad(Math.floor(ms / 1000) % 60);
+  }
+
+  /* --------------------------------------------------------- storage --- */
+
+  var SAVE;
+
+  function load() {
+    try { SAVE = JSON.parse(localStorage.getItem(STORE) || "{}"); }
+    catch (e) { SAVE = {}; }
+    if (!SAVE.runs) SAVE.runs = {};      // progress, keyed "mode:level"
+    if (!SAVE.stats) SAVE.stats = {};    // per mode:level
+    if (!SAVE.daily) SAVE.daily = { lastN: 0, streak: 0, best: 0 };
+    return SAVE;
+  }
+
+  function persist() {
+    try { localStorage.setItem(STORE, JSON.stringify(SAVE)); } catch (e) { /* private mode */ }
+  }
+
+  function getLevel() {
+    var v;
+    try { v = localStorage.getItem(LEVEL_KEY); } catch (e) { v = null; }
+    return LEVELS.indexOf(v) === -1 ? "medium" : v;
+  }
+
+  function setLevel(level) {
+    if (LEVELS.indexOf(level) === -1) return;
+    try { localStorage.setItem(LEVEL_KEY, level); } catch (e) { /* ignore */ }
+  }
+
+  function runKey(mode, level) { return mode + ":" + level; }
+
+  // Per-day progress for one mode at one level.
+  function run(mode, level) {
+    var k = runKey(mode, level);
+    var n = puzzleNumber();
+    var r = SAVE.runs[k];
+    if (!r || r.n !== n) {
+      r = { n: n, tries: [], solved: false, done: false };
+      SAVE.runs[k] = r;
+    }
+    return r;
+  }
+
+  function stats(mode, level) {
+    var k = runKey(mode, level);
+    if (!SAVE.stats[k]) {
+      SAVE.stats[k] = { played: 0, solved: 0, streak: 0, best: 0, lastN: 0, dist: {} };
+    }
+    return SAVE.stats[k];
+  }
+
+  // Called once when a puzzle finishes, win or lose.
+  function finish(mode, level, won, tries) {
+    var st = stats(mode, level);
+    var n = puzzleNumber();
+    if (st.lastN !== n) {
+      st.played += 1;
+      st.lastN = n;
+      if (won) {
+        st.solved += 1;
+        st.streak = st.lastN === n ? (st.streak || 0) + 1 : 1;
+        st.best = Math.max(st.best, st.streak);
+        var bucket = tries >= 6 ? "6+" : String(tries);
+        st.dist[bucket] = (st.dist[bucket] || 0) + 1;
+      } else {
+        st.streak = 0;
+      }
+    }
+    if (won) bumpDailyStreak();
+    persist();
+  }
+
+  // One overall streak for "played something today", which is the number
+  // people actually care about.
+  function bumpDailyStreak() {
+    var d = SAVE.daily;
+    var n = puzzleNumber();
+    if (d.lastN === n) return;
+    d.streak = d.lastN === n - 1 ? d.streak + 1 : 1;
+    d.best = Math.max(d.best, d.streak);
+    d.lastN = n;
+  }
+
+  function dailyStreak() {
+    var d = SAVE.daily;
+    var n = puzzleNumber();
+    return (d.lastN === n || d.lastN === n - 1) ? d.streak : 0;
+  }
+
+  function solvedToday(level) {
+    var n = puzzleNumber();
+    return ORDER.filter(function (m) {
+      var r = SAVE.runs[runKey(m, level)];
+      return r && r.n === n && r.solved;
+    }).length;
+  }
+
+  function doneToday(level) {
+    var n = puzzleNumber();
+    return ORDER.filter(function (m) {
+      var r = SAVE.runs[runKey(m, level)];
+      return r && r.n === n && r.done;
+    }).length;
+  }
+
+  load();
+
+  return {
+    LEVELS: LEVELS,
+    MODES: MODES,
+    ORDER: ORDER,
+    puzzleNumber: puzzleNumber,
+    hash: hash,
+    dailyIndex: dailyIndex,
+    msToReset: msToReset,
+    formatCountdown: formatCountdown,
+    getLevel: getLevel,
+    setLevel: setLevel,
+    run: run,
+    stats: stats,
+    finish: finish,
+    dailyStreak: dailyStreak,
+    solvedToday: solvedToday,
+    doneToday: doneToday,
+    persist: persist,
+    save: function () { return SAVE; }
+  };
+})();

@@ -1,0 +1,1028 @@
+{
+  "easy": [
+    {
+      "answer": "Adam",
+      "options": [
+        "Adam",
+        "Nuh",
+        "Idris",
+        "Ibrahim"
+      ],
+      "clues": [
+        "He was a prophet.",
+        "He was the first of the prophets.",
+        "He was the first human being.",
+        "The angels were commanded to prostrate to him.",
+        "He and his wife were placed in the Garden."
+      ],
+      "explain": "Adam, ʿalayhi al-salām, is the first human being and the first prophet. The Qur'an recounts the command to the angels to prostrate to him, and Iblis's refusal."
+    },
+    {
+      "answer": "Yunus",
+      "options": [
+        "Yunus",
+        "Nuh",
+        "Ayyub",
+        "Zakariyya"
+      ],
+      "clues": [
+        "He was a prophet.",
+        "A surah bears his name.",
+        "He left his people before he was permitted to.",
+        "He was swallowed by a great fish.",
+        "He called out from within the darkness and was answered."
+      ],
+      "explain": "Yunus (Jonah), ʿalayhi al-salām, called upon Allah from within the fish with the words known as Du'a Yunus. His people later believed, and the punishment was lifted from them."
+    },
+    {
+      "answer": "Ayyub",
+      "options": [
+        "Ayyub",
+        "Yunus",
+        "Zakariyya",
+        "Dhul-Kifl"
+      ],
+      "clues": [
+        "He was a prophet.",
+        "He lost his wealth and his health.",
+        "He is remembered above all for one quality.",
+        "That quality is patience in affliction.",
+        "He called upon his Lord and was restored."
+      ],
+      "explain": "Ayyub (Job), ʿalayhi al-salām, is the standing example of sabr — patience through severe affliction — and was restored after calling upon his Lord."
+    },
+    {
+      "answer": "Sulayman",
+      "options": [
+        "Sulayman",
+        "Dawud",
+        "Yusuf",
+        "Musa"
+      ],
+      "clues": [
+        "He was a prophet and also a king.",
+        "His father was also a prophet.",
+        "He was given understanding of the speech of birds and other creatures.",
+        "The jinn were made subject to him.",
+        "A hoopoe brought him news of the Queen of Sheba."
+      ],
+      "explain": "Sulayman (Solomon), ʿalayhi al-salām, son of Dawud, was given a kingdom and understanding of the speech of creatures. Surah An-Naml recounts the episode of the hoopoe and Bilqis."
+    },
+    {
+      "answer": "Dawud",
+      "options": [
+        "Dawud",
+        "Sulayman",
+        "Musa",
+        "Harun"
+      ],
+      "clues": [
+        "He was a prophet and a king.",
+        "He was given a scripture.",
+        "That scripture is the Zabur.",
+        "Iron was made pliable for him.",
+        "As a young man he defeated Jalut."
+      ],
+      "explain": "Dawud (David), ʿalayhi al-salām, was given the Zabur and a kingdom. The Qur'an mentions iron being made pliable for him and his victory over Jalut (Goliath)."
+    },
+    {
+      "answer": "Jahannam",
+      "options": [
+        "Jahannam",
+        "Jannah",
+        "Barzakh",
+        "A'raf"
+      ],
+      "clues": [
+        "It is a place in the hereafter.",
+        "Belief in it is part of Islamic belief.",
+        "It is the opposite of the Garden.",
+        "It is a place of punishment.",
+        "It is the Fire."
+      ],
+      "explain": "Jahannam is the Fire, the place of punishment in the hereafter, the opposite of Jannah."
+    },
+    {
+      "answer": "Shaytan",
+      "options": [
+        "Shaytan",
+        "Jibril",
+        "Malik",
+        "Israfil"
+      ],
+      "clues": [
+        "He is a created being.",
+        "He is not an angel but of the jinn.",
+        "He refused a command out of arrogance.",
+        "That command was to prostrate to Adam.",
+        "He was granted respite to misguide."
+      ],
+      "explain": "Iblis refused the command to prostrate to Adam out of arrogance. The Qur'an states he was of the jinn, not the angels."
+    },
+    {
+      "answer": "Tasbih",
+      "options": [
+        "Tasbih",
+        "Takbir",
+        "Tahmid",
+        "Tahlil"
+      ],
+      "clues": [
+        "It is a phrase of remembrance.",
+        "It is said very frequently.",
+        "It is often said after the prayer.",
+        "It declares Allah free of all imperfection.",
+        "The phrase is SubhanAllah."
+      ],
+      "explain": "Tasbih is saying SubhanAllah, declaring Allah free of any imperfection. Tahmid is Alhamdulillah, takbir is Allahu akbar, and tahlil is La ilaha illa Allah."
+    },
+    {
+      "answer": "Takbir",
+      "options": [
+        "Takbir",
+        "Tasbih",
+        "Tahmid",
+        "Istighfar"
+      ],
+      "clues": [
+        "It is a short phrase.",
+        "It opens every prayer.",
+        "It is repeated at each change of position in the prayer.",
+        "It is called out during the two Eids.",
+        "The phrase is Allahu akbar."
+      ],
+      "explain": "The takbir, Allahu akbar, opens the prayer and marks each change of posture within it. It is also called out during the days of Eid."
+    },
+    {
+      "answer": "The Hadith",
+      "options": [
+        "The Hadith",
+        "The Qur'an",
+        "The Tafsir",
+        "The Fiqh"
+      ],
+      "clues": [
+        "They are reports, not a single book.",
+        "They were collected and graded by scholars.",
+        "Each has a chain of transmission.",
+        "They record what the Prophet ﷺ said and did.",
+        "Al-Bukhari and Muslim compiled famous collections of them."
+      ],
+      "explain": "Hadith are the transmitted reports of the Prophet's sayings, actions and approvals, each with a chain of narrators. They are the means by which the Sunnah is preserved."
+    },
+    {
+      "answer": "Halal",
+      "options": [
+        "Halal",
+        "Haram",
+        "Makruh",
+        "Mubah"
+      ],
+      "clues": [
+        "It is a ruling category.",
+        "It applies to actions and to food.",
+        "It is the opposite of haram.",
+        "It describes what is permitted.",
+        "It is most often heard in relation to food and drink."
+      ],
+      "explain": "Halal means permitted. Haram is the forbidden, makruh the disliked, and mubah the neutral."
+    },
+    {
+      "answer": "Hafiz",
+      "options": [
+        "Hafiz",
+        "Qari",
+        "Imam",
+        "Mu'adhdhin"
+      ],
+      "clues": [
+        "It is a title given to a person.",
+        "It relates to the Qur'an.",
+        "It is not about leading prayer.",
+        "It is not about the beauty of recitation.",
+        "It describes someone who has memorised the entire Qur'an."
+      ],
+      "explain": "A hafiz is one who has memorised the whole Qur'an. A qari is a skilled reciter, an imam leads prayer, and a mu'adhdhin calls the adhan."
+    },
+    {
+      "answer": "A juz",
+      "options": [
+        "A juz",
+        "A surah",
+        "An ayah",
+        "A ruku"
+      ],
+      "clues": [
+        "It is a division of the Qur'an.",
+        "It does not follow chapter boundaries.",
+        "It exists to help with reading and memorising.",
+        "There are thirty of them.",
+        "Many people read one each night in Ramadan."
+      ],
+      "explain": "The Qur'an is divided into thirty ajza of roughly equal length, which is why many complete a full reading over the thirty nights of Ramadan."
+    },
+    {
+      "answer": "Istighfar",
+      "options": [
+        "Istighfar",
+        "Tasbih",
+        "Takbir",
+        "Tahmid"
+      ],
+      "clues": [
+        "It is a form of remembrance.",
+        "It is said at any time.",
+        "It is especially encouraged after wrongdoing.",
+        "It is also said after completing acts of worship.",
+        "It is seeking forgiveness from Allah."
+      ],
+      "explain": "Istighfar is seeking Allah's forgiveness, commonly with the phrase Astaghfirullah. It is encouraged both after wrongdoing and as regular remembrance."
+    },
+    {
+      "answer": "The Mihrab",
+      "options": [
+        "The Mihrab",
+        "The Minbar",
+        "The Minaret",
+        "The Dome"
+      ],
+      "clues": [
+        "It is a feature of a mosque.",
+        "It is on one particular wall.",
+        "It is usually a recess or niche.",
+        "It shows the congregation which way to face.",
+        "The imam stands in front of it."
+      ],
+      "explain": "The mihrab is the niche in the qiblah wall of a mosque indicating the direction of prayer. The minbar is the pulpit used for the sermon."
+    },
+    {
+      "answer": "The Minbar",
+      "options": [
+        "The Minbar",
+        "The Mihrab",
+        "The Minaret",
+        "The Mimbar wall"
+      ],
+      "clues": [
+        "It is a feature of a mosque.",
+        "It is usually raised, with steps.",
+        "It is not used during the obligatory prayer.",
+        "It is used once a week in particular.",
+        "The khutbah is delivered from it."
+      ],
+      "explain": "The minbar is the raised pulpit from which the Friday sermon is delivered."
+    },
+    {
+      "answer": "Harun",
+      "options": [
+        "Harun",
+        "Musa",
+        "Yusuf",
+        "Ya'qub"
+      ],
+      "clues": [
+        "He was a prophet.",
+        "He was the brother of another prophet.",
+        "He was known for his eloquence of speech.",
+        "His brother asked Allah to appoint him as a helper.",
+        "That brother was Musa."
+      ],
+      "explain": "Harun (Aaron), ʿalayhi al-salām, was the brother of Musa, appointed as his helper at Musa's own request because of his clearer speech."
+    },
+    {
+      "answer": "Isma'il",
+      "options": [
+        "Isma'il",
+        "Ishaq",
+        "Ya'qub",
+        "Yusuf"
+      ],
+      "clues": [
+        "He was a prophet.",
+        "He was a son of Ibrahim.",
+        "He was left as an infant in a barren valley.",
+        "The well of Zamzam sprang for him.",
+        "He helped his father raise the foundations of the Ka'bah."
+      ],
+      "explain": "Isma'il (Ishmael), ʿalayhi al-salām, son of Ibrahim and Hajar, is connected with Zamzam and with the raising of the Ka'bah's foundations alongside his father."
+    },
+    {
+      "answer": "Zakat al-Mal",
+      "options": [
+        "Zakat al-Mal",
+        "Zakat al-Fitr",
+        "Sadaqah",
+        "Fidyah"
+      ],
+      "clues": [
+        "It is an obligatory charity.",
+        "It is not the one given at the end of Ramadan.",
+        "It is calculated rather than fixed per person.",
+        "It becomes due after a lunar year has passed.",
+        "It is the zakat on accumulated wealth."
+      ],
+      "explain": "Zakat al-Mal is the zakat on wealth, due annually on holdings above the nisab. Zakat al-Fitr is the smaller fixed amount given per person before the Eid prayer."
+    },
+    {
+      "answer": "Qiyam",
+      "options": [
+        "Qiyam",
+        "Ruku'",
+        "Sujud",
+        "Jalsa"
+      ],
+      "clues": [
+        "It is a position in the prayer.",
+        "It is the first position of each rak'ah.",
+        "Al-Fatihah is recited in it.",
+        "It is the tallest of the positions.",
+        "It is simply standing."
+      ],
+      "explain": "Qiyam is the standing position of the prayer, in which Al-Fatihah and a further passage are recited."
+    }
+  ],
+  "medium": [
+    {
+      "answer": "Surah Al-Waqi'ah",
+      "options": [
+        "Surah Al-Waqi'ah",
+        "Surah Ar-Rahman",
+        "Surah Al-Mulk",
+        "Surah Al-Hadid"
+      ],
+      "clues": [
+        "It is a Makkan surah of 96 ayahs.",
+        "It is surah 56, falling in juz 27.",
+        "Its name refers to an event that must come.",
+        "It divides people into three groups.",
+        "Those groups are the foremost, the companions of the right, and the companions of the left."
+      ],
+      "explain": "Surah Al-Waqi'ah (56) describes the Inevitable Event and divides humanity into three categories: the foremost, the companions of the right hand, and the companions of the left."
+    },
+    {
+      "answer": "Surah Al-Kawthar",
+      "options": [
+        "Surah Al-Kawthar",
+        "Surah Al-Asr",
+        "Surah An-Nasr",
+        "Surah Al-Ikhlas"
+      ],
+      "clues": [
+        "It is the shortest surah in the Qur'an.",
+        "It has three ayahs.",
+        "It is a Makkan surah.",
+        "It was revealed as consolation to the Prophet ﷺ.",
+        "Its name refers to abundance granted to him."
+      ],
+      "explain": "Surah Al-Kawthar (108) is the shortest surah at three ayahs. It was revealed as consolation, affirming that it is the Prophet's detractor who is cut off."
+    },
+    {
+      "answer": "Ghusl",
+      "options": [
+        "Ghusl",
+        "Wudu",
+        "Tayammum",
+        "Istinja"
+      ],
+      "clues": [
+        "It is a form of purification.",
+        "It is more complete than the usual ablution.",
+        "It is required in specific states.",
+        "It involves washing the whole body.",
+        "It is recommended before Jumu'ah and the two Eids."
+      ],
+      "explain": "Ghusl is the complete washing of the body, obligatory in certain states and recommended before Jumu'ah, the two Eids and entering ihram."
+    },
+    {
+      "answer": "Tayammum",
+      "options": [
+        "Tayammum",
+        "Wudu",
+        "Ghusl",
+        "Istinja"
+      ],
+      "clues": [
+        "It is a means of purification.",
+        "It is used only in particular circumstances.",
+        "It does not involve water at all.",
+        "It is permitted when water is unavailable or harmful.",
+        "It is performed with clean earth or dust."
+      ],
+      "explain": "Tayammum is dry purification with clean earth, permitted when water is unavailable or its use would cause harm."
+    },
+    {
+      "answer": "Surah Al-Jumu'ah",
+      "options": [
+        "Surah Al-Jumu'ah",
+        "Surah Al-Munafiqun",
+        "Surah As-Saff",
+        "Surah At-Taghabun"
+      ],
+      "clues": [
+        "It is a Madinan surah of eleven ayahs.",
+        "It is surah 62.",
+        "It is named after a day.",
+        "It commands leaving off trade when the call is made.",
+        "It instructs the believers to hasten to the remembrance of Allah."
+      ],
+      "explain": "Surah Al-Jumu'ah (62) commands the believers to leave trade and hasten to the remembrance of Allah when the Friday call to prayer is made."
+    },
+    {
+      "answer": "The miqat",
+      "options": [
+        "The miqat",
+        "The haram boundary",
+        "The maqam",
+        "The multazam"
+      ],
+      "clues": [
+        "It is a boundary, not a building.",
+        "It concerns pilgrims approaching Makkah.",
+        "There are several of them in different directions.",
+        "A pilgrim may not pass it in ordinary clothes if intending the rites.",
+        "It is where ihram is entered."
+      ],
+      "explain": "The mawaqit are the fixed points around Makkah at which pilgrims coming from different directions must enter the state of ihram."
+    },
+    {
+      "answer": "Hijri",
+      "options": [
+        "Hijri",
+        "Gregorian",
+        "Solar Hijri",
+        "Julian"
+      ],
+      "clues": [
+        "It is a calendar.",
+        "It has twelve months.",
+        "Its months are determined by the moon.",
+        "Its year is about eleven days shorter than the solar year.",
+        "Its count begins from the migration to Madinah."
+      ],
+      "explain": "The Hijri calendar is lunar, with twelve months and a year of about 354 days, counted from the year of the Hijrah in 622 CE."
+    },
+    {
+      "answer": "The Battle of the Camel",
+      "options": [
+        "The Battle of the Camel",
+        "The Battle of Siffin",
+        "The Battle of Nahrawan",
+        "The Battle of Badr"
+      ],
+      "clues": [
+        "It was fought between Muslims.",
+        "It took place during the first fitnah.",
+        "It was in the caliphate of Ali.",
+        "It was fought near Basra in 36 AH.",
+        "It takes its name from the animal Aisha rode during it."
+      ],
+      "explain": "The Battle of the Camel, 36 AH, was fought near Basra during the first fitnah. It takes its name from the camel on which Aisha was present at the battle."
+    },
+    {
+      "answer": "Al-Mu'awwidhatayn",
+      "options": [
+        "Al-Mu'awwidhatayn",
+        "Al-Zahrawan",
+        "Al-Musabbihat",
+        "Al-Mufassal"
+      ],
+      "clues": [
+        "The term refers to two surahs together.",
+        "They are both very short.",
+        "They are the final two in the mushaf.",
+        "Both begin with the command: Say, I seek refuge.",
+        "They are Al-Falaq and An-Nas."
+      ],
+      "explain": "Al-Mu'awwidhatayn, the two surahs of seeking refuge, are Al-Falaq (113) and An-Nas (114), both opening with 'Qul a'udhu'."
+    },
+    {
+      "answer": "Ramy al-Jamarat",
+      "options": [
+        "Ramy al-Jamarat",
+        "Tawaf al-Ifadah",
+        "Sa'i",
+        "Wuquf"
+      ],
+      "clues": [
+        "It is a rite of Hajj.",
+        "It takes place at Mina.",
+        "It is performed on the 10th and the days of Tashriq.",
+        "It involves small stones.",
+        "It is the stoning of the pillars."
+      ],
+      "explain": "Ramy al-Jamarat is the stoning of the three pillars at Mina, performed on the Day of Sacrifice and during the days of Tashriq."
+    },
+    {
+      "answer": "Surah An-Naba",
+      "options": [
+        "Surah An-Naba",
+        "Surah An-Nazi'at",
+        "Surah Abasa",
+        "Surah At-Takwir"
+      ],
+      "clues": [
+        "It is a Makkan surah of forty ayahs.",
+        "It is surah 78.",
+        "It opens the final juz.",
+        "Its opening words give that juz its common name.",
+        "It begins by asking what they are asking one another about."
+      ],
+      "explain": "Surah An-Naba (78) opens juz 30, which is commonly called Juz Amma after this surah's opening words, 'Amma yatasa'alun'."
+    },
+    {
+      "answer": "Umm al-Kitab",
+      "options": [
+        "Umm al-Kitab",
+        "Al-Mathani",
+        "Al-Mufassal",
+        "Al-Mu'awwidhatayn"
+      ],
+      "clues": [
+        "It is an alternative name for a surah.",
+        "That surah is very short.",
+        "It is recited in every unit of prayer.",
+        "The name means the Mother of the Book.",
+        "The surah is Al-Fatihah."
+      ],
+      "explain": "Surah Al-Fatihah is known by several names, including Umm al-Kitab, the Mother of the Book, and al-Sab' al-Mathani, the seven oft-repeated verses."
+    },
+    {
+      "answer": "Shirk",
+      "options": [
+        "Shirk",
+        "Kufr",
+        "Nifaq",
+        "Bid'ah"
+      ],
+      "clues": [
+        "It is the gravest matter in Islamic belief.",
+        "It concerns the oneness of Allah.",
+        "It is the opposite of tawhid.",
+        "Luqman warned his son against it above all else.",
+        "It is associating partners with Allah."
+      ],
+      "explain": "Shirk is associating partners with Allah, the gravest violation of tawhid. Surah Luqman records his counsel to his son warning against it."
+    },
+    {
+      "answer": "Taqwa",
+      "options": [
+        "Taqwa",
+        "Ihsan",
+        "Ikhlas",
+        "Tawakkul"
+      ],
+      "clues": [
+        "It is a quality of the believer.",
+        "The Qur'an states that provisions should be taken, and the best of them is this.",
+        "Surah Al-Hujurat says the most honoured are those with most of it.",
+        "It is often rendered as God-consciousness.",
+        "It is awareness of Allah leading to mindful conduct."
+      ],
+      "explain": "Taqwa is God-consciousness. Surah Al-Hujurat 49:13 states that the most honoured in the sight of Allah is the one with the most taqwa, not the one of highest lineage."
+    },
+    {
+      "answer": "Ikhlas",
+      "options": [
+        "Ikhlas",
+        "Taqwa",
+        "Sabr",
+        "Shukr"
+      ],
+      "clues": [
+        "It is a quality of an action, not of a person's knowledge.",
+        "It concerns why something is done.",
+        "Without it, outward worship is not accepted.",
+        "A surah is named with the same word.",
+        "It means sincerity, doing an act for Allah alone."
+      ],
+      "explain": "Ikhlas is sincerity of intention — performing an act for Allah alone. The well-known hadith that actions are judged by intentions bears directly on it."
+    },
+    {
+      "answer": "Surah Al-Hadid",
+      "options": [
+        "Surah Al-Hadid",
+        "Surah Al-Waqi'ah",
+        "Surah Al-Hashr",
+        "Surah Al-Mujadilah"
+      ],
+      "clues": [
+        "It is a Madinan surah of twenty-nine ayahs.",
+        "It is surah 57.",
+        "It is named after a material.",
+        "It mentions that material being sent down with great strength.",
+        "That material is iron."
+      ],
+      "explain": "Surah Al-Hadid (57) is named for iron, which it describes as sent down, containing great strength and benefits for people."
+    },
+    {
+      "answer": "Bid'ah",
+      "options": [
+        "Bid'ah",
+        "Sunnah",
+        "Ijma",
+        "Qiyas"
+      ],
+      "clues": [
+        "It is a term of disapproval in religious matters.",
+        "It concerns worship in particular.",
+        "It is contrasted with the established practice.",
+        "Scholars discuss its categories in detail.",
+        "It refers to newly introduced matters in the religion."
+      ],
+      "explain": "Bid'ah refers to newly introduced practices in religious matters without basis in the sources. Scholars differ considerably over how the term should be applied."
+    },
+    {
+      "answer": "Qada and Qadar",
+      "options": [
+        "Qada and Qadar",
+        "Tawhid and Shirk",
+        "Iman and Islam",
+        "Sabr and Shukr"
+      ],
+      "clues": [
+        "It is one of the six articles of faith.",
+        "It is often expressed as a pair of words.",
+        "It concerns what Allah has decreed.",
+        "It does not remove human responsibility.",
+        "It is divine decree and destiny."
+      ],
+      "explain": "Belief in divine decree is the sixth article of faith. Islamic theology holds that it does not negate human responsibility or the reality of choice."
+    },
+    {
+      "answer": "Surah Al-Mujadilah",
+      "options": [
+        "Surah Al-Mujadilah",
+        "Surah Al-Hashr",
+        "Surah Al-Mumtahanah",
+        "Surah At-Talaq"
+      ],
+      "clues": [
+        "It is a Madinan surah of twenty-two ayahs.",
+        "It is surah 58.",
+        "Its name refers to a woman.",
+        "It was revealed concerning a woman who argued her case.",
+        "She brought her complaint about her husband to the Prophet ﷺ."
+      ],
+      "explain": "Surah Al-Mujadilah (58) is named for the woman who disputed her case with the Prophet ﷺ concerning her husband, and whose complaint Allah answered."
+    },
+    {
+      "answer": "Sabr",
+      "options": [
+        "Sabr",
+        "Shukr",
+        "Tawakkul",
+        "Rida"
+      ],
+      "clues": [
+        "It is a quality praised throughout the Qur'an.",
+        "It is counselled in Surah Al-Asr.",
+        "Prophet Ayyub is its clearest example.",
+        "It applies in hardship and in obedience alike.",
+        "It is patience and steadfastness."
+      ],
+      "explain": "Sabr is patience and steadfastness — in hardship, in obedience, and in restraint from wrongdoing. Surah Al-Asr names mutual counsel to it as one of four saving qualities."
+    }
+  ],
+  "hard": [
+    {
+      "answer": "The first fitnah",
+      "options": [
+        "The first fitnah",
+        "The Ridda campaigns",
+        "The second fitnah",
+        "The Abbasid revolution"
+      ],
+      "clues": [
+        "It was a period of internal conflict.",
+        "It followed the killing of a caliph.",
+        "It fell within the caliphate of Ali.",
+        "It included the Battle of the Camel.",
+        "It also included Siffin."
+      ],
+      "explain": "The first fitnah was the civil conflict following the killing of Uthman, encompassing the Battle of the Camel in 36 AH and Siffin in 37 AH during Ali's caliphate."
+    },
+    {
+      "answer": "The Ridda campaigns",
+      "options": [
+        "The Ridda campaigns",
+        "The first fitnah",
+        "The conquest of Syria",
+        "The Battle of Nahawand"
+      ],
+      "clues": [
+        "They took place immediately after the Prophet's passing.",
+        "They fell within the caliphate of Abu Bakr.",
+        "They concerned tribes withdrawing from the new state.",
+        "They included the Battle of Yamamah.",
+        "They ended with the peninsula reunified."
+      ],
+      "explain": "The Ridda campaigns under Abu Bakr addressed tribes that withheld allegiance or zakat after the Prophet's passing. The Battle of Yamamah was their costliest engagement."
+    },
+    {
+      "answer": "Surah Al-Ahzab",
+      "options": [
+        "Surah Al-Ahzab",
+        "Surah Al-Hashr",
+        "Surah Al-Anfal",
+        "Surah Muhammad"
+      ],
+      "clues": [
+        "It is a Madinan surah of seventy-three ayahs.",
+        "It is surah 33.",
+        "Its name refers to a confederacy.",
+        "It relates to the siege of Madinah.",
+        "It also contains the verse naming the Prophet ﷺ as the seal of the prophets."
+      ],
+      "explain": "Surah Al-Ahzab (33) is named for the Confederates who besieged Madinah at Khandaq. It contains 33:40, naming the Prophet ﷺ as the Seal of the Prophets."
+    },
+    {
+      "answer": "Abd al-Rahman ibn Awf",
+      "options": [
+        "Abd al-Rahman ibn Awf",
+        "Sa'd ibn Abi Waqqas",
+        "Talhah ibn Ubaydullah",
+        "Sa'id ibn Zayd"
+      ],
+      "clues": [
+        "He was among the earliest Muslims.",
+        "He is one of the ten given glad tidings.",
+        "He emigrated twice, to Abyssinia and then Madinah.",
+        "He was known for great wealth and generosity.",
+        "Umar appointed him to the council that chose the next caliph."
+      ],
+      "explain": "Abd al-Rahman ibn Awf was among the earliest Muslims and the ten promised Paradise, known for his wealth and generosity, and a member of the shura Umar appointed to select his successor."
+    },
+    {
+      "answer": "The shura of Umar",
+      "options": [
+        "The shura of Umar",
+        "The Saqifah gathering",
+        "The Constitution of Madinah",
+        "The arbitration at Siffin"
+      ],
+      "clues": [
+        "It was a council convened to make a decision.",
+        "It was set up as a caliph lay dying.",
+        "It consisted of six senior companions.",
+        "Its task was to select a successor.",
+        "Its outcome was the caliphate of Uthman."
+      ],
+      "explain": "Umar appointed a council of six senior companions to choose his successor from among themselves. Their deliberation resulted in the selection of Uthman."
+    },
+    {
+      "answer": "The Saqifah of Banu Sa'idah",
+      "options": [
+        "The Saqifah of Banu Sa'idah",
+        "The shura of Umar",
+        "The Pledge of Ridwan",
+        "The Constitution of Madinah"
+      ],
+      "clues": [
+        "It was a gathering in Madinah.",
+        "It took place immediately after the Prophet's passing.",
+        "It was initially a meeting of the Ansar.",
+        "Abu Bakr, Umar and Abu Ubaydah arrived during it.",
+        "It concluded with allegiance given to Abu Bakr."
+      ],
+      "explain": "The gathering at the Saqifah of Banu Sa'idah immediately after the Prophet's passing concluded with the pledge of allegiance to Abu Bakr as the first caliph."
+    },
+    {
+      "answer": "Surah Al-Anfal",
+      "options": [
+        "Surah Al-Anfal",
+        "Surah At-Tawbah",
+        "Surah Muhammad",
+        "Surah Al-Fath"
+      ],
+      "clues": [
+        "It is a Madinan surah of seventy-five ayahs.",
+        "It is surah 8.",
+        "Its name refers to the spoils of war.",
+        "It was revealed largely in connection with one battle.",
+        "That battle is Badr."
+      ],
+      "explain": "Surah Al-Anfal (8) relates largely to the Battle of Badr and its aftermath, including the distribution of spoils. It is followed by At-Tawbah, the only surah without the Basmalah."
+    },
+    {
+      "answer": "Al-Mufassal",
+      "options": [
+        "Al-Mufassal",
+        "Al-Mathani",
+        "Al-Mi'un",
+        "Al-Tiwal"
+      ],
+      "clues": [
+        "It is a traditional grouping of surahs.",
+        "It refers to the final portion of the mushaf.",
+        "Its surahs are comparatively short.",
+        "Scholars differ over exactly where it begins.",
+        "It runs to the end of the Qur'an."
+      ],
+      "explain": "Al-Mufassal is the final section of the mushaf, comprising the shorter surahs. Scholars differ on its starting point, commonly given as Surah Qaf or Al-Hujurat."
+    },
+    {
+      "answer": "Al-Sab' al-Tiwal",
+      "options": [
+        "Al-Sab' al-Tiwal",
+        "Al-Mufassal",
+        "Al-Mathani",
+        "Al-Musabbihat"
+      ],
+      "clues": [
+        "It is a traditional grouping of surahs.",
+        "It refers to the opening portion of the mushaf.",
+        "It contains seven surahs.",
+        "It begins with Al-Baqarah.",
+        "Its seventh member is disputed."
+      ],
+      "explain": "Al-Sab' al-Tiwal are the seven long surahs beginning at Al-Baqarah. The seventh is counted either as Al-Anfal with At-Tawbah together, or as Yunus."
+    },
+    {
+      "answer": "Abu Talib",
+      "options": [
+        "Abu Talib",
+        "Abu Lahab",
+        "Abu Sufyan",
+        "Abu Jahl"
+      ],
+      "clues": [
+        "He was an uncle of the Prophet ﷺ.",
+        "He raised him after the death of his grandfather.",
+        "He protected him for many years in Makkah.",
+        "He did not accept Islam, by the well-known accounts.",
+        "He died in the Year of Sorrow."
+      ],
+      "explain": "Abu Talib raised and protected the Prophet ﷺ through the difficult Makkan years. His death, alongside Khadijah's, gave the Year of Sorrow its name."
+    },
+    {
+      "answer": "Abu Sufyan",
+      "options": [
+        "Abu Sufyan",
+        "Abu Jahl",
+        "Abu Lahab",
+        "Abu Talib"
+      ],
+      "clues": [
+        "He was a leading figure of the Quraysh.",
+        "He led opposition to the Muslims for years.",
+        "He commanded at Uhud.",
+        "He did not die in that opposition.",
+        "He accepted Islam at the conquest of Makkah."
+      ],
+      "explain": "Abu Sufyan led Quraysh opposition for years, including at Uhud, and accepted Islam at the conquest of Makkah in 8 AH."
+    },
+    {
+      "answer": "Surah Al-Mumtahanah",
+      "options": [
+        "Surah Al-Mumtahanah",
+        "Surah Al-Hashr",
+        "Surah As-Saff",
+        "Surah Al-Jumu'ah"
+      ],
+      "clues": [
+        "It is a Madinan surah of thirteen ayahs.",
+        "It is surah 60.",
+        "Its name refers to a woman being examined.",
+        "It addresses relations with those outside the community.",
+        "It concerns the testing of women who migrated to Madinah."
+      ],
+      "explain": "Surah Al-Mumtahanah (60) addresses loyalty and relations with those outside the community, and the examination of women who emigrated to Madinah."
+    },
+    {
+      "answer": "Nasikh and mansukh",
+      "options": [
+        "Nasikh and mansukh",
+        "Muhkam and mutashabih",
+        "Makki and Madani",
+        "Mutawatir and ahad"
+      ],
+      "clues": [
+        "It is a pair of terms in Qur'anic study.",
+        "It concerns the relationship between two texts.",
+        "One of them supersedes the other.",
+        "Scholars differ widely over how many cases exist.",
+        "It is the abrogating and the abrogated."
+      ],
+      "explain": "Nasikh is the abrogating text and mansukh the abrogated. Scholars broadly accept the principle but differ substantially over how many verses it affects."
+    },
+    {
+      "answer": "Muhkam and mutashabih",
+      "options": [
+        "Muhkam and mutashabih",
+        "Nasikh and mansukh",
+        "Makki and Madani",
+        "Zahir and batin"
+      ],
+      "clues": [
+        "It is a pair of terms in Qur'anic study.",
+        "Surah Al-Imran mentions both in a single verse.",
+        "One kind is clear in meaning.",
+        "The other admits of more than one reading.",
+        "That verse warns against pursuing the second to cause discord."
+      ],
+      "explain": "Surah Al-Imran 3:7 distinguishes the muhkam, verses clear in meaning, from the mutashabih, those that are not, and warns against pursuing the latter to sow discord."
+    },
+    {
+      "answer": "Ibn Khaldun",
+      "options": [
+        "Ibn Khaldun",
+        "Ibn Kathir",
+        "Al-Tabari",
+        "Ibn Taymiyyah"
+      ],
+      "clues": [
+        "He was a scholar of the later medieval period.",
+        "He was born in Tunis and died in 1406.",
+        "He served in several courts in North Africa and Egypt.",
+        "He is best known for one introductory work.",
+        "That work is the Muqaddimah."
+      ],
+      "explain": "Ibn Khaldun (d. 1406) is best known for the Muqaddimah, the introduction to his universal history, widely regarded as a foundational work in historiography and social thought."
+    },
+    {
+      "answer": "Umm Salamah",
+      "options": [
+        "Umm Salamah",
+        "Aisha bint Abi Bakr",
+        "Hafsah bint Umar",
+        "Zaynab bint Jahsh"
+      ],
+      "clues": [
+        "She was a wife of the Prophet ﷺ.",
+        "She had earlier migrated to Abyssinia.",
+        "She was present at Hudaybiyyah.",
+        "Her counsel there resolved a difficult moment.",
+        "She advised the Prophet ﷺ to act first and let the people follow."
+      ],
+      "explain": "At Hudaybiyyah, when the companions hesitated to leave ihram, Umm Salamah advised the Prophet ﷺ to perform the act himself first, after which the people followed."
+    },
+    {
+      "answer": "The ten-year truce",
+      "options": [
+        "The ten-year truce",
+        "The return of emigrants clause",
+        "The clause on the delayed Umrah",
+        "The clause on tribal alliances"
+      ],
+      "clues": [
+        "It was a term of a written agreement.",
+        "That agreement was concluded in 6 AH.",
+        "It concerned the cessation of hostilities.",
+        "It was the term with the longest horizon.",
+        "It set a period of ten years."
+      ],
+      "explain": "The Treaty of Hudaybiyyah established a ten-year truce. Its other terms included the postponement of the Umrah by a year and provisions on those who crossed between the two sides."
+    },
+    {
+      "answer": "Surah Muhammad",
+      "options": [
+        "Surah Muhammad",
+        "Surah Al-Fath",
+        "Surah Al-Hujurat",
+        "Surah Qaf"
+      ],
+      "clues": [
+        "It is a Madinan surah of thirty-eight ayahs.",
+        "It is surah 47.",
+        "It is named after a person.",
+        "It is sometimes also called Surah al-Qital.",
+        "It is the only surah bearing the Prophet's name."
+      ],
+      "explain": "Surah Muhammad (47) is the only surah named after the Prophet ﷺ. It is also known as Surah al-Qital for its subject matter."
+    },
+    {
+      "answer": "Zayd ibn Thabit",
+      "options": [
+        "Zayd ibn Thabit",
+        "Ubayy ibn Ka'b",
+        "Abdullah ibn Mas'ud",
+        "Mu'adh ibn Jabal"
+      ],
+      "clues": [
+        "He was a young companion from Madinah.",
+        "He served as a scribe of revelation.",
+        "He was entrusted with a task after the Prophet's passing.",
+        "He gathered the Qur'an into a written collection under Abu Bakr.",
+        "He led the standardisation under Uthman as well."
+      ],
+      "explain": "Zayd ibn Thabit, of the Ansar, was a scribe of revelation and led both the compilation of the Qur'an under Abu Bakr and the standardisation of copies under Uthman."
+    },
+    {
+      "answer": "Surah Qaf",
+      "options": [
+        "Surah Qaf",
+        "Surah Sad",
+        "Surah Nun",
+        "Surah Ta-Ha"
+      ],
+      "clues": [
+        "It is a Makkan surah of forty-five ayahs.",
+        "It is surah 50.",
+        "Its name is a single Arabic letter.",
+        "It deals extensively with resurrection and accountability.",
+        "It is reported to have been recited regularly in the Friday sermon."
+      ],
+      "explain": "Surah Qaf (50) opens with the single letter Qaf and deals with creation, death and resurrection. It is reported that the Prophet ﷺ would recite it in the Friday sermon."
+    }
+  ]
+}

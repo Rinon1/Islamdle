@@ -1,0 +1,133 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Islamdle — daily Islamic puzzles</title>
+<meta name="description" content="Six daily Islamic puzzles — order the events, spot the mistake, five clues one answer, and more. Pick easy, medium or hard. New every day, free, no account.">
+<meta property="og:title" content="Islamdle — daily Islamic puzzles">
+<meta property="og:description" content="Six daily Islamic puzzles. Easy, medium or hard. New every day.">
+<meta property="og:type" content="website">
+<link rel="icon" href="favicon.svg" type="image/svg+xml">
+<link rel="stylesheet" href="css/style.css">
+<!-- Must stay first: sets Consent Mode to denied before any tag can fire. -->
+<script src="js/consent.js"></script>
+</head>
+<body>
+<div class="wrap">
+
+  <header class="hero">
+    <h1 class="logo">Islam<span>dle</span></h1>
+    <p class="bismillah">بِسْمِ اللّٰهِ الرَّحْمٰنِ الرَّحِيْمِ</p>
+    <p class="hero-line">Six short Islamic puzzles. A new set every day.</p>
+    <p class="hero-sub">
+      Guess first, learn after. Every puzzle ends with the answer explained and
+      where it comes from — so a wrong guess still teaches you something.
+    </p>
+
+    <div class="today" id="today">
+      <div><b id="t-number">#—</b><span>Today's set</span></div>
+      <div><b id="t-done">0 / 6</b><span>Solved today</span></div>
+      <div><b id="t-streak">🔥 0</b><span>Day streak</span></div>
+      <div><b class="countdown" id="t-reset">—</b><span>Resets in</span></div>
+    </div>
+  </header>
+
+  <!-- Difficulty is chosen before playing and applies to every game. -->
+  <section class="choose" aria-labelledby="diff-h">
+    <h2 id="diff-h">Choose your level</h2>
+    <p class="section-sub">
+      You can change this any time. Everyone on the same level gets the same
+      puzzle, so scores stay comparable.
+    </p>
+
+    <div class="levels" id="levels" role="radiogroup" aria-labelledby="diff-h">
+      <button type="button" class="level" data-level="easy" role="radio" aria-checked="false">
+        <b>Easy</b>
+        <em>Starting out</em>
+        <p>Well-known answers, fewer things to juggle, and clear hints. Two events
+           to order, an obvious mistake to spot.</p>
+      </button>
+      <button type="button" class="level" data-level="medium" role="radio" aria-checked="true">
+        <b>Medium</b>
+        <em>Most people</em>
+        <p>More to weigh up. Three events, a subtler mistake, clues that need a
+           moment's thought.</p>
+      </button>
+      <button type="button" class="level" data-level="hard" role="radio" aria-checked="false">
+        <b>Hard</b>
+        <em>You read a lot</em>
+        <p>Five events with close timelines, two statements that both sound right,
+           and clues that stay specific to the end.</p>
+      </button>
+    </div>
+  </section>
+
+  <!-- The six games -->
+  <section class="games" aria-labelledby="games-h">
+    <h2 id="games-h">Today's puzzles</h2>
+    <p class="section-sub">Play them in any order. Each takes a minute or two.</p>
+    <div class="game-grid" id="game-grid"></div>
+  </section>
+
+  <section class="how" aria-labelledby="how-h">
+    <h2 id="how-h">How it works</h2>
+    <div class="how-grid">
+      <div>
+        <b>1 · One set a day</b>
+        <p>Everyone in the world gets the same puzzles each day, at the same
+           level. They reset at midnight UTC.</p>
+      </div>
+      <div>
+        <b>2 · Guess, then learn</b>
+        <p>Answer first. Afterwards you get the explanation and the source, which
+           is the part you actually remember.</p>
+      </div>
+      <div>
+        <b>3 · Keep a streak</b>
+        <p>Play on consecutive days to build a streak, and share a spoiler-free
+           score grid when you are done.</p>
+      </div>
+    </div>
+  </section>
+
+  <section class="about" aria-labelledby="about-h">
+    <h2 id="about-h">About the content</h2>
+    <p>
+      Islamdle uses <strong>no images of prophets, companions or any person</strong>.
+      Every puzzle is built from text, Arabic calligraphy and geometry — which is
+      why there is no "guess the picture" mode here, and never will be.
+    </p>
+    <p>
+      Qur'anic text and surah details come from published references, and verse
+      translations are M. Pickthall's public-domain rendering. Where scholars
+      differ — on dating, on points of fiqh, on the order of events — the puzzle
+      says so rather than presenting one view as the only one. Puzzles are written
+      to be <strong>answerable without being an exam</strong>: if an average
+      Muslim could not reasonably get there, it does not belong on Easy or Medium.
+    </p>
+    <p>
+      Found a mistake? That matters more here than anywhere else —
+      <a href="#" id="report-link">tell us</a> and it gets fixed.
+    </p>
+  </section>
+
+  <footer>
+    <p>Islamdle — a new set of puzzles every day at 00:00 UTC.</p>
+    <p>
+      Qur'an data from the <a href="https://quran.com" target="_blank" rel="noopener">Quran.com</a> API ·
+      English rendering by M. Pickthall (public domain) ·
+      Names of Allah from <a href="https://aladhan.com" target="_blank" rel="noopener">AlAdhan</a>.
+    </p>
+    <p>
+      <a href="privacy.html">Privacy policy</a> ·
+      <a href="#" id="consent-reopen">Privacy settings</a>
+    </p>
+    <p>Made with respect. Corrections are welcome.</p>
+  </footer>
+</div>
+
+<script src="js/core.js"></script>
+<script src="js/home.js"></script>
+</body>
+</html>
