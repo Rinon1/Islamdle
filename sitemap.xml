@@ -2,17 +2,17 @@
 <!-- If you attach a custom domain, replace the host in these three URLs. -->
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
-    <loc>https://islamdle.pages.dev/</loc>
+    <loc>https://islamdle.netlify.app/</loc>
     <changefreq>daily</changefreq>
     <priority>1.0</priority>
   </url>
   <url>
-    <loc>https://islamdle.pages.dev/play.html</loc>
+    <loc>https://islamdle.netlify.app/play.html</loc>
     <changefreq>daily</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://islamdle.pages.dev/privacy.html</loc>
+    <loc>https://islamdle.netlify.app/privacy.html</loc>
     <changefreq>yearly</changefreq>
     <priority>0.1</priority>
   </url>

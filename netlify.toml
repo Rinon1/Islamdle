@@ -1,0 +1,26 @@
+# Netlify build settings.
+#
+# Only build_dist.py runs here. bake.py is deliberately NOT part of the build:
+# it needs tools/raw/ (3+ MB of raw API dumps) which is gitignored. The baked
+# data/islamdle.json is committed instead, so a Netlify build just assembles
+# dist/ from what is already in the repo.
+#
+# Re-bake locally whenever puzzle content changes:
+#   python tools/bake.py && git add data/islamdle.json && git commit
+
+[build]
+  command = "python3 tools/build_dist.py"
+  publish = "dist"
+
+# dist/_headers carries the cache and security headers; Netlify reads it
+# automatically from the publish directory.
+
+[[redirects]]
+  from = "/play"
+  to = "/play.html"
+  status = 301
+
+[[redirects]]
+  from = "/privacy"
+  to = "/privacy.html"
+  status = 301
