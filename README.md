@@ -202,59 +202,64 @@ named ad partners, and the launch date.
 
 ---
 
-## Deploying to Cloudflare Pages
+## Deployment
 
-Always build first — `dist/` is what gets deployed, and it excludes `tools/`
-and its 3 MB of raw API dumps:
+**Live at <https://islamdle.netlify.app>**, deployed from
+<https://github.com/Rinon1/Islamdle> on every push to `main`.
 
-```bash
-python tools/bake.py && python tools/build_dist.py
-```
-
-Then pick one of two routes.
-
-### Route A — direct upload with Wrangler (fastest, no GitHub)
-
-```bash
-npx wrangler login
-```
-
-```bash
-npx wrangler pages deploy dist --project-name islamdle
-```
-
-The first command opens a browser to authorise your own Cloudflare account. The
-second creates the project if it does not exist and prints the live URL,
-normally `https://islamdle.pages.dev`. To publish an update, rebuild and run the
-same deploy command again.
-
-### Route B — connect a Git repository (deploys on every push)
-
-Push this repo to GitHub, then in the Cloudflare dashboard go to
-**Workers & Pages → Create → Pages → Connect to Git**, pick the repo, and set:
+Netlify reads `netlify.toml`, so there is nothing to configure in the
+dashboard:
 
 | Setting | Value |
 |---|---|
-| Framework preset | None |
-| Build command | `python tools/bake.py && python tools/build_dist.py` |
-| Build output directory | `dist` |
+| Build command | `python3 tools/build_dist.py` |
+| Publish directory | `dist` |
+| Branch | `main` |
 
-Every push to `main` then rebuilds and deploys automatically.
+### Publishing a change
 
-### After the first deploy
+```bash
+git add -A && git commit -m "..." && git push
+```
 
-- `_headers` is picked up automatically. CSS and JS are cached for a year
-  because `build_dist.py` appends a content hash to their URLs; the HTML and
-  `data/islamdle.json` always revalidate, so a content update goes live at once.
+Netlify rebuilds automatically. **Content changes need one extra step first**,
+because `bake.py` does *not* run on Netlify — it needs `tools/raw/`, which is
+gitignored. Re-bake locally and commit the result:
+
+```bash
+python tools/merge_additions.py && python tools/bake.py
+git add data/islamdle.json tools/content.json && git commit -m "More puzzles" && git push
+```
+
+### Why the build is split this way
+
+`tools/raw/` holds 3 MB of raw API dumps needed only to regenerate
+`data/islamdle.json`. Keeping it out of the repo means Netlify's build does one
+cheap thing — assemble `dist/` — while the baked data travels in git.
+
+### What `build_dist.py` does
+
+Copies only what the site serves (no `tools/`, no README) and appends a content
+hash to every CSS and JS reference, so `_headers` can cache them for a year
+while the HTML and `data/islamdle.json` always revalidate. Verified live:
+
+```
+/                      Cache-Control: public,max-age=0,must-revalidate
+/css/style.css?v=…     Cache-Control: public,max-age=31536000,immutable
+/data/islamdle.json    Cache-Control: public,max-age=0,must-revalidate
+```
+
+### Still to do before promoting the site
+
+- **`privacy.html` contact address** — marked `REPLACE BEFORE PROMOTING` in the
+  source. It currently reads `contact@[your-domain]`.
+- **Named ad partners** in `privacy.html`, once you pick one.
 - If you attach a custom domain, update the host in `sitemap.xml` and
   `robots.txt`.
-- Two things in `privacy.html` are still placeholders, both marked in the
-  source: the **contact address** and the **named ad partners**. Fill the
-  contact address in before you promote the site.
 
 ### Other hosts
 
-Netlify and GitHub Pages work the same way — deploy `dist/`. Netlify reads the
+The same `dist/` works on Cloudflare Pages or GitHub Pages. Cloudflare reads the
 same `_headers` file; GitHub Pages ignores it, so you lose the cache and
 security headers but the site still works.
 
