@@ -202,10 +202,63 @@ named ad partners, and the launch date.
 
 ---
 
-## Deploying and monetizing
+## Deploying to Cloudflare Pages
 
-Drop the folder on **Cloudflare Pages**, Netlify or GitHub Pages. It is static;
-there is nothing to run.
+Always build first — `dist/` is what gets deployed, and it excludes `tools/`
+and its 3 MB of raw API dumps:
+
+```bash
+python tools/bake.py && python tools/build_dist.py
+```
+
+Then pick one of two routes.
+
+### Route A — direct upload with Wrangler (fastest, no GitHub)
+
+```bash
+npx wrangler login
+```
+
+```bash
+npx wrangler pages deploy dist --project-name islamdle
+```
+
+The first command opens a browser to authorise your own Cloudflare account. The
+second creates the project if it does not exist and prints the live URL,
+normally `https://islamdle.pages.dev`. To publish an update, rebuild and run the
+same deploy command again.
+
+### Route B — connect a Git repository (deploys on every push)
+
+Push this repo to GitHub, then in the Cloudflare dashboard go to
+**Workers & Pages → Create → Pages → Connect to Git**, pick the repo, and set:
+
+| Setting | Value |
+|---|---|
+| Framework preset | None |
+| Build command | `python tools/bake.py && python tools/build_dist.py` |
+| Build output directory | `dist` |
+
+Every push to `main` then rebuilds and deploys automatically.
+
+### After the first deploy
+
+- `_headers` is picked up automatically. CSS and JS are cached for a year
+  because `build_dist.py` appends a content hash to their URLs; the HTML and
+  `data/islamdle.json` always revalidate, so a content update goes live at once.
+- If you attach a custom domain, update the host in `sitemap.xml` and
+  `robots.txt`.
+- Two things in `privacy.html` are still placeholders, both marked in the
+  source: the **contact address** and the **named ad partners**. Fill the
+  contact address in before you promote the site.
+
+### Other hosts
+
+Netlify and GitHub Pages work the same way — deploy `dist/`. Netlify reads the
+same `_headers` file; GitHub Pages ignores it, so you lose the cache and
+security headers but the site still works.
+
+## Monetizing
 
 On ads, one thing matters: **Venatus will not take a new site.** Gaming ad
 managers like Venatus and Playwire have traffic minimums in the hundreds of
