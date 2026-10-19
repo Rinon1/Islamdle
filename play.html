@@ -18,6 +18,7 @@
     <div class="playbar-mid">
       <b id="p-title">…</b>
       <span id="p-meta"></span>
+      <span class="p-timer" id="p-timer">0:00</span>
     </div>
     <div class="levelswitch" id="levelswitch" role="group" aria-label="Difficulty"></div>
   </div>
@@ -40,6 +41,15 @@
       <a href="#" id="consent-reopen">Privacy settings</a>
     </p>
   </footer>
+</div>
+
+
+<!-- End-of-puzzle results: per-puzzle and overall time and mistakes. -->
+<div class="modal" id="modal-results" hidden>
+  <div class="box">
+    <h2>Today's set &middot; <span id="rs-num"></span></h2>
+    <div id="results-body"></div>
+  </div>
 </div>
 
 <script src="js/core.js"></script>

@@ -1,8 +1,11 @@
 /* Islamdle — the game page.
  *
  * One shell, six mechanics. Each mechanic supplies: the puzzle for today at the
- * chosen level, how to render it, and how to judge an answer. Progress and
- * scoring are handled once, here, for all of them.
+ * chosen level, how to render it, and how to judge an answer. Progress, timing
+ * and scoring are handled once, here, for all of them.
+ *
+ * Every mode is unlimited: a wrong answer is marked and you keep going. The
+ * answer is never revealed before you get it right.
  */
 (function (I) {
   "use strict";
@@ -39,6 +42,163 @@
     return pool[I.dailyIndex(poolKey + ":" + LEVEL, pool.length)];
   }
 
+  /* ------------------------------------------------- arrangement state --- */
+  /* Shared by the two ordering modes (Order the Events, Ayah Scramble).
+   * `placed` holds item indices or null per position; `marks` holds the
+   * correctness of each position from the last check, and survives until that
+   * position changes, so you can see what you already had right.            */
+
+  function initArrangement(count) {
+    var saved = RUN.layout;
+    var placed, marks;
+    if (saved && saved.placed && saved.placed.length === count) {
+      placed = saved.placed.slice();
+      marks = (saved.marks || []).slice();
+    } else {
+      placed = new Array(count).fill(null);
+      marks = new Array(count).fill(null);
+    }
+    while (marks.length < count) marks.push(null);
+    return { placed: placed, marks: marks, held: null };
+  }
+
+  function saveArrangement() {
+    RUN.layout = { placed: PUZZLE.placed.slice(), marks: PUZZLE.marks.slice() };
+    I.persist();
+  }
+
+  function clearMark(pos) {
+    if (pos >= 0 && pos < PUZZLE.marks.length) PUZZLE.marks[pos] = null;
+  }
+
+  // Put `item` (an index) at `pos`. If something is already there it is
+  // displaced — swapped with where `item` came from, or returned to the pool.
+  function placeAt(pos, item, fromPos) {
+    var existing = PUZZLE.placed[pos];
+    PUZZLE.placed[pos] = item;
+    clearMark(pos);
+    if (fromPos !== null && fromPos !== undefined) {
+      PUZZLE.placed[fromPos] = existing;   // may be null; that is a plain move
+      clearMark(fromPos);
+    }
+    PUZZLE.held = null;
+    saveArrangement();
+  }
+
+  function removeAt(pos) {
+    PUZZLE.placed[pos] = null;
+    clearMark(pos);
+    PUZZLE.held = null;
+    saveArrangement();
+  }
+
+  function arrangementComplete() {
+    return PUZZLE.placed.every(function (v) { return v !== null; });
+  }
+
+  // Marks every position, returns true when the whole arrangement is right.
+  function checkArrangement() {
+    var right = true;
+    PUZZLE.placed.forEach(function (v, i) {
+      var ok = v === i;
+      PUZZLE.marks[i] = ok ? "ok" : "bad";
+      if (!ok) right = false;
+    });
+    saveArrangement();
+    return right;
+  }
+
+  /* --- wiring shared by both ordering modes: drag-and-drop plus tap-tap --- */
+
+  function wireArrangement(stage, onCheck) {
+    if (RUN.done) return;
+
+    function refresh() { draw(); }
+
+    // Pool items and filled slots are both drag sources.
+    Array.prototype.forEach.call(stage.querySelectorAll("[data-item]"), function (el) {
+      var item = Number(el.dataset.item);
+      var from = el.dataset.pos === undefined ? null : Number(el.dataset.pos);
+
+      el.draggable = true;
+      el.addEventListener("dragstart", function (e) {
+        PUZZLE.held = { item: item, from: from };
+        try { e.dataTransfer.setData("text/plain", String(item)); } catch (err) { /* IE */ }
+        e.dataTransfer.effectAllowed = "move";
+        el.classList.add("dragging");
+      });
+      el.addEventListener("dragend", function () { el.classList.remove("dragging"); });
+
+      el.onclick = function () {
+        // Tap a held item again to drop it; otherwise pick this one up.
+        if (PUZZLE.held && PUZZLE.held.item === item) PUZZLE.held = null;
+        else PUZZLE.held = { item: item, from: from };
+        refresh();
+      };
+    });
+
+    // Slots are drop targets.
+    Array.prototype.forEach.call(stage.querySelectorAll("[data-slot]"), function (el) {
+      var pos = Number(el.dataset.slot);
+
+      el.addEventListener("dragover", function (e) {
+        e.preventDefault();
+        e.dataTransfer.dropEffect = "move";
+        el.classList.add("over");
+      });
+      el.addEventListener("dragleave", function () { el.classList.remove("over"); });
+      el.addEventListener("drop", function (e) {
+        e.preventDefault();
+        el.classList.remove("over");
+        if (!PUZZLE.held) return;
+        placeAt(pos, PUZZLE.held.item, PUZZLE.held.from);
+        refresh();
+      });
+
+      // Tap target: place what is held, or pick up what is already there.
+      el.addEventListener("click", function (e) {
+        if (e.target.closest("[data-item]") && !PUZZLE.held) return;  // handled above
+        if (PUZZLE.held) {
+          placeAt(pos, PUZZLE.held.item, PUZZLE.held.from);
+        } else if (PUZZLE.placed[pos] !== null) {
+          PUZZLE.held = { item: PUZZLE.placed[pos], from: pos };
+        }
+        refresh();
+      });
+    });
+
+    // The pool is a drop target too, for taking a word back out.
+    var pool = stage.querySelector("[data-pool]");
+    if (pool) {
+      pool.addEventListener("dragover", function (e) { e.preventDefault(); });
+      pool.addEventListener("drop", function (e) {
+        e.preventDefault();
+        if (PUZZLE.held && PUZZLE.held.from !== null) removeAt(PUZZLE.held.from);
+        PUZZLE.held = null;
+        refresh();
+      });
+      pool.addEventListener("click", function (e) {
+        if (e.target.closest("[data-item]")) return;
+        if (PUZZLE.held && PUZZLE.held.from !== null) removeAt(PUZZLE.held.from);
+        PUZZLE.held = null;
+        refresh();
+      });
+    }
+
+    var check = $("check");
+    if (check) check.onclick = onCheck;
+  }
+
+  // `base` keeps the two ordering modes visually independent: the timeline uses
+  // bordered rows, the ayah line uses bare underlines.
+  function slotClass(pos, base) {
+    var m = PUZZLE.marks[pos];
+    var filled = PUZZLE.placed[pos] !== null;
+    var held = PUZZLE.held && PUZZLE.held.from === pos;
+    return (base || "slot") + (filled ? " filled" : " empty") +
+           (m ? " " + m : "") + (held ? " held" : "");
+  }
+
   /* ===================================================== the mechanics === */
 
   var GAMES = {
@@ -57,7 +217,7 @@
 
         var html = '<ol class="clues">';
         for (var i = 0; i < p.clues.length; i++) {
-          if (i < shown || RUN.done) {
+          if (i < shown) {
             html += '<li class="clue-item"><span>Clue ' + (i + 1) + "</span>" + esc(p.clues[i]) + "</li>";
           } else {
             html += '<li class="clue-item locked"><span>Clue ' + (i + 1) + "</span>Locked</li>";
@@ -68,7 +228,7 @@
         html += '<div class="options">';
         PUZZLE.options.forEach(function (opt) {
           var picked = RUN.tries.indexOf(opt) !== -1;
-          var right = RUN.done && opt === p.answer;
+          var right = RUN.solved && opt === p.answer;
           var cls = right ? "opt ok" : picked ? "opt bad" : "opt";
           html += '<button type="button" class="' + cls + '" data-opt="' + esc(opt) + '"' +
                   (picked || RUN.done ? " disabled" : "") + ">" + esc(opt) + "</button>";
@@ -80,15 +240,13 @@
       },
       answerText: function () { return PUZZLE.p.answer; },
       explain: function () { return PUZZLE.p.explain; },
-      // Out of clues and still wrong -> the puzzle ends.
-      exhausted: function () { return RUN.tries.length >= PUZZLE.p.clues.length; },
       score: function () { return RUN.tries.length; }
     },
 
-    /* ------------- Spot the Mistake: one pick, three statements -------- */
+    /* ------------- Spot the Mistake: pick the false statement ---------- */
     "spot-mistake": {
       prompt: "One of these is wrong. Which one?",
-      sub: "Two statements are correct. You get one attempt.",
+      sub: "Two statements are correct. Keep going until you find the odd one out.",
       load: function () { return { p: todaysItem("spot-mistake") }; },
       render: function (stage) {
         var p = PUZZLE.p;
@@ -96,12 +254,12 @@
         p.statements.forEach(function (s, i) {
           var picked = RUN.tries.indexOf(String(i)) !== -1;
           var cls = "stmt";
-          if (RUN.done) cls += i === p.wrong ? " ok" : " dim";
-          if (picked && i !== p.wrong) cls += " bad";
+          if (RUN.solved && i === p.wrong) cls += " ok";
+          else if (picked) cls += " bad";
           html += '<button type="button" class="' + cls + '" data-opt="' + i + '"' +
-                  (RUN.done ? " disabled" : "") + ">" +
+                  (picked || RUN.done ? " disabled" : "") + ">" +
                   '<span class="stmt-n">' + (i + 1) + "</span>" + esc(s) +
-                  (RUN.done && i === p.wrong ? '<em class="stmt-tag">this one is wrong</em>' : "") +
+                  (RUN.solved && i === p.wrong ? '<em class="stmt-tag">this one is wrong</em>' : "") +
                   "</button>";
         });
         html += "</div>";
@@ -113,85 +271,68 @@
         return "Statement " + (PUZZLE.p.wrong + 1);
       },
       explain: function () { return PUZZLE.p.explain; },
-      exhausted: function () { return RUN.tries.length >= 1; },
       score: function () { return RUN.tries.length; }
     },
 
     /* ------------- Order the Events: build the sequence ---------------- */
     "order-events": {
       prompt: "Put these in the order they happened.",
-      sub: "Tap to add them to the timeline, earliest first. Tap one in the timeline to take it back out.",
+      sub: "Drag them onto the timeline, earliest first. Check as often as you like.",
       load: function () {
         var p = todaysItem("order-events");
-        return {
-          p: p,
-          shuffled: seededShuffle(p.events.map(function (_, i) { return i; }),
-                                  "oe" + LEVEL + I.puzzleNumber())
-        };
+        var a = initArrangement(p.events.length);
+        a.p = p;
+        a.shuffled = seededShuffle(p.events.map(function (_, i) { return i; }),
+                                   "oe" + LEVEL + I.puzzleNumber());
+        return a;
       },
       render: function (stage) {
         var p = PUZZLE.p;
-        var placed = PUZZLE.placed || (PUZZLE.placed = []);
-
         var html = '<ol class="timeline">';
-        for (var i = 0; i < p.events.length; i++) {
-          if (i < placed.length) {
-            var ev = p.events[placed[i]];
-            var cls = "slot filled";
-            if (RUN.done) cls += placed[i] === i ? " ok" : " bad";
-            html += '<li class="' + cls + '" data-slot="' + i + '">' +
-                    '<span class="slot-n">' + (i + 1) + "</span>" + esc(ev.text) +
-                    (RUN.done ? '<em class="when">' + esc(ev.when) + "</em>" : "") + "</li>";
+        PUZZLE.placed.forEach(function (item, pos) {
+          html += '<li class="' + slotClass(pos) + '" data-slot="' + pos + '">' +
+                  '<span class="slot-n">' + (pos + 1) + "</span>";
+          if (item === null) {
+            html += '<span class="slot-hint">drop an event here</span>';
           } else {
-            html += '<li class="slot empty"><span class="slot-n">' + (i + 1) + "</span>—</li>";
+            html += '<span class="chip in-slot" data-item="' + item + '" data-pos="' + pos + '">' +
+                    esc(p.events[item].text) + "</span>";
+            if (RUN.solved) html += '<em class="when">' + esc(p.events[item].when) + "</em>";
           }
-        }
+          html += "</li>";
+        });
         html += "</ol>";
 
         if (!RUN.done) {
-          html += '<div class="pool">';
-          PUZZLE.shuffled.forEach(function (idx) {
-            if (placed.indexOf(idx) !== -1) return;
-            html += '<button type="button" class="chip" data-add="' + idx + '">' +
-                    esc(p.events[idx].text) + "</button>";
+          var remaining = PUZZLE.shuffled.filter(function (i) {
+            return PUZZLE.placed.indexOf(i) === -1;
           });
-          html += "</div>";
-          if (placed.length === p.events.length) {
-            html += '<button type="button" class="btn" id="check">Check my order</button>';
+          html += '<div class="pool" data-pool>';
+          if (!remaining.length) {
+            html += '<span class="pool-empty">All placed — press Check.</span>';
+          } else {
+            remaining.forEach(function (item) {
+              var held = PUZZLE.held && PUZZLE.held.item === item && PUZZLE.held.from === null;
+              html += '<button type="button" class="chip' + (held ? " held" : "") +
+                      '" data-item="' + item + '">' + esc(p.events[item].text) + "</button>";
+            });
           }
+          html += "</div>";
+          html += '<button type="button" class="btn" id="check"' +
+                  (arrangementComplete() ? "" : " disabled") + ">Check my order</button>";
         }
         stage.innerHTML = html;
 
-        if (RUN.done) return;
-
-        Array.prototype.forEach.call(stage.querySelectorAll("[data-add]"), function (b) {
-          b.onclick = function () {
-            placed.push(Number(b.dataset.add));
-            draw();
-          };
+        wireArrangement(stage, function () {
+          var right = checkArrangement();
+          submit(PUZZLE.placed.join(","), right);
         });
-        Array.prototype.forEach.call(stage.querySelectorAll(".slot.filled"), function (b) {
-          b.onclick = function () {
-            placed.splice(Number(b.dataset.slot), 1);
-            draw();
-          };
-        });
-        var check = $("check");
-        if (check) {
-          check.onclick = function () {
-            var correct = placed.every(function (v, i) { return v === i; });
-            submit(placed.join(","), correct);
-          };
-        }
       },
       answerText: function () {
         return PUZZLE.p.events.map(function (e, i) { return (i + 1) + ". " + e.text; }).join("  ·  ");
       },
       explain: function () { return PUZZLE.p.explain; },
-      exhausted: function () { return RUN.tries.length >= 3; },
-      score: function () { return RUN.tries.length; },
-      // Wrong order: clear the board so the next attempt starts fresh.
-      onWrong: function () { PUZZLE.placed = []; }
+      score: function () { return RUN.tries.length; }
     },
 
     /* ------------- The Missing Piece ----------------------------------- */
@@ -231,8 +372,8 @@
         html += '<ol class="setlist">';
         p.items.forEach(function (it, i) {
           if (i === PUZZLE.hidden) {
-            html += '<li class="gap' + (RUN.done ? " revealed" : "") + '">' +
-                    (RUN.done ? esc(it) : "?") + "</li>";
+            html += '<li class="gap' + (RUN.solved ? " revealed" : "") + '">' +
+                    (RUN.solved ? esc(it) : "?") + "</li>";
           } else {
             html += "<li>" + esc(it) + "</li>";
           }
@@ -242,7 +383,7 @@
         html += '<div class="options">';
         PUZZLE.options.forEach(function (opt) {
           var picked = RUN.tries.indexOf(opt) !== -1;
-          var right = RUN.done && opt === PUZZLE.answer;
+          var right = RUN.solved && opt === PUZZLE.answer;
           var cls = right ? "opt ok" : picked ? "opt bad" : "opt";
           html += '<button type="button" class="' + cls + '" data-opt="' + esc(opt) + '"' +
                   (picked || RUN.done ? " disabled" : "") + ">" + esc(opt) + "</button>";
@@ -254,70 +395,61 @@
       },
       answerText: function () { return PUZZLE.answer; },
       explain: function () { return PUZZLE.p.explain; },
-      exhausted: function () { return RUN.tries.length >= 2; },
       score: function () { return RUN.tries.length; }
     },
 
     /* ------------- Ayah Scramble --------------------------------------- */
     "scramble": {
       prompt: "Put the words back in order.",
-      sub: "Tap the words in the right order. Tap a placed word to take it back.",
+      sub: "Drag each word onto a line. Check as often as you like — correct words turn green.",
       load: function () {
         var pool = DATA.scramble[LEVEL];
         var p = pool[I.dailyIndex("scramble:" + LEVEL, pool.length)];
-        return {
-          p: p,
-          shuffled: seededShuffle(p.words.map(function (_, i) { return i; }),
-                                  "sc" + LEVEL + I.puzzleNumber()),
-          placed: []
-        };
+        var a = initArrangement(p.words.length);
+        a.p = p;
+        a.shuffled = seededShuffle(p.words.map(function (_, i) { return i; }),
+                                   "sc" + LEVEL + I.puzzleNumber());
+        return a;
       },
       render: function (stage) {
         var p = PUZZLE.p;
-        var placed = PUZZLE.placed;
 
-        var html = '<div class="ayah-line' + (RUN.done ? " done" : "") + '" dir="rtl">';
-        if (!placed.length) {
-          html += '<span class="ayah-empty">Tap the words below…</span>';
-        } else {
-          placed.forEach(function (idx, pos) {
-            var cls = "word placed";
-            if (RUN.done) cls += idx === pos ? " ok" : " bad";
-            html += '<button type="button" class="' + cls + '" data-remove="' + pos + '"' +
-                    (RUN.done ? " disabled" : "") + ">" + esc(p.words[idx]) + "</button>";
-          });
-        }
+        // The line of slots. Rendered RTL so position 1 is the rightmost.
+        var html = '<div class="ayah-line" dir="rtl">';
+        PUZZLE.placed.forEach(function (item, pos) {
+          html += '<span class="' + slotClass(pos, "word-slot") + '" data-slot="' + pos + '">';
+          if (item !== null) {
+            html += '<span class="word in-slot" data-item="' + item + '" data-pos="' + pos + '">' +
+                    esc(p.words[item]) + "</span>";
+          }
+          html += "</span>";
+        });
         html += "</div>";
 
         if (!RUN.done) {
-          html += '<div class="pool" dir="rtl">';
-          PUZZLE.shuffled.forEach(function (idx) {
-            if (placed.indexOf(idx) !== -1) return;
-            html += '<button type="button" class="word" data-add="' + idx + '">' +
-                    esc(p.words[idx]) + "</button>";
+          var remaining = PUZZLE.shuffled.filter(function (i) {
+            return PUZZLE.placed.indexOf(i) === -1;
           });
-          html += "</div>";
-          if (placed.length === p.words.length) {
-            html += '<button type="button" class="btn" id="check">Check</button>';
+          html += '<div class="pool words" data-pool dir="rtl">';
+          if (!remaining.length) {
+            html += '<span class="pool-empty" dir="ltr">All placed — press Check.</span>';
+          } else {
+            remaining.forEach(function (item) {
+              var held = PUZZLE.held && PUZZLE.held.item === item && PUZZLE.held.from === null;
+              html += '<button type="button" class="word' + (held ? " held" : "") +
+                      '" data-item="' + item + '">' + esc(p.words[item]) + "</button>";
+            });
           }
+          html += "</div>";
+          html += '<button type="button" class="btn" id="check"' +
+                  (arrangementComplete() ? "" : " disabled") + ">Check</button>";
         }
         stage.innerHTML = html;
 
-        if (RUN.done) return;
-
-        Array.prototype.forEach.call(stage.querySelectorAll("[data-add]"), function (b) {
-          b.onclick = function () { placed.push(Number(b.dataset.add)); draw(); };
+        wireArrangement(stage, function () {
+          var right = checkArrangement();
+          submit(PUZZLE.placed.join(","), right);
         });
-        Array.prototype.forEach.call(stage.querySelectorAll("[data-remove]"), function (b) {
-          b.onclick = function () { placed.splice(Number(b.dataset.remove), 1); draw(); };
-        });
-        var check = $("check");
-        if (check) {
-          check.onclick = function () {
-            var correct = placed.every(function (v, i) { return v === i; });
-            submit(placed.join(","), correct);
-          };
-        }
       },
       answerText: function () {
         return PUZZLE.p.words.join(" ");
@@ -326,9 +458,7 @@
         var p = PUZZLE.p;
         return "Surah " + p.name + ", ayah " + p.ayah + ". “" + p.translation + "”";
       },
-      exhausted: function () { return RUN.tries.length >= 3; },
-      score: function () { return RUN.tries.length; },
-      onWrong: function () { PUZZLE.placed = []; }
+      score: function () { return RUN.tries.length; }
     },
 
     /* ------------- Which Surah: the comparison grid --------------------- */
@@ -393,7 +523,6 @@
                " in the mushaf, " + s.verses + " ayahs, revealed in " +
                (s.place === "Makki" ? "Makkah" : "Madinah") + ", beginning in juz " + s.juz + ".";
       },
-      exhausted: function () { return false; },     // unlimited
       score: function () { return RUN.tries.length; }
     }
   };
@@ -485,20 +614,19 @@
     });
   }
 
+  // Unlimited tries. Only a correct answer finishes a puzzle — the answer is
+  // never revealed to someone who has not got there.
   function submit(value, correct) {
     if (RUN.done) return;
     RUN.tries.push(value);
 
-    var game = GAMES[MODE];
     if (correct) {
       RUN.solved = true;
       RUN.done = true;
+      I.stopClock(RUN);
       I.finish(MODE, LEVEL, true, RUN.tries.length);
-    } else if (game.exhausted()) {
-      RUN.done = true;
-      I.finish(MODE, LEVEL, false, RUN.tries.length);
+      flash("");
     } else {
-      if (game.onWrong) game.onWrong();
       flash(wrongMessage());
     }
     I.persist();
@@ -506,10 +634,17 @@
   }
 
   function wrongMessage() {
-    var left = MODE === "five-clues"
-      ? PUZZLE.p.clues.length - RUN.tries.length
-      : null;
-    if (left !== null) return "Not quite — here is clue " + (RUN.tries.length + 1) + ".";
+    if (MODE === "five-clues") {
+      var left = PUZZLE.p.clues.length - RUN.tries.length;
+      if (left > 0) return "Not quite — here is clue " + (RUN.tries.length + 1) + ".";
+      return "Not quite. Keep trying.";
+    }
+    if (MODE === "order-events" || MODE === "scramble") {
+      var right = PUZZLE.marks.filter(function (m) { return m === "ok"; }).length;
+      return right
+        ? right + " in the right place. Move the red ones and check again."
+        : "None in the right place yet. Try another arrangement.";
+    }
     return "Not quite. Try again.";
   }
 
@@ -523,16 +658,20 @@
     if (!RUN.done) return;
 
     var game = GAMES[MODE];
-    var title = RUN.solved
-      ? (RUN.tries.length === 1 ? "Right, first time — mā shāʾ Allāh!"
-                                : "Solved in " + RUN.tries.length + " tries")
-      : "Not this time";
+    var title = RUN.tries.length === 1
+      ? "Right, first time — mā shāʾ Allāh!"
+      : "Solved in " + RUN.tries.length + " tries";
 
     var el = document.createElement("div");
     el.className = "result";
     el.innerHTML =
       "<h2>" + title + "</h2>" +
       '<div class="answer">' + esc(game.answerText()) + "</div>" +
+      '<div class="result-meta">' +
+        "<span>" + I.formatDuration(RUN.ms) + "</span>" +
+        "<span>" + Math.max(0, RUN.tries.length - 1) +
+        (RUN.tries.length - 1 === 1 ? " mistake" : " mistakes") + "</span>" +
+      "</div>" +
       '<p class="learn">' + esc(game.explain()) + "</p>" +
       '<div class="grid-preview">' + shareGrid() + "</div>" +
       "<button class='btn' id='btn-share'>Share result</button> " +
@@ -541,26 +680,28 @@
     box.appendChild(el);
 
     $("btn-share").onclick = share;
-    $("btn-next").onclick = goNext;
+    $("btn-next").onclick = function () { openResults(); };
     tick();
   }
 
+  // Wrapped into rows so a long run of guesses does not overflow the card.
   function shareGrid() {
-    if (MODE === "surah") {
-      return RUN.tries.map(function (nm, i) {
-        return i === RUN.tries.length - 1 && RUN.solved ? "🟩" : "🟥";
-      }).join("");
-    }
-    return RUN.tries.map(function (_, i) {
+    var squares = RUN.tries.map(function (_, i) {
       return i === RUN.tries.length - 1 && RUN.solved ? "🟩" : "🟥";
-    }).join("") || "🟥";
+    });
+    var rows = [];
+    for (var i = 0; i < squares.length; i += 10) {
+      rows.push(squares.slice(i, i + 10).join(""));
+    }
+    return rows.join("\n") || "🟥";
   }
 
   function share() {
     var text = "Islamdle #" + I.puzzleNumber() + " · " + I.MODES[MODE].label +
       " (" + LEVEL + ")\n" + shareGrid() + "\n" +
       (RUN.solved ? RUN.tries.length + (RUN.tries.length === 1 ? " try" : " tries") : "missed") +
-      "\n" + location.origin + location.pathname.replace(/play\.html$/, "");
+      " · " + I.formatDuration(RUN.ms) +
+      "\n" + location.origin + "/";
     if (navigator.share) {
       navigator.share({ text: text }).catch(function () { copy(text); });
     } else { copy(text); }
@@ -574,16 +715,71 @@
     } else { flash("Copying is not available here."); }
   }
 
-  function goNext() {
+  /* ------------------------------------------------- results summary --- */
+
+  function nextUnsolved() {
     var from = I.ORDER.indexOf(MODE);
     for (var i = 1; i <= I.ORDER.length; i++) {
       var k = I.ORDER[(from + i) % I.ORDER.length];
-      if (!I.run(k, LEVEL).done) {
-        location.href = "play.html?mode=" + k + "&level=" + LEVEL;
-        return;
-      }
+      if (!I.run(k, LEVEL).done) return k;
     }
-    location.href = "index.html";
+    return null;
+  }
+
+  function openResults() {
+    var s = I.summary(LEVEL);
+    var next = nextUnsolved();
+    var all = s.solved === s.total;
+
+    var rows = s.rows.map(function (r) {
+      var state = r.solved
+        ? '<span class="rs-ok">' + r.tries + (r.tries === 1 ? " try" : " tries") + "</span>"
+        : r.played ? '<span class="rs-part">in progress</span>'
+                   : '<span class="rs-none">not started</span>';
+      return '<tr class="' + (r.mode === MODE ? "rs-current" : "") + '">' +
+             "<td>" + esc(r.label) + "</td>" +
+             "<td>" + state + "</td>" +
+             "<td>" + (r.played ? r.misses : "–") + "</td>" +
+             "<td>" + (r.played ? I.formatDuration(r.ms) : "–") + "</td>" +
+             "</tr>";
+    }).join("");
+
+    var num = $("rs-num");
+    if (num) num.textContent = "#" + I.puzzleNumber() + " · " + LEVEL;
+
+    $("results-body").innerHTML =
+      '<div class="stats">' +
+        "<div><b>" + s.solved + " / " + s.total + "</b><span>Solved</span></div>" +
+        "<div><b>" + s.misses + "</b><span>Mistakes</span></div>" +
+        "<div><b>" + I.formatDuration(s.ms) + "</b><span>Total time</span></div>" +
+      "</div>" +
+      '<table class="rs-table"><tr><th>Puzzle</th><th>Result</th><th>Mistakes</th><th>Time</th></tr>' +
+      rows + "</table>" +
+      (all ? '<p class="rs-done">All six solved today — jazāk Allāhu khayran.</p>' : "") +
+      '<div class="pref-actions">' +
+        "<button class='btn' id='rs-next'>" +
+          (next ? "Next: " + esc(I.MODES[next].label) : "Back to all puzzles") +
+        "</button>" +
+        "<button class='btn ghost' id='rs-share'>Share the set</button>" +
+        "<button class='btn ghost' data-close>Close</button>" +
+      "</div>";
+
+    $("modal-results").hidden = false;
+
+    $("rs-next").onclick = function () {
+      location.href = next
+        ? "play.html?mode=" + next + "&level=" + LEVEL
+        : "index.html";
+    };
+    $("rs-share").onclick = function () {
+      var line = s.rows.filter(function (r) { return r.played; }).map(function (r) {
+        return I.MODES[r.mode].label + ": " + (r.solved ? r.tries : "–");
+      }).join(" · ");
+      copy("Islamdle #" + I.puzzleNumber() + " (" + LEVEL + ")\n" +
+           s.solved + "/" + s.total + " solved · " + s.misses + " mistakes · " +
+           I.formatDuration(s.ms) + "\n" + line + "\n" + location.origin + "/");
+      $("modal-results").hidden = true;
+    };
   }
 
   /* -------------------------------------------------------------- chrome */
@@ -602,6 +798,7 @@
       b.textContent = lv[0].toUpperCase() + lv.slice(1);
       b.className = lv === LEVEL ? "on" : "";
       b.onclick = function () {
+        I.stopClock(RUN);
         I.setLevel(lv);
         location.href = "play.html?mode=" + MODE + "&level=" + lv;
       };
@@ -618,11 +815,19 @@
       if (k === MODE) a.className = "here";
       other.appendChild(a);
     });
+    var res = document.createElement("button");
+    res.type = "button";
+    res.className = "rs-open";
+    res.textContent = "Results";
+    res.onclick = openResults;
+    other.appendChild(res);
   }
 
   function tick() {
     var el = $("countdown");
     if (el) el.textContent = I.formatCountdown(I.msToReset());
+    var t = $("p-timer");
+    if (t) t.textContent = I.formatDuration(I.elapsed(RUN));
   }
 
   /* ---------------------------------------------------------------- draw */
@@ -633,6 +838,7 @@
     $("sub").textContent = RUN.done ? "Come back tomorrow for the next one." : game.sub;
     game.render($("stage"));
     renderResult();
+    renderChrome();
   }
 
   /* ---------------------------------------------------------------- boot */
@@ -653,9 +859,31 @@
         DATA = json;
         RUN = I.run(MODE, LEVEL);
         PUZZLE = GAMES[MODE].load();
-        renderChrome();
+        if (!RUN.done) I.startClock();
         draw();
         setInterval(tick, 1000);
+
+        // Stop the clock when the puzzle is not actually in front of anyone.
+        document.addEventListener("visibilitychange", function () {
+          if (document.hidden) { I.stopClock(RUN); I.persist(); }
+          else if (!RUN.done) I.startClock();
+        });
+        window.addEventListener("pagehide", function () {
+          I.stopClock(RUN); I.persist();
+        });
+
+        Array.prototype.forEach.call(document.querySelectorAll(".modal"), function (m) {
+          m.addEventListener("click", function (e) {
+            if (e.target === m || e.target.hasAttribute("data-close")) m.hidden = true;
+          });
+        });
+        document.addEventListener("keydown", function (e) {
+          if (e.key === "Escape") {
+            Array.prototype.forEach.call(document.querySelectorAll(".modal"), function (m) {
+              m.hidden = true;
+            });
+          }
+        });
       })
       .catch(function (err) {
         $("prompt").textContent = "Could not load the puzzles.";

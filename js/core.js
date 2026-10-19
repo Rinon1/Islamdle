@@ -20,7 +20,7 @@ window.Islamdle = (function () {
     "five-clues": {
       label: "Five Clues",
       tag: "One answer",
-      icon: "٥",
+      icon: '<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><circle cx="11" cy="11" r="6.5"/><path d="M16 16l4.5 4.5"/><path d="M9 9.2a2 2 0 1 1 2.6 1.9c-.5.2-.8.6-.8 1.1v.5"/><path d="M11.1 14.6h.02"/></svg>',
       blurb: "Clues appear one at a time. Name the thing before you run out — " +
              "the earlier you get it, the better your score.",
       time: "1 min",
@@ -33,7 +33,7 @@ window.Islamdle = (function () {
     "spot-mistake": {
       label: "Spot the Mistake",
       tag: "Three statements",
-      icon: "؟",
+      icon: '<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M12 3.8 21 19.2H3L12 3.8Z"/><path d="M12 9.6v4"/><path d="M12 16.3h.02"/></svg>',
       blurb: "Two statements are correct and one is not. Find the one that is wrong.",
       time: "1 min",
       levels: {
@@ -45,7 +45,7 @@ window.Islamdle = (function () {
     "order-events": {
       label: "Order the Events",
       tag: "Put them in order",
-      icon: "⇅",
+      icon: '<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M4 7h10M4 12h7M4 17h12"/><path d="M18.5 8.5V16m0 0 2.2-2.2M18.5 16l-2.2-2.2"/></svg>',
       blurb: "Events from the Seerah and early Islamic history, shuffled. " +
              "Put them back into the order they happened.",
       time: "2 min",
@@ -58,7 +58,7 @@ window.Islamdle = (function () {
     "missing-piece": {
       label: "The Missing Piece",
       tag: "Complete the set",
-      icon: "◇",
+      icon: '<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M4 4h7v4.2a1.8 1.8 0 1 0 0 3.6V16H4V4Z"/><path d="M13 4h7v7h-4.2a1.8 1.8 0 1 1-3.6 0V4Z" stroke-dasharray="2.4 2.4"/></svg>',
       blurb: "A well-known set is shown with one item taken out. Name what is missing.",
       time: "1 min",
       levels: {
@@ -70,7 +70,7 @@ window.Islamdle = (function () {
     "scramble": {
       label: "Ayah Scramble",
       tag: "Rebuild the verse",
-      icon: "آ",
+      icon: '<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><rect x="3" y="5" width="7" height="4.2" rx="1.2"/><rect x="13" y="5" width="8" height="4.2" rx="1.2"/><rect x="3" y="14.8" width="9" height="4.2" rx="1.2"/><path d="M15 16.9h6m0 0-2-2m2 2-2 2"/></svg>',
       blurb: "The words of a short, familiar ayah are shuffled. Put them back " +
              "in the right order.",
       time: "2 min",
@@ -83,7 +83,7 @@ window.Islamdle = (function () {
     "surah": {
       label: "Which Surah",
       tag: "Narrow it down",
-      icon: "۩",
+      icon: '<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M4 5.5A1.5 1.5 0 0 1 5.5 4H11v16H5.5A1.5 1.5 0 0 1 4 18.5v-13Z"/><path d="M20 5.5A1.5 1.5 0 0 0 18.5 4H13v16h5.5a1.5 1.5 0 0 0 1.5-1.5v-13Z"/><path d="M11 4v16"/></svg>',
       blurb: "Guess the surah. Each guess compares revelation place, length, " +
              "juz and verse count against the answer.",
       time: "2 min",
@@ -177,15 +177,71 @@ window.Islamdle = (function () {
   function runKey(mode, level) { return mode + ":" + level; }
 
   // Per-day progress for one mode at one level.
+  //
+  // `ms` accumulates only the time a puzzle was actually open and unsolved, so
+  // leaving a tab sitting overnight does not count against the player.
   function run(mode, level) {
     var k = runKey(mode, level);
     var n = puzzleNumber();
     var r = SAVE.runs[k];
     if (!r || r.n !== n) {
-      r = { n: n, tries: [], solved: false, done: false };
+      r = { n: n, tries: [], solved: false, done: false, ms: 0, layout: null };
       SAVE.runs[k] = r;
     }
+    if (typeof r.ms !== "number") r.ms = 0;   // migrate older saves
+    if (r.layout === undefined) r.layout = null;
     return r;
+  }
+
+  // Clock for the puzzle currently on screen. The page calls startClock when it
+  // renders an unsolved puzzle and stopClock when it is solved or left.
+  var clockFrom = null;
+
+  function startClock() {
+    if (clockFrom === null) clockFrom = Date.now();
+  }
+
+  function stopClock(r) {
+    if (clockFrom === null) return;
+    if (r) r.ms += Date.now() - clockFrom;
+    clockFrom = null;
+  }
+
+  // Elapsed including the in-flight segment, for a live display.
+  function elapsed(r) {
+    return r.ms + (clockFrom === null ? 0 : Date.now() - clockFrom);
+  }
+
+  function formatDuration(ms) {
+    var s = Math.max(0, Math.round(ms / 1000));
+    var m = Math.floor(s / 60);
+    if (m < 60) return m + ":" + (s % 60 < 10 ? "0" : "") + (s % 60);
+    return Math.floor(m / 60) + "h " + (m % 60) + "m";
+  }
+
+  // Today's totals across every mode at one level, for the results summary.
+  function summary(level) {
+    var n = puzzleNumber();
+    var rows = ORDER.map(function (m) {
+      var r = SAVE.runs[runKey(m, level)];
+      var fresh = !r || r.n !== n;
+      return {
+        mode: m,
+        label: MODES[m].label,
+        played: !fresh && r.tries.length > 0,
+        solved: !fresh && r.solved,
+        tries: fresh ? 0 : r.tries.length,
+        misses: fresh ? 0 : Math.max(0, r.tries.length - (r.solved ? 1 : 0)),
+        ms: fresh ? 0 : elapsed(r)
+      };
+    });
+    return {
+      rows: rows,
+      solved: rows.filter(function (r) { return r.solved; }).length,
+      total: rows.length,
+      misses: rows.reduce(function (a, r) { return a + r.misses; }, 0),
+      ms: rows.reduce(function (a, r) { return a + r.ms; }, 0)
+    };
   }
 
   function stats(mode, level) {
@@ -261,11 +317,16 @@ window.Islamdle = (function () {
     dailyIndex: dailyIndex,
     msToReset: msToReset,
     formatCountdown: formatCountdown,
+    formatDuration: formatDuration,
     getLevel: getLevel,
     setLevel: setLevel,
     run: run,
     stats: stats,
     finish: finish,
+    startClock: startClock,
+    stopClock: stopClock,
+    elapsed: elapsed,
+    summary: summary,
     dailyStreak: dailyStreak,
     solvedToday: solvedToday,
     doneToday: doneToday,
