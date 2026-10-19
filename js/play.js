@@ -108,76 +108,132 @@
     return right;
   }
 
-  /* --- wiring shared by both ordering modes: drag-and-drop plus tap-tap --- */
+  /* --- wiring shared by both ordering modes ------------------------------
+   * Dragging uses Pointer Events rather than HTML5 drag-and-drop, because
+   * HTML5 DnD never fires on touch screens — on a phone a finger drag would
+   * do nothing at all. Pointer events give one code path for mouse, finger
+   * and stylus alike. A press that does not travel past DRAG_SLOP is treated
+   * as a tap instead, so tap-a-word-then-tap-a-slot still works.           */
+
+  var DRAG_SLOP = 6;   // px of travel before a press becomes a drag
+
+  // A real pointerup is followed by a click. Without this the click would land
+  // on the slot just dropped into and pick the word straight back up.
+  var suppressClicksUntil = 0;
 
   function wireArrangement(stage, onCheck) {
     if (RUN.done) return;
 
     function refresh() { draw(); }
+    var drag = null;
 
-    // Pool items and filled slots are both drag sources.
+    function targetUnder(x, y) {
+      var el = document.elementFromPoint(x, y);
+      if (!el) return null;
+      var slot = el.closest("[data-slot]");
+      if (slot) return { kind: "slot", pos: Number(slot.dataset.slot), el: slot };
+      if (el.closest("[data-pool]")) return { kind: "pool", el: el.closest("[data-pool]") };
+      return null;
+    }
+
+    function highlight(target) {
+      Array.prototype.forEach.call(stage.querySelectorAll(".over"), function (e) {
+        e.classList.remove("over");
+      });
+      if (target && target.kind === "slot") target.el.classList.add("over");
+    }
+
+    function endDrag() {
+      if (drag && drag.ghost) drag.ghost.remove();
+      if (drag && drag.el) drag.el.classList.remove("dragging");
+      highlight(null);
+      drag = null;
+    }
+
     Array.prototype.forEach.call(stage.querySelectorAll("[data-item]"), function (el) {
       var item = Number(el.dataset.item);
       var from = el.dataset.pos === undefined ? null : Number(el.dataset.pos);
 
-      el.draggable = true;
-      el.addEventListener("dragstart", function (e) {
-        PUZZLE.held = { item: item, from: from };
-        try { e.dataTransfer.setData("text/plain", String(item)); } catch (err) { /* IE */ }
-        e.dataTransfer.effectAllowed = "move";
-        el.classList.add("dragging");
+      el.addEventListener("pointerdown", function (e) {
+        if (e.button) return;                       // primary button / touch only
+        drag = {
+          item: item, from: from, el: el,
+          x0: e.clientX, y0: e.clientY, moved: false, ghost: null
+        };
+        try { el.setPointerCapture(e.pointerId); } catch (err) { /* not captureable */ }
       });
-      el.addEventListener("dragend", function () { el.classList.remove("dragging"); });
 
-      el.onclick = function () {
-        // Tap a held item again to drop it; otherwise pick this one up.
-        if (PUZZLE.held && PUZZLE.held.item === item) PUZZLE.held = null;
-        else PUZZLE.held = { item: item, from: from };
-        refresh();
-      };
-    });
+      el.addEventListener("pointermove", function (e) {
+        if (!drag || drag.el !== el) return;
+        var dx = e.clientX - drag.x0, dy = e.clientY - drag.y0;
 
-    // Slots are drop targets.
-    Array.prototype.forEach.call(stage.querySelectorAll("[data-slot]"), function (el) {
-      var pos = Number(el.dataset.slot);
+        if (!drag.moved && Math.sqrt(dx * dx + dy * dy) < DRAG_SLOP) return;
 
-      el.addEventListener("dragover", function (e) {
+        if (!drag.moved) {
+          drag.moved = true;
+          PUZZLE.held = { item: drag.item, from: drag.from };
+          el.classList.add("dragging");
+          // A clone that follows the pointer. pointer-events:none keeps it out
+          // of the way of elementFromPoint.
+          var g = el.cloneNode(true);
+          g.className = el.className.replace("dragging", "") + " drag-ghost";
+          g.style.width = el.getBoundingClientRect().width + "px";
+          document.body.appendChild(g);
+          drag.ghost = g;
+        }
         e.preventDefault();
-        e.dataTransfer.dropEffect = "move";
-        el.classList.add("over");
-      });
-      el.addEventListener("dragleave", function () { el.classList.remove("over"); });
-      el.addEventListener("drop", function (e) {
-        e.preventDefault();
-        el.classList.remove("over");
-        if (!PUZZLE.held) return;
-        placeAt(pos, PUZZLE.held.item, PUZZLE.held.from);
-        refresh();
+        drag.ghost.style.left = e.clientX + "px";
+        drag.ghost.style.top = e.clientY + "px";
+        highlight(targetUnder(e.clientX, e.clientY));
       });
 
-      // Tap target: place what is held, or pick up what is already there.
-      el.addEventListener("click", function (e) {
-        if (e.target.closest("[data-item]") && !PUZZLE.held) return;  // handled above
-        if (PUZZLE.held) {
-          placeAt(pos, PUZZLE.held.item, PUZZLE.held.from);
-        } else if (PUZZLE.placed[pos] !== null) {
-          PUZZLE.held = { item: PUZZLE.placed[pos], from: pos };
+      function finish(e) {
+        if (!drag || drag.el !== el) return;
+        if (!drag.moved) {
+          // A tap: pick this item up, or put down the one already held.
+          if (PUZZLE.held && PUZZLE.held.item === item) PUZZLE.held = null;
+          else PUZZLE.held = { item: item, from: from };
+          endDrag();
+          refresh();
+          return;
+        }
+        if (drag.ghost) drag.ghost.style.display = "none";   // so it is not hit-tested
+        var target = targetUnder(e.clientX, e.clientY);
+        var held = { item: drag.item, from: drag.from };
+        endDrag();
+        suppressClicksUntil = Date.now() + 400;
+
+        if (target && target.kind === "slot") {
+          placeAt(target.pos, held.item, held.from);
+        } else if (target && target.kind === "pool" && held.from !== null) {
+          removeAt(held.from);
+        } else {
+          PUZZLE.held = null;                                 // dropped nowhere
         }
         refresh();
+      }
+
+      el.addEventListener("pointerup", finish);
+      el.addEventListener("pointercancel", function () { endDrag(); refresh(); });
+    });
+
+    // Tapping a slot: place what is held, or lift out what is sitting there.
+    Array.prototype.forEach.call(stage.querySelectorAll("[data-slot]"), function (el) {
+      var pos = Number(el.dataset.slot);
+      el.addEventListener("click", function (e) {
+        if (Date.now() < suppressClicksUntil) return;         // the drag handled it
+        if (e.target.closest("[data-item]") && !PUZZLE.held) return;
+        if (PUZZLE.held) placeAt(pos, PUZZLE.held.item, PUZZLE.held.from);
+        else if (PUZZLE.placed[pos] !== null) PUZZLE.held = { item: PUZZLE.placed[pos], from: pos };
+        refresh();
       });
     });
 
-    // The pool is a drop target too, for taking a word back out.
+    // Tapping empty pool space returns a held word to the pool.
     var pool = stage.querySelector("[data-pool]");
     if (pool) {
-      pool.addEventListener("dragover", function (e) { e.preventDefault(); });
-      pool.addEventListener("drop", function (e) {
-        e.preventDefault();
-        if (PUZZLE.held && PUZZLE.held.from !== null) removeAt(PUZZLE.held.from);
-        PUZZLE.held = null;
-        refresh();
-      });
       pool.addEventListener("click", function (e) {
+        if (Date.now() < suppressClicksUntil) return;
         if (e.target.closest("[data-item]")) return;
         if (PUZZLE.held && PUZZLE.held.from !== null) removeAt(PUZZLE.held.from);
         PUZZLE.held = null;

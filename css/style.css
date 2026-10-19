@@ -395,6 +395,14 @@ nav button[aria-current="true"] {
   color: var(--ink-dim);
   font-weight: 500;
 }
+/* A disabled button must not look pressable. */
+.btn:disabled {
+  background: var(--panel-solid);
+  border: 1px solid var(--line-soft);
+  color: #577a6d;
+  cursor: not-allowed;
+}
+.btn:disabled:hover { background: var(--panel-solid); }
 .countdown { font-variant-numeric: tabular-nums; color: var(--gold); font-weight: 600; }
 
 /* ------------------------------------------------------------- legend --- */
@@ -605,6 +613,22 @@ nav button[aria-current="true"] {
 .chip.in-slot { background: none; border: 1px solid var(--line-soft); cursor: grab; }
 .chip.held { border-color: var(--gold); color: var(--gold); background: #1d4a3c; }
 .chip.dragging { opacity: .4; }
+.chip { touch-action: none; user-select: none; -webkit-user-select: none; }
+
+/* The clone that follows the pointer while dragging.
+   Named drag-ghost, not ghost: .btn.ghost is the secondary-button style. */
+.drag-ghost {
+  position: fixed !important;
+  z-index: 400;
+  pointer-events: none;
+  transform: translate(-50%, -50%) scale(1.05);
+  opacity: .95;
+  box-shadow: 0 10px 26px #00000080;
+  border-color: var(--gold) !important;
+  color: var(--gold) !important;
+  background: #1d4a3c !important;
+  margin: 0 !important;
+}
 .slot-n {
   flex-shrink: 0;
   width: 23px; height: 23px;
@@ -705,6 +729,10 @@ nav button[aria-current="true"] {
   border-radius: 6px;
   cursor: grab;
   user-select: none;
+  /* Let a finger drag the word instead of scrolling the page. */
+  touch-action: none;
+  -webkit-user-select: none;
+  -webkit-touch-callout: none;
   transition: color .15s, background .15s, transform .12s;
 }
 .word:hover { color: var(--gold); }
