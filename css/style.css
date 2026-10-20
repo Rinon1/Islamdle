@@ -1098,6 +1098,10 @@ footer a { color: var(--gold-dim); }
   .levelswitch button { padding: 9px 13px; font-size: 13px; }
   .rs-open { padding: 7px 14px; font-size: 13px; }
   .board { padding-bottom: 6px; }
+  /* Side by side these squeeze into four-line labels; stack them instead. */
+  .pref-actions { flex-direction: column-reverse; }
+  .pref-actions .btn { width: 100%; }
+  .result .btn { width: 100%; margin-top: 8px; }
   .clue { font-size: 16px; padding: 16px; }
   .clue .arabic { font-size: 24px; }
 }
