@@ -1047,6 +1047,13 @@ section > h2 {
   display: flex;
   align-items: center;
   gap: 20px;
+  /* The host's attribution badge is fixed to the bottom-right at the very top
+     of the stacking order, so it cannot be out-stacked and must not be
+     hidden. Keep the banner's controls clear of its ~197x64 footprint: left
+     of it on wide screens, above it when the buttons stack. Otherwise it
+     covers "Reject non-essential", leaving "Accept all" the only reachable
+     choice — refusing has to be as easy as accepting. */
+  padding-right: 210px;
 }
 .consent strong { color: var(--gold); display: block; margin-bottom: 4px; font-size: 15px; }
 .consent p { margin: 0; font-size: 13px; line-height: 1.6; color: var(--ink-dim); }
@@ -1094,9 +1101,11 @@ label.pref { cursor: pointer; }
 #consent-panel { z-index: 300; }
 
 @media (max-width: 760px) {
-  .consent-inner { flex-direction: column; align-items: stretch; gap: 12px; }
+  .consent-inner { flex-direction: column; align-items: stretch; gap: 12px; padding-right: 0; }
   .consent-actions { justify-content: stretch; }
   .consent-actions .btn { flex: 1 1 auto; }
+  /* Buttons stack to the bottom edge here, so clear the badge vertically. */
+  .consent { padding-bottom: 80px; }
 }
 
 footer {
