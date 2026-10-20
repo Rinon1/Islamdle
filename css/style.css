@@ -222,7 +222,24 @@ nav button[aria-current="true"] {
 
 /* --------------------------------------------------------------- grid --- */
 
-.board { margin: 24px auto 0; overflow-x: auto; }
+/* Seven columns never fit a phone, so the board scrolls sideways. The surah
+   name column is pinned so you still know which guess you are reading, and
+   the right edge fades to show there is more. */
+.board {
+  margin: 24px auto 0;
+  overflow-x: auto;
+  position: relative;
+  scrollbar-width: thin;
+  -webkit-overflow-scrolling: touch;
+}
+.board th:first-child,
+.board .cell.name {
+  position: sticky;
+  left: 0;
+  z-index: 2;
+}
+.board th:first-child { background: var(--bg-2); }
+.board .cell.name { background: #0d241e; }
 .board table { margin: 0 auto; border-collapse: separate; border-spacing: 6px; }
 .board th {
   font-size: 11px;
@@ -430,7 +447,9 @@ nav button[aria-current="true"] {
   align-items: center;
   justify-content: center;
   padding: 20px;
-  z-index: 100;
+  /* Above the consent banner (200): a dialog is always the active surface,
+     and on a phone the banner would otherwise cover its buttons. */
+  z-index: 250;
 }
 .modal[hidden] { display: none; }
 .modal .box {
@@ -1075,6 +1094,10 @@ footer a { color: var(--gold-dim); }
   .board th { font-size: 9px; }
   .cell { font-size: 10px; padding: 3px; }
   .cell.name { font-size: 10px; }
+  /* Comfortable touch targets for the difficulty switch. */
+  .levelswitch button { padding: 9px 13px; font-size: 13px; }
+  .rs-open { padding: 7px 14px; font-size: 13px; }
+  .board { padding-bottom: 6px; }
   .clue { font-size: 16px; padding: 16px; }
   .clue .arabic { font-size: 24px; }
 }

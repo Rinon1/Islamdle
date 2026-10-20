@@ -132,13 +132,29 @@
     while (host.firstChild) d.body.appendChild(host.firstChild);
   }
 
+  // The banner is fixed to the bottom and is tall on a phone — around a third
+  // of the viewport. Without this the page cannot scroll far enough to clear
+  // it and the content underneath, including answer buttons, is unreachable.
+  function reserveSpaceForBanner() {
+    if (!banner || banner.hidden) {
+      document.body.style.paddingBottom = "";
+      return;
+    }
+    document.body.style.paddingBottom = (banner.offsetHeight + 24) + "px";
+  }
+
   function show() {
     banner = el("consent");
-    if (banner) banner.hidden = false;
+    if (banner) {
+      banner.hidden = false;
+      // Height is only known once it has been laid out.
+      requestAnimationFrame(reserveSpaceForBanner);
+    }
   }
 
   function hide() {
     if (banner) banner.hidden = true;
+    reserveSpaceForBanner();
     closePanel();
   }
 
@@ -195,6 +211,9 @@
     }
 
     if (!current) show();
+
+    // Rotating the phone or an address bar collapsing changes the height.
+    window.addEventListener("resize", reserveSpaceForBanner);
   }
 
   if (d.readyState === "loading") {
