@@ -22,6 +22,23 @@
 
 * { box-sizing: border-box; }
 
+/* Respect a reduced-motion preference, and — just as importantly — make sure
+   no element's resting position depends on an animation having run. Several
+   animations here use fill:both from an offset start frame (the consent
+   banner rises from translateY(100%), grid cells flip in from opacity 0). If
+   such an animation never advances, the element stays stuck at that start
+   frame: the banner sits a full screen-height below the fold and consent can
+   never be given. Collapsing the duration lands everything on its end frame. */
+@media (prefers-reduced-motion: reduce) {
+  *, *::before, *::after {
+    animation-duration: 1ms !important;
+    animation-delay: 0ms !important;
+    animation-iteration-count: 1 !important;
+    transition-duration: 1ms !important;
+    scroll-behavior: auto !important;
+  }
+}
+
 html, body { height: 100%; }
 
 body {
