@@ -28,13 +28,15 @@
    banner rises from translateY(100%), grid cells flip in from opacity 0). If
    such an animation never advances, the element stays stuck at that start
    frame: the banner sits a full screen-height below the fold and consent can
-   never be given. Collapsing the duration lands everything on its end frame. */
+   never be given.
+
+   Shortening the duration is not enough — where the animation clock is
+   frozen, a 1ms animation still never completes and fill:both keeps holding
+   frame 0 — so the animation is removed outright. */
 @media (prefers-reduced-motion: reduce) {
   *, *::before, *::after {
-    animation-duration: 1ms !important;
-    animation-delay: 0ms !important;
-    animation-iteration-count: 1 !important;
-    transition-duration: 1ms !important;
+    animation: none !important;
+    transition: none !important;
     scroll-behavior: auto !important;
   }
 }
