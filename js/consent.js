@@ -143,11 +143,22 @@
     document.body.style.paddingBottom = (banner.offsetHeight + 24) + "px";
   }
 
+  // Watching the element is more reliable than guessing when layout settles:
+  // it fires on the 0 -> full-height transition when the banner is shown, and
+  // again whenever the text reflows (rotation, address bar, font loading).
+  function watchBannerSize() {
+    if (!banner || typeof ResizeObserver === "undefined") return;
+    if (watchBannerSize.observing) return;
+    watchBannerSize.observing = true;
+    new ResizeObserver(reserveSpaceForBanner).observe(banner);
+  }
+
   function show() {
     banner = el("consent");
     if (banner) {
       banner.hidden = false;
-      // Height is only known once it has been laid out.
+      watchBannerSize();
+      reserveSpaceForBanner();
       requestAnimationFrame(reserveSpaceForBanner);
     }
   }
