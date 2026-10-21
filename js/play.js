@@ -73,7 +73,12 @@
 
   // Put `item` (an index) at `pos`. If something is already there it is
   // displaced — swapped with where `item` came from, or returned to the pool.
+  // Set when the last empty slot gets filled, so draw() can bring Check into
+  // view — on a phone it is usually below the fold by then.
+  var SCROLL_TO_CHECK = false;
+
   function placeAt(pos, item, fromPos) {
+    var wasComplete = arrangementComplete();
     var existing = PUZZLE.placed[pos];
     PUZZLE.placed[pos] = item;
     clearMark(pos);
@@ -83,6 +88,7 @@
     }
     PUZZLE.held = null;
     saveArrangement();
+    if (!wasComplete && arrangementComplete()) SCROLL_TO_CHECK = true;
   }
 
   function removeAt(pos) {
@@ -190,9 +196,15 @@
       function finish(e) {
         if (!drag || drag.el !== el) return;
         if (!drag.moved) {
-          // A tap: pick this item up, or put down the one already held.
-          if (PUZZLE.held && PUZZLE.held.item === item) PUZZLE.held = null;
-          else PUZZLE.held = { item: item, from: from };
+          // A tap. Words handle their own taps; the slot underneath ignores
+          // the click that follows, or it would drop the word straight back.
+          if (PUZZLE.held && PUZZLE.held.item === item) {
+            PUZZLE.held = null;                                   // tapped again: put it down
+          } else if (PUZZLE.held && from !== null) {
+            placeAt(from, PUZZLE.held.item, PUZZLE.held.from);    // holding one: swap into this slot
+          } else {
+            PUZZLE.held = { item: item, from: from };             // pick this one up
+          }
           endDrag();
           refresh();
           return;
@@ -222,7 +234,7 @@
       var pos = Number(el.dataset.slot);
       el.addEventListener("click", function (e) {
         if (Date.now() < suppressClicksUntil) return;         // the drag handled it
-        if (e.target.closest("[data-item]") && !PUZZLE.held) return;
+        if (e.target.closest("[data-item]")) return;          // the word handled its own tap
         if (PUZZLE.held) placeAt(pos, PUZZLE.held.item, PUZZLE.held.from);
         else if (PUZZLE.placed[pos] !== null) PUZZLE.held = { item: PUZZLE.placed[pos], from: pos };
         refresh();
@@ -255,6 +267,32 @@
            (m ? " " + m : "") + (held ? " held" : "");
   }
 
+  /* ------------------------------------------------------- reveal timing -- */
+  /* submit() sets FRESH for exactly one draw, so only what just changed
+   * animates — earlier rows and clues no longer replay on every re-render.
+   * Cells flip one after another, STEP seconds apart, like LoLdle.          */
+
+  var FRESH = false;
+  var LAST = null;
+  var STEP = 0.32;
+  var FLIP = 0.5;
+
+  function fx(on, i) {
+    return on
+      ? { c: " flip-in", s: ' style="animation-delay:' + (i * STEP).toFixed(2) + 's"' }
+      : { c: "", s: "" };
+  }
+
+  // How long the reveal for the current mode takes, in ms.
+  function revealMs() {
+    var cells = 1;
+    if (MODE === "surah") cells = GAMES.surah.columns.length + 1;
+    else if (MODE === "order-events" || MODE === "scramble") cells = PUZZLE.placed.length;
+    else if (MODE === "five-clues") cells = PUZZLE.p.clues.length;
+    else if (MODE === "missing-piece") cells = 2;
+    return Math.round(((cells - 1) * STEP + FLIP) * 1000) + 150;
+  }
+
   /* ===================================================== the mechanics === */
 
   var GAMES = {
@@ -269,12 +307,16 @@
       },
       render: function (stage) {
         var p = PUZZLE.p;
-        var shown = Math.min(RUN.tries.length + 1, p.clues.length);
+        // Solving reveals every clue — the rest are worth reading.
+        var shown = RUN.solved ? p.clues.length : Math.min(RUN.tries.length + 1, p.clues.length);
+        var before = Math.min(RUN.tries.length, p.clues.length);   // shown before this answer
 
         var html = '<ol class="clues">';
         for (var i = 0; i < p.clues.length; i++) {
           if (i < shown) {
-            html += '<li class="clue-item"><span>Clue ' + (i + 1) + "</span>" + esc(p.clues[i]) + "</li>";
+            var f = fx(FRESH && i >= before, i - before + 1);
+            html += '<li class="clue-item' + f.c + '"' + f.s + "><span>Clue " + (i + 1) +
+                    "</span>" + esc(p.clues[i]) + "</li>";
           } else {
             html += '<li class="clue-item locked"><span>Clue ' + (i + 1) + "</span>Locked</li>";
           }
@@ -286,7 +328,8 @@
           var picked = RUN.tries.indexOf(opt) !== -1;
           var right = RUN.solved && opt === p.answer;
           var cls = right ? "opt ok" : picked ? "opt bad" : "opt";
-          html += '<button type="button" class="' + cls + '" data-opt="' + esc(opt) + '"' +
+          var f = fx(FRESH && opt === LAST, 0);
+          html += '<button type="button" class="' + cls + f.c + '"' + f.s + ' data-opt="' + esc(opt) + '"' +
                   (picked || RUN.done ? " disabled" : "") + ">" + esc(opt) + "</button>";
         });
         html += "</div>";
@@ -312,7 +355,8 @@
           var cls = "stmt";
           if (RUN.solved && i === p.wrong) cls += " ok";
           else if (picked) cls += " bad";
-          html += '<button type="button" class="' + cls + '" data-opt="' + i + '"' +
+          var f = fx(FRESH && String(i) === LAST, 0);
+          html += '<button type="button" class="' + cls + f.c + '"' + f.s + ' data-opt="' + i + '"' +
                   (picked || RUN.done ? " disabled" : "") + ">" +
                   '<span class="stmt-n">' + (i + 1) + "</span>" + esc(s) +
                   (RUN.solved && i === p.wrong ? '<em class="stmt-tag">this one is wrong</em>' : "") +
@@ -346,7 +390,8 @@
         var p = PUZZLE.p;
         var html = '<ol class="timeline">';
         PUZZLE.placed.forEach(function (item, pos) {
-          html += '<li class="' + slotClass(pos) + '" data-slot="' + pos + '">' +
+          var f = fx(FRESH && PUZZLE.marks[pos], pos);
+          html += '<li class="' + slotClass(pos) + f.c + '"' + f.s + ' data-slot="' + pos + '">' +
                   '<span class="slot-n">' + (pos + 1) + "</span>";
           if (item === null) {
             html += '<span class="slot-hint">drop an event here</span>';
@@ -428,7 +473,8 @@
         html += '<ol class="setlist">';
         p.items.forEach(function (it, i) {
           if (i === PUZZLE.hidden) {
-            html += '<li class="gap' + (RUN.solved ? " revealed" : "") + '">' +
+            var g = fx(FRESH && RUN.solved, 1);
+            html += '<li class="gap' + (RUN.solved ? " revealed" : "") + g.c + '"' + g.s + ">" +
                     (RUN.solved ? esc(it) : "?") + "</li>";
           } else {
             html += "<li>" + esc(it) + "</li>";
@@ -441,7 +487,8 @@
           var picked = RUN.tries.indexOf(opt) !== -1;
           var right = RUN.solved && opt === PUZZLE.answer;
           var cls = right ? "opt ok" : picked ? "opt bad" : "opt";
-          html += '<button type="button" class="' + cls + '" data-opt="' + esc(opt) + '"' +
+          var f = fx(FRESH && opt === LAST, 0);
+          html += '<button type="button" class="' + cls + f.c + '"' + f.s + ' data-opt="' + esc(opt) + '"' +
                   (picked || RUN.done ? " disabled" : "") + ">" + esc(opt) + "</button>";
         });
         html += "</div>";
@@ -473,7 +520,8 @@
         // The line of slots. Rendered RTL so position 1 is the rightmost.
         var html = '<div class="ayah-line" dir="rtl">';
         PUZZLE.placed.forEach(function (item, pos) {
-          html += '<span class="' + slotClass(pos, "word-slot") + '" data-slot="' + pos + '">';
+          var f = fx(FRESH && PUZZLE.marks[pos], pos);
+          html += '<span class="' + slotClass(pos, "word-slot") + f.c + '"' + f.s + ' data-slot="' + pos + '">';
           if (item !== null) {
             html += '<span class="word in-slot" data-item="' + item + '" data-pos="' + pos + '">' +
                     esc(p.words[item]) + "</span>";
@@ -550,13 +598,15 @@
           html += "</tr>";
           RUN.tries.slice().reverse().forEach(function (nm, row) {
             var g = byName(DATA.surahs, nm);
-            html += '<tr><td class="cell name">' + esc(g.name) +
+            var live = FRESH && row === 0;          // only the guess just made flips
+            var nf = fx(live, 0);
+            html += '<tr><td class="cell name' + nf.c + '"' + nf.s + ">" + esc(g.name) +
                     '<span class="ar">' + esc(g.arabic) + "</span></td>";
             cols.forEach(function (c, i) {
               var r = compare(c, g, answer);
-              html += '<td class="cell ' + r.cls + '" style="animation-delay:' +
-                      (row === 0 ? i * 0.15 : 0) + 's">' + esc(r.text) +
-                      (r.arrow ? '<span class="arrow">' + r.arrow + "</span>" : "") + "</td>";
+              var f = fx(live, i + 1);
+              html += '<td class="cell ' + r.cls + (r.dir ? " arrow-" + r.dir : "") + f.c + '"' +
+                      f.s + ">" + esc(r.text) + "</td>";
             });
             html += "</tr>";
           });
@@ -564,7 +614,8 @@
             '<div class="legend">' +
             '<span><i class="swatch" style="background:var(--ok)"></i> Correct</span>' +
             '<span><i class="swatch" style="background:var(--bad)"></i> Incorrect</span>' +
-            "<span>⬆️ Higher</span><span>⬇️ Lower</span></div>";
+            '<span><i class="swatch arrow-up"></i> Higher</span>' +
+            '<span><i class="swatch arrow-down"></i> Lower</span></div>';
         }
         stage.innerHTML = html;
 
@@ -605,7 +656,7 @@
     var g = guess[col.key], a = answer[col.key];
     if (col.type === "number") {
       if (g === a) return { cls: "ok", text: String(g) };
-      return { cls: "bad", text: String(g), arrow: a > g ? "⬆️" : "⬇️" };
+      return { cls: "bad", text: String(g), dir: a > g ? "up" : "down" };
     }
     return { cls: g === a ? "ok" : "bad", text: String(g) };
   }
@@ -620,15 +671,31 @@
     if (!input) return;
     input.focus();
 
+    // Most surah names open with an Arabic article ("Al-Baqarah", "An-Nas"),
+    // so a name can be found by its start or by the word after the article.
+    var ARTICLE = /^(al|an|ar|as|ash|at|az|ad|adh)-/i;
+
+    // Every surah whose name starts with what was typed, or whose word after
+    // the article does — all of them, in mushaf order. Substring matches are
+    // only a fallback, so typing "a" lists exactly the names beginning with A.
+    function suggest(q) {
+      var prefix = [], inside = [];
+      DATA.surahs.forEach(function (s) {
+        if (RUN.tries.indexOf(s.name) !== -1) return;
+        var full = normalise(s.name);
+        var bare = normalise(s.name.replace(ARTICLE, ""));
+        if (full.indexOf(q) === 0 || bare.indexOf(q) === 0) prefix.push(s);
+        else if (full.indexOf(q) !== -1) inside.push(s);
+      });
+      return prefix.length ? prefix : inside;
+    }
+
     input.addEventListener("input", function () {
       box.innerHTML = "";
+      box.scrollTop = 0;
       var q = normalise(input.value);
       if (!q) return;
-      // On a phone the keyboard covers the lower half of the screen; eight
-      // suggestion rows would push the last few underneath it.
-      DATA.surahs.filter(function (s) {
-        return RUN.tries.indexOf(s.name) === -1 && normalise(s.name).indexOf(q) !== -1;
-      }).slice(0, window.innerWidth < 760 ? 5 : 8).forEach(function (s, i) {
+      suggest(q).forEach(function (s, i) {
         var row = document.createElement("div");
         if (i === 0) row.className = "active";
         row.innerHTML = "<span>" + esc(s.name) + '</span><span class="ar">' + esc(s.arabic) + "</span>";
@@ -646,6 +713,7 @@
         var to = e.key === "ArrowDown" ? Math.min(at + 1, rows.length - 1) : Math.max(at - 1, 0);
         rows.forEach(function (r) { r.className = ""; });
         rows[to].className = "active";
+        rows[to].scrollIntoView({ block: "nearest" });   // the list scrolls now
       } else if (e.key === "Enter") {
         e.preventDefault();
         if (rows.length) pick(rows[Math.max(at, 0)].firstChild.textContent);
@@ -688,7 +756,26 @@
       flash(wrongMessage());
     }
     I.persist();
+
+    LAST = value;
+    FRESH = true;
     draw();
+    FRESH = false;
+
+    if (correct) finale();
+  }
+
+  // After the winning reveal has played: show the card, bring its button into
+  // view (a long Which Surah board can leave it far down the page), and when
+  // that was the last puzzle of the set, open the results.
+  function finale() {
+    setTimeout(function () {
+      var card = document.querySelector(".result.pending");
+      if (card) card.classList.replace("pending", "fade-in");
+      var btn = $("btn-next");
+      if (btn) btn.scrollIntoView({ behavior: "smooth", block: "center" });
+      if (!nextUnsolved()) setTimeout(openResults, 1100);
+    }, revealMs());
   }
 
   function wrongMessage() {
@@ -710,59 +797,32 @@
 
   /* ------------------------------------------------------------ result -- */
 
+  // Per puzzle: the answer and what it teaches, then straight on to the next.
+  // Times, tries and mistakes are kept for the summary at the end of the set.
   function renderResult() {
     var box = $("result");
     box.innerHTML = "";
     if (!RUN.done) return;
 
     var game = GAMES[MODE];
-    var title = RUN.tries.length === 1
-      ? "Right, first time — mā shāʾ Allāh!"
-      : "Solved in " + RUN.tries.length + " tries";
+    var next = nextUnsolved();
 
     var el = document.createElement("div");
-    el.className = "result";
+    // Held back until the reveal finishes when it has just been solved.
+    el.className = "result" + (FRESH ? " pending" : "");
     el.innerHTML =
-      "<h2>" + title + "</h2>" +
+      "<h2>Correct — mā shāʾ Allāh!</h2>" +
       '<div class="answer">' + esc(game.answerText()) + "</div>" +
-      '<div class="result-meta">' +
-        "<span>" + I.formatDuration(RUN.ms) + "</span>" +
-        "<span>" + Math.max(0, RUN.tries.length - 1) +
-        (RUN.tries.length - 1 === 1 ? " mistake" : " mistakes") + "</span>" +
-      "</div>" +
       '<p class="learn">' + esc(game.explain()) + "</p>" +
-      '<div class="grid-preview">' + shareGrid() + "</div>" +
-      "<button class='btn' id='btn-share'>Share result</button> " +
-      "<button class='btn ghost' id='btn-next'>Next puzzle</button>" +
-      "<p>Next set in <span class='countdown' id='countdown'>…</span></p>";
+      "<button class='btn' id='btn-next'>" +
+        (next ? "Next: " + esc(I.MODES[next].label) + " →" : "See today's results") +
+      "</button>";
     box.appendChild(el);
 
-    $("btn-share").onclick = share;
-    $("btn-next").onclick = function () { openResults(); };
-    tick();
-  }
-
-  // Wrapped into rows so a long run of guesses does not overflow the card.
-  function shareGrid() {
-    var squares = RUN.tries.map(function (_, i) {
-      return i === RUN.tries.length - 1 && RUN.solved ? "🟩" : "🟥";
-    });
-    var rows = [];
-    for (var i = 0; i < squares.length; i += 10) {
-      rows.push(squares.slice(i, i + 10).join(""));
-    }
-    return rows.join("\n") || "🟥";
-  }
-
-  function share() {
-    var text = "Islamdle #" + I.puzzleNumber() + " · " + I.MODES[MODE].label +
-      " (" + LEVEL + ")\n" + shareGrid() + "\n" +
-      (RUN.solved ? RUN.tries.length + (RUN.tries.length === 1 ? " try" : " tries") : "missed") +
-      " · " + I.formatDuration(RUN.ms) +
-      "\n" + location.origin + "/";
-    if (navigator.share) {
-      navigator.share({ text: text }).catch(function () { copy(text); });
-    } else { copy(text); }
+    $("btn-next").onclick = function () {
+      if (next) location.href = "play.html?mode=" + next + "&level=" + LEVEL;
+      else openResults();
+    };
   }
 
   function copy(text) {
@@ -814,6 +874,8 @@
       '<table class="rs-table"><tr><th>Puzzle</th><th>Result</th><th>Mistakes</th><th>Time</th></tr>' +
       rows + "</table>" +
       (all ? '<p class="rs-done">All six solved today — jazāk Allāhu khayran.</p>' : "") +
+      '<p class="rs-reset">Next set in <span class="countdown" id="countdown">' +
+        I.formatCountdown(I.msToReset()) + "</span></p>" +
       '<div class="pref-actions">' +
         "<button class='btn' id='rs-next'>" +
           (next ? "Next: " + esc(I.MODES[next].label) : "Back to all puzzles") +
@@ -897,6 +959,12 @@
     game.render($("stage"));
     renderResult();
     renderChrome();
+
+    if (SCROLL_TO_CHECK) {
+      SCROLL_TO_CHECK = false;
+      var check = $("check");
+      if (check) check.scrollIntoView({ behavior: "smooth", block: "nearest" });
+    }
   }
 
   /* ---------------------------------------------------------------- boot */
