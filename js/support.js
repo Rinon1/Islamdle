@@ -17,7 +17,7 @@
 
   // Your Buy Me a Coffee page, e.g. "https://buymeacoffee.com/islamdle".
   // While empty, the support button stays hidden.
-  var BMC_URL = "";
+  var BMC_URL = "https://buymeacoffee.com/duajournal";
   var MIN_AMOUNT = 5;
   var KEY = "islamdle.support.v1";
   var RECHECK_MS = 7 * 24 * 3600 * 1000;
