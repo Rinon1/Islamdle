@@ -176,6 +176,7 @@
     el("consent-ads").checked = !!(current && current.ads);
     // Never stack the two — the banner would cover the Save button.
     if (banner) banner.hidden = true;
+    reserveSpaceForBanner();          // release the banner's space with it
     panel.hidden = false;
   }
 
@@ -183,6 +184,7 @@
     if (panel) panel.hidden = true;
     // Cancelled without ever choosing? Put the banner back.
     if (!current && banner) banner.hidden = false;
+    reserveSpaceForBanner();
   }
 
   function wire() {
