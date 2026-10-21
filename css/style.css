@@ -712,9 +712,19 @@ nav button[aria-current="true"] {
   flex-wrap: wrap;
   gap: 8px;
   justify-content: center;
+  align-items: center;
   margin: 16px auto 0;
   max-width: 640px;
+  /* Stays a real target even when everything is placed, so a word or event
+     can be dragged back down into it. */
+  min-height: 60px;
+  padding: 8px;
+  border: 2px dashed transparent;
+  border-radius: 10px;
+  transition: border-color .15s, background .15s;
 }
+.pool.armed { border-color: var(--line); }
+.pool.over { border-color: var(--gold); background: #ffffff0a; }
 .chip {
   background: var(--panel-solid);
   border: 1px solid var(--line);

@@ -146,7 +146,7 @@
       Array.prototype.forEach.call(stage.querySelectorAll(".over"), function (e) {
         e.classList.remove("over");
       });
-      if (target && target.kind === "slot") target.el.classList.add("over");
+      if (target && target.el) target.el.classList.add("over");
     }
 
     function endDrag() {
@@ -179,6 +179,10 @@
           drag.moved = true;
           PUZZLE.held = { item: drag.item, from: drag.from };
           el.classList.add("dragging");
+          if (drag.from !== null) {
+            var tray = stage.querySelector("[data-pool]");
+            if (tray) tray.classList.add("armed");
+          }
           // A clone that follows the pointer. pointer-events:none keeps it out
           // of the way of elementFromPoint.
           var g = el.cloneNode(true);
@@ -217,10 +221,10 @@
 
         if (target && target.kind === "slot") {
           placeAt(target.pos, held.item, held.from);
-        } else if (target && target.kind === "pool" && held.from !== null) {
-          removeAt(held.from);
+        } else if (held.from !== null) {
+          removeAt(held.from);              // dragged out of its slot: back to the pool
         } else {
-          PUZZLE.held = null;                                 // dropped nowhere
+          PUZZLE.held = null;               // a pool item dropped nowhere stays put
         }
         refresh();
       }
@@ -410,7 +414,7 @@
           });
           html += '<div class="pool" data-pool>';
           if (!remaining.length) {
-            html += '<span class="pool-empty">All placed — press Check.</span>';
+            html += '<span class="pool-empty">All placed — press Check, or drag one back here.</span>';
           } else {
             remaining.forEach(function (item) {
               var held = PUZZLE.held && PUZZLE.held.item === item && PUZZLE.held.from === null;
@@ -536,7 +540,7 @@
           });
           html += '<div class="pool words" data-pool dir="rtl">';
           if (!remaining.length) {
-            html += '<span class="pool-empty" dir="ltr">All placed — press Check.</span>';
+            html += '<span class="pool-empty" dir="ltr">All placed — press Check, or drag one back here.</span>';
           } else {
             remaining.forEach(function (item) {
               var held = PUZZLE.held && PUZZLE.held.item === item && PUZZLE.held.from === null;
