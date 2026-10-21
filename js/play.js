@@ -624,9 +624,11 @@
       box.innerHTML = "";
       var q = normalise(input.value);
       if (!q) return;
+      // On a phone the keyboard covers the lower half of the screen; eight
+      // suggestion rows would push the last few underneath it.
       DATA.surahs.filter(function (s) {
         return RUN.tries.indexOf(s.name) === -1 && normalise(s.name).indexOf(q) !== -1;
-      }).slice(0, 8).forEach(function (s, i) {
+      }).slice(0, window.innerWidth < 760 ? 5 : 8).forEach(function (s, i) {
         var row = document.createElement("div");
         if (i === 0) row.className = "active";
         row.innerHTML = "<span>" + esc(s.name) + '</span><span class="ar">' + esc(s.arabic) + "</span>";

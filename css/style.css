@@ -45,7 +45,10 @@ html, body { height: 100%; }
 
 body {
   margin: 0;
-  padding: 0 16px 64px;
+  /* 96px, not 64: the host's 64px attribution badge is fixed bottom-right,
+     and the footer links are the last thing on every page, so they need
+     room to scroll clear of it. */
+  padding: 0 16px 96px;
   background:
     radial-gradient(1100px 620px at 50% -200px, #1b4a3d 0%, transparent 70%),
     var(--bg);
@@ -1127,6 +1130,9 @@ footer a { color: var(--gold-dim); }
   .rs-open { padding: 7px 14px; font-size: 13px; }
   .board { padding-bottom: 6px; }
   /* Side by side these squeeze into four-line labels; stack them instead. */
+  /* Keep dialog boxes out of the badge's bottom 64px. */
+  .modal { padding-bottom: 80px; }
+  .modal .box { max-height: calc(100vh - 100px); }
   .pref-actions { flex-direction: column-reverse; }
   .pref-actions .btn { width: 100%; }
   .result .btn { width: 100%; margin-top: 8px; }
