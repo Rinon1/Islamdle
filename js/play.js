@@ -200,14 +200,18 @@
       function finish(e) {
         if (!drag || drag.el !== el) return;
         if (!drag.moved) {
-          // A tap. Words handle their own taps; the slot underneath ignores
-          // the click that follows, or it would drop the word straight back.
-          if (PUZZLE.held && PUZZLE.held.item === item) {
-            PUZZLE.held = null;                                   // tapped again: put it down
-          } else if (PUZZLE.held && from !== null) {
-            placeAt(from, PUZZLE.held.item, PUZZLE.held.from);    // holding one: swap into this slot
+          // A tap, sentence-builder style. From the pool, the item goes into
+          // the first empty slot — the top of the timeline, or the rightmost
+          // line for Arabic, since that row is laid out right-to-left. A tap
+          // on a placed item sends it back to the pool. Moving and swapping
+          // are done by dragging. The slot underneath ignores the click that
+          // follows the tap, or it would act on it a second time.
+          PUZZLE.held = null;
+          if (from === null) {
+            var empty = PUZZLE.placed.indexOf(null);
+            if (empty !== -1) placeAt(empty, item, null);
           } else {
-            PUZZLE.held = { item: item, from: from };             // pick this one up
+            removeAt(from);
           }
           endDrag();
           refresh();
@@ -381,7 +385,7 @@
     /* ------------- Order the Events: build the sequence ---------------- */
     "order-events": {
       prompt: "Put these in the order they happened.",
-      sub: "Drag them onto the timeline, earliest first. Check as often as you like.",
+      sub: "Tap them in order, earliest first, or drag them onto the timeline. Check as often as you like.",
       load: function () {
         var p = todaysItem("order-events");
         var a = initArrangement(p.events.length);
@@ -508,7 +512,7 @@
     /* ------------- Ayah Scramble --------------------------------------- */
     "scramble": {
       prompt: "Put the words back in order.",
-      sub: "Drag each word onto a line. Check as often as you like — correct words turn green.",
+      sub: "Tap the words in order, or drag them onto a line. Check as often as you like — correct words turn green.",
       load: function () {
         var pool = DATA.scramble[LEVEL];
         var p = pool[I.dailyIndex("scramble:" + LEVEL, pool.length)];
