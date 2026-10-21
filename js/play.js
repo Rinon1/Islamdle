@@ -820,13 +820,24 @@
       '<p class="learn">' + esc(game.explain()) + "</p>" +
       "<button class='btn' id='btn-next'>" +
         (next ? "Next: " + esc(I.MODES[next].label) + " →" : "See today's results") +
-      "</button>";
+      "</button>" +
+      '<div class="grid-preview" aria-label="' + RUN.tries.length +
+        (RUN.tries.length === 1 ? ' try' : ' tries') + '">' + triesGrid() + "</div>";
     box.appendChild(el);
 
     $("btn-next").onclick = function () {
       if (next) location.href = "play.html?mode=" + next + "&level=" + LEVEL;
       else openResults();
     };
+  }
+
+  function triesGrid() {
+    var squares = RUN.tries.map(function (_, i) {
+      return i === RUN.tries.length - 1 && RUN.solved ? "🟩" : "🟥";
+    });
+    var rows = [];
+    for (var i = 0; i < squares.length; i += 10) rows.push(squares.slice(i, i + 10).join(""));
+    return rows.join("\n");
   }
 
   function copy(text) {
