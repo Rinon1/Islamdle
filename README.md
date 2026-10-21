@@ -278,3 +278,44 @@ realistic ladder:
 The daily format is what makes this work commercially: it manufactures a return
 visit every day, and six modes means roughly six pageviews per visitor per day
 rather than one.
+
+### Ads and the ad-free supporter option
+
+`js/ads.js` fills the `.ad-slot` boxes (homepage bottom, below the puzzle on
+the play page — never inside a puzzle). It does nothing until `ADSENSE_CLIENT`
+and the unit ids in `UNITS` are filled in.
+
+A one-time donation of **€5 / $5 or more** on Buy Me a Coffee removes ads on
+that device. Pressing the button proves nothing; the browser only goes ad-free
+once Buy Me a Coffee has reported a real donation:
+
+1. `js/support.js` keeps a random secret in localStorage and shows a code
+   derived from it (`ISL-XXXXX-XXXXX`). The donor pastes the code into the BMC
+   message.
+2. BMC calls `/api/bmc-webhook` (`netlify/functions/bmc-webhook.mjs`). It checks
+   the HMAC signature and records the amount, currency, codes in the message
+   and a keyed hash of the donor's email in Netlify Blobs.
+3. Back on the site, "I've donated" posts the secret to `/api/supporter`. The
+   function derives the code from it, adds up that code's non-refunded
+   donations, and returns a signed ad-free token when the total is at least 5
+   EUR/USD. Only the secret can claim, so a code seen on the public BMC page
+   is useless to anyone else.
+4. Lost the code, or a second device: the donor types their BMC email instead
+   (up to 5 devices per email).
+5. Tokens are re-checked weekly, so a refunded donation turns ads back on.
+
+**Setup (one time):**
+
+1. Put your BMC page in `BMC_URL` at the top of `js/support.js`. The support
+   links stay hidden while it is empty.
+2. Netlify → Site configuration → Environment variables: add
+   `SUPPORTER_SECRET` (any random string of 32+ characters, e.g. the output of
+   `node -e "console.log(require('crypto').randomBytes(32).toString('hex'))"`).
+3. BMC → Integrations → Webhooks → New webhook: URL
+   `https://islamdle.netlify.app/api/bmc-webhook`, events `donation.created`
+   and `donation.refunded`. Copy its signing secret into a Netlify variable
+   `BMC_WEBHOOK_SECRET`, then redeploy.
+4. Press "Send test event" in BMC; it should succeed (test events are
+   acknowledged but not stored).
+
+Optional: `SUPPORT_CURRENCIES` (default `EUR,USD`).

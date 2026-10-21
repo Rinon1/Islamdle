@@ -19,7 +19,7 @@
   </header>
 
   <main class="panel doc">
-    <p class="updated">Last updated: 18 October 2026</p>
+    <p class="updated">Last updated: 21 October 2026</p>
 
     <p>Islamdle is a daily puzzle game. There is no account, no sign-up and no
     login. This page explains exactly what is stored and what is not. It is
@@ -29,8 +29,9 @@
     <ul>
       <li>The game keeps your progress <strong>in your own browser</strong>. It is
           never uploaded.</li>
-      <li>There is <strong>nothing to sign up for</strong>, so no name, email or
-          address is ever collected.</li>
+      <li>There is <strong>nothing to sign up for</strong>. The only time an email
+          is involved is if you donate and choose to use it to remove ads — and
+          even then we keep only a scrambled fingerprint of it, never the address.</li>
       <li>Analytics and advertising are <strong>off until you turn them on</strong>.</li>
       <li>You can change your mind at any time from
           <a href="index.html#" id="consent-reopen">Privacy settings</a> in the footer.</li>
@@ -41,11 +42,12 @@
     itself. This data stays on your device, is readable only by this site, and is
     never transmitted to us or anyone else:</p>
     <ul>
-      <li><code>islamdle.v1</code> — which puzzle number you are on, the guesses
-          you have made today, whether you solved each mode, and your streak and
-          win statistics.</li>
-      <li><code>islamdle.v1.mode</code> — the mode you last played, so the site
-          reopens where you left off.</li>
+      <li><code>islamdle.v2</code> — today's puzzles, the guesses you have made,
+          whether you solved each one, how long it took, and your streak.</li>
+      <li><code>islamdle.level</code> — the difficulty you last picked.</li>
+      <li><code>islamdle.support.v1</code> — only if you open “Support Islamdle”: a
+          random secret that produces your supporter code, and, once a donation is
+          confirmed, the token that keeps ads off on this device.</li>
       <li><code>islamdle.consent.v1</code> — the privacy choice you made here, and
           when you made it. This one is essential: without it you would be asked
           on every page load.</li>
@@ -54,9 +56,9 @@
     your streak. We cannot restore it, because we never had a copy.</p>
 
     <h2>What is not collected</h2>
-    <p>No name, email address, phone number, postal address, payment details,
-    account, contact list, location or device identifier is collected by this
-    site. Nothing you type into the guess box is sent anywhere — guesses are
+    <p>No name, phone number, postal address, payment details, account, contact
+    list, location or device identifier is collected by this site, and no email
+    address is stored (see “Supporting Islamdle” below). Nothing you type into the guess box is sent anywhere — guesses are
     checked entirely inside your browser against a data file the site downloads.</p>
 
     <h2>Analytics</h2>
@@ -80,6 +82,19 @@
     Advertising partners in use will be named here, with links to their own
     privacy policies, before ads are switched on.</p>
 
+    <h2>Supporting Islamdle</h2>
+    <p>Donations are handled entirely by
+    <a href="https://buymeacoffee.com/privacy-policy" target="_blank" rel="noopener">Buy Me a Coffee</a>
+    and its payment processor; we never see your card details. When you donate,
+    Buy Me a Coffee tells Islamdle the donation's amount, currency, your message
+    and the email you used. Islamdle keeps the amount and currency, any supporter
+    code found in your message, and a one-way keyed hash of the email — enough to
+    recognise the same email again, but not to read it back. That is all that is
+    kept, and it is used only to decide whether ads should be removed.</p>
+    <p>If you use the “another device” option, the email you type is sent to
+    Islamdle once, hashed the same way to look up your donation, and discarded. To
+    have your supporter record deleted, contact us with the email or code you used.</p>
+
     <h2>Hosting</h2>
     <p>The site is served as static files. Like any web host, the hosting provider
     processes the technical information every web request necessarily contains —
@@ -87,9 +102,9 @@
     time — in order to deliver the page and to protect against abuse. These are
     standard server logs and are not combined with anything else or used to build
     a profile.
-    Islamdle is hosted on Cloudflare Pages; Cloudflare acts as the hosting
-    provider and its own privacy practices are described at
-    <a href="https://www.cloudflare.com/privacypolicy/" target="_blank" rel="noopener">cloudflare.com/privacypolicy</a>.</p>
+    Islamdle is hosted on Netlify, which also stores the supporter records
+    described above; its own privacy practices are described at
+    <a href="https://www.netlify.com/privacy/" target="_blank" rel="noopener">netlify.com/privacy</a>.</p>
 
     <h2>Your rights</h2>
     <p>Depending on where you live, you may have the right to ask what personal

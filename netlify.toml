@@ -24,3 +24,9 @@
   from = "/privacy"
   to = "/privacy.html"
   status = 301
+
+# Supporter (ad-free) checks: bmc-webhook records Buy Me a Coffee donations,
+# supporter hands out ad-free tokens. Both need BMC_WEBHOOK_SECRET and
+# SUPPORTER_SECRET set in the Netlify environment variables.
+[functions]
+  directory = "netlify/functions"

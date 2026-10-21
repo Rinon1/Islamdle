@@ -12,6 +12,8 @@
 <link rel="stylesheet" href="css/style.css">
 <!-- Must stay first: sets Consent Mode to denied before any tag can fire. -->
 <script src="js/consent.js"></script>
+<!-- Marks supporters ad-free before any ad slot renders. -->
+<script src="js/support.js"></script>
 </head>
 <body class="home">
 <div class="wrap">
@@ -31,6 +33,10 @@
 
   <nav class="modes" id="game-grid" aria-label="Today's puzzles"></nav>
 
+  <p class="support-line"><a href="#" data-support data-support-cta hidden>Enjoying Islamdle? Support it and remove the ads</a></p>
+
+  <div class="ad-slot" data-slot="home-bottom"></div>
+
   <p class="resets">New puzzles in <span class="countdown" id="t-reset">—</span></p>
 
   <footer>
@@ -38,6 +44,7 @@
     <p>
       <a href="privacy.html">Privacy policy</a> ·
       <a href="#" id="consent-reopen">Privacy settings</a>
+      <span data-support hidden> · <a href="#">Support Islamdle</a></span>
     </p>
     <p class="credits">
       Qur'an data: <a href="https://quran.com" target="_blank" rel="noopener">Quran.com</a> ·
@@ -49,5 +56,6 @@
 
 <script src="js/core.js"></script>
 <script src="js/home.js"></script>
+<script src="js/ads.js"></script>
 </body>
 </html>

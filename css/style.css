@@ -955,6 +955,56 @@ nav button[aria-current="true"] {
 .powered b { color: var(--gold); font-weight: 600; }
 .credits { font-size: 11px; opacity: .8; }
 
+/* ----------------------------------------------------- support + ads ---- */
+
+.support-line { text-align: center; margin: 22px 0 0; font-size: 14px; }
+.support-line a { color: var(--gold); text-decoration: none; border-bottom: 1px dashed var(--gold-dim); }
+.support-line a:hover { border-bottom-style: solid; }
+.ad-free .support-line a { border-bottom: none; color: var(--ink-dim); cursor: default; }
+[data-support][hidden] { display: none; }
+
+/* Ad boxes collapse until something fills them, and never show for supporters. */
+.ad-slot { margin: 26px auto 0; max-width: 970px; text-align: center; }
+.ad-slot:empty { display: none; }
+.ad-free .ad-slot { display: none !important; }
+
+.support .sp-list { padding-left: 22px; margin: 10px 0 4px; }
+.support .sp-list li { margin: 0 0 16px; padding-left: 4px; }
+.support .sp-list li::marker { color: var(--gold); font-weight: 700; }
+.support .sp-list li > span { display: block; margin-bottom: 8px; }
+.support .sp-list .btn { display: inline-block; margin-top: 0; text-decoration: none; }
+.sp-code-row { display: flex; gap: 10px; align-items: center; flex-wrap: wrap; }
+.sp-code-row code {
+  font: 700 19px/1 ui-monospace, "Cascadia Mono", Consolas, monospace;
+  letter-spacing: .06em;
+  color: var(--gold);
+  background: var(--bg);
+  border: 1px dashed var(--gold-dim);
+  border-radius: 8px;
+  padding: 10px 14px;
+  user-select: all;
+}
+.sp-code-row .btn { margin-top: 0; }
+.sp-status { min-height: 1.6em; margin: 4px 0 0; }
+.sp-status.bad { color: #e09a9a; }
+.sp-status.partial { color: var(--gold); }
+.sp-big { font-size: 20px !important; color: var(--gold) !important; margin: 4px 0; }
+.sp-email { margin-top: 14px; color: var(--ink-dim); font-size: 13.5px; }
+.sp-email summary { cursor: pointer; color: var(--gold-dim); }
+.sp-email-row { display: flex; gap: 8px; }
+.sp-email-row input {
+  flex: 1 1 auto;
+  min-width: 0;
+  background: var(--bg);
+  border: 1px solid var(--line);
+  border-radius: 8px;
+  color: var(--ink);
+  font: inherit;
+  padding: 10px 12px;
+}
+.sp-email-row input:focus { outline: none; border-color: var(--gold-dim); }
+.sp-email-row .btn { margin-top: 0; }
+
 @media (max-width: 760px) {
   .home-head { padding: 22px 0 2px; }
   .mode-icon { width: 60px; height: 60px; }

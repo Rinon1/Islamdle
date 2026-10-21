@@ -9,6 +9,8 @@
 <link rel="stylesheet" href="css/style.css">
 <!-- Must stay first: sets Consent Mode to denied before any tag can fire. -->
 <script src="js/consent.js"></script>
+<!-- Marks supporters ad-free before any ad slot renders. -->
+<script src="js/support.js"></script>
 </head>
 <body>
 <div class="wrap">
@@ -34,12 +36,15 @@
 
   <nav class="othergames" id="othergames" aria-label="Other puzzles today"></nav>
 
+  <div class="ad-slot" data-slot="play-bottom"></div>
+
   <footer>
     <p class="powered">Powered by <b>Dua Companion</b></p>
     <p>
       <a href="index.html">Home</a> ·
       <a href="privacy.html">Privacy policy</a> ·
       <a href="#" id="consent-reopen">Privacy settings</a>
+      <span data-support hidden> · <a href="#">Support Islamdle</a></span>
     </p>
   </footer>
 </div>
@@ -55,5 +60,6 @@
 
 <script src="js/core.js"></script>
 <script src="js/play.js"></script>
+<script src="js/ads.js"></script>
 </body>
 </html>

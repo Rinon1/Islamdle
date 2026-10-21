@@ -1,0 +1,9 @@
+{
+  "name": "islamdle",
+  "private": true,
+  "description": "Islamdle — daily Islamic puzzles. The site is static; this file only exists for the Netlify functions in netlify/functions.",
+  "type": "module",
+  "dependencies": {
+    "@netlify/blobs": "11.1.3"
+  }
+}

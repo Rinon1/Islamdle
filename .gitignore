@@ -8,3 +8,6 @@
 *.bak
 .DS_Store
 Thumbs.db
+
+# npm (only for the Netlify functions)
+node_modules/
