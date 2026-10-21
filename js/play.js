@@ -278,27 +278,43 @@
   /* ------------------------------------------------------- reveal timing -- */
   /* submit() sets FRESH for exactly one draw, so only what just changed
    * animates — earlier rows and clues no longer replay on every re-render.
-   * Cells flip one after another, STEP seconds apart, like LoLdle.          */
+   * Cells flip one after another, at the pace set by pace() below.         */
 
   var FRESH = false;
   var LAST = null;
-  var STEP = 0.32;
-  var FLIP = 0.5;
+
+  // How many things can flip in one reveal for the current mode.
+  function revealCells() {
+    if (MODE === "surah") return GAMES.surah.columns.length + 1;
+    if (MODE === "order-events" || MODE === "scramble") return PUZZLE.placed.length;
+    if (MODE === "five-clues") return PUZZLE.p.clues.length;
+    if (MODE === "missing-piece") return 2;
+    return 1;
+  }
+
+  // Which Surah keeps LoLdle's deliberate pace — the column-by-column reveal
+  // is the point of that mode. Everywhere else the flip is quicker, and the
+  // stagger shrinks with the number of items so the whole reveal stays under
+  // about a second: an 11-word ayah does not take longer than a 4-word one.
+  function pace() {
+    if (MODE === "surah") return { step: 0.32, flip: 0.5 };
+    var n = revealCells();
+    return { step: n > 1 ? Math.min(0.12, 0.7 / (n - 1)) : 0, flip: 0.3 };
+  }
 
   function fx(on, i) {
-    return on
-      ? { c: " flip-in", s: ' style="animation-delay:' + (i * STEP).toFixed(2) + 's"' }
-      : { c: "", s: "" };
+    if (!on) return { c: "", s: "" };
+    var p = pace();
+    return {
+      c: " flip-in",
+      s: ' style="animation-delay:' + (i * p.step).toFixed(2) + "s;animation-duration:" + p.flip + 's"'
+    };
   }
 
   // How long the reveal for the current mode takes, in ms.
   function revealMs() {
-    var cells = 1;
-    if (MODE === "surah") cells = GAMES.surah.columns.length + 1;
-    else if (MODE === "order-events" || MODE === "scramble") cells = PUZZLE.placed.length;
-    else if (MODE === "five-clues") cells = PUZZLE.p.clues.length;
-    else if (MODE === "missing-piece") cells = 2;
-    return Math.round(((cells - 1) * STEP + FLIP) * 1000) + 150;
+    var p = pace();
+    return Math.round(((revealCells() - 1) * p.step + p.flip) * 1000) + 150;
   }
 
   /* ===================================================== the mechanics === */
