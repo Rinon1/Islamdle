@@ -41,7 +41,12 @@
   }
 }
 
-html, body { height: 100%; }
+/* min-height, not height. A fixed 100% body lets content overflow it, and
+   then body's padding-bottom sits at the bottom of that fixed box instead of
+   after the content — so no bottom padding (the footer's clearance from the
+   host badge, the consent banner's reserved space) ever took effect. */
+html { height: 100%; }
+body { min-height: 100%; }
 
 body {
   margin: 0;
