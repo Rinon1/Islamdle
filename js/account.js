@@ -15,8 +15,8 @@
 
   // Supabase → Project Settings → API. The anon key is public by design;
   // row-level security in the database is what protects the data.
-  var SUPABASE_URL = "";
-  var SUPABASE_ANON_KEY = "";
+  var SUPABASE_URL = "https://ymkqdccstwccwaovigcr.supabase.co";
+  var SUPABASE_ANON_KEY = "sb_publishable_hAq6ZcNY9CE075JIvM_tDA_FaoluixU";
 
   var LIB = "https://cdn.jsdelivr.net/npm/@supabase/supabase-js@2.117.2/dist/umd/supabase.js";
   var LIB_SRI = "sha384-Rj26LVGvoeRVR6+mwQmFfcR3QOBEwT+ZmuCWpuiqeTzJpCs0ER4ITAWGb4Hiy3Ok";
