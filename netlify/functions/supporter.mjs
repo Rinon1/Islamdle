@@ -4,6 +4,7 @@
  *   { action: "claim", secret }  the browser's supporter secret (its code is derived here)
  *   { action: "claim", email }   the email the donor used on Buy Me a Coffee
  *   { action: "check", token }   re-check a token, so refunds switch ads back on
+ *   { action: "status" }         when BMC last called the webhook, and whether it was signed right
  *
  * Answers { ok: true, token, total, currency } or { ok: false, reason, ... }.
  */
@@ -47,6 +48,10 @@ export default async function handler(req) {
     const found = await lookup(t.ref);
     if (found && found.sum.ok) return json(200, { ok: true });
     return json(200, refusal(found));
+  }
+
+  if (body.action === "status") {
+    return json(200, { last_delivery: (await readJSON("diag/last")) || null });
   }
 
   if (body.action !== "claim") return json(400, { error: "Unknown action" });

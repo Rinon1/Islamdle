@@ -25,12 +25,23 @@ export default async function handler(req) {
 
   const raw = await req.text();
   const want = createHmac("sha256", hookSecret).update(raw).digest("hex");
-  if (!safeEqual((req.headers.get("x-signature-sha256") || "").toLowerCase(), want)) {
-    return json(401, { error: "Bad signature" });
-  }
+  const signed = safeEqual((req.headers.get("x-signature-sha256") || "").toLowerCase(), want);
 
-  let event;
-  try { event = JSON.parse(raw); } catch (e) { return json(400, { error: "Bad JSON" }); }
+  let event = null;
+  try { event = JSON.parse(raw); } catch (e) { /* reported below */ }
+
+  // Last delivery attempt, for /api/supporter {action:"status"}: shows whether
+  // BMC reaches us at all and whether the secrets match. No supporter data.
+  await writeJSON("diag/last", {
+    at: new Date().toISOString(),
+    type: event && event.type || null,
+    live_mode: event ? event.live_mode : null,
+    signature_ok: signed,
+    signature_sent: req.headers.has("x-signature-sha256")
+  });
+
+  if (!signed) return json(401, { error: "Bad signature" });
+  if (!event) return json(400, { error: "Bad JSON" });
 
   // "Send test event" in the BMC dashboard: prove the wiring works, store nothing.
   if (event.live_mode === false) return json(200, { ok: true, test: true });
