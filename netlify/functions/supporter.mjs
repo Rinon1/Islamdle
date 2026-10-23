@@ -65,9 +65,19 @@ export default async function handler(req) {
   }
 
   if (body.action === "account") {
-    const email = await verifiedEmail(body.access_token);
-    if (email === undefined) return json(503, { error: "Login is not configured" });
-    if (!email) return json(401, { ok: false, reason: "signed_out" });
+    const who = await verifiedEmail(body.access_token);
+    if (who === undefined) return json(503, { error: "Login is not configured" });
+    if (!who) return json(401, { ok: false, reason: "signed_out" });
+    if (!who.email) {
+      // Email not provable: a supporter code from this browser still counts.
+      if (typeof body.secret === "string" && SECRET_RE.test(body.secret)) {
+        const codeRef = "code:" + codeFromSecret(body.secret);
+        const byCode = await lookup(codeRef);
+        if (byCode && byCode.sum.ok) return granted(codeRef, byCode);
+      }
+      return json(200, { ok: false, reason: who.reason });
+    }
+    const email = who.email;
 
     const ref = "email:" + emailKey(email);
     const rec = (await readJSON("email/" + emailKey(email))) || { donations: [] };

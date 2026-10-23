@@ -77,20 +77,41 @@ export function emailKey(email) {
 }
 
 // The email of a signed-in Islamdle account, read from Supabase with the
-// user's own access token. Only Google-confirmed addresses count.
-// Returns null when the token is not valid, undefined when login is not set up.
+// user's own access token, and only when its owner has proven it:
+//  - a Google identity whose email Google marks verified, or
+//  - an email/password account confirmed through its link. Supabase's
+//    "Confirm email" can be switched off, which marks every new account
+//    confirmed on the spot, so that setting is checked too; with it off, a
+//    password account could be registered under a donor's address.
+// Returns { email } when trusted, { reason } when signed in but not provable,
+// null when the token is not valid, undefined when login is not set up.
 export async function verifiedEmail(accessToken) {
   const url = process.env.SUPABASE_URL;
   const anon = process.env.SUPABASE_ANON_KEY;
   if (!url || !anon) return undefined;
   if (typeof accessToken !== "string" || accessToken.length < 20) return null;
+  const base = url.replace(/\/+$/, "");
   try {
-    const r = await fetch(url.replace(/\/+$/, "") + "/auth/v1/user", {
+    const r = await fetch(base + "/auth/v1/user", {
       headers: { apikey: anon, authorization: "Bearer " + accessToken }
     });
     if (!r.ok) return null;
     const user = await r.json();
-    return user && user.email && user.email_confirmed_at ? user.email : null;
+    if (!user || !user.email) return null;
+    const email = String(user.email).toLowerCase();
+
+    const google = (user.identities || []).some(function (id) {
+      const data = id.identity_data || {};
+      return id.provider === "google" && String(data.email || "").toLowerCase() === email &&
+             data.email_verified !== false;
+    });
+    if (google) return { email: user.email };
+
+    if (!user.email_confirmed_at) return { reason: "email_unconfirmed" };
+    const s = await fetch(base + "/auth/v1/settings", { headers: { apikey: anon } });
+    if (!s.ok) return { reason: "email_unconfirmed" };
+    const settings = await s.json();
+    return settings.mailer_autoconfirm === false ? { email: user.email } : { reason: "email_unconfirmed" };
   } catch (e) {
     return null;
   }

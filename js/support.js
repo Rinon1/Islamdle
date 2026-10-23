@@ -283,6 +283,11 @@
       status("That donation was refunded, so ads stay on.", "bad");
       return true;
     }
+    if (r.reason === "email_unconfirmed") {
+      status("We can’t match donations to this account until its email is confirmed. " +
+        "Sign in with Google instead, or use a supporter code.", "bad");
+      return true;
+    }
     if (r.reason === "signed_out") {
       status("Your sign-in has expired. Please sign in again.", "bad");
       return true;
@@ -323,7 +328,7 @@
     if (a && !a.user() && !adFree() && !(opts && opts.code)) {
       a.openSignIn({
         title: "Sign in to remove ads",
-        why: "Sign in, then donate on Buy Me a Coffee with the same email. " +
+        why: "Sign in or create an account, then donate on Buy Me a Coffee with the same email. " +
              "Ads switch off by themselves on every device you sign in on.",
         next: "support",
         codeLink: true

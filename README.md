@@ -350,16 +350,19 @@ downloaded for people who sign in.
    `https://islamdle.netlify.app/**`.
 6. Redeploy Netlify.
 
-The sign-in popup offers **Continue with Google** and a passwordless **email
-link** (it also creates the account). Signed-out visitors who press "Donate to
+The sign-in popup has **Sign in / Create account** tabs (email + password,
+with show/hide and **Forgot password?** → reset email → choose a new password
+back on the site) and **Continue with Google**. Signed-out visitors who press "Donate to
 remove the ads" get this popup first; the supporter code stays behind a small
-"Rather not sign in?" link. Keep **Confirm email** on in Supabase: the supporter
-function only trusts confirmed addresses, which is what stops someone
-registering a donor's email.
+"Rather not sign in?" link. Turn **Confirm email** on in Supabase (Authentication →
+Sign In / Providers → Email). The supporter function only matches donations to
+a Google-verified email or a password account confirmed through its link, and
+it checks that setting itself: with it off, password accounts never unlock
+ads by email (Google accounts and supporter codes still work).
 
 Free-plan limits worth knowing: 50,000 monthly active users, 500 MB database
 (one tiny row per player per day), and a project pauses after a week with no
-activity. **Email links use Supabase's built-in mailer, which sends only 2
-emails per hour.** For real traffic connect your own sender (Resend, Brevo…)
+activity. **Confirmation and reset emails use Supabase's built-in mailer,
+which sends only 2 emails per hour.** For real traffic connect your own sender (Resend, Brevo…)
 under Supabase → Authentication → Emails → SMTP settings. Google sign-in sends
 no emails and has no such limit.
