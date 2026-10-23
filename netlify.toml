@@ -12,6 +12,13 @@
   command = "python3 tools/build_dist.py"
   publish = "dist"
 
+# SUPABASE_ANON_KEY is Supabase's *publishable* key: public by design and
+# written into js/account.js on purpose (row-level security protects the data).
+# Netlify's secret scanner would otherwise fail every build on it. All other
+# variables (BMC_WEBHOOK_SECRET, SUPPORTER_SECRET) are still scanned.
+[build.environment]
+  SECRETS_SCAN_OMIT_KEYS = "SUPABASE_ANON_KEY,SUPABASE_URL"
+
 # dist/_headers carries the cache and security headers; Netlify reads it
 # automatically from the publish directory.
 
