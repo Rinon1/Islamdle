@@ -63,10 +63,8 @@
     if (!acc || !acc.configured()) { bar.hidden = true; return; }
     bar.hidden = false;
     if (!user) {
-      bar.innerHTML = '<button type="button" class="link-btn" id="acc-in">Sign in to keep your streak</button>';
-      $("acc-in").onclick = function () {
-        acc.signIn().catch(function () { $("acc-in").textContent = "Sign-in isn't available right now"; });
-      };
+      bar.innerHTML = '<button type="button" class="acc-signin" id="acc-in">Sign in</button>';
+      $("acc-in").onclick = function () { acc.openSignIn(); };
       return;
     }
     var streak = I.dailyStreak();

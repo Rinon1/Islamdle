@@ -123,16 +123,163 @@
       .then(function () { /* best effort; the next sign-in syncs anyway */ });
   });
 
-  /* ---------------------------------------------------------- public ---- */
+  /* ------------------------------------------------------- sign in ---- */
 
-  function signIn() {
+  // What to open once the visitor comes back signed in (e.g. "support"). Kept
+  // in localStorage because an email link may open in a new tab.
+  var NEXT_KEY = "islamdle.after-signin";
+
+  function rememberNext(next) {
+    try {
+      if (next) w.localStorage.setItem(NEXT_KEY, JSON.stringify({ next: next, at: Date.now() }));
+      else w.localStorage.removeItem(NEXT_KEY);
+    } catch (e) { /* storage blocked */ }
+  }
+
+  function takeNext() {
+    var v = null;
+    try { v = JSON.parse(w.localStorage.getItem(NEXT_KEY)); w.localStorage.removeItem(NEXT_KEY); } catch (e) { /* ignore */ }
+    return v && Date.now() - v.at < 3600 * 1000 ? v.next : null;
+  }
+
+  function here() { return w.location.href.split("#")[0]; }
+
+  function signInGoogle() {
     return start().then(function () {
-      return client.auth.signInWithOAuth({
-        provider: "google",
-        options: { redirectTo: w.location.href.split("#")[0] }
-      });
+      return client.auth.signInWithOAuth({ provider: "google", options: { redirectTo: here() } });
     });
   }
+
+  // Passwordless: Supabase emails a link that signs in, creating the account
+  // the first time. The address only counts once that link is opened, so
+  // nobody can register someone else's email to claim their donation.
+  function signInEmail(email) {
+    return start().then(function () {
+      return client.auth.signInWithOtp({ email: email, options: { emailRedirectTo: here(), shouldCreateUser: true } });
+    }).then(function (res) {
+      if (res && res.error) throw res.error;
+    });
+  }
+
+  var GOOGLE_ICON =
+    '<svg viewBox="0 0 24 24" width="18" height="18" aria-hidden="true">' +
+    '<path fill="#4285F4" d="M23.5 12.3c0-.8-.1-1.6-.2-2.3H12v4.5h6.5c-.3 1.5-1.1 2.7-2.4 3.6v3h3.9c2.3-2.1 3.5-5.2 3.5-8.8z"/>' +
+    '<path fill="#34A853" d="M12 24c3.2 0 6-1.1 7.9-2.9l-3.9-3c-1.1.7-2.4 1.2-4 1.2-3.1 0-5.7-2.1-6.6-4.9h-4v3.1C3.4 21.4 7.4 24 12 24z"/>' +
+    '<path fill="#FBBC05" d="M5.4 14.4c-.2-.7-.4-1.5-.4-2.4s.1-1.6.4-2.4V6.5h-4C.5 8.2 0 10 0 12s.5 3.8 1.4 5.5l4-3.1z"/>' +
+    '<path fill="#EA4335" d="M12 4.8c1.7 0 3.3.6 4.5 1.8l3.4-3.4C17.9 1.2 15.2 0 12 0 7.4 0 3.4 2.6 1.4 6.5l4 3.1c.9-2.8 3.5-4.8 6.6-4.8z"/>' +
+    "</svg>";
+
+  function el(id) { return d.getElementById(id); }
+
+  function injectDialog() {
+    var box = d.createElement("div");
+    box.className = "modal";
+    box.id = "modal-signin";
+    box.hidden = true;
+    box.setAttribute("role", "dialog");
+    box.setAttribute("aria-modal", "true");
+    box.setAttribute("aria-labelledby", "si-title");
+    box.innerHTML =
+      '<div class="box signin">' +
+        '<button class="btn ghost close" type="button" id="si-close">Close</button>' +
+        '<h2 id="si-title">Sign in</h2>' +
+        '<p id="si-why"></p>' +
+        '<div id="si-form">' +
+          '<button class="btn google si-google" type="button" id="si-google">' + GOOGLE_ICON + "Continue with Google</button>" +
+          '<div class="si-or"><span>or</span></div>' +
+          '<form id="si-email-form" class="si-email-row">' +
+            '<input type="email" id="si-email" required autocomplete="email" placeholder="you@example.com" aria-label="Email address">' +
+            '<button class="btn" type="submit" id="si-email-btn">Email me a link</button>' +
+          "</form>" +
+          '<p class="si-note">No password. New here? The link creates your account.</p>' +
+        "</div>" +
+        '<div id="si-sent" hidden>' +
+          '<p class="sp-big">Check your email</p>' +
+          "<p>We sent a sign-in link to <b id=\"si-sent-to\"></b>. Open it <b>on this device</b> and you’ll come straight back here, signed in.</p>" +
+          '<button class="link-btn" type="button" id="si-again">Use a different email</button>' +
+        "</div>" +
+        '<p class="sp-status" id="si-status" role="status"></p>' +
+        '<button class="link-btn si-code" type="button" id="si-code" hidden>Rather not sign in? Use a supporter code</button>' +
+      "</div>";
+    d.body.appendChild(box);
+
+    el("si-close").onclick = closeDialog;
+    box.addEventListener("click", function (e) { if (e.target === box) closeDialog(); });
+    d.addEventListener("keydown", function (e) { if (e.key === "Escape" && !box.hidden) closeDialog(); });
+
+    el("si-google").onclick = function () {
+      status("Opening Google…");
+      signInGoogle().catch(function () { status("Sign-in isn’t available right now. Please try again later.", "bad"); });
+    };
+
+    el("si-email-form").onsubmit = function (e) {
+      e.preventDefault();
+      var email = el("si-email").value.trim();
+      el("si-email-btn").disabled = true;
+      status("Sending…");
+      signInEmail(email).then(function () {
+        status("");
+        el("si-sent-to").textContent = email;
+        el("si-form").hidden = true;
+        el("si-sent").hidden = false;
+      }, function (err) {
+        var msg = err && /rate|limit|seconds/i.test(err.message || "")
+          ? "Too many sign-in emails right now. Please wait a little, or continue with Google."
+          : "Couldn’t send the email. Check the address, or continue with Google.";
+        status(msg, "bad");
+      }).then(function () { el("si-email-btn").disabled = false; });
+    };
+
+    el("si-again").onclick = function () {
+      el("si-sent").hidden = true;
+      el("si-form").hidden = false;
+      el("si-email").focus();
+    };
+
+    el("si-code").onclick = function () {
+      closeDialog();
+      rememberNext(null);
+      if (w.IslamdleSupport) w.IslamdleSupport.open(null, { code: true });
+    };
+  }
+
+  function status(text, kind) {
+    var s = el("si-status");
+    s.textContent = text;
+    s.className = "sp-status" + (kind ? " " + kind : "");
+  }
+
+  // opts: { title, why, next: "support", codeLink: bool }
+  function openDialog(opts) {
+    opts = opts || {};
+    if (!el("modal-signin")) injectDialog();
+    el("si-title").textContent = opts.title || "Sign in";
+    el("si-why").textContent = opts.why ||
+      "Keep your streak on every device. If you’ve donated, ads switch off by themselves.";
+    el("si-code").hidden = !opts.codeLink;
+    el("si-form").hidden = false;
+    el("si-sent").hidden = true;
+    status("");
+    rememberNext(opts.next || null);
+    el("modal-signin").hidden = false;
+    el("si-google").focus();
+    start().catch(function () { /* the buttons report it */ });
+  }
+
+  function closeDialog() {
+    var box = el("modal-signin");
+    if (box) box.hidden = true;
+  }
+
+  // Signed in (maybe in another tab, from the email link): close the dialog
+  // and carry on with what the visitor was doing.
+  listeners.push(function (u) {
+    if (!u) return;
+    closeDialog();
+    if (takeNext() === "support" && w.IslamdleSupport) w.IslamdleSupport.open();
+  });
+
+  /* ---------------------------------------------------------- public ---- */
 
   function signOut() {
     if (!client) return Promise.resolve();
@@ -151,7 +298,7 @@
   w.IslamdleAccount = {
     configured: configured,
     user: user,
-    signIn: signIn,
+    openSignIn: openDialog,
     signOut: signOut,
     accessToken: accessToken,
     // fn(user or null) now and on every sign-in, sign-out and streak sync.

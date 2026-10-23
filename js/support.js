@@ -167,17 +167,7 @@
     var u = signedIn();
 
     if (!a) return intro + codeSteps();
-
-    if (!u) {
-      return intro +
-        '<ol class="sp-list">' +
-          "<li><span>Sign in, so we can recognise your donation.</span>" +
-            '<button class="btn google sp-signin" type="button">' + GOOGLE_ICON + "Sign in with Google</button></li>" +
-          "<li><span>Donate on Buy Me a Coffee <b>using the same email</b>.</span>" + OPEN_BMC + "</li>" +
-          "<li><span>Come back here. Ads switch off by themselves, on every device you sign in on.</span>" + CHECK + "</li>" +
-        "</ol>" +
-        '<details class="sp-alt"><summary>Rather not sign in? Use a supporter code</summary>' + codeSteps() + "</details>";
-    }
+    if (!u) return intro + codeSteps();
 
     return intro +
       '<p class="sp-who">Signed in as <b>' + esc(u.email) + "</b></p>" +
@@ -189,14 +179,6 @@
         "<p>Paste this code into your Buy Me a Coffee message, then press the button above.</p>" + CODE_ROW +
       "</details>";
   }
-
-  var GOOGLE_ICON =
-    '<svg viewBox="0 0 24 24" width="18" height="18" aria-hidden="true">' +
-    '<path fill="#4285F4" d="M23.5 12.3c0-.8-.1-1.6-.2-2.3H12v4.5h6.5c-.3 1.5-1.1 2.7-2.4 3.6v3h3.9c2.3-2.1 3.5-5.2 3.5-8.8z"/>' +
-    '<path fill="#34A853" d="M12 24c3.2 0 6-1.1 7.9-2.9l-3.9-3c-1.1.7-2.4 1.2-4 1.2-3.1 0-5.7-2.1-6.6-4.9h-4v3.1C3.4 21.4 7.4 24 12 24z"/>' +
-    '<path fill="#FBBC05" d="M5.4 14.4c-.2-.7-.4-1.5-.4-2.4s.1-1.6.4-2.4V6.5h-4C.5 8.2 0 10 0 12s.5 3.8 1.4 5.5l4-3.1z"/>' +
-    '<path fill="#EA4335" d="M12 4.8c1.7 0 3.3.6 4.5 1.8l3.4-3.4C17.9 1.2 15.2 0 12 0 7.4 0 3.4 2.6 1.4 6.5l4 3.1c.9-2.8 3.5-4.8 6.6-4.8z"/>' +
-    "</svg>";
 
   function inject() {
     var box = d.createElement("div");
@@ -252,12 +234,6 @@
       });
     });
     all("#sp-steps .sp-check").forEach(function (b) { b.onclick = function () { poll(12); }; });
-    all("#sp-steps .sp-signin").forEach(function (b) {
-      b.onclick = function () {
-        status("Opening Google…");
-        account().signIn().catch(function () { status("Sign-in isn’t available right now. Please try again later.", "bad"); });
-      };
-    });
     all("#sp-steps .sp-copy").forEach(function (b) {
       b.onclick = function () {
         var codeEl = b.parentNode.querySelector(".sp-code");
@@ -339,8 +315,21 @@
     })();
   }
 
-  function open(e) {
-    if (e) e.preventDefault();
+  // Signed out: sign in first (Google or email), then this window opens by
+  // itself. opts.code skips that for donors who prefer a supporter code.
+  function open(e, opts) {
+    if (e && e.preventDefault) e.preventDefault();
+    var a = account();
+    if (a && !a.user() && !adFree() && !(opts && opts.code)) {
+      a.openSignIn({
+        title: "Sign in to remove ads",
+        why: "Sign in, then donate on Buy Me a Coffee with the same email. " +
+             "Ads switch off by themselves on every device you sign in on.",
+        next: "support",
+        codeLink: true
+      });
+      return;
+    }
     if (!el("modal-support")) inject();
     status("");
     render();
@@ -365,7 +354,7 @@
     all("[data-support-cta]").forEach(function (a) {
       a.textContent = adFree()
         ? "Jazāk Allāhu khayran — ads are off"
-        : "Enjoying Islamdle? Support it and remove the ads";
+        : "Donate to remove the ads";
     });
   }
 
