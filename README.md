@@ -300,8 +300,11 @@ once Buy Me a Coffee has reported a real donation:
    donations, and returns a signed ad-free token when the total is at least 5
    EUR/USD. Only the secret can claim, so a code seen on the public BMC page
    is useless to anyone else.
-4. Lost the code, or a second device: the donor types their BMC email instead
-   (up to 5 devices per email).
+4. Signed in with Google (below): the account's Google-verified email is
+   matched with the BMC donor email, so every device the donor signs in on is
+   ad-free with nothing to type. A code used while signed in is linked to the
+   account too. There is deliberately no "type any email" option — anyone
+   could type a donor's address.
 5. Tokens are re-checked weekly, so a refunded donation turns ads back on.
 
 **Setup (one time):**
@@ -319,3 +322,35 @@ once Buy Me a Coffee has reported a real donation:
    acknowledged but not stored).
 
 Optional: `SUPPORT_CURRENCIES` (default `EUR,USD`).
+
+### Optional sign-in with Google (Supabase)
+
+Signing in gives two things: the day streak follows the player between
+devices, and donors become ad-free automatically (see above). Everything stays
+hidden until `SUPABASE_URL` and `SUPABASE_ANON_KEY` are filled in at the top of
+`js/account.js`. The Supabase library is pinned with an integrity hash and only
+downloaded for people who sign in.
+
+**Setup (one time):**
+
+1. supabase.com → New project (free plan). Then **SQL Editor → New query**,
+   paste `supabase/setup.sql`, Run.
+2. **Project Settings → API**: copy the Project URL and the `anon` public key
+   into `js/account.js`, and add the same two values as Netlify environment
+   variables `SUPABASE_URL` and `SUPABASE_ANON_KEY` (the supporter function uses
+   them to confirm who is signed in).
+3. Google Cloud Console → APIs & Services → **OAuth consent screen** (External,
+   app name Islamdle), then **Credentials → Create credentials → OAuth client
+   ID** → Web application. Authorized redirect URI:
+   `https://<your-project-ref>.supabase.co/auth/v1/callback`.
+4. Supabase → **Authentication → Sign In / Providers → Google**: enable, paste
+   the Google client ID and secret.
+5. Supabase → **Authentication → URL Configuration**: Site URL
+   `https://islamdle.netlify.app`, redirect URLs
+   `https://islamdle.netlify.app/**`.
+6. Redeploy Netlify.
+
+Free-plan limits worth knowing: 50,000 monthly active users, 500 MB database
+(one tiny row per player per day), and a project pauses after a week with no
+activity. Google sign-in sends no emails, so Supabase's 2-emails-per-hour limit
+on its built-in mailer doesn't matter.

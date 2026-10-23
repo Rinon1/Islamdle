@@ -989,21 +989,49 @@ nav button[aria-current="true"] {
 .sp-status.bad { color: #e09a9a; }
 .sp-status.partial { color: var(--gold); }
 .sp-big { font-size: 20px !important; color: var(--gold) !important; margin: 4px 0; }
-.sp-email { margin-top: 14px; color: var(--ink-dim); font-size: 13.5px; }
-.sp-email summary { cursor: pointer; color: var(--gold-dim); }
-.sp-email-row { display: flex; gap: 8px; }
-.sp-email-row input {
-  flex: 1 1 auto;
-  min-width: 0;
-  background: var(--bg);
-  border: 1px solid var(--line);
-  border-radius: 8px;
-  color: var(--ink);
-  font: inherit;
-  padding: 10px 12px;
+.sp-alt { margin-top: 6px; color: var(--ink-dim); font-size: 13.5px; }
+.sp-alt summary { cursor: pointer; color: var(--gold-dim); margin-bottom: 8px; }
+.sp-who { margin: 0 0 4px; }
+.sp-who b { color: var(--ink); font-weight: 600; word-break: break-all; }
+
+/* Google's button rules: white, their four-colour mark, "Sign in with Google". */
+.btn.google,
+.support .sp-list .btn.google {
+  display: inline-flex;
+  align-items: center;
+  gap: 10px;
+  background: #fff;
+  color: #1f1f1f;
+  border: 1px solid #dadce0;
+  font-weight: 600;
 }
-.sp-email-row input:focus { outline: none; border-color: var(--gold-dim); }
-.sp-email-row .btn { margin-top: 0; }
+.btn.google:hover { background: #f1f3f4; }
+
+/* ----------------------------------------------------------- account ---- */
+
+.account-bar {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  gap: 8px;
+  padding-top: 14px;
+  font-size: 13px;
+  color: var(--ink-dim);
+}
+.account-bar[hidden] { display: none; }
+.acc-streak b { color: var(--gold); font-size: 15px; }
+.acc-sep { opacity: .5; }
+.link-btn {
+  background: none;
+  border: none;
+  padding: 4px 0;
+  font: inherit;
+  color: var(--gold-dim);
+  cursor: pointer;
+  text-decoration: underline;
+  text-underline-offset: 3px;
+}
+.link-btn:hover { color: var(--gold); }
 
 @media (max-width: 760px) {
   .home-head { padding: 22px 0 2px; }

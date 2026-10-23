@@ -19,7 +19,7 @@
   </header>
 
   <main class="panel doc">
-    <p class="updated">Last updated: 21 October 2026</p>
+    <p class="updated">Last updated: 23 October 2026</p>
 
     <p>Islamdle is a daily puzzle game. There is no account, no sign-up and no
     login. This page explains exactly what is stored and what is not. It is
@@ -28,10 +28,10 @@
     <h2>The short version</h2>
     <ul>
       <li>The game keeps your progress <strong>in your own browser</strong>. It is
-          never uploaded.</li>
-      <li>There is <strong>nothing to sign up for</strong>. The only time an email
-          is involved is if you donate and choose to use it to remove ads — and
-          even then we keep only a scrambled fingerprint of it, never the address.</li>
+          never uploaded unless you choose to sign in.</li>
+      <li>Signing in is <strong>optional</strong>. If you sign in with Google, we
+          keep your account email and the days you played, so your streak follows
+          you between devices. Nothing else.</li>
       <li>Analytics and advertising are <strong>off until you turn them on</strong>.</li>
       <li>You can change your mind at any time from
           <a href="index.html#" id="consent-reopen">Privacy settings</a> in the footer.</li>
@@ -40,11 +40,14 @@
     <h2>What is stored on your device</h2>
     <p>Islamdle uses your browser's local storage — not cookies — for the game
     itself. This data stays on your device, is readable only by this site, and is
-    never transmitted to us or anyone else:</p>
+    never transmitted to us or anyone else (except the days you played, if you
+    sign in):</p>
     <ul>
       <li><code>islamdle.v2</code> — today's puzzles, the guesses you have made,
           whether you solved each one, how long it took, and your streak.</li>
       <li><code>islamdle.level</code> — the difficulty you last picked.</li>
+      <li><code>sb-…-auth-token</code> — only if you sign in: your sign-in
+          session, so you stay signed in.</li>
       <li><code>islamdle.support.v1</code> — only if you open “Support Islamdle”: a
           random secret that produces your supporter code, and, once a donation is
           confirmed, the token that keeps ads off on this device.</li>
@@ -56,9 +59,9 @@
     your streak. We cannot restore it, because we never had a copy.</p>
 
     <h2>What is not collected</h2>
-    <p>No name, phone number, postal address, payment details, account, contact
-    list, location or device identifier is collected by this site, and no email
-    address is stored (see “Supporting Islamdle” below). Nothing you type into the guess box is sent anywhere — guesses are
+    <p>No phone number, postal address, payment details, contact list, location
+    or device identifier is collected by this site. Names and email addresses are
+    only stored if you choose to sign in (see “Signing in” below). Nothing you type into the guess box is sent anywhere — guesses are
     checked entirely inside your browser against a data file the site downloads.</p>
 
     <h2>Analytics</h2>
@@ -82,6 +85,19 @@
     Advertising partners in use will be named here, with links to their own
     privacy policies, before ads are switched on.</p>
 
+    <h2>Signing in (optional)</h2>
+    <p>You can play without an account. If you choose “Sign in with Google”,
+    Google confirms who you are and shares your name and email address with
+    Islamdle. They are stored by our sign-in provider,
+    <a href="https://supabase.com/privacy" target="_blank" rel="noopener">Supabase</a>,
+    together with the puzzle numbers of the days you solved something — that is
+    what lets your streak follow you to another device. Your guesses, times and
+    answers are not uploaded.</p>
+    <p>Your email is also used for one more thing: if you donated on Buy Me a
+    Coffee with the same address, ads are switched off on every device you sign
+    in on. Signing out stops all of this on that device. To delete your account
+    and streak history, contact us from the email you signed in with.</p>
+
     <h2>Supporting Islamdle</h2>
     <p>Donations are handled entirely by
     <a href="https://buymeacoffee.com/privacy-policy" target="_blank" rel="noopener">Buy Me a Coffee</a>
@@ -91,9 +107,9 @@
     code found in your message, and a one-way keyed hash of the email — enough to
     recognise the same email again, but not to read it back. That is all that is
     kept, and it is used only to decide whether ads should be removed.</p>
-    <p>If you use the “another device” option, the email you type is sent to
-    Islamdle once, hashed the same way to look up your donation, and discarded. To
-    have your supporter record deleted, contact us with the email or code you used.</p>
+    <p>If you are signed in, your account email is hashed the same way to find
+    your donation. To have your supporter record deleted, contact us with the
+    email or code you used.</p>
 
     <h2>Hosting</h2>
     <p>The site is served as static files. Like any web host, the hosting provider

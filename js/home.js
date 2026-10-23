@@ -55,6 +55,29 @@
     });
   }
 
+  // Signed out: a quiet "Sign in". Signed in: the streak, which is the only
+  // reason to sign in besides ad-free.
+  function paintAccount(user) {
+    var bar = $("account-bar");
+    var acc = window.IslamdleAccount;
+    if (!acc || !acc.configured()) { bar.hidden = true; return; }
+    bar.hidden = false;
+    if (!user) {
+      bar.innerHTML = '<button type="button" class="link-btn" id="acc-in">Sign in to keep your streak</button>';
+      $("acc-in").onclick = function () {
+        acc.signIn().catch(function () { $("acc-in").textContent = "Sign-in isn't available right now"; });
+      };
+      return;
+    }
+    var streak = I.dailyStreak();
+    bar.innerHTML =
+      '<span class="acc-streak" title="Best: ' + I.bestStreak() + ' days">' +
+        '<b>' + streak + '</b> day streak</span>' +
+      '<span class="acc-sep">·</span>' +
+      '<button type="button" class="link-btn" id="acc-out" title="' + esc(user.email) + '">Sign out</button>';
+    $("acc-out").onclick = function () { acc.signOut(); };
+  }
+
   function tick() {
     $("t-reset").textContent = I.formatCountdown(I.msToReset());
   }
@@ -65,6 +88,7 @@
     paintModes();
     tick();
     setInterval(tick, 1000);
+    if (window.IslamdleAccount) window.IslamdleAccount.onChange(paintAccount);
   }
 
   if (document.readyState === "loading") {

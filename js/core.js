@@ -156,6 +156,13 @@ window.Islamdle = (function () {
     if (!SAVE.runs) SAVE.runs = {};      // progress, keyed "mode:level"
     if (!SAVE.stats) SAVE.stats = {};    // per mode:level
     if (!SAVE.daily) SAVE.daily = { lastN: 0, streak: 0, best: 0 };
+    // Every day something was solved, so streaks can be merged across devices
+    // when signed in. Older saves only had the streak; rebuild what it implies.
+    if (!SAVE.days) {
+      var d = SAVE.daily;
+      SAVE.days = [];
+      for (var i = Math.max(1, d.lastN - Math.min(d.streak, 400) + 1); d.streak && i <= d.lastN; i++) SAVE.days.push(i);
+    }
     return SAVE;
   }
 
@@ -275,6 +282,8 @@ window.Islamdle = (function () {
 
   // One overall streak for "played something today", which is the number
   // people actually care about.
+  var dayListeners = [];
+
   function bumpDailyStreak() {
     var d = SAVE.daily;
     var n = puzzleNumber();
@@ -282,6 +291,31 @@ window.Islamdle = (function () {
     d.streak = d.lastN === n - 1 ? d.streak + 1 : 1;
     d.best = Math.max(d.best, d.streak);
     d.lastN = n;
+    if (SAVE.days.indexOf(n) === -1) SAVE.days.push(n);
+    dayListeners.forEach(function (fn) { fn(n); });
+  }
+
+  // Merge days played on other devices (from the account) and recount the
+  // streak from the full list.
+  function mergeDays(list) {
+    var seen = {};
+    SAVE.days.concat(list || []).forEach(function (n) { if (n > 0) seen[n] = true; });
+    var days = Object.keys(seen).map(Number).sort(function (a, b) { return a - b; });
+    SAVE.days = days.slice(-1000);
+
+    var best = 0, run = 0, prev = null;
+    days.forEach(function (n) {
+      run = prev === n - 1 ? run + 1 : 1;
+      best = Math.max(best, run);
+      prev = n;
+    });
+    var d = SAVE.daily;
+    if (days.length) {
+      d.lastN = days[days.length - 1];
+      d.streak = run;
+    }
+    d.best = Math.max(d.best, best);
+    persist();
   }
 
   function dailyStreak() {
@@ -328,6 +362,10 @@ window.Islamdle = (function () {
     elapsed: elapsed,
     summary: summary,
     dailyStreak: dailyStreak,
+    bestStreak: function () { return SAVE.daily.best; },
+    playedDays: function () { return SAVE.days.slice(); },
+    mergeDays: mergeDays,
+    onDayPlayed: function (fn) { dayListeners.push(fn); },
     solvedToday: solvedToday,
     doneToday: doneToday,
     persist: persist,
