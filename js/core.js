@@ -20,7 +20,7 @@ window.Islamdle = (function () {
     "five-clues": {
       label: "Five Clues",
       tag: "Name it before the clues run out",
-      icon: '<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><circle cx="11" cy="11" r="6.5"/><path d="M16 16l4.5 4.5"/><path d="M9 9.2a2 2 0 1 1 2.6 1.9c-.5.2-.8.6-.8 1.1v.5"/><path d="M11.1 14.6h.02"/></svg>',
+      icon: '<svg viewBox="0 0 64 64" aria-hidden="true"><defs><linearGradient id="gi-five-clues" gradientUnits="userSpaceOnUse" x1="0" y1="6" x2="0" y2="60"><stop offset="0" stop-color="#fbe3a4"/><stop offset=".5" stop-color="#e2b965"/><stop offset="1" stop-color="#a8772e"/></linearGradient></defs><g fill="url(#gi-five-clues)" stroke="url(#gi-five-clues)"><path stroke="none" fill-rule="evenodd" d="M27 7a20 20 0 1 1 0 40a20 20 0 1 1 0-40Zm0 7.5a12.5 12.5 0 1 0 0 25a12.5 12.5 0 1 0 0-25Z"/><path fill="none" stroke-width="10" stroke-linecap="round" d="M42.5 42.5 55 55"/><g stroke="none"><circle cx="27" cy="27" r="2.9"/><circle cx="21.2" cy="21.2" r="2.9"/><circle cx="32.8" cy="21.2" r="2.9"/><circle cx="21.2" cy="32.8" r="2.9"/><circle cx="32.8" cy="32.8" r="2.9"/></g></g></svg>',
       blurb: "Clues appear one at a time. Name the thing before you run out — " +
              "the earlier you get it, the better your score.",
       time: "1 min",
@@ -33,7 +33,7 @@ window.Islamdle = (function () {
     "spot-mistake": {
       label: "Spot the Mistake",
       tag: "One of three statements is false",
-      icon: '<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M12 3.8 21 19.2H3L12 3.8Z"/><path d="M12 9.6v4"/><path d="M12 16.3h.02"/></svg>',
+      icon: '<svg viewBox="0 0 64 64" aria-hidden="true"><defs><linearGradient id="gi-spot-mistake" gradientUnits="userSpaceOnUse" x1="0" y1="6" x2="0" y2="60"><stop offset="0" stop-color="#fbe3a4"/><stop offset=".5" stop-color="#e2b965"/><stop offset="1" stop-color="#a8772e"/></linearGradient></defs><g fill="url(#gi-spot-mistake)" stroke="url(#gi-spot-mistake)"><g stroke="none"><rect x="6" y="9" width="52" height="11" rx="5.5"/><rect x="6" y="26.5" width="28" height="11" rx="5.5" opacity=".5"/><rect x="6" y="44" width="52" height="11" rx="5.5"/></g><path fill="none" stroke-width="6" stroke-linecap="round" d="M42 25l13 13M55 25 42 38"/></g></svg>',
       blurb: "Two statements are correct and one is not. Find the one that is wrong.",
       time: "1 min",
       levels: {
@@ -45,7 +45,7 @@ window.Islamdle = (function () {
     "order-events": {
       label: "Order the Events",
       tag: "Put the Seerah back in order",
-      icon: '<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M4 7h10M4 12h7M4 17h12"/><path d="M18.5 8.5V16m0 0 2.2-2.2M18.5 16l-2.2-2.2"/></svg>',
+      icon: '<svg viewBox="0 0 64 64" aria-hidden="true"><defs><linearGradient id="gi-order-events" gradientUnits="userSpaceOnUse" x1="0" y1="6" x2="0" y2="60"><stop offset="0" stop-color="#fbe3a4"/><stop offset=".5" stop-color="#e2b965"/><stop offset="1" stop-color="#a8772e"/></linearGradient></defs><g fill="url(#gi-order-events)" stroke="url(#gi-order-events)"><g stroke="none"><path d="M12 33a7.5 7.5 0 1 1 0 15a4.2 7.5 0 1 0 0-15Z"/><path d="M30 25.5a10 10 0 1 1 0 20Z"/><path d="M30 25.5a10 10 0 1 0 0 20" opacity=".35"/><circle cx="50" cy="26" r="11.5"/><path d="M50 49l9 6-9 6Z"/></g><path fill="none" stroke-width="4.5" stroke-linecap="round" d="M6 55h44"/></g></svg>',
       blurb: "Events from the Seerah and early Islamic history, shuffled. " +
              "Put them back into the order they happened.",
       time: "2 min",
@@ -58,7 +58,7 @@ window.Islamdle = (function () {
     "missing-piece": {
       label: "The Missing Piece",
       tag: "Complete a well-known set",
-      icon: '<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M4 4h7v4.2a1.8 1.8 0 1 0 0 3.6V16H4V4Z"/><path d="M13 4h7v7h-4.2a1.8 1.8 0 1 1-3.6 0V4Z" stroke-dasharray="2.4 2.4"/></svg>',
+      icon: '<svg viewBox="0 0 64 64" aria-hidden="true"><defs><linearGradient id="gi-missing-piece" gradientUnits="userSpaceOnUse" x1="0" y1="6" x2="0" y2="60"><stop offset="0" stop-color="#fbe3a4"/><stop offset=".5" stop-color="#e2b965"/><stop offset="1" stop-color="#a8772e"/></linearGradient></defs><g fill="url(#gi-missing-piece)" stroke="url(#gi-missing-piece)"><path stroke="none" d="M32 8 39 15 49 25 56 32 49 39V49H39L32 56 25 49H15V39L8 32 15 25V15H25Z"/><path fill="none" stroke-width="1.8" stroke-dasharray="2.6 2.2" stroke-linejoin="round" opacity=".75" d="M39.5 15.5H48.5V24.5Z"/><path stroke="none" d="M46 8h11v11Z"/></g></svg>',
       blurb: "A well-known set is shown with one item taken out. Name what is missing.",
       time: "1 min",
       levels: {
@@ -70,7 +70,7 @@ window.Islamdle = (function () {
     "scramble": {
       label: "Ayah Scramble",
       tag: "Rebuild an ayah word by word",
-      icon: '<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><rect x="3" y="5" width="7" height="4.2" rx="1.2"/><rect x="13" y="5" width="8" height="4.2" rx="1.2"/><rect x="3" y="14.8" width="9" height="4.2" rx="1.2"/><path d="M15 16.9h6m0 0-2-2m2 2-2 2"/></svg>',
+      icon: '<svg viewBox="0 0 64 64" aria-hidden="true"><defs><linearGradient id="gi-scramble" gradientUnits="userSpaceOnUse" x1="0" y1="6" x2="0" y2="60"><stop offset="0" stop-color="#fbe3a4"/><stop offset=".5" stop-color="#e2b965"/><stop offset="1" stop-color="#a8772e"/></linearGradient></defs><g fill="url(#gi-scramble)" stroke="url(#gi-scramble)"><g stroke="none"><rect x="3" y="34" width="16" height="12" rx="3"/><rect x="22" y="10" width="14" height="12" rx="3"/><rect x="22" y="44" width="14" height="4" rx="2"/><path d="M24 28h10l-5 6Z"/><path fill-rule="evenodd" d="M51 29a11 11 0 1 1 0 22a11 11 0 1 1 0-22Zm0 4.5a6.5 6.5 0 1 0 0 13a6.5 6.5 0 1 0 0-13Z"/><circle cx="51" cy="40" r="2.6"/></g></g></svg>',
       blurb: "The words of a short, familiar ayah are shuffled. Put them back " +
              "in the right order.",
       time: "2 min",
@@ -83,7 +83,7 @@ window.Islamdle = (function () {
     "surah": {
       label: "Which Surah",
       tag: "Close in on the surah of the day",
-      icon: '<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M4 5.5A1.5 1.5 0 0 1 5.5 4H11v16H5.5A1.5 1.5 0 0 1 4 18.5v-13Z"/><path d="M20 5.5A1.5 1.5 0 0 0 18.5 4H13v16h5.5a1.5 1.5 0 0 0 1.5-1.5v-13Z"/><path d="M11 4v16"/></svg>',
+      icon: '<svg viewBox="0 0 64 64" aria-hidden="true"><defs><linearGradient id="gi-surah" gradientUnits="userSpaceOnUse" x1="0" y1="6" x2="0" y2="60"><stop offset="0" stop-color="#fbe3a4"/><stop offset=".5" stop-color="#e2b965"/><stop offset="1" stop-color="#a8772e"/></linearGradient></defs><g fill="url(#gi-surah)" stroke="url(#gi-surah)"><g stroke="none"><path d="M6 15 29.5 21v19L6 34Z"/><path d="M58 15 34.5 21v19L58 34Z"/></g><path fill="none" stroke-width="6" stroke-linecap="round" d="M15 59 46 41M49 59 18 41"/></g></svg>',
       blurb: "Guess the surah. Each guess compares revelation place, length, " +
              "juz and verse count against the answer.",
       time: "2 min",
