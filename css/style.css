@@ -917,6 +917,8 @@ nav button[aria-current="true"] {
   height: 38px;
   filter: drop-shadow(0 2px 1px #00000099);
 }
+/* Corner-to-corner drawings (the rising moons) fill the round face better. */
+.mode-icon svg.icon-big { width: 47px; height: 47px; }
 .mode-body {
   flex: 1;
   min-width: 0;
@@ -1232,6 +1234,7 @@ nav button[aria-current="true"] {
   .home-head { padding: 22px 0 2px; }
   .mode-icon { width: 60px; height: 60px; }
   .mode-icon svg { width: 33px; height: 33px; }
+  .mode-icon svg.icon-big { width: 41px; height: 41px; }
   .mode-body b { font-size: 18px; }
 }
 
