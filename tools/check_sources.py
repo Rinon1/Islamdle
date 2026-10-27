@@ -71,7 +71,7 @@ def check_quran(ref, keyword):
         return "no such verse %s" % missing[0]
     if keyword:
         text = " ".join(ENGLISH[k] + " " + ARABIC.get(k, "") for k in keys)
-        if keyword.lower() not in text.lower():
+        if fold(keyword) not in fold(text):
             return "keyword %r not in Quran %s: %s" % (keyword, ref, ENGLISH[keys[0]][:140])
     return None
 
@@ -94,6 +94,11 @@ def fetch(slug, num):
     return text
 
 
+def fold(text):
+    """Lowercase and drop apostrophe styles, so Ja'far matches Ja`far."""
+    return "".join(ch for ch in text.lower() if ch not in "'`‘’ʿʾ")
+
+
 def check_hadith(book, num, keyword):
     slug = HADITH[book]
     text = fetch(slug, num)
@@ -106,7 +111,7 @@ def check_hadith(book, num, keyword):
     end = text.find("Reference")
     labels = [m.start() for m in re.finditer(LABEL, text[:end] if end > 0 else text)]
     body = text[labels[-1]:end] if labels and end > 0 else text
-    if keyword and keyword.lower() not in body.lower():
+    if keyword and fold(keyword) not in fold(body):
         return "keyword %r not in %s %s" % (keyword, book, num)
     if book not in SAHIHAYN:
         g = re.search(r"Grade\s*:\s*([^()]{2,40})\(", text)

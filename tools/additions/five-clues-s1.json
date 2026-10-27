@@ -1,0 +1,2423 @@
+{
+ "easy": [
+  {
+   "answer": "Surah Ali 'Imran",
+   "options": [
+    "Surah An-Nisa",
+    "Surah At-Tawbah",
+    "Surah Al-Ma'idah",
+    "Surah Ali 'Imran"
+   ],
+   "clues": [
+    "It was revealed in Madinah.",
+    "It begins in juz 3.",
+    "It has 200 ayat.",
+    "It comes right after Surah Al-Baqarah in the mushaf.",
+    "Its name means “Family of Imran”."
+   ],
+   "explain": "Surah Ali 'Imran is surah 3 of the mushaf, with 200 ayat, beginning in juz 3. It is a Madani surah.",
+   "sources": [
+    [
+     "Quran.com data",
+     null
+    ],
+    [
+     "Quran 3:1",
+     null
+    ]
+   ]
+  },
+  {
+   "answer": "Surah An-Nisa",
+   "options": [
+    "Surah An-Nisa",
+    "Surah Ali 'Imran",
+    "Surah At-Tawbah",
+    "Surah Al-Ma'idah"
+   ],
+   "clues": [
+    "It was revealed in Madinah.",
+    "It begins in juz 4.",
+    "It has 176 ayat.",
+    "It comes right after Surah Ali 'Imran in the mushaf.",
+    "Its name means “The Women”."
+   ],
+   "explain": "Surah An-Nisa is surah 4 of the mushaf, with 176 ayat, beginning in juz 4. It is a Madani surah.",
+   "sources": [
+    [
+     "Quran.com data",
+     null
+    ],
+    [
+     "Quran 4:1",
+     null
+    ]
+   ]
+  },
+  {
+   "answer": "Surah Yusuf",
+   "options": [
+    "Surah Yusuf",
+    "Surah Al-Isra",
+    "Surah Yunus",
+    "Surah Al-Kahf"
+   ],
+   "clues": [
+    "It was revealed in Makkah.",
+    "It begins in juz 12.",
+    "It has 111 ayat.",
+    "It comes right after Surah Hud in the mushaf.",
+    "Its name means “Joseph”."
+   ],
+   "explain": "Surah Yusuf is surah 12 of the mushaf, with 111 ayat, beginning in juz 12. It is a Makki surah.",
+   "sources": [
+    [
+     "Quran.com data",
+     null
+    ],
+    [
+     "Quran 12:1",
+     null
+    ]
+   ]
+  },
+  {
+   "answer": "Surah Maryam",
+   "options": [
+    "Surah Al-Hijr",
+    "Surah An-Naml",
+    "Surah Al-Kahf",
+    "Surah Maryam"
+   ],
+   "clues": [
+    "It was revealed in Makkah.",
+    "It begins in juz 16.",
+    "It has 98 ayat.",
+    "It comes right after Surah Al-Kahf in the mushaf.",
+    "Its name means “Mary”."
+   ],
+   "explain": "Surah Maryam is surah 19 of the mushaf, with 98 ayat, beginning in juz 16. It is a Makki surah.",
+   "sources": [
+    [
+     "Quran.com data",
+     null
+    ],
+    [
+     "Quran 19:1",
+     null
+    ]
+   ]
+  },
+  {
+   "answer": "Surah Taha",
+   "options": [
+    "Surah Taha",
+    "Surah An-Nahl",
+    "Surah Hud",
+    "Surah Al-Mu'minun"
+   ],
+   "clues": [
+    "It was revealed in Makkah.",
+    "It begins in juz 16.",
+    "It has 135 ayat.",
+    "It comes right after Surah Maryam in the mushaf.",
+    "It is named after the letters it opens with."
+   ],
+   "explain": "Surah Taha is surah 20 of the mushaf, with 135 ayat, beginning in juz 16. It is a Makki surah.",
+   "sources": [
+    [
+     "Quran.com data",
+     null
+    ],
+    [
+     "Quran 20:1",
+     null
+    ]
+   ]
+  },
+  {
+   "answer": "Surah An-Nazi'at",
+   "options": [
+    "Surah 'Abasa",
+    "Surah Al-Mursalat",
+    "Surah An-Naba",
+    "Surah An-Nazi'at"
+   ],
+   "clues": [
+    "It was revealed in Makkah.",
+    "It begins in juz 30.",
+    "It has 46 ayat.",
+    "It comes right after Surah An-Naba in the mushaf.",
+    "Its name means “Those who drag forth”."
+   ],
+   "explain": "Surah An-Nazi'at is surah 79 of the mushaf, with 46 ayat, beginning in juz 30. It is a Makki surah.",
+   "sources": [
+    [
+     "Quran.com data",
+     null
+    ],
+    [
+     "Quran 79:1",
+     null
+    ]
+   ]
+  },
+  {
+   "answer": "Surah 'Abasa",
+   "options": [
+    "Surah 'Abasa",
+    "Surah An-Naba",
+    "Surah An-Nazi'at",
+    "Surah Al-Qiyamah"
+   ],
+   "clues": [
+    "It was revealed in Makkah.",
+    "It begins in juz 30.",
+    "It has 42 ayat.",
+    "It comes right after Surah An-Nazi'at in the mushaf.",
+    "Its name means “He Frowned”."
+   ],
+   "explain": "Surah 'Abasa is surah 80 of the mushaf, with 42 ayat, beginning in juz 30. It is a Makki surah.",
+   "sources": [
+    [
+     "Quran.com data",
+     null
+    ],
+    [
+     "Quran 80:1",
+     null
+    ]
+   ]
+  },
+  {
+   "answer": "Surah At-Takwir",
+   "options": [
+    "Surah Al-Inshiqaq",
+    "Surah At-Takwir",
+    "Surah Al-Fajr",
+    "Surah Al-Jinn"
+   ],
+   "clues": [
+    "It was revealed in Makkah.",
+    "It begins in juz 30.",
+    "It has 29 ayat.",
+    "It comes right after Surah 'Abasa in the mushaf.",
+    "Its name means “The Overthrowing”."
+   ],
+   "explain": "Surah At-Takwir is surah 81 of the mushaf, with 29 ayat, beginning in juz 30. It is a Makki surah.",
+   "sources": [
+    [
+     "Quran.com data",
+     null
+    ],
+    [
+     "Quran 81:1",
+     null
+    ]
+   ]
+  },
+  {
+   "answer": "Surah Al-Infitar",
+   "options": [
+    "Surah Al-A'la",
+    "Surah At-Tariq",
+    "Surah Al-Infitar",
+    "Surah Al-Buruj"
+   ],
+   "clues": [
+    "It was revealed in Makkah.",
+    "It begins in juz 30.",
+    "It has 19 ayat.",
+    "It comes right after Surah At-Takwir in the mushaf.",
+    "Its name means “The Cleaving”."
+   ],
+   "explain": "Surah Al-Infitar is surah 82 of the mushaf, with 19 ayat, beginning in juz 30. It is a Makki surah.",
+   "sources": [
+    [
+     "Quran.com data",
+     null
+    ],
+    [
+     "Quran 82:1",
+     null
+    ]
+   ]
+  },
+  {
+   "answer": "Surah Al-Mutaffifin",
+   "options": [
+    "Surah An-Naba",
+    "Surah 'Abasa",
+    "Surah At-Takwir",
+    "Surah Al-Mutaffifin"
+   ],
+   "clues": [
+    "Scholars differ on whether it was revealed in Makkah or in Madinah.",
+    "It begins in juz 30.",
+    "It has 36 ayat.",
+    "It comes right after Surah Al-Infitar in the mushaf.",
+    "Its name means “The Defrauding”."
+   ],
+   "explain": "Surah Al-Mutaffifin is surah 83 of the mushaf, with 36 ayat, beginning in juz 30. Scholars differ on whether it is Makki or Madani.",
+   "sources": [
+    [
+     "Quran.com data",
+     null
+    ],
+    [
+     "Quran 83:1",
+     null
+    ]
+   ]
+  },
+  {
+   "answer": "Surah Al-Inshiqaq",
+   "options": [
+    "Surah Al-Inshiqaq",
+    "Surah Al-Ghashiyah",
+    "Surah Al-Buruj",
+    "Surah At-Takwir"
+   ],
+   "clues": [
+    "It was revealed in Makkah.",
+    "It begins in juz 30.",
+    "It has 25 ayat.",
+    "It comes right after Surah Al-Mutaffifin in the mushaf.",
+    "Its name means “The Sundering”."
+   ],
+   "explain": "Surah Al-Inshiqaq is surah 84 of the mushaf, with 25 ayat, beginning in juz 30. It is a Makki surah.",
+   "sources": [
+    [
+     "Quran.com data",
+     null
+    ],
+    [
+     "Quran 84:1",
+     null
+    ]
+   ]
+  },
+  {
+   "answer": "Surah Al-Buruj",
+   "options": [
+    "Surah Al-Inshiqaq",
+    "Surah Al-Buruj",
+    "Surah Al-A'la",
+    "Surah Al-Infitar"
+   ],
+   "clues": [
+    "It was revealed in Makkah.",
+    "It begins in juz 30.",
+    "It has 22 ayat.",
+    "It comes right after Surah Al-Inshiqaq in the mushaf.",
+    "Its name means “The Mansions of the Stars”."
+   ],
+   "explain": "Surah Al-Buruj is surah 85 of the mushaf, with 22 ayat, beginning in juz 30. It is a Makki surah.",
+   "sources": [
+    [
+     "Quran.com data",
+     null
+    ],
+    [
+     "Quran 85:1",
+     null
+    ]
+   ]
+  },
+  {
+   "answer": "Surah At-Tariq",
+   "options": [
+    "Surah Al-A'la",
+    "Surah Al-Infitar",
+    "Surah At-Tariq",
+    "Surah Ash-Shams"
+   ],
+   "clues": [
+    "It was revealed in Makkah.",
+    "It begins in juz 30.",
+    "It has 17 ayat.",
+    "It comes right after Surah Al-Buruj in the mushaf.",
+    "Its name means “The Nightcomer”."
+   ],
+   "explain": "Surah At-Tariq is surah 86 of the mushaf, with 17 ayat, beginning in juz 30. It is a Makki surah.",
+   "sources": [
+    [
+     "Quran.com data",
+     null
+    ],
+    [
+     "Quran 86:1",
+     null
+    ]
+   ]
+  },
+  {
+   "answer": "Surah Al-A'la",
+   "options": [
+    "Surah At-Tariq",
+    "Surah Al-Balad",
+    "Surah Al-Infitar",
+    "Surah Al-A'la"
+   ],
+   "clues": [
+    "It was revealed in Makkah.",
+    "It begins in juz 30.",
+    "It has 19 ayat.",
+    "It comes right after Surah At-Tariq in the mushaf.",
+    "Its name means “The Most High”."
+   ],
+   "explain": "Surah Al-A'la is surah 87 of the mushaf, with 19 ayat, beginning in juz 30. It is a Makki surah.",
+   "sources": [
+    [
+     "Quran.com data",
+     null
+    ],
+    [
+     "Quran 87:1",
+     null
+    ]
+   ]
+  },
+  {
+   "answer": "Surah Al-Ghashiyah",
+   "options": [
+    "Surah Al-Ghashiyah",
+    "Surah Al-Inshiqaq",
+    "Surah Al-Fajr",
+    "Surah Al-Buruj"
+   ],
+   "clues": [
+    "It was revealed in Makkah.",
+    "It begins in juz 30.",
+    "It has 26 ayat.",
+    "It comes right after Surah Al-A'la in the mushaf.",
+    "Its name means “The Overwhelming”."
+   ],
+   "explain": "Surah Al-Ghashiyah is surah 88 of the mushaf, with 26 ayat, beginning in juz 30. It is a Makki surah.",
+   "sources": [
+    [
+     "Quran.com data",
+     null
+    ],
+    [
+     "Quran 88:1",
+     null
+    ]
+   ]
+  },
+  {
+   "answer": "Surah Al-Fajr",
+   "options": [
+    "Surah Al-Ghashiyah",
+    "Surah Al-Fajr",
+    "Surah At-Takwir",
+    "Surah Al-Inshiqaq"
+   ],
+   "clues": [
+    "It was revealed in Makkah.",
+    "It begins in juz 30.",
+    "It has 30 ayat.",
+    "It comes right after Surah Al-Ghashiyah in the mushaf.",
+    "Its name means “The Dawn”."
+   ],
+   "explain": "Surah Al-Fajr is surah 89 of the mushaf, with 30 ayat, beginning in juz 30. It is a Makki surah.",
+   "sources": [
+    [
+     "Quran.com data",
+     null
+    ],
+    [
+     "Quran 89:1",
+     null
+    ]
+   ]
+  },
+  {
+   "answer": "Surah Al-Balad",
+   "options": [
+    "Surah Al-Layl",
+    "Surah Al-A'la",
+    "Surah Al-Balad",
+    "Surah Al-'Alaq"
+   ],
+   "clues": [
+    "It was revealed in Makkah.",
+    "It begins in juz 30.",
+    "It has 20 ayat.",
+    "It comes right after Surah Al-Fajr in the mushaf.",
+    "Its name means “The City”."
+   ],
+   "explain": "Surah Al-Balad is surah 90 of the mushaf, with 20 ayat, beginning in juz 30. It is a Makki surah.",
+   "sources": [
+    [
+     "Quran.com data",
+     null
+    ],
+    [
+     "Quran 90:1",
+     null
+    ]
+   ]
+  },
+  {
+   "answer": "Surah Ash-Shams",
+   "options": [
+    "Surah At-Tariq",
+    "Surah Ad-Duhaa",
+    "Surah Al-Balad",
+    "Surah Ash-Shams"
+   ],
+   "clues": [
+    "It was revealed in Makkah.",
+    "It begins in juz 30.",
+    "It has 15 ayat.",
+    "It comes right after Surah Al-Balad in the mushaf.",
+    "Its name means “The Sun”."
+   ],
+   "explain": "Surah Ash-Shams is surah 91 of the mushaf, with 15 ayat, beginning in juz 30. It is a Makki surah.",
+   "sources": [
+    [
+     "Quran.com data",
+     null
+    ],
+    [
+     "Quran 91:1",
+     null
+    ]
+   ]
+  },
+  {
+   "answer": "Surah Al-Layl",
+   "options": [
+    "Surah Al-Layl",
+    "Surah Al-Balad",
+    "Surah Al-'Alaq",
+    "Surah Al-A'la"
+   ],
+   "clues": [
+    "It was revealed in Makkah.",
+    "It begins in juz 30.",
+    "It has 21 ayat.",
+    "It comes right after Surah Ash-Shams in the mushaf.",
+    "Its name means “The Night”."
+   ],
+   "explain": "Surah Al-Layl is surah 92 of the mushaf, with 21 ayat, beginning in juz 30. It is a Makki surah.",
+   "sources": [
+    [
+     "Quran.com data",
+     null
+    ],
+    [
+     "Quran 92:1",
+     null
+    ]
+   ]
+  },
+  {
+   "answer": "Surah Ad-Duhaa",
+   "options": [
+    "Surah Ash-Sharh",
+    "Surah Ad-Duhaa",
+    "Surah At-Tin",
+    "Surah Al-'Adiyat"
+   ],
+   "clues": [
+    "It was revealed in Makkah.",
+    "It begins in juz 30.",
+    "It has 11 ayat.",
+    "It comes right after Surah Al-Layl in the mushaf.",
+    "Its name means “The Morning Hours”."
+   ],
+   "explain": "Surah Ad-Duhaa is surah 93 of the mushaf, with 11 ayat, beginning in juz 30. It is a Makki surah.",
+   "sources": [
+    [
+     "Quran.com data",
+     null
+    ],
+    [
+     "Quran 93:1",
+     null
+    ]
+   ]
+  },
+  {
+   "answer": "Surah Ash-Sharh",
+   "options": [
+    "Surah At-Tin",
+    "Surah Ad-Duhaa",
+    "Surah Ash-Sharh",
+    "Surah Al-Qadr"
+   ],
+   "clues": [
+    "It was revealed in Makkah.",
+    "It begins in juz 30.",
+    "It has 8 ayat.",
+    "It comes right after Surah Ad-Duhaa in the mushaf.",
+    "Its name means “The Relief”."
+   ],
+   "explain": "Surah Ash-Sharh is surah 94 of the mushaf, with 8 ayat, beginning in juz 30. It is a Makki surah.",
+   "sources": [
+    [
+     "Quran.com data",
+     null
+    ],
+    [
+     "Quran 94:1",
+     null
+    ]
+   ]
+  },
+  {
+   "answer": "Surah At-Tin",
+   "options": [
+    "Surah Ash-Sharh",
+    "Surah Ad-Duhaa",
+    "Surah Al-Qadr",
+    "Surah At-Tin"
+   ],
+   "clues": [
+    "It was revealed in Makkah.",
+    "It begins in juz 30.",
+    "It has 8 ayat.",
+    "It comes right after Surah Ash-Sharh in the mushaf.",
+    "Its name means “The Fig”."
+   ],
+   "explain": "Surah At-Tin is surah 95 of the mushaf, with 8 ayat, beginning in juz 30. It is a Makki surah.",
+   "sources": [
+    [
+     "Quran.com data",
+     null
+    ],
+    [
+     "Quran 95:1",
+     null
+    ]
+   ]
+  },
+  {
+   "answer": "Surah Al-Qadr",
+   "options": [
+    "Surah At-Tin",
+    "Surah Al-Qadr",
+    "Surah Ash-Sharh",
+    "Surah Al-Fil"
+   ],
+   "clues": [
+    "Scholars differ on whether it was revealed in Makkah or in Madinah.",
+    "It begins in juz 30.",
+    "It has 5 ayat.",
+    "It comes right after Surah Al-'Alaq in the mushaf.",
+    "Its name means “The Power”."
+   ],
+   "explain": "Surah Al-Qadr is surah 97 of the mushaf, with 5 ayat, beginning in juz 30. Scholars differ on whether it is Makki or Madani.",
+   "sources": [
+    [
+     "Quran.com data",
+     null
+    ],
+    [
+     "Quran 97:1",
+     null
+    ]
+   ]
+  },
+  {
+   "answer": "Surah Al-Bayyinah",
+   "options": [
+    "Surah Az-Zalzalah",
+    "Surah An-Nasr",
+    "Surah Al-Bayyinah",
+    "Surah At-Tahrim"
+   ],
+   "clues": [
+    "Scholars differ on whether it was revealed in Makkah or in Madinah.",
+    "It begins in juz 30.",
+    "It has 8 ayat.",
+    "It comes right after Surah Al-Qadr in the mushaf.",
+    "Its name means “The Clear Proof”."
+   ],
+   "explain": "Surah Al-Bayyinah is surah 98 of the mushaf, with 8 ayat, beginning in juz 30. Scholars differ on whether it is Makki or Madani.",
+   "sources": [
+    [
+     "Quran.com data",
+     null
+    ],
+    [
+     "Quran 98:1",
+     null
+    ]
+   ]
+  },
+  {
+   "answer": "Surah Az-Zalzalah",
+   "options": [
+    "Surah Al-Bayyinah",
+    "Surah An-Nasr",
+    "Surah At-Tahrim",
+    "Surah Az-Zalzalah"
+   ],
+   "clues": [
+    "Scholars differ on whether it was revealed in Makkah or in Madinah.",
+    "It begins in juz 30.",
+    "It has 8 ayat.",
+    "It comes right after Surah Al-Bayyinah in the mushaf.",
+    "Its name means “The Earthquake”."
+   ],
+   "explain": "Surah Az-Zalzalah is surah 99 of the mushaf, with 8 ayat, beginning in juz 30. Scholars differ on whether it is Makki or Madani.",
+   "sources": [
+    [
+     "Quran.com data",
+     null
+    ],
+    [
+     "Quran 99:1",
+     null
+    ]
+   ]
+  },
+  {
+   "answer": "Surah Al-'Adiyat",
+   "options": [
+    "Surah Al-'Adiyat",
+    "Surah Al-Qari'ah",
+    "Surah Ad-Duhaa",
+    "Surah At-Takathur"
+   ],
+   "clues": [
+    "Scholars differ on whether it was revealed in Makkah or in Madinah.",
+    "It begins in juz 30.",
+    "It has 11 ayat.",
+    "It comes right after Surah Az-Zalzalah in the mushaf.",
+    "Its name means “The Courser”."
+   ],
+   "explain": "Surah Al-'Adiyat is surah 100 of the mushaf, with 11 ayat, beginning in juz 30. Scholars differ on whether it is Makki or Madani.",
+   "sources": [
+    [
+     "Quran.com data",
+     null
+    ],
+    [
+     "Quran 100:1",
+     null
+    ]
+   ]
+  },
+  {
+   "answer": "Surah Al-Qari'ah",
+   "options": [
+    "Surah Al-'Adiyat",
+    "Surah Al-Qari'ah",
+    "Surah At-Takathur",
+    "Surah Al-Humazah"
+   ],
+   "clues": [
+    "It was revealed in Makkah.",
+    "It begins in juz 30.",
+    "It has 11 ayat.",
+    "It comes right after Surah Al-'Adiyat in the mushaf.",
+    "Its name means “The Calamity”."
+   ],
+   "explain": "Surah Al-Qari'ah is surah 101 of the mushaf, with 11 ayat, beginning in juz 30. It is a Makki surah.",
+   "sources": [
+    [
+     "Quran.com data",
+     null
+    ],
+    [
+     "Quran 101:1",
+     null
+    ]
+   ]
+  },
+  {
+   "answer": "Surah At-Takathur",
+   "options": [
+    "Surah Al-Humazah",
+    "Surah Al-Qari'ah",
+    "Surah At-Takathur",
+    "Surah Al-Ma'un"
+   ],
+   "clues": [
+    "It was revealed in Makkah.",
+    "It begins in juz 30.",
+    "It has 8 ayat.",
+    "It comes right after Surah Al-Qari'ah in the mushaf.",
+    "Its name means “Rivalry in increase”."
+   ],
+   "explain": "Surah At-Takathur is surah 102 of the mushaf, with 8 ayat, beginning in juz 30. It is a Makki surah.",
+   "sources": [
+    [
+     "Quran.com data",
+     null
+    ],
+    [
+     "Quran 102:1",
+     null
+    ]
+   ]
+  },
+  {
+   "answer": "Surah Al-Humazah",
+   "options": [
+    "Surah Al-Humazah",
+    "Surah At-Takathur",
+    "Surah Al-Qari'ah",
+    "Surah Al-Ma'un"
+   ],
+   "clues": [
+    "It was revealed in Makkah.",
+    "It begins in juz 30.",
+    "It has 9 ayat.",
+    "It comes right after Surah Al-'Asr in the mushaf.",
+    "Its name means “The Traducer”."
+   ],
+   "explain": "Surah Al-Humazah is surah 104 of the mushaf, with 9 ayat, beginning in juz 30. It is a Makki surah.",
+   "sources": [
+    [
+     "Quran.com data",
+     null
+    ],
+    [
+     "Quran 104:1",
+     null
+    ]
+   ]
+  },
+  {
+   "answer": "Surah Al-Fil",
+   "options": [
+    "Surah Quraysh",
+    "Surah Al-Fil",
+    "Surah Al-'Asr",
+    "Surah Al-Ma'un"
+   ],
+   "clues": [
+    "It was revealed in Makkah.",
+    "It begins in juz 30.",
+    "It has 5 ayat.",
+    "It comes right after Surah Al-Humazah in the mushaf.",
+    "Its name means “The Elephant”."
+   ],
+   "explain": "Surah Al-Fil is surah 105 of the mushaf, with 5 ayat, beginning in juz 30. It is a Makki surah.",
+   "sources": [
+    [
+     "Quran.com data",
+     null
+    ],
+    [
+     "Quran 105:1",
+     null
+    ]
+   ]
+  },
+  {
+   "answer": "Surah Quraysh",
+   "options": [
+    "Surah Al-Fil",
+    "Surah Al-Kawthar",
+    "Surah Quraysh",
+    "Surah Al-'Asr"
+   ],
+   "clues": [
+    "It was revealed in Makkah.",
+    "It begins in juz 30.",
+    "It has 4 ayat.",
+    "It comes right after Surah Al-Fil in the mushaf.",
+    "It is named after the Prophet's own tribe."
+   ],
+   "explain": "Surah Quraysh is surah 106 of the mushaf, with 4 ayat, beginning in juz 30. It is a Makki surah.",
+   "sources": [
+    [
+     "Quran.com data",
+     null
+    ],
+    [
+     "Quran 106:1",
+     null
+    ],
+    [
+     "Quran 106:1",
+     "Qureysh"
+    ]
+   ]
+  },
+  {
+   "answer": "Surah Al-Ma'un",
+   "options": [
+    "Surah Al-Kafirun",
+    "Surah Al-Fil",
+    "Surah Quraysh",
+    "Surah Al-Ma'un"
+   ],
+   "clues": [
+    "Scholars differ on whether it was revealed in Makkah or in Madinah.",
+    "It begins in juz 30.",
+    "It has 7 ayat.",
+    "It comes right after Surah Quraysh in the mushaf.",
+    "Its name means “Small kindnesses”."
+   ],
+   "explain": "Surah Al-Ma'un is surah 107 of the mushaf, with 7 ayat, beginning in juz 30. Scholars differ on whether it is Makki or Madani.",
+   "sources": [
+    [
+     "Quran.com data",
+     null
+    ],
+    [
+     "Quran 107:1",
+     null
+    ]
+   ]
+  },
+  {
+   "answer": "Surah Al-Kafirun",
+   "options": [
+    "Surah Al-Ma'un",
+    "Surah Al-Kafirun",
+    "Surah Al-Masad",
+    "Surah An-Nas"
+   ],
+   "clues": [
+    "It was revealed in Makkah.",
+    "It begins in juz 30.",
+    "It has 6 ayat.",
+    "It comes right after Surah Al-Kawthar in the mushaf.",
+    "Its name means “The Disbelievers”."
+   ],
+   "explain": "Surah Al-Kafirun is surah 109 of the mushaf, with 6 ayat, beginning in juz 30. It is a Makki surah.",
+   "sources": [
+    [
+     "Quran.com data",
+     null
+    ],
+    [
+     "Quran 109:1",
+     null
+    ]
+   ]
+  },
+  {
+   "answer": "Surah Al-Masad",
+   "options": [
+    "Surah Al-Falaq",
+    "Surah Al-Ikhlas",
+    "Surah Al-Kafirun",
+    "Surah Al-Masad"
+   ],
+   "clues": [
+    "It was revealed in Makkah.",
+    "It begins in juz 30.",
+    "It has 5 ayat.",
+    "It comes right after Surah An-Nasr in the mushaf.",
+    "Its name means “The Palm Fiber”."
+   ],
+   "explain": "Surah Al-Masad is surah 111 of the mushaf, with 5 ayat, beginning in juz 30. It is a Makki surah.",
+   "sources": [
+    [
+     "Quran.com data",
+     null
+    ],
+    [
+     "Quran 111:1",
+     null
+    ]
+   ]
+  },
+  {
+   "answer": "Surah Al-Falaq",
+   "options": [
+    "Surah Al-Masad",
+    "Surah Al-Falaq",
+    "Surah Al-Ikhlas",
+    "Surah An-Nas"
+   ],
+   "clues": [
+    "Scholars differ on whether it was revealed in Makkah or in Madinah.",
+    "It begins in juz 30.",
+    "It has 5 ayat.",
+    "It comes right after Surah Al-Ikhlas in the mushaf.",
+    "Its name means “The Daybreak”."
+   ],
+   "explain": "Surah Al-Falaq is surah 113 of the mushaf, with 5 ayat, beginning in juz 30. Scholars differ on whether it is Makki or Madani.",
+   "sources": [
+    [
+     "Quran.com data",
+     null
+    ],
+    [
+     "Quran 113:1",
+     null
+    ]
+   ]
+  },
+  {
+   "answer": "Surah An-Nas",
+   "options": [
+    "Surah Al-Falaq",
+    "Surah Al-Masad",
+    "Surah An-Nas",
+    "Surah Al-Kafirun"
+   ],
+   "clues": [
+    "Scholars differ on whether it was revealed in Makkah or in Madinah.",
+    "It begins in juz 30.",
+    "It has 6 ayat.",
+    "It comes right after Surah Al-Falaq in the mushaf.",
+    "Its name means “Mankind”."
+   ],
+   "explain": "Surah An-Nas is surah 114 of the mushaf, with 6 ayat, beginning in juz 30. Scholars differ on whether it is Makki or Madani.",
+   "sources": [
+    [
+     "Quran.com data",
+     null
+    ],
+    [
+     "Quran 114:1",
+     null
+    ]
+   ]
+  }
+ ],
+ "medium": [
+  {
+   "answer": "Surah Al-Ma'idah",
+   "options": [
+    "Surah At-Tawbah",
+    "Surah Al-Ma'idah",
+    "Surah Al-Anfal",
+    "Surah Al-Hajj"
+   ],
+   "clues": [
+    "It was revealed in Madinah.",
+    "It begins in juz 6.",
+    "It has 120 ayat.",
+    "It comes right after Surah An-Nisa in the mushaf.",
+    "Its name means “The Table Spread”."
+   ],
+   "explain": "Surah Al-Ma'idah is surah 5 of the mushaf, with 120 ayat, beginning in juz 6. It is a Madani surah.",
+   "sources": [
+    [
+     "Quran.com data",
+     null
+    ],
+    [
+     "Quran 5:1",
+     null
+    ]
+   ]
+  },
+  {
+   "answer": "Surah Al-An'am",
+   "options": [
+    "Surah As-Saffat",
+    "Surah Taha",
+    "Surah Al-An'am",
+    "Surah Al-A'raf"
+   ],
+   "clues": [
+    "It was revealed in Makkah.",
+    "It begins in juz 7.",
+    "It has 165 ayat.",
+    "It comes right after Surah Al-Ma'idah in the mushaf.",
+    "Its name means “The Cattle”."
+   ],
+   "explain": "Surah Al-An'am is surah 6 of the mushaf, with 165 ayat, beginning in juz 7. It is a Makki surah.",
+   "sources": [
+    [
+     "Quran.com data",
+     null
+    ],
+    [
+     "Quran 6:1",
+     null
+    ]
+   ]
+  },
+  {
+   "answer": "Surah Al-A'raf",
+   "options": [
+    "Surah Ash-Shu'ara",
+    "Surah Al-An'am",
+    "Surah As-Saffat",
+    "Surah Al-A'raf"
+   ],
+   "clues": [
+    "It was revealed in Makkah.",
+    "It begins in juz 8.",
+    "It has 206 ayat.",
+    "It comes right after Surah Al-An'am in the mushaf.",
+    "Its name means “The Heights”."
+   ],
+   "explain": "Surah Al-A'raf is surah 7 of the mushaf, with 206 ayat, beginning in juz 8. It is a Makki surah.",
+   "sources": [
+    [
+     "Quran.com data",
+     null
+    ],
+    [
+     "Quran 7:1",
+     null
+    ]
+   ]
+  },
+  {
+   "answer": "Surah Yunus",
+   "options": [
+    "Surah Yusuf",
+    "Surah Al-Kahf",
+    "Surah Yunus",
+    "Surah Al-Isra"
+   ],
+   "clues": [
+    "It was revealed in Makkah.",
+    "It begins in juz 11.",
+    "It has 109 ayat.",
+    "It comes right after Surah At-Tawbah in the mushaf.",
+    "Its name means “Jonah”."
+   ],
+   "explain": "Surah Yunus is surah 10 of the mushaf, with 109 ayat, beginning in juz 11. It is a Makki surah.",
+   "sources": [
+    [
+     "Quran.com data",
+     null
+    ],
+    [
+     "Quran 10:1",
+     null
+    ]
+   ]
+  },
+  {
+   "answer": "Surah Hud",
+   "options": [
+    "Surah An-Nahl",
+    "Surah Al-Mu'minun",
+    "Surah Yusuf",
+    "Surah Hud"
+   ],
+   "clues": [
+    "It was revealed in Makkah.",
+    "It begins in juz 11.",
+    "It has 123 ayat.",
+    "It comes right after Surah Yunus in the mushaf.",
+    "It is named after the prophet sent to the people of 'Ad."
+   ],
+   "explain": "Surah Hud is surah 11 of the mushaf, with 123 ayat, beginning in juz 11. It is a Makki surah.",
+   "sources": [
+    [
+     "Quran.com data",
+     null
+    ],
+    [
+     "Quran 11:1",
+     null
+    ],
+    [
+     "Quran 11:50",
+     "Hud"
+    ]
+   ]
+  },
+  {
+   "answer": "Surah Ibrahim",
+   "options": [
+    "Surah Saba",
+    "Surah Ar-Rum",
+    "Surah Ibrahim",
+    "Surah Ash-Shuraa"
+   ],
+   "clues": [
+    "It was revealed in Makkah.",
+    "It begins in juz 13.",
+    "It has 52 ayat.",
+    "It comes right after Surah Ar-Ra'd in the mushaf.",
+    "Its name means “Abraham”."
+   ],
+   "explain": "Surah Ibrahim is surah 14 of the mushaf, with 52 ayat, beginning in juz 13. It is a Makki surah.",
+   "sources": [
+    [
+     "Quran.com data",
+     null
+    ],
+    [
+     "Quran 14:1",
+     null
+    ]
+   ]
+  },
+  {
+   "answer": "Surah Al-Isra",
+   "options": [
+    "Surah Al-Kahf",
+    "Surah Al-Isra",
+    "Surah Yusuf",
+    "Surah Al-Anbya"
+   ],
+   "clues": [
+    "It was revealed in Makkah.",
+    "It begins in juz 15.",
+    "It has 111 ayat.",
+    "It comes right after Surah An-Nahl in the mushaf.",
+    "Its name means “The Night Journey”."
+   ],
+   "explain": "Surah Al-Isra is surah 17 of the mushaf, with 111 ayat, beginning in juz 15. It is a Makki surah.",
+   "sources": [
+    [
+     "Quran.com data",
+     null
+    ],
+    [
+     "Quran 17:1",
+     null
+    ]
+   ]
+  },
+  {
+   "answer": "Surah Al-Anbya",
+   "options": [
+    "Surah Al-Isra",
+    "Surah Al-Anbya",
+    "Surah Al-Kahf",
+    "Surah Yusuf"
+   ],
+   "clues": [
+    "It was revealed in Makkah.",
+    "It begins in juz 17.",
+    "It has 112 ayat.",
+    "It comes right after Surah Taha in the mushaf.",
+    "Its name means “The Prophets”."
+   ],
+   "explain": "Surah Al-Anbya is surah 21 of the mushaf, with 112 ayat, beginning in juz 17. It is a Makki surah.",
+   "sources": [
+    [
+     "Quran.com data",
+     null
+    ],
+    [
+     "Quran 21:1",
+     null
+    ]
+   ]
+  },
+  {
+   "answer": "Surah Al-Mu'minun",
+   "options": [
+    "Surah Al-Anbya",
+    "Surah Al-Isra",
+    "Surah Al-Kahf",
+    "Surah Al-Mu'minun"
+   ],
+   "clues": [
+    "It was revealed in Makkah.",
+    "It begins in juz 18.",
+    "It has 118 ayat.",
+    "It comes right after Surah Al-Hajj in the mushaf.",
+    "Its name means “The Believers”."
+   ],
+   "explain": "Surah Al-Mu'minun is surah 23 of the mushaf, with 118 ayat, beginning in juz 18. It is a Makki surah.",
+   "sources": [
+    [
+     "Quran.com data",
+     null
+    ],
+    [
+     "Quran 23:1",
+     null
+    ]
+   ]
+  },
+  {
+   "answer": "Surah An-Nur",
+   "options": [
+    "Surah An-Nur",
+    "Surah Al-Ahzab",
+    "Surah Al-Hajj",
+    "Surah Al-Anfal"
+   ],
+   "clues": [
+    "It was revealed in Madinah.",
+    "It begins in juz 18.",
+    "It has 64 ayat.",
+    "It comes right after Surah Al-Mu'minun in the mushaf.",
+    "Its name means “The Light”."
+   ],
+   "explain": "Surah An-Nur is surah 24 of the mushaf, with 64 ayat, beginning in juz 18. It is a Madani surah.",
+   "sources": [
+    [
+     "Quran.com data",
+     null
+    ],
+    [
+     "Quran 24:1",
+     null
+    ]
+   ]
+  },
+  {
+   "answer": "Surah Al-Furqan",
+   "options": [
+    "Surah Al-'Ankabut",
+    "Surah Al-Furqan",
+    "Surah Az-Zumar",
+    "Surah Ya-Sin"
+   ],
+   "clues": [
+    "It was revealed in Makkah.",
+    "It begins in juz 18.",
+    "It has 77 ayat.",
+    "It comes right after Surah An-Nur in the mushaf.",
+    "Its name means “The Criterion”."
+   ],
+   "explain": "Surah Al-Furqan is surah 25 of the mushaf, with 77 ayat, beginning in juz 18. It is a Makki surah.",
+   "sources": [
+    [
+     "Quran.com data",
+     null
+    ],
+    [
+     "Quran 25:1",
+     null
+    ]
+   ]
+  },
+  {
+   "answer": "Surah Luqman",
+   "options": [
+    "Surah As-Sajdah",
+    "Surah Al-Ahqaf",
+    "Surah Al-Jathiyah",
+    "Surah Luqman"
+   ],
+   "clues": [
+    "It was revealed in Makkah.",
+    "It begins in juz 21.",
+    "It has 34 ayat.",
+    "It comes right after Surah Ar-Rum in the mushaf.",
+    "It is named after a wise man whose advice to his son it records."
+   ],
+   "explain": "Surah Luqman is surah 31 of the mushaf, with 34 ayat, beginning in juz 21. It is a Makki surah.",
+   "sources": [
+    [
+     "Quran.com data",
+     null
+    ],
+    [
+     "Quran 31:1",
+     null
+    ],
+    [
+     "Quran 31:13",
+     "son"
+    ]
+   ]
+  },
+  {
+   "answer": "Surah As-Sajdah",
+   "options": [
+    "Surah As-Sajdah",
+    "Surah Luqman",
+    "Surah Al-Ahqaf",
+    "Surah Al-Jathiyah"
+   ],
+   "clues": [
+    "It was revealed in Makkah.",
+    "It begins in juz 21.",
+    "It has 30 ayat.",
+    "It comes right after Surah Luqman in the mushaf.",
+    "Its name means “The Prostration”."
+   ],
+   "explain": "Surah As-Sajdah is surah 32 of the mushaf, with 30 ayat, beginning in juz 21. It is a Makki surah.",
+   "sources": [
+    [
+     "Quran.com data",
+     null
+    ],
+    [
+     "Quran 32:1",
+     null
+    ]
+   ]
+  },
+  {
+   "answer": "Surah Adh-Dhariyat",
+   "options": [
+    "Surah An-Najm",
+    "Surah Ad-Dukhan",
+    "Surah Al-Qamar",
+    "Surah Adh-Dhariyat"
+   ],
+   "clues": [
+    "It was revealed in Makkah.",
+    "It begins in juz 26.",
+    "It has 60 ayat.",
+    "It comes right after Surah Qaf in the mushaf.",
+    "Its name means “The Winnowing Winds”."
+   ],
+   "explain": "Surah Adh-Dhariyat is surah 51 of the mushaf, with 60 ayat, beginning in juz 26. It is a Makki surah.",
+   "sources": [
+    [
+     "Quran.com data",
+     null
+    ],
+    [
+     "Quran 51:1",
+     null
+    ]
+   ]
+  },
+  {
+   "answer": "Surah At-Tur",
+   "options": [
+    "Surah At-Tur",
+    "Surah Qaf",
+    "Surah Al-Qamar",
+    "Surah Ash-Shuraa"
+   ],
+   "clues": [
+    "It was revealed in Makkah.",
+    "It begins in juz 27.",
+    "It has 49 ayat.",
+    "It comes right after Surah Adh-Dhariyat in the mushaf.",
+    "Its name means “The Mount”."
+   ],
+   "explain": "Surah At-Tur is surah 52 of the mushaf, with 49 ayat, beginning in juz 27. It is a Makki surah.",
+   "sources": [
+    [
+     "Quran.com data",
+     null
+    ],
+    [
+     "Quran 52:1",
+     null
+    ]
+   ]
+  },
+  {
+   "answer": "Surah An-Najm",
+   "options": [
+    "Surah Adh-Dhariyat",
+    "Surah An-Najm",
+    "Surah Al-Qamar",
+    "Surah Ad-Dukhan"
+   ],
+   "clues": [
+    "It was revealed in Makkah.",
+    "It begins in juz 27.",
+    "It has 62 ayat.",
+    "It comes right after Surah At-Tur in the mushaf.",
+    "Its name means “The Star”."
+   ],
+   "explain": "Surah An-Najm is surah 53 of the mushaf, with 62 ayat, beginning in juz 27. It is a Makki surah.",
+   "sources": [
+    [
+     "Quran.com data",
+     null
+    ],
+    [
+     "Quran 53:1",
+     null
+    ]
+   ]
+  },
+  {
+   "answer": "Surah Al-Qamar",
+   "options": [
+    "Surah Adh-Dhariyat",
+    "Surah At-Tur",
+    "Surah Al-Qamar",
+    "Surah An-Najm"
+   ],
+   "clues": [
+    "It was revealed in Makkah.",
+    "It begins in juz 27.",
+    "It has 55 ayat.",
+    "It comes right after Surah An-Najm in the mushaf.",
+    "Its name means “The Moon”."
+   ],
+   "explain": "Surah Al-Qamar is surah 54 of the mushaf, with 55 ayat, beginning in juz 27. It is a Makki surah.",
+   "sources": [
+    [
+     "Quran.com data",
+     null
+    ],
+    [
+     "Quran 54:1",
+     null
+    ]
+   ]
+  },
+  {
+   "answer": "Surah As-Saf",
+   "options": [
+    "Surah Al-Mumtahanah",
+    "Surah As-Saf",
+    "Surah Al-Jumu'ah",
+    "Surah Al-Munafiqun"
+   ],
+   "clues": [
+    "Scholars differ on whether it was revealed in Makkah or in Madinah.",
+    "It begins in juz 28.",
+    "It has 14 ayat.",
+    "It comes right after Surah Al-Mumtahanah in the mushaf.",
+    "Its name means “The Ranks”."
+   ],
+   "explain": "Surah As-Saf is surah 61 of the mushaf, with 14 ayat, beginning in juz 28. Scholars differ on whether it is Makki or Madani.",
+   "sources": [
+    [
+     "Quran.com data",
+     null
+    ],
+    [
+     "Quran 61:1",
+     null
+    ]
+   ]
+  },
+  {
+   "answer": "Surah Al-Munafiqun",
+   "options": [
+    "Surah Al-Jumu'ah",
+    "Surah At-Talaq",
+    "Surah At-Tahrim",
+    "Surah Al-Munafiqun"
+   ],
+   "clues": [
+    "It was revealed in Madinah.",
+    "It begins in juz 28.",
+    "It has 11 ayat.",
+    "It comes right after Surah Al-Jumu'ah in the mushaf.",
+    "Its name means “The Hypocrites”."
+   ],
+   "explain": "Surah Al-Munafiqun is surah 63 of the mushaf, with 11 ayat, beginning in juz 28. It is a Madani surah.",
+   "sources": [
+    [
+     "Quran.com data",
+     null
+    ],
+    [
+     "Quran 63:1",
+     null
+    ]
+   ]
+  },
+  {
+   "answer": "Surah At-Taghabun",
+   "options": [
+    "Surah At-Taghabun",
+    "Surah As-Saf",
+    "Surah At-Talaq",
+    "Surah At-Tahrim"
+   ],
+   "clues": [
+    "Scholars differ on whether it was revealed in Makkah or in Madinah.",
+    "It begins in juz 28.",
+    "It has 18 ayat.",
+    "It comes right after Surah Al-Munafiqun in the mushaf.",
+    "Its name means “The Mutual Disillusion”."
+   ],
+   "explain": "Surah At-Taghabun is surah 64 of the mushaf, with 18 ayat, beginning in juz 28. Scholars differ on whether it is Makki or Madani.",
+   "sources": [
+    [
+     "Quran.com data",
+     null
+    ],
+    [
+     "Quran 64:1",
+     null
+    ]
+   ]
+  },
+  {
+   "answer": "Surah At-Talaq",
+   "options": [
+    "Surah At-Tahrim",
+    "Surah At-Talaq",
+    "Surah Al-Munafiqun",
+    "Surah Al-Jumu'ah"
+   ],
+   "clues": [
+    "It was revealed in Madinah.",
+    "It begins in juz 28.",
+    "It has 12 ayat.",
+    "It comes right after Surah At-Taghabun in the mushaf.",
+    "Its name means “The Divorce”."
+   ],
+   "explain": "Surah At-Talaq is surah 65 of the mushaf, with 12 ayat, beginning in juz 28. It is a Madani surah.",
+   "sources": [
+    [
+     "Quran.com data",
+     null
+    ],
+    [
+     "Quran 65:1",
+     null
+    ]
+   ]
+  },
+  {
+   "answer": "Surah At-Tahrim",
+   "options": [
+    "Surah At-Talaq",
+    "Surah Al-Munafiqun",
+    "Surah At-Tahrim",
+    "Surah Al-Jumu'ah"
+   ],
+   "clues": [
+    "It was revealed in Madinah.",
+    "It begins in juz 28.",
+    "It has 12 ayat.",
+    "It comes right after Surah At-Talaq in the mushaf.",
+    "Its name means “The Prohibition”."
+   ],
+   "explain": "Surah At-Tahrim is surah 66 of the mushaf, with 12 ayat, beginning in juz 28. It is a Madani surah.",
+   "sources": [
+    [
+     "Quran.com data",
+     null
+    ],
+    [
+     "Quran 66:1",
+     null
+    ]
+   ]
+  },
+  {
+   "answer": "Surah Al-Qalam",
+   "options": [
+    "Surah Al-Qalam",
+    "Surah Al-Haqqah",
+    "Surah Al-Mursalat",
+    "Surah Al-Muddaththir"
+   ],
+   "clues": [
+    "It was revealed in Makkah.",
+    "It begins in juz 29.",
+    "It has 52 ayat.",
+    "It comes right after Surah Al-Mulk in the mushaf.",
+    "Its name means “The Pen”."
+   ],
+   "explain": "Surah Al-Qalam is surah 68 of the mushaf, with 52 ayat, beginning in juz 29. It is a Makki surah.",
+   "sources": [
+    [
+     "Quran.com data",
+     null
+    ],
+    [
+     "Quran 68:1",
+     null
+    ]
+   ]
+  },
+  {
+   "answer": "Surah Al-Haqqah",
+   "options": [
+    "Surah Al-Qalam",
+    "Surah Al-Haqqah",
+    "Surah Al-Mursalat",
+    "Surah Al-Muddaththir"
+   ],
+   "clues": [
+    "It was revealed in Makkah.",
+    "It begins in juz 29.",
+    "It has 52 ayat.",
+    "It comes right after Surah Al-Qalam in the mushaf.",
+    "Its name means “The Reality”."
+   ],
+   "explain": "Surah Al-Haqqah is surah 69 of the mushaf, with 52 ayat, beginning in juz 29. It is a Makki surah.",
+   "sources": [
+    [
+     "Quran.com data",
+     null
+    ],
+    [
+     "Quran 69:1",
+     null
+    ]
+   ]
+  },
+  {
+   "answer": "Surah Al-Ma'arij",
+   "options": [
+    "Surah Al-Qiyamah",
+    "Surah An-Nazi'at",
+    "Surah Al-Ma'arij",
+    "Surah 'Abasa"
+   ],
+   "clues": [
+    "It was revealed in Makkah.",
+    "It begins in juz 29.",
+    "It has 44 ayat.",
+    "It comes right after Surah Al-Haqqah in the mushaf.",
+    "Its name means “The Ascending Stairways”."
+   ],
+   "explain": "Surah Al-Ma'arij is surah 70 of the mushaf, with 44 ayat, beginning in juz 29. It is a Makki surah.",
+   "sources": [
+    [
+     "Quran.com data",
+     null
+    ],
+    [
+     "Quran 70:1",
+     null
+    ]
+   ]
+  },
+  {
+   "answer": "Surah Nuh",
+   "options": [
+    "Surah Al-Jinn",
+    "Surah Al-Mulk",
+    "Surah At-Takwir",
+    "Surah Nuh"
+   ],
+   "clues": [
+    "It was revealed in Makkah.",
+    "It begins in juz 29.",
+    "It has 28 ayat.",
+    "It comes right after Surah Al-Ma'arij in the mushaf.",
+    "Its name means “Noah”."
+   ],
+   "explain": "Surah Nuh is surah 71 of the mushaf, with 28 ayat, beginning in juz 29. It is a Makki surah.",
+   "sources": [
+    [
+     "Quran.com data",
+     null
+    ],
+    [
+     "Quran 71:1",
+     null
+    ]
+   ]
+  },
+  {
+   "answer": "Surah Al-Jinn",
+   "options": [
+    "Surah Al-Jinn",
+    "Surah Nuh",
+    "Surah Al-Mulk",
+    "Surah At-Takwir"
+   ],
+   "clues": [
+    "It was revealed in Makkah.",
+    "It begins in juz 29.",
+    "It has 28 ayat.",
+    "It comes right after Surah Nuh in the mushaf.",
+    "Its name means “The Jinn”."
+   ],
+   "explain": "Surah Al-Jinn is surah 72 of the mushaf, with 28 ayat, beginning in juz 29. It is a Makki surah.",
+   "sources": [
+    [
+     "Quran.com data",
+     null
+    ],
+    [
+     "Quran 72:1",
+     null
+    ]
+   ]
+  },
+  {
+   "answer": "Surah Al-Muzzammil",
+   "options": [
+    "Surah Al-Infitar",
+    "Surah Al-Muzzammil",
+    "Surah Al-Jinn",
+    "Surah Nuh"
+   ],
+   "clues": [
+    "It was revealed in Makkah.",
+    "It begins in juz 29.",
+    "It has 20 ayat.",
+    "It comes right after Surah Al-Jinn in the mushaf.",
+    "Its name means “The Enshrouded One”."
+   ],
+   "explain": "Surah Al-Muzzammil is surah 73 of the mushaf, with 20 ayat, beginning in juz 29. It is a Makki surah.",
+   "sources": [
+    [
+     "Quran.com data",
+     null
+    ],
+    [
+     "Quran 73:1",
+     null
+    ]
+   ]
+  },
+  {
+   "answer": "Surah Al-Muddaththir",
+   "options": [
+    "Surah Al-Haqqah",
+    "Surah Al-Qalam",
+    "Surah Al-Muddaththir",
+    "Surah Al-Mursalat"
+   ],
+   "clues": [
+    "It was revealed in Makkah.",
+    "It begins in juz 29.",
+    "It has 56 ayat.",
+    "It comes right after Surah Al-Muzzammil in the mushaf.",
+    "Its name means “The Cloaked One”."
+   ],
+   "explain": "Surah Al-Muddaththir is surah 74 of the mushaf, with 56 ayat, beginning in juz 29. It is a Makki surah.",
+   "sources": [
+    [
+     "Quran.com data",
+     null
+    ],
+    [
+     "Quran 74:1",
+     null
+    ]
+   ]
+  },
+  {
+   "answer": "Surah Al-Qiyamah",
+   "options": [
+    "Surah An-Naba",
+    "Surah 'Abasa",
+    "Surah Al-Ma'arij",
+    "Surah Al-Qiyamah"
+   ],
+   "clues": [
+    "It was revealed in Makkah.",
+    "It begins in juz 29.",
+    "It has 40 ayat.",
+    "It comes right after Surah Al-Muddaththir in the mushaf.",
+    "Its name means “The Resurrection”."
+   ],
+   "explain": "Surah Al-Qiyamah is surah 75 of the mushaf, with 40 ayat, beginning in juz 29. It is a Makki surah.",
+   "sources": [
+    [
+     "Quran.com data",
+     null
+    ],
+    [
+     "Quran 75:1",
+     null
+    ]
+   ]
+  },
+  {
+   "answer": "Surah Al-Insan",
+   "options": [
+    "Surah Al-Insan",
+    "Surah Al-Hadid",
+    "Surah Al-Hashr",
+    "Surah Al-Fath"
+   ],
+   "clues": [
+    "Scholars differ on whether it was revealed in Makkah or in Madinah.",
+    "It begins in juz 29.",
+    "It has 31 ayat.",
+    "It comes right after Surah Al-Qiyamah in the mushaf.",
+    "Its name means “The Man”."
+   ],
+   "explain": "Surah Al-Insan is surah 76 of the mushaf, with 31 ayat, beginning in juz 29. Scholars differ on whether it is Makki or Madani.",
+   "sources": [
+    [
+     "Quran.com data",
+     null
+    ],
+    [
+     "Quran 76:1",
+     null
+    ]
+   ]
+  },
+  {
+   "answer": "Surah Al-Mursalat",
+   "options": [
+    "Surah An-Nazi'at",
+    "Surah Al-Mursalat",
+    "Surah Al-Haqqah",
+    "Surah Al-Qalam"
+   ],
+   "clues": [
+    "It was revealed in Makkah.",
+    "It begins in juz 29.",
+    "It has 50 ayat.",
+    "It comes right after Surah Al-Insan in the mushaf.",
+    "Its name means “The Emissaries”."
+   ],
+   "explain": "Surah Al-Mursalat is surah 77 of the mushaf, with 50 ayat, beginning in juz 29. It is a Makki surah.",
+   "sources": [
+    [
+     "Quran.com data",
+     null
+    ],
+    [
+     "Quran 77:1",
+     null
+    ]
+   ]
+  }
+ ],
+ "hard": [
+  {
+   "answer": "Surah Ar-Ra'd",
+   "options": [
+    "Surah Muhammad",
+    "Surah Ar-Ra'd",
+    "Surah An-Nur",
+    "Surah Al-Anfal"
+   ],
+   "clues": [
+    "Scholars differ on whether it was revealed in Makkah or in Madinah.",
+    "It begins in juz 13.",
+    "It has 43 ayat.",
+    "It comes right after Surah Yusuf in the mushaf.",
+    "Its name means “The Thunder”."
+   ],
+   "explain": "Surah Ar-Ra'd is surah 13 of the mushaf, with 43 ayat, beginning in juz 13. Scholars differ on whether it is Makki or Madani.",
+   "sources": [
+    [
+     "Quran.com data",
+     null
+    ],
+    [
+     "Quran 13:1",
+     null
+    ]
+   ]
+  },
+  {
+   "answer": "Surah Al-Hijr",
+   "options": [
+    "Surah Maryam",
+    "Surah Al-Kahf",
+    "Surah Yunus",
+    "Surah Al-Hijr"
+   ],
+   "clues": [
+    "It was revealed in Makkah.",
+    "It begins in juz 14.",
+    "It has 99 ayat.",
+    "It comes right after Surah Ibrahim in the mushaf.",
+    "Its name means “The Rocky Tract”."
+   ],
+   "explain": "Surah Al-Hijr is surah 15 of the mushaf, with 99 ayat, beginning in juz 14. It is a Makki surah.",
+   "sources": [
+    [
+     "Quran.com data",
+     null
+    ],
+    [
+     "Quran 15:1",
+     null
+    ]
+   ]
+  },
+  {
+   "answer": "Surah An-Nahl",
+   "options": [
+    "Surah An-Nahl",
+    "Surah Hud",
+    "Surah Taha",
+    "Surah Al-Mu'minun"
+   ],
+   "clues": [
+    "It was revealed in Makkah.",
+    "It begins in juz 14.",
+    "It has 128 ayat.",
+    "It comes right after Surah Al-Hijr in the mushaf.",
+    "Its name means “The Bee”."
+   ],
+   "explain": "Surah An-Nahl is surah 16 of the mushaf, with 128 ayat, beginning in juz 14. It is a Makki surah.",
+   "sources": [
+    [
+     "Quran.com data",
+     null
+    ],
+    [
+     "Quran 16:1",
+     null
+    ]
+   ]
+  },
+  {
+   "answer": "Surah Al-Hajj",
+   "options": [
+    "Surah Al-Anfal",
+    "Surah Al-Ahzab",
+    "Surah Al-Hajj",
+    "Surah An-Nur"
+   ],
+   "clues": [
+    "Scholars differ on whether it was revealed in Makkah or in Madinah.",
+    "It begins in juz 17.",
+    "It has 78 ayat.",
+    "It comes right after Surah Al-Anbya in the mushaf.",
+    "Its name means “The Pilgrimage”."
+   ],
+   "explain": "Surah Al-Hajj is surah 22 of the mushaf, with 78 ayat, beginning in juz 17. Scholars differ on whether it is Makki or Madani.",
+   "sources": [
+    [
+     "Quran.com data",
+     null
+    ],
+    [
+     "Quran 22:1",
+     null
+    ]
+   ]
+  },
+  {
+   "answer": "Surah Ash-Shu'ara",
+   "options": [
+    "Surah Al-A'raf",
+    "Surah As-Saffat",
+    "Surah Ash-Shu'ara",
+    "Surah Al-An'am"
+   ],
+   "clues": [
+    "It was revealed in Makkah.",
+    "It begins in juz 19.",
+    "It has 227 ayat.",
+    "It comes right after Surah Al-Furqan in the mushaf.",
+    "Its name means “The Poets”."
+   ],
+   "explain": "Surah Ash-Shu'ara is surah 26 of the mushaf, with 227 ayat, beginning in juz 19. It is a Makki surah.",
+   "sources": [
+    [
+     "Quran.com data",
+     null
+    ],
+    [
+     "Quran 26:1",
+     null
+    ]
+   ]
+  },
+  {
+   "answer": "Surah An-Naml",
+   "options": [
+    "Surah Al-Qasas",
+    "Surah Maryam",
+    "Surah Sad",
+    "Surah An-Naml"
+   ],
+   "clues": [
+    "It was revealed in Makkah.",
+    "It begins in juz 19.",
+    "It has 93 ayat.",
+    "It comes right after Surah Ash-Shu'ara in the mushaf.",
+    "Its name means “The Ant”."
+   ],
+   "explain": "Surah An-Naml is surah 27 of the mushaf, with 93 ayat, beginning in juz 19. It is a Makki surah.",
+   "sources": [
+    [
+     "Quran.com data",
+     null
+    ],
+    [
+     "Quran 27:1",
+     null
+    ]
+   ]
+  },
+  {
+   "answer": "Surah Al-Qasas",
+   "options": [
+    "Surah Al-Qasas",
+    "Surah An-Naml",
+    "Surah Sad",
+    "Surah Ya-Sin"
+   ],
+   "clues": [
+    "It was revealed in Makkah.",
+    "It begins in juz 20.",
+    "It has 88 ayat.",
+    "It comes right after Surah An-Naml in the mushaf.",
+    "Its name means “The Stories”."
+   ],
+   "explain": "Surah Al-Qasas is surah 28 of the mushaf, with 88 ayat, beginning in juz 20. It is a Makki surah.",
+   "sources": [
+    [
+     "Quran.com data",
+     null
+    ],
+    [
+     "Quran 28:1",
+     null
+    ]
+   ]
+  },
+  {
+   "answer": "Surah Al-'Ankabut",
+   "options": [
+    "Surah Ar-Rum",
+    "Surah Al-'Ankabut",
+    "Surah Al-Furqan",
+    "Surah Az-Zumar"
+   ],
+   "clues": [
+    "It was revealed in Makkah.",
+    "It begins in juz 20.",
+    "It has 69 ayat.",
+    "It comes right after Surah Al-Qasas in the mushaf.",
+    "Its name means “The Spider”."
+   ],
+   "explain": "Surah Al-'Ankabut is surah 29 of the mushaf, with 69 ayat, beginning in juz 20. It is a Makki surah.",
+   "sources": [
+    [
+     "Quran.com data",
+     null
+    ],
+    [
+     "Quran 29:1",
+     null
+    ]
+   ]
+  },
+  {
+   "answer": "Surah Ar-Rum",
+   "options": [
+    "Surah Saba",
+    "Surah Ad-Dukhan",
+    "Surah Ar-Rum",
+    "Surah Al-'Ankabut"
+   ],
+   "clues": [
+    "It was revealed in Makkah.",
+    "It begins in juz 21.",
+    "It has 60 ayat.",
+    "It comes right after Surah Al-'Ankabut in the mushaf.",
+    "Its name means “The Romans”."
+   ],
+   "explain": "Surah Ar-Rum is surah 30 of the mushaf, with 60 ayat, beginning in juz 21. It is a Makki surah.",
+   "sources": [
+    [
+     "Quran.com data",
+     null
+    ],
+    [
+     "Quran 30:1",
+     null
+    ]
+   ]
+  },
+  {
+   "answer": "Surah Saba",
+   "options": [
+    "Surah Fussilat",
+    "Surah Ash-Shuraa",
+    "Surah Saba",
+    "Surah Ar-Rum"
+   ],
+   "clues": [
+    "It was revealed in Makkah.",
+    "It begins in juz 22.",
+    "It has 54 ayat.",
+    "It comes right after Surah Al-Ahzab in the mushaf.",
+    "Its name means “Sheba”."
+   ],
+   "explain": "Surah Saba is surah 34 of the mushaf, with 54 ayat, beginning in juz 22. It is a Makki surah.",
+   "sources": [
+    [
+     "Quran.com data",
+     null
+    ],
+    [
+     "Quran 34:1",
+     null
+    ]
+   ]
+  },
+  {
+   "answer": "Surah Fatir",
+   "options": [
+    "Surah Qaf",
+    "Surah Saba",
+    "Surah Ash-Shuraa",
+    "Surah Fatir"
+   ],
+   "clues": [
+    "It was revealed in Makkah.",
+    "It begins in juz 22.",
+    "It has 45 ayat.",
+    "It comes right after Surah Saba in the mushaf.",
+    "Its name means “Originator”."
+   ],
+   "explain": "Surah Fatir is surah 35 of the mushaf, with 45 ayat, beginning in juz 22. It is a Makki surah.",
+   "sources": [
+    [
+     "Quran.com data",
+     null
+    ],
+    [
+     "Quran 35:1",
+     null
+    ]
+   ]
+  },
+  {
+   "answer": "Surah As-Saffat",
+   "options": [
+    "Surah Al-An'am",
+    "Surah As-Saffat",
+    "Surah Al-A'raf",
+    "Surah Ash-Shu'ara"
+   ],
+   "clues": [
+    "It was revealed in Makkah.",
+    "It begins in juz 23.",
+    "It has 182 ayat.",
+    "It comes right after Surah Ya-Sin in the mushaf.",
+    "Its name means “Those who set the Ranks”."
+   ],
+   "explain": "Surah As-Saffat is surah 37 of the mushaf, with 182 ayat, beginning in juz 23. It is a Makki surah.",
+   "sources": [
+    [
+     "Quran.com data",
+     null
+    ],
+    [
+     "Quran 37:1",
+     null
+    ]
+   ]
+  },
+  {
+   "answer": "Surah Sad",
+   "options": [
+    "Surah Az-Zukhruf",
+    "Surah Ghafir",
+    "Surah Sad",
+    "Surah Al-Qasas"
+   ],
+   "clues": [
+    "It was revealed in Makkah.",
+    "It begins in juz 23.",
+    "It has 88 ayat.",
+    "It comes right after Surah As-Saffat in the mushaf.",
+    "It is named after the letters it opens with."
+   ],
+   "explain": "Surah Sad is surah 38 of the mushaf, with 88 ayat, beginning in juz 23. It is a Makki surah.",
+   "sources": [
+    [
+     "Quran.com data",
+     null
+    ],
+    [
+     "Quran 38:1",
+     null
+    ]
+   ]
+  },
+  {
+   "answer": "Surah Az-Zumar",
+   "options": [
+    "Surah Ya-Sin",
+    "Surah Al-Furqan",
+    "Surah Ghafir",
+    "Surah Az-Zumar"
+   ],
+   "clues": [
+    "It was revealed in Makkah.",
+    "It begins in juz 23.",
+    "It has 75 ayat.",
+    "It comes right after Surah Sad in the mushaf.",
+    "Its name means “The Troops”."
+   ],
+   "explain": "Surah Az-Zumar is surah 39 of the mushaf, with 75 ayat, beginning in juz 23. It is a Makki surah.",
+   "sources": [
+    [
+     "Quran.com data",
+     null
+    ],
+    [
+     "Quran 39:1",
+     null
+    ]
+   ]
+  },
+  {
+   "answer": "Surah Ghafir",
+   "options": [
+    "Surah Ghafir",
+    "Surah Sad",
+    "Surah Ya-Sin",
+    "Surah Az-Zukhruf"
+   ],
+   "clues": [
+    "It was revealed in Makkah.",
+    "It begins in juz 24.",
+    "It has 85 ayat.",
+    "It comes right after Surah Az-Zumar in the mushaf.",
+    "Its name means “The Forgiver”."
+   ],
+   "explain": "Surah Ghafir is surah 40 of the mushaf, with 85 ayat, beginning in juz 24. It is a Makki surah.",
+   "sources": [
+    [
+     "Quran.com data",
+     null
+    ],
+    [
+     "Quran 40:1",
+     null
+    ]
+   ]
+  },
+  {
+   "answer": "Surah Fussilat",
+   "options": [
+    "Surah Ash-Shuraa",
+    "Surah Fussilat",
+    "Surah Saba",
+    "Surah Ad-Dukhan"
+   ],
+   "clues": [
+    "It was revealed in Makkah.",
+    "It begins in juz 24.",
+    "It has 54 ayat.",
+    "It comes right after Surah Ghafir in the mushaf.",
+    "Its name means “Explained in Detail”."
+   ],
+   "explain": "Surah Fussilat is surah 41 of the mushaf, with 54 ayat, beginning in juz 24. It is a Makki surah.",
+   "sources": [
+    [
+     "Quran.com data",
+     null
+    ],
+    [
+     "Quran 41:1",
+     null
+    ]
+   ]
+  },
+  {
+   "answer": "Surah Ash-Shuraa",
+   "options": [
+    "Surah Fussilat",
+    "Surah Saba",
+    "Surah Ash-Shuraa",
+    "Surah Ad-Dukhan"
+   ],
+   "clues": [
+    "It was revealed in Makkah.",
+    "It begins in juz 25.",
+    "It has 53 ayat.",
+    "It comes right after Surah Fussilat in the mushaf.",
+    "Its name means “The Consultation”."
+   ],
+   "explain": "Surah Ash-Shuraa is surah 42 of the mushaf, with 53 ayat, beginning in juz 25. It is a Makki surah.",
+   "sources": [
+    [
+     "Quran.com data",
+     null
+    ],
+    [
+     "Quran 42:1",
+     null
+    ]
+   ]
+  },
+  {
+   "answer": "Surah Az-Zukhruf",
+   "options": [
+    "Surah Sad",
+    "Surah Ghafir",
+    "Surah Al-Qasas",
+    "Surah Az-Zukhruf"
+   ],
+   "clues": [
+    "It was revealed in Makkah.",
+    "It begins in juz 25.",
+    "It has 89 ayat.",
+    "It comes right after Surah Ash-Shuraa in the mushaf.",
+    "Its name means “The Ornaments of Gold”."
+   ],
+   "explain": "Surah Az-Zukhruf is surah 43 of the mushaf, with 89 ayat, beginning in juz 25. It is a Makki surah.",
+   "sources": [
+    [
+     "Quran.com data",
+     null
+    ],
+    [
+     "Quran 43:1",
+     null
+    ]
+   ]
+  },
+  {
+   "answer": "Surah Ad-Dukhan",
+   "options": [
+    "Surah Ad-Dukhan",
+    "Surah Adh-Dhariyat",
+    "Surah Fussilat",
+    "Surah Ash-Shuraa"
+   ],
+   "clues": [
+    "It was revealed in Makkah.",
+    "It begins in juz 25.",
+    "It has 59 ayat.",
+    "It comes right after Surah Az-Zukhruf in the mushaf.",
+    "Its name means “The Smoke”."
+   ],
+   "explain": "Surah Ad-Dukhan is surah 44 of the mushaf, with 59 ayat, beginning in juz 25. It is a Makki surah.",
+   "sources": [
+    [
+     "Quran.com data",
+     null
+    ],
+    [
+     "Quran 44:1",
+     null
+    ]
+   ]
+  },
+  {
+   "answer": "Surah Al-Jathiyah",
+   "options": [
+    "Surah Al-Ahqaf",
+    "Surah Al-Jathiyah",
+    "Surah Qaf",
+    "Surah Luqman"
+   ],
+   "clues": [
+    "It was revealed in Makkah.",
+    "It begins in juz 25.",
+    "It has 37 ayat.",
+    "It comes right after Surah Ad-Dukhan in the mushaf.",
+    "Its name means “The Crouching”."
+   ],
+   "explain": "Surah Al-Jathiyah is surah 45 of the mushaf, with 37 ayat, beginning in juz 25. It is a Makki surah.",
+   "sources": [
+    [
+     "Quran.com data",
+     null
+    ],
+    [
+     "Quran 45:1",
+     null
+    ]
+   ]
+  },
+  {
+   "answer": "Surah Al-Ahqaf",
+   "options": [
+    "Surah Al-Jathiyah",
+    "Surah Luqman",
+    "Surah Al-Ahqaf",
+    "Surah Qaf"
+   ],
+   "clues": [
+    "It was revealed in Makkah.",
+    "It begins in juz 26.",
+    "It has 35 ayat.",
+    "It comes right after Surah Al-Jathiyah in the mushaf.",
+    "Its name means “The Wind-Curved Sandhills”."
+   ],
+   "explain": "Surah Al-Ahqaf is surah 46 of the mushaf, with 35 ayat, beginning in juz 26. It is a Makki surah.",
+   "sources": [
+    [
+     "Quran.com data",
+     null
+    ],
+    [
+     "Quran 46:1",
+     null
+    ]
+   ]
+  }
+ ]
+}
