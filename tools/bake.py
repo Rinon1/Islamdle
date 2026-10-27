@@ -118,6 +118,10 @@ uthmani = {v["verse_key"]: v["text_uthmani"].strip()
 # (Ad-Duha onwards), which is what keeps the easy tier genuinely easy.
 MEMORISED = {1} | set(range(93, 115))
 JUZ_AMMA = set(range(78, 115))
+JUZ_TABARAK = set(range(67, 78))
+# Surahs many people recite often outside Juz 'Amma: Al-Kahf (Fridays), Yasin,
+# Ar-Rahman and Al-Waqi'ah.
+OFTEN_RECITED = {18, 36, 55, 56}
 
 english = {}
 i = 0
@@ -150,8 +154,8 @@ def scramble_pool(allowed_surahs, lo, hi):
 
 
 scramble = {
-    "easy": scramble_pool(MEMORISED, 3, 5),
-    "medium": scramble_pool(JUZ_AMMA | {1}, 6, 8),
+    "easy": scramble_pool(JUZ_AMMA | {1}, 3, 5),
+    "medium": scramble_pool(JUZ_AMMA | JUZ_TABARAK | OFTEN_RECITED | {1}, 6, 8),
     "hard": scramble_pool(set(range(1, 115)), 9, 13),
 }
 

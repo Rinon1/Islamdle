@@ -663,7 +663,9 @@
   function surahPool() {
     if (LEVEL === "easy") {
       // Surahs most people could name: the opening, and the short closing ones.
-      return DATA.surahs.filter(function (s) { return s.id === 1 || s.id >= 103; });
+      // Juz 'Amma, Al-Fatihah, and the surahs most people know by name.
+      var known = [1, 2, 3, 12, 18, 19, 36, 55, 56, 67];
+      return DATA.surahs.filter(function (s) { return s.id >= 78 || known.indexOf(s.id) !== -1; });
     }
     if (LEVEL === "medium") {
       return DATA.surahs.filter(function (s) { return s.verses >= 10; });

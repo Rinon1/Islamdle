@@ -963,7 +963,7 @@ nav button[aria-current="true"] {
 }
 
 /* Footer attribution. */
-.powered { color: var(--ink-dim); font-size: 13px; }
+.powered { color: #6d8d82; font-size: 12px; margin-top: 4px; }
 .powered b { color: var(--gold); font-weight: 600; }
 .credits { font-size: 11px; opacity: .8; }
 
