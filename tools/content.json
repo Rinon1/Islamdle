@@ -7825,6 +7825,1405 @@
             "curtail"
           ]
         ]
+      },
+      {
+        "answer": "Usamah ibn Zayd",
+        "options": [
+          "Usamah ibn Zayd",
+          "Zayd ibn Harithah",
+          "Anas ibn Malik",
+          "Abdullah ibn Abbas"
+        ],
+        "clues": [
+          "He was the son of a freed slave.",
+          "He grew up close to the Prophet ﷺ, who loved him and his father.",
+          "He was still young when he was given a command.",
+          "Some people objected because of his age.",
+          "The Prophet ﷺ appointed him to lead an army to Syria shortly before his death."
+        ],
+        "explain": "The Prophet ﷺ placed Usamah ibn Zayd in command of an army. When some questioned it, he said they had questioned his father's command too, and both were worthy of it.",
+        "sources": [
+          [
+            "Bukhari 4469",
+            "Usama"
+          ]
+        ]
+      },
+      {
+        "answer": "Sa'd ibn Abi Waqqas",
+        "options": [
+          "Sa'd ibn Abi Waqqas",
+          "Sa'd ibn Mu'adh",
+          "Talhah ibn Ubaydullah",
+          "Khalid ibn al-Walid"
+        ],
+        "clues": [
+          "He accepted Islam as a young man.",
+          "He was one of the ten promised Paradise.",
+          "He was known for his skill with the bow.",
+          "At Uhud the Prophet ﷺ said to him, \"Shoot, may my father and mother be sacrificed for you.\"",
+          "He commanded the Muslims at Qadisiyyah."
+        ],
+        "explain": "Ali said he never heard the Prophet ﷺ say \"may my father and mother be sacrificed for you\" to anyone except Sa'd ibn Abi Waqqas, at Uhud.",
+        "sources": [
+          [
+            "Bukhari 4059",
+            "father and mother"
+          ]
+        ]
+      },
+      {
+        "answer": "Talhah ibn Ubaydullah",
+        "options": [
+          "Talhah ibn Ubaydullah",
+          "Az-Zubayr ibn al-Awwam",
+          "Sa'd ibn Abi Waqqas",
+          "Abu Ubaydah ibn al-Jarrah"
+        ],
+        "clues": [
+          "He was one of the early Muslims of Makkah.",
+          "He was one of the ten promised Paradise.",
+          "He was a generous merchant.",
+          "He shielded the Prophet ﷺ with his hand at Uhud.",
+          "His hand was left paralysed from protecting him."
+        ],
+        "explain": "Qays ibn Abi Hazim said, \"I saw the hand of Talhah paralysed; he had protected the Prophet ﷺ with it.\"",
+        "sources": [
+          [
+            "Bukhari 3724",
+            "Talha"
+          ]
+        ]
+      },
+      {
+        "answer": "Abdullah ibn Umar",
+        "options": [
+          "Abdullah ibn Umar",
+          "Abdullah ibn Abbas",
+          "Abdullah ibn Mas'ud",
+          "Abdullah ibn Amr"
+        ],
+        "clues": [
+          "He was the son of a caliph.",
+          "As a young man he slept in the mosque.",
+          "He followed the Sunnah closely, even in small details.",
+          "He narrated very many hadith.",
+          "His father was the second caliph."
+        ],
+        "explain": "Abdullah ibn Umar said that as an unmarried young man he used to sleep in the mosque, and he described a dream he saw there.",
+        "sources": [
+          [
+            "Bukhari 1121",
+            "mosque"
+          ]
+        ]
+      },
+      {
+        "answer": "Hudhayfah ibn al-Yaman",
+        "options": [
+          "Hudhayfah ibn al-Yaman",
+          "Abu Dharr al-Ghifari",
+          "Ammar ibn Yasir",
+          "Salman al-Farisi"
+        ],
+        "clues": [
+          "He was a companion.",
+          "He was sent alone into the enemy camp on a cold night at the Trench.",
+          "He was trusted with the names of the hypocrites.",
+          "People asked the Prophet ﷺ about good, but he asked about evil.",
+          "He said he did so for fear it would reach him."
+        ],
+        "explain": "Hudhayfah said, \"The people used to ask the Messenger of Allah ﷺ about good, and I used to ask him about evil, for fear that it would overtake me.\"",
+        "sources": [
+          [
+            "Bukhari 3606",
+            "Hudhaifa"
+          ]
+        ]
+      },
+      {
+        "answer": "Aminah bint Wahb",
+        "options": [
+          "Aminah bint Wahb",
+          "Halimah al-Sa'diyyah",
+          "Khadijah",
+          "Fatimah bint Asad"
+        ],
+        "clues": [
+          "She was from the tribe of Quraysh.",
+          "Her husband Abdullah died young.",
+          "She took her son to Yathrib to visit his relatives.",
+          "She died at al-Abwa' on the way back.",
+          "She was the mother of the Prophet ﷺ."
+        ],
+        "explain": "The Prophet ﷺ visited his mother's grave and wept. He said he had asked Allah's permission to visit it and was granted it.",
+        "sources": [
+          [
+            "Muslim 976",
+            "mother"
+          ],
+          [
+            "Ar-Raheeq Al-Makhtum",
+            null
+          ]
+        ]
+      },
+      {
+        "answer": "Abd al-Muttalib",
+        "options": [
+          "Abd al-Muttalib",
+          "Abu Talib",
+          "Hashim",
+          "Abdullah ibn Abd al-Muttalib"
+        ],
+        "clues": [
+          "He was a leader of Makkah.",
+          "He rediscovered the well of Zamzam.",
+          "He spoke to Abraha about his camels.",
+          "He cared for the Prophet ﷺ after his mother died.",
+          "He was the Prophet's grandfather."
+        ],
+        "explain": "At Hunayn the Prophet ﷺ declared, \"I am the Prophet, this is no lie. I am the son of Abd al-Muttalib.\"",
+        "sources": [
+          [
+            "Bukhari 2864",
+            "Muttalib"
+          ],
+          [
+            "Ar-Raheeq Al-Makhtum",
+            null
+          ]
+        ]
+      },
+      {
+        "answer": "Al-Abbas ibn Abd al-Muttalib",
+        "options": [
+          "Al-Abbas ibn Abd al-Muttalib",
+          "Hamzah ibn Abd al-Muttalib",
+          "Abu Talib",
+          "Abu Lahab"
+        ],
+        "clues": [
+          "He was one of the Prophet's uncles.",
+          "He was present at the second Pledge of Aqabah.",
+          "He fought on the side of Quraysh at Badr and was captured.",
+          "His descendants later founded a famous caliphate.",
+          "Umar asked Allah for rain through his supplication."
+        ],
+        "explain": "In a drought, Umar said, \"O Allah, we used to ask You through our Prophet, and now we ask You through the uncle of our Prophet,\" and al-Abbas prayed for rain.",
+        "sources": [
+          [
+            "Bukhari 1010",
+            "Abbas"
+          ]
+        ]
+      },
+      {
+        "answer": "Al-Hasan ibn Ali",
+        "options": [
+          "Al-Hasan ibn Ali",
+          "Al-Husayn ibn Ali",
+          "Muhammad ibn al-Hanafiyyah",
+          "Abdullah ibn Ja'far"
+        ],
+        "clues": [
+          "He was a grandson of the Prophet ﷺ.",
+          "He was the older of two brothers.",
+          "He resembled the Prophet ﷺ closely.",
+          "He gave up the caliphate to unite the Muslims.",
+          "The Prophet ﷺ said Allah would make peace between two groups through him."
+        ],
+        "explain": "The Prophet ﷺ said, \"This son of mine is a sayyid, and perhaps Allah will make peace through him between two great groups of Muslims.\"",
+        "sources": [
+          [
+            "Bukhari 2704",
+            "Hasan"
+          ]
+        ]
+      },
+      {
+        "answer": "Al-Husayn ibn Ali",
+        "options": [
+          "Al-Husayn ibn Ali",
+          "Al-Hasan ibn Ali",
+          "Zayn al-Abidin",
+          "Abdullah ibn al-Zubayr"
+        ],
+        "clues": [
+          "He was a grandson of the Prophet ﷺ.",
+          "He was the younger of two brothers.",
+          "The Prophet ﷺ called the two of them his two sweet basils of this world.",
+          "He was martyred on the day of Ashura.",
+          "He was killed at Karbala."
+        ],
+        "explain": "Ibn Umar narrated that the Prophet ﷺ said of al-Hasan and al-Husayn, \"They are my two sweet basils in this world.\"",
+        "sources": [
+          [
+            "Bukhari 3753",
+            "basil"
+          ]
+        ]
+      },
+      {
+        "answer": "Al-Najashi",
+        "options": [
+          "Al-Najashi",
+          "Heraclius",
+          "Chosroes",
+          "Al-Muqawqis"
+        ],
+        "clues": [
+          "He was a king.",
+          "He was a Christian when the Muslims first came to him.",
+          "He refused to hand over the Muslims who fled to him.",
+          "He wept when he heard verses of Surah Maryam.",
+          "The Prophet ﷺ prayed the funeral prayer for him in his absence."
+        ],
+        "explain": "When the Negus of Abyssinia died, the Prophet ﷺ announced it the same day and led the funeral prayer for him with four takbirs.",
+        "sources": [
+          [
+            "Bukhari 1245",
+            "Najashi"
+          ]
+        ]
+      },
+      {
+        "answer": "The Queen of Saba'",
+        "options": [
+          "The Queen of Saba'",
+          "Asiyah",
+          "Maryam",
+          "Hajar"
+        ],
+        "clues": [
+          "She ruled a wealthy kingdom.",
+          "She and her people worshipped the sun.",
+          "She received a letter from a prophet, carried by a bird.",
+          "She sent a gift instead of coming at first.",
+          "She submitted to Allah with Sulayman."
+        ],
+        "explain": "The hoopoe told Sulayman of a woman ruling Saba'. In the end she said, \"I submit with Sulayman to Allah, Lord of the worlds.\"",
+        "sources": [
+          [
+            "Quran 27:23",
+            "woman"
+          ],
+          [
+            "Quran 27:44",
+            "Solomon"
+          ]
+        ]
+      },
+      {
+        "answer": "Imran",
+        "options": [
+          "Imran",
+          "Zakariyya",
+          "Azar",
+          "Ya'qub"
+        ],
+        "clues": [
+          "He is named in the Qur'an.",
+          "A whole surah is named after his family.",
+          "His wife vowed her unborn child to Allah's service.",
+          "Allah chose his family above the worlds.",
+          "He was the father of Maryam."
+        ],
+        "explain": "The wife of Imran said, \"My Lord, I have vowed to You what is in my womb.\" She gave birth to Maryam.",
+        "sources": [
+          [
+            "Quran 3:35",
+            "Imran"
+          ],
+          [
+            "Quran 3:33",
+            "Imran"
+          ]
+        ]
+      },
+      {
+        "answer": "The People of the Cave",
+        "options": [
+          "The People of the Cave",
+          "The People of the Ditch",
+          "The People of the Elephant",
+          "The People of the Garden"
+        ],
+        "clues": [
+          "They were a group of young men.",
+          "They fled to protect their faith.",
+          "They had a dog with them.",
+          "They slept for over three hundred years.",
+          "Their story is told in Surah Al-Kahf."
+        ],
+        "explain": "Surah Al-Kahf tells of the youths who sheltered in a cave and stayed there three hundred years, adding nine.",
+        "sources": [
+          [
+            "Quran 18:9",
+            "Cave"
+          ],
+          [
+            "Quran 18:25",
+            "three hundred"
+          ]
+        ]
+      },
+      {
+        "answer": "The People of the Ditch",
+        "options": [
+          "The People of the Ditch",
+          "The People of the Cave",
+          "The People of the Elephant",
+          "The People of Madyan"
+        ],
+        "clues": [
+          "They are mentioned in the Qur'an.",
+          "They lit a great fire.",
+          "They sat watching what they did to the believers.",
+          "Their only grudge was that the believers believed in Allah.",
+          "Their story is in Surah Al-Buruj."
+        ],
+        "explain": "Surah Al-Buruj curses the makers of the ditch, the fire full of fuel, who watched what they did to the believers.",
+        "sources": [
+          [
+            "Quran 85:4",
+            "ditch"
+          ]
+        ]
+      },
+      {
+        "answer": "'Ad",
+        "options": [
+          "'Ad",
+          "Thamud",
+          "Madyan",
+          "The People of Lut"
+        ],
+        "clues": [
+          "They were an ancient Arab people.",
+          "They were strong and built tall structures.",
+          "Their city was Iram of the pillars.",
+          "They rejected the prophet sent to them.",
+          "A furious wind destroyed them."
+        ],
+        "explain": "Surah Al-Fajr mentions 'Ad and Iram with its lofty pillars. They rejected Hud and a violent wind destroyed them.",
+        "sources": [
+          [
+            "Quran 89:6",
+            "A'ad"
+          ],
+          [
+            "Quran 69:6",
+            "wind"
+          ]
+        ]
+      },
+      {
+        "answer": "Thamud",
+        "options": [
+          "Thamud",
+          "'Ad",
+          "Madyan",
+          "Saba'"
+        ],
+        "clues": [
+          "They were an ancient Arab people.",
+          "They carved homes out of rock.",
+          "They were given a she-camel as a sign.",
+          "They killed it and were destroyed by a blast.",
+          "Their prophet was Salih."
+        ],
+        "explain": "Surah Al-Fajr mentions Thamud, who hewed the rocks in the valley. They rejected Salih and killed the she-camel.",
+        "sources": [
+          [
+            "Quran 89:9",
+            "Thamud"
+          ],
+          [
+            "Quran 91:11",
+            "Thamud"
+          ]
+        ]
+      },
+      {
+        "answer": "Uzayr",
+        "options": [
+          "Uzayr",
+          "Imran",
+          "Talut",
+          "Luqman"
+        ],
+        "clues": [
+          "He is named once in the Qur'an.",
+          "He is named in Surah At-Tawbah.",
+          "Some people claimed he was a son of Allah.",
+          "The Qur'an rejects that claim.",
+          "His name is often given as Ezra in English."
+        ],
+        "explain": "Surah At-Tawbah mentions those who said Uzayr is the son of Allah, and rejects it.",
+        "sources": [
+          [
+            "Quran 9:30",
+            "Ezra"
+          ]
+        ]
+      },
+      {
+        "answer": "Yathrib",
+        "options": [
+          "Yathrib",
+          "Ta'if",
+          "Khaybar",
+          "Bakkah"
+        ],
+        "clues": [
+          "It is a city.",
+          "It had date groves and two main Arab tribes.",
+          "Its people invited the Prophet ﷺ to come to them.",
+          "Its old name appears once in the Qur'an.",
+          "It became known as Madinah."
+        ],
+        "explain": "Surah Al-Ahzab uses the old name: \"O people of Yathrib, there is no place for you, so go back.\" After the Hijrah it became known as Madinah.",
+        "sources": [
+          [
+            "Quran 33:13",
+            "Yathrib"
+          ]
+        ]
+      },
+      {
+        "answer": "Bakkah",
+        "options": [
+          "Bakkah",
+          "Yathrib",
+          "Ta'if",
+          "Bayt al-Maqdis"
+        ],
+        "clues": [
+          "It is a name used in the Qur'an.",
+          "It appears only once.",
+          "It is linked to the first house of worship.",
+          "That house is blessed and a guidance for the worlds.",
+          "It is another name for Makkah."
+        ],
+        "explain": "Allah says, \"The first house appointed for mankind was the one at Bakkah, blessed and a guidance for the worlds.\"",
+        "sources": [
+          [
+            "Quran 3:96",
+            "Becca"
+          ]
+        ]
+      },
+      {
+        "answer": "Khaybar",
+        "options": [
+          "Khaybar",
+          "Tabuk",
+          "Yathrib",
+          "Ta'if"
+        ],
+        "clues": [
+          "It is an oasis north of Madinah.",
+          "It had strong forts and many date palms.",
+          "Ja'far came back from Abyssinia when it was conquered.",
+          "The Prophet ﷺ said he would give the banner to a man Allah and His Messenger love.",
+          "Ali was given that banner."
+        ],
+        "explain": "Before the conquest of Khaybar the Prophet ﷺ said, \"Tomorrow I will give the flag to a man who loves Allah and His Messenger,\" and gave it to Ali.",
+        "sources": [
+          [
+            "Bukhari 4210",
+            "Khaibar"
+          ],
+          [
+            "Bukhari 3701",
+            "flag"
+          ]
+        ]
+      },
+      {
+        "answer": "Dhul-Hulayfah",
+        "options": [
+          "Dhul-Hulayfah",
+          "Juhfah",
+          "Qarn al-Manazil",
+          "Yalamlam"
+        ],
+        "clues": [
+          "It is a place outside a holy city.",
+          "It is a miqat.",
+          "Pilgrims enter ihram there.",
+          "It is the miqat furthest from Makkah.",
+          "It is the miqat for the people of Madinah."
+        ],
+        "explain": "The Prophet ﷺ set Dhul-Hulayfah as the miqat for the people of Madinah, al-Juhfah for Sham, Qarn al-Manazil for Najd and Yalamlam for Yemen.",
+        "sources": [
+          [
+            "Bukhari 1524",
+            "Miqat"
+          ]
+        ]
+      },
+      {
+        "answer": "Mount Judi",
+        "options": [
+          "Mount Judi",
+          "Mount Sinai",
+          "Mount Uhud",
+          "Mount Arafat"
+        ],
+        "clues": [
+          "It is a mountain.",
+          "It is named once in the Qur'an.",
+          "It is mentioned in Surah Hud.",
+          "It appears at the end of a great flood.",
+          "The Ark of Nuh came to rest on it."
+        ],
+        "explain": "Allah says the earth swallowed its water, the sky held back, and the ship came to rest on al-Judi.",
+        "sources": [
+          [
+            "Quran 11:44",
+            "Al-Judi"
+          ]
+        ]
+      },
+      {
+        "answer": "Madyan",
+        "options": [
+          "Madyan",
+          "Egypt",
+          "Saba'",
+          "Iram"
+        ],
+        "clues": [
+          "It is a place named in the Qur'an.",
+          "Its people cheated in weights and measures.",
+          "Musa fled there from Egypt.",
+          "He married there after helping two women water their flock.",
+          "Shu'ayb was sent to its people."
+        ],
+        "explain": "Musa travelled towards Madyan, where he helped two women water their flock. Shu'ayb was the prophet sent to Madyan.",
+        "sources": [
+          [
+            "Quran 28:22",
+            "Midian"
+          ],
+          [
+            "Quran 11:84",
+            "Midian"
+          ]
+        ]
+      },
+      {
+        "answer": "Egypt",
+        "options": [
+          "Egypt",
+          "Madyan",
+          "Babylon",
+          "Saba'"
+        ],
+        "clues": [
+          "It is a land named in the Qur'an.",
+          "Yusuf was sold there as a boy.",
+          "Yusuf later became the keeper of its storehouses.",
+          "Fir'awn ruled it.",
+          "In Arabic it is called Misr."
+        ],
+        "explain": "Yusuf was brought to Egypt as a boy, and later welcomed his parents there, saying \"Enter Egypt, in safety if Allah wills.\"",
+        "sources": [
+          [
+            "Quran 12:99",
+            "Egypt"
+          ],
+          [
+            "Quran 12:21",
+            "Egypt"
+          ]
+        ]
+      },
+      {
+        "answer": "Babylon",
+        "options": [
+          "Babylon",
+          "Egypt",
+          "Saba'",
+          "Madyan"
+        ],
+        "clues": [
+          "It is a city named in the Qur'an.",
+          "It is named only once.",
+          "It is named in Surah Al-Baqarah.",
+          "Two angels were sent down there.",
+          "Harut and Marut were there."
+        ],
+        "explain": "Surah Al-Baqarah speaks of what was sent down to the two angels in Babylon, Harut and Marut.",
+        "sources": [
+          [
+            "Quran 2:102",
+            "Babel"
+          ]
+        ]
+      },
+      {
+        "answer": "Iram",
+        "options": [
+          "Iram",
+          "Madyan",
+          "Saba'",
+          "Babylon"
+        ],
+        "clues": [
+          "It is named once in the Qur'an.",
+          "It is mentioned in Surah Al-Fajr.",
+          "It was the city of a mighty people.",
+          "Nothing like it had been created in the lands.",
+          "It is described as having lofty pillars."
+        ],
+        "explain": "Surah Al-Fajr asks, \"Have you not seen how your Lord dealt with 'Ad, Iram of the pillars, the like of which was never created in the lands?\"",
+        "sources": [
+          [
+            "Quran 89:7",
+            "Iram"
+          ]
+        ]
+      },
+      {
+        "answer": "Damascus",
+        "options": [
+          "Damascus",
+          "Jerusalem",
+          "Baghdad",
+          "Cairo"
+        ],
+        "clues": [
+          "It is a very old city.",
+          "It became the capital of the Umayyads.",
+          "It is in the land of al-Sham.",
+          "A hadith says Isa will descend near a white minaret there.",
+          "It is the capital of Syria today."
+        ],
+        "explain": "The hadith of al-Nawwas ibn Sam'an in Sahih Muslim says Isa son of Maryam will descend at the white minaret on the eastern side of Damascus.",
+        "sources": [
+          [
+            "Muslim 2937",
+            "Damascus"
+          ]
+        ]
+      },
+      {
+        "answer": "Yawm al-Tarwiyah",
+        "options": [
+          "Yawm al-Tarwiyah",
+          "Yawm Arafah",
+          "Yawm al-Nahr",
+          "Ayyam al-Tashriq"
+        ],
+        "clues": [
+          "It is a day of the Hajj.",
+          "It is the first of the main days of Hajj.",
+          "Pilgrims enter ihram again if they had left it.",
+          "They go to Mina on it.",
+          "It is the 8th of Dhul-Hijjah."
+        ],
+        "explain": "Jabir described how on the day of Tarwiyah the pilgrims went to Mina and put on ihram for Hajj.",
+        "sources": [
+          [
+            "Muslim 1218",
+            "Tarwiya"
+          ]
+        ]
+      },
+      {
+        "answer": "Ayyam al-Tashriq",
+        "options": [
+          "Ayyam al-Tashriq",
+          "Ayyam al-Bid",
+          "The ten days of Dhul-Hijjah",
+          "Yawm al-Tarwiyah"
+        ],
+        "clues": [
+          "They are days of the year.",
+          "They come straight after Eid al-Adha.",
+          "Pilgrims stone the pillars on them.",
+          "Fasting on them is not allowed, except for a pilgrim who has no offering.",
+          "The Prophet ﷺ called them days of eating, drinking and remembering Allah."
+        ],
+        "explain": "The Prophet ﷺ said, \"The days of Tashriq are days of eating and drinking.\" They are the 11th, 12th and 13th of Dhul-Hijjah.",
+        "sources": [
+          [
+            "Muslim 1141",
+            "Tashriq"
+          ],
+          [
+            "Bukhari 1997",
+            "Hadi"
+          ],
+          [
+            "Quran 2:203",
+            "appointed days"
+          ]
+        ]
+      },
+      {
+        "answer": "Ayyam al-Bid",
+        "options": [
+          "Ayyam al-Bid",
+          "Ayyam al-Tashriq",
+          "Six days of Shawwal",
+          "Ashura"
+        ],
+        "clues": [
+          "They are days for voluntary fasting.",
+          "They come every month.",
+          "They are three days.",
+          "They fall in the middle of the lunar month.",
+          "They are called the white days because of the bright moon."
+        ],
+        "explain": "The Prophet ﷺ told Abu Dharr, \"If you fast three days of the month, fast the thirteenth, fourteenth and fifteenth.\"",
+        "sources": [
+          [
+            "Tirmidhi 761",
+            "thirteenth"
+          ]
+        ]
+      },
+      {
+        "answer": "Tawaf al-Wada'",
+        "options": [
+          "Tawaf al-Wada'",
+          "Tawaf al-Ifadah",
+          "Tawaf al-Qudum",
+          "Sa'i"
+        ],
+        "clues": [
+          "It is a rite connected to Hajj.",
+          "It is circling the Ka'bah.",
+          "It is done just before leaving Makkah.",
+          "A woman in her menses is excused from it.",
+          "It is the farewell circuit."
+        ],
+        "explain": "The people were ordered to make the Ka'bah the last thing they visited, though women in their menses were excused.",
+        "sources": [
+          [
+            "Bukhari 1755",
+            "last"
+          ]
+        ]
+      },
+      {
+        "answer": "Hady",
+        "options": [
+          "Hady",
+          "Udhiyah",
+          "Aqiqah",
+          "Fidyah"
+        ],
+        "clues": [
+          "It is an animal offered as a sacrifice.",
+          "It is connected to Hajj and Umrah.",
+          "It is sent to the Sacred House.",
+          "Pilgrims doing tamattu' must offer one, or fast if they cannot.",
+          "Surah Al-Baqarah tells pilgrims not to shave until it reaches its place."
+        ],
+        "explain": "Surah Al-Baqarah says whoever combines Umrah with Hajj must offer what offering is easy, or fast three days in Hajj and seven on returning.",
+        "sources": [
+          [
+            "Quran 2:196",
+            "offering"
+          ]
+        ]
+      },
+      {
+        "answer": "Talaq",
+        "options": [
+          "Talaq",
+          "Khul'",
+          "Iddah",
+          "Mahr"
+        ],
+        "clues": [
+          "It is a word from family law.",
+          "The Qur'an says it may be given twice, then kept or released kindly.",
+          "It is followed by a waiting period.",
+          "A whole surah is named after it.",
+          "It means divorce."
+        ],
+        "explain": "Allah says, \"Divorce is twice, then keep her in an honourable manner or release her with kindness.\"",
+        "sources": [
+          [
+            "Quran 2:229",
+            "Divorce"
+          ]
+        ]
+      },
+      {
+        "answer": "Khul'",
+        "options": [
+          "Khul'",
+          "Talaq",
+          "Li'an",
+          "Iddah"
+        ],
+        "clues": [
+          "It is a way a marriage can end.",
+          "It is started by the wife.",
+          "She gives back something she received.",
+          "The wife of Thabit ibn Qays used it.",
+          "She returned the garden he had given her as dowry."
+        ],
+        "explain": "The wife of Thabit ibn Qays came to the Prophet ﷺ wanting to leave the marriage. He asked, \"Will you give back his garden?\" and she agreed.",
+        "sources": [
+          [
+            "Bukhari 5273",
+            "garden"
+          ],
+          [
+            "Quran 2:229",
+            "ransom"
+          ]
+        ]
+      },
+      {
+        "answer": "Mahram",
+        "options": [
+          "Mahram",
+          "Wali",
+          "Mahr",
+          "Khalifah"
+        ],
+        "clues": [
+          "It is a term from Islamic law.",
+          "It describes a relationship.",
+          "A woman may travel with such a person.",
+          "Marriage between the two is forbidden forever.",
+          "Surah An-Nisa lists who they are."
+        ],
+        "explain": "Surah An-Nisa lists the relatives one may never marry, such as mothers, daughters, sisters and aunts. These are a person's mahrams.",
+        "sources": [
+          [
+            "Quran 4:23",
+            "Forbidden"
+          ]
+        ]
+      },
+      {
+        "answer": "Diyah",
+        "options": [
+          "Diyah",
+          "Qisas",
+          "Kaffarah",
+          "Fidyah"
+        ],
+        "clues": [
+          "It is a payment.",
+          "It is paid to a victim's family.",
+          "It is due for unintentional killing.",
+          "It is paid together with freeing a believing slave.",
+          "It is blood money."
+        ],
+        "explain": "Surah An-Nisa says whoever kills a believer by mistake must free a believing slave and pay blood money to the family.",
+        "sources": [
+          [
+            "Quran 4:92",
+            "blood-money"
+          ]
+        ]
+      },
+      {
+        "answer": "Qisas",
+        "options": [
+          "Qisas",
+          "Diyah",
+          "Hudud",
+          "Ta'zir"
+        ],
+        "clues": [
+          "It is a term from Islamic law.",
+          "It is prescribed in Surah Al-Baqarah.",
+          "The victim's family may forgive instead.",
+          "The Qur'an says there is life in it.",
+          "It means legal retaliation in kind."
+        ],
+        "explain": "Allah says, \"Retaliation is prescribed for you,\" and, \"In retaliation there is life for you, O people of understanding.\"",
+        "sources": [
+          [
+            "Quran 2:178",
+            "Retaliation"
+          ],
+          [
+            "Quran 2:179",
+            "life"
+          ]
+        ]
+      },
+      {
+        "answer": "Wasiyyah",
+        "options": [
+          "Wasiyyah",
+          "Waqf",
+          "Mirath",
+          "Hibah"
+        ],
+        "clues": [
+          "It is a document or a spoken wish.",
+          "It takes effect after death.",
+          "It is limited to a third of one's wealth.",
+          "The Prophet ﷺ said a third is much.",
+          "It means a will or bequest."
+        ],
+        "explain": "When Sa'd ibn Abi Waqqas wanted to bequeath his wealth, the Prophet ﷺ allowed a third and said, \"A third, and a third is much.\"",
+        "sources": [
+          [
+            "Bukhari 2742",
+            "third"
+          ],
+          [
+            "Quran 2:180",
+            "bequeath"
+          ]
+        ]
+      },
+      {
+        "answer": "Waqf",
+        "options": [
+          "Waqf",
+          "Wasiyyah",
+          "Zakat",
+          "Hibah"
+        ],
+        "clues": [
+          "It is a kind of charity.",
+          "The property itself is kept.",
+          "Only its income is given away.",
+          "Umar did this with his land at Khaybar.",
+          "It is a charitable endowment."
+        ],
+        "explain": "Umar asked the Prophet ﷺ about his land at Khaybar. He told him to keep the land itself and give its produce in charity.",
+        "sources": [
+          [
+            "Bukhari 2737",
+            "Khaibar"
+          ]
+        ]
+      },
+      {
+        "answer": "The seven ahruf",
+        "options": [
+          "The seven ahruf",
+          "The seven long surahs",
+          "The seven verses of Al-Fatihah",
+          "The seven manzils"
+        ],
+        "clues": [
+          "It concerns the Qur'an.",
+          "Umar heard a companion recite a surah differently from him.",
+          "He took him to the Prophet ﷺ.",
+          "The Prophet ﷺ said both readings were correct.",
+          "He said the Qur'an was revealed in seven ways."
+        ],
+        "explain": "Umar and Hisham ibn Hakim recited Surah Al-Furqan differently. The Prophet ﷺ approved both and said the Qur'an was revealed in seven ahruf.",
+        "sources": [
+          [
+            "Bukhari 2419",
+            "seven"
+          ]
+        ]
+      },
+      {
+        "answer": "Ruqyah",
+        "options": [
+          "Ruqyah",
+          "Du'a",
+          "Dhikr",
+          "Istikharah"
+        ],
+        "clues": [
+          "It is a practice of healing.",
+          "It uses words, not medicine.",
+          "A companion used Al-Fatihah for it on a stung chief.",
+          "The Prophet ﷺ asked, \"How did you know it was a ruqyah?\"",
+          "It is reciting over someone who is ill."
+        ],
+        "explain": "A companion recited Al-Fatihah over a chief who had been stung and he recovered. The Prophet ﷺ approved of it.",
+        "sources": [
+          [
+            "Bukhari 2276",
+            "Fatiha"
+          ]
+        ]
+      },
+      {
+        "answer": "Sayyid al-Istighfar",
+        "options": [
+          "Sayyid al-Istighfar",
+          "Ayat al-Kursi",
+          "The du'a of Dhun-Nun",
+          "Al-Mu'awwidhatayn"
+        ],
+        "clues": [
+          "It is a supplication.",
+          "It begins, \"O Allah, You are my Lord, there is no god but You.\"",
+          "It is said in the morning and evening.",
+          "Whoever dies that day after saying it with conviction is among the people of Paradise.",
+          "Its name means \"the master of seeking forgiveness\"."
+        ],
+        "explain": "The Prophet ﷺ called this supplication the best way to seek forgiveness, and promised Paradise to one who says it with certainty and dies that day.",
+        "sources": [
+          [
+            "Bukhari 6306",
+            "forgiveness"
+          ]
+        ]
+      },
+      {
+        "answer": "The du'a of Dhun-Nun",
+        "options": [
+          "The du'a of Dhun-Nun",
+          "Sayyid al-Istighfar",
+          "Ayat al-Kursi",
+          "The du'a of Ibrahim"
+        ],
+        "clues": [
+          "It is a short supplication from the Qur'an.",
+          "It was said in the darkness.",
+          "It was answered and its caller was rescued from distress.",
+          "Its words are \"There is no god but You, glory be to You.\"",
+          "It was said by Yunus inside the fish."
+        ],
+        "explain": "Yunus called out in the darkness, \"There is no god but You, glory be to You, I was among the wrongdoers.\" Allah answered him and saved him.",
+        "sources": [
+          [
+            "Quran 21:87",
+            "Dhu'n-Nun"
+          ],
+          [
+            "Quran 21:88",
+            "saved"
+          ]
+        ]
+      },
+      {
+        "answer": "Bay'ah",
+        "options": [
+          "Bay'ah",
+          "Shura",
+          "Hijrah",
+          "Ijma'"
+        ],
+        "clues": [
+          "It is a pledge.",
+          "It is often given by taking someone's hand.",
+          "The Ansar gave it at Aqabah.",
+          "At Hudaybiyyah it was given under a tree.",
+          "The Qur'an says pledging to the Prophet ﷺ is pledging to Allah."
+        ],
+        "explain": "Allah says those who pledge allegiance to the Prophet ﷺ pledge allegiance to Allah, and He was pleased with the believers who pledged under the tree.",
+        "sources": [
+          [
+            "Quran 48:10",
+            "allegiance"
+          ],
+          [
+            "Quran 48:18",
+            "tree"
+          ]
+        ]
+      },
+      {
+        "answer": "Ijtihad",
+        "options": [
+          "Ijtihad",
+          "Ijma'",
+          "Qiyas",
+          "Taqlid"
+        ],
+        "clues": [
+          "It is a term from Islamic law.",
+          "It is done by a qualified scholar.",
+          "It means doing one's utmost to reach a ruling.",
+          "The Prophet ﷺ said the one who gets it right has two rewards.",
+          "Even the one who errs in it gets one reward."
+        ],
+        "explain": "The Prophet ﷺ said, \"If a judge strives and gets it right he has two rewards, and if he strives and errs he has one reward.\"",
+        "sources": [
+          [
+            "Bukhari 7352",
+            "double reward"
+          ]
+        ]
+      },
+      {
+        "answer": "Tawakkul",
+        "options": [
+          "Tawakkul",
+          "Sabr",
+          "Shukr",
+          "Taqwa"
+        ],
+        "clues": [
+          "It is a quality of the heart.",
+          "It goes together with taking the means.",
+          "The Qur'an says Allah loves those who have it.",
+          "Whoever has it in Allah, He is enough for them.",
+          "It means trusting in Allah."
+        ],
+        "explain": "Allah says, \"Whoever puts his trust in Allah, He will suffice him,\" and \"Allah loves those who put their trust in Him.\"",
+        "sources": [
+          [
+            "Quran 65:3",
+            "putteth his trust"
+          ],
+          [
+            "Quran 3:159",
+            "trust"
+          ]
+        ]
+      },
+      {
+        "answer": "Shukr",
+        "options": [
+          "Shukr",
+          "Sabr",
+          "Tawakkul",
+          "Taqwa"
+        ],
+        "clues": [
+          "It is a quality of the believer.",
+          "It is shown with the heart, the tongue and actions.",
+          "Allah promises more to those who show it.",
+          "Few of Allah's servants truly have it.",
+          "It means gratitude."
+        ],
+        "explain": "Allah says, \"If you are grateful, I will surely increase you.\"",
+        "sources": [
+          [
+            "Quran 14:7",
+            "give thanks"
+          ],
+          [
+            "Quran 34:13",
+            "thankful"
+          ]
+        ]
+      },
+      {
+        "answer": "Haya'",
+        "options": [
+          "Haya'",
+          "Ikhlas",
+          "Taqwa",
+          "Sabr"
+        ],
+        "clues": [
+          "It is a quality of character.",
+          "It holds a person back from shameful things.",
+          "The Prophet ﷺ had more of it than a girl behind her curtain.",
+          "It is one of the branches of faith.",
+          "It means modesty or shyness."
+        ],
+        "explain": "The Prophet ﷺ said, \"Faith has over sixty branches, and haya' is a branch of faith.\"",
+        "sources": [
+          [
+            "Bukhari 9",
+            "Haya"
+          ]
+        ]
+      },
+      {
+        "answer": "Ghibah",
+        "options": [
+          "Ghibah",
+          "Namimah",
+          "Kadhib",
+          "Hasad"
+        ],
+        "clues": [
+          "It is a sin of the tongue.",
+          "It is done when the person is not present.",
+          "It is saying something true that they would dislike.",
+          "The Qur'an compares it to eating a dead brother's flesh.",
+          "It means backbiting."
+        ],
+        "explain": "Allah says, \"Do not backbite one another. Would one of you like to eat the flesh of his dead brother?\"",
+        "sources": [
+          [
+            "Quran 49:12",
+            "backbite"
+          ]
+        ]
+      },
+      {
+        "answer": "Hasad",
+        "options": [
+          "Hasad",
+          "Ghibah",
+          "Kibr",
+          "Riya'"
+        ],
+        "clues": [
+          "It is a disease of the heart.",
+          "It is wishing that someone loses a blessing.",
+          "The Prophet ﷺ said, \"Do not be jealous of one another.\"",
+          "Surah Al-Falaq seeks refuge from it.",
+          "It means envy."
+        ],
+        "explain": "Surah Al-Falaq ends with seeking refuge \"from the evil of the envier when he envies.\"",
+        "sources": [
+          [
+            "Quran 113:5",
+            "envier"
+          ],
+          [
+            "Bukhari 6065",
+            "jealous"
+          ]
+        ]
+      },
+      {
+        "answer": "Riya'",
+        "options": [
+          "Riya'",
+          "Kibr",
+          "Hasad",
+          "Nifaq"
+        ],
+        "clues": [
+          "It is a disease of the heart.",
+          "It spoils good deeds.",
+          "It is doing good deeds to be seen and praised by people.",
+          "Surah Al-Ma'un warns those who pray to be seen.",
+          "It means showing off."
+        ],
+        "explain": "Surah Al-Ma'un warns those who are heedless of their prayer, \"those who want to be seen.\"",
+        "sources": [
+          [
+            "Quran 107:6",
+            "seen"
+          ]
+        ]
+      },
+      {
+        "answer": "Kibr",
+        "options": [
+          "Kibr",
+          "Riya'",
+          "Hasad",
+          "Ghibah"
+        ],
+        "clues": [
+          "It is a disease of the heart.",
+          "It was the sin of Iblis.",
+          "The Prophet ﷺ defined it as rejecting the truth and looking down on people.",
+          "No one with an atom's weight of it will enter Paradise.",
+          "It means arrogance."
+        ],
+        "explain": "The Prophet ﷺ said no one with an atom's weight of pride in his heart will enter Paradise, and explained pride as rejecting truth and looking down on people.",
+        "sources": [
+          [
+            "Muslim 91",
+            "pride"
+          ]
+        ]
+      },
+      {
+        "answer": "Nifaq",
+        "options": [
+          "Nifaq",
+          "Kufr",
+          "Shirk",
+          "Riya'"
+        ],
+        "clues": [
+          "It is a serious sin of the heart.",
+          "Outwardly a person shows faith but hides disbelief.",
+          "A whole surah is named after the people who have it.",
+          "One of its signs is lying when speaking.",
+          "It means hypocrisy."
+        ],
+        "explain": "The Prophet ﷺ said the signs of a hypocrite are three: when he speaks he lies, when he promises he breaks it, and when trusted he betrays.",
+        "sources": [
+          [
+            "Bukhari 33",
+            "hypocrite"
+          ],
+          [
+            "Quran 63:1",
+            "hypocrites"
+          ]
+        ]
+      },
+      {
+        "answer": "Fitrah",
+        "options": [
+          "Fitrah",
+          "Taqwa",
+          "Iman",
+          "Ihsan"
+        ],
+        "clues": [
+          "It is something every person is born with.",
+          "It is mentioned in Surah Ar-Rum.",
+          "It is the natural disposition Allah created people on.",
+          "The Prophet ﷺ said parents may change it.",
+          "It means the natural state."
+        ],
+        "explain": "The Prophet ﷺ said every child is born upon the fitrah, then his parents make him a Jew, a Christian or a Magian.",
+        "sources": [
+          [
+            "Bukhari 1385",
+            "born"
+          ],
+          [
+            "Quran 30:30",
+            "nature"
+          ]
+        ]
+      },
+      {
+        "answer": "Shafa'ah",
+        "options": [
+          "Shafa'ah",
+          "Tawbah",
+          "Du'a",
+          "Istighfar"
+        ],
+        "clues": [
+          "It is part of the Day of Judgement.",
+          "It happens only with Allah's permission.",
+          "Ayat al-Kursi mentions it.",
+          "The Prophet ﷺ will be given the greatest one.",
+          "It means intercession."
+        ],
+        "explain": "Ayat al-Kursi asks, \"Who is there that can intercede with Him except by His permission?\"",
+        "sources": [
+          [
+            "Quran 2:255",
+            "intercedeth"
+          ]
+        ]
+      },
+      {
+        "answer": "The Hawd",
+        "options": [
+          "The Hawd",
+          "Salsabil",
+          "Tasnim",
+          "Zamzam"
+        ],
+        "clues": [
+          "It is part of the Day of Judgement.",
+          "It belongs to the Prophet ﷺ.",
+          "Its water is whiter than milk.",
+          "Whoever drinks from it will never be thirsty again.",
+          "It is the Prophet's basin."
+        ],
+        "explain": "The Prophet ﷺ described his basin: its water whiter than milk, its smell better than musk, and whoever drinks from it will never thirst again.",
+        "sources": [
+          [
+            "Bukhari 6579",
+            "milk"
+          ]
+        ]
       }
     ],
     "hard": [
@@ -9428,6 +10827,2965 @@
           ],
           [
             "Quran 46:1",
+            null
+          ]
+        ]
+      },
+      {
+        "answer": "Imam al-Bukhari",
+        "options": [
+          "Imam al-Bukhari",
+          "Imam Muslim",
+          "Abu Dawud",
+          "Al-Tirmidhi"
+        ],
+        "clues": [
+          "He was born in Bukhara.",
+          "He travelled across the Muslim world collecting narrations.",
+          "His teachers included Ahmad ibn Hanbal and Ali ibn al-Madini.",
+          "He died near Samarqand in 256 AH.",
+          "His Sahih is held to be the most authentic book after the Qur'an."
+        ],
+        "explain": "Muhammad ibn Isma'il al-Bukhari compiled al-Jami' al-Sahih, which scholars regard as the most authentic book after the Book of Allah. He died in 256 AH.",
+        "sources": [
+          [
+            "Siyar A'lam an-Nubala",
+            null
+          ],
+          [
+            "Bukhari 1",
+            "intention"
+          ]
+        ]
+      },
+      {
+        "answer": "Imam Muslim",
+        "options": [
+          "Imam Muslim",
+          "Imam al-Bukhari",
+          "Al-Nasa'i",
+          "Ibn Majah"
+        ],
+        "clues": [
+          "He was born in Nishapur.",
+          "He was a student of al-Bukhari.",
+          "His collection is famous for its careful arrangement of narrations.",
+          "He died in 261 AH.",
+          "His Sahih is ranked second only to al-Bukhari's."
+        ],
+        "explain": "Muslim ibn al-Hajjaj of Nishapur compiled the Sahih that, with al-Bukhari's, makes up the two Sahihs.",
+        "sources": [
+          [
+            "Siyar A'lam an-Nubala",
+            null
+          ],
+          [
+            "Muslim 8",
+            "Islam"
+          ]
+        ]
+      },
+      {
+        "answer": "Abu Hanifah",
+        "options": [
+          "Abu Hanifah",
+          "Malik ibn Anas",
+          "Al-Shafi'i",
+          "Ahmad ibn Hanbal"
+        ],
+        "clues": [
+          "He lived in Kufa.",
+          "He was a cloth merchant.",
+          "He refused the post of judge.",
+          "He died in 150 AH, the year al-Shafi'i was born.",
+          "His name is al-Nu'man ibn Thabit, founder of a school of fiqh."
+        ],
+        "explain": "Al-Nu'man ibn Thabit, known as Abu Hanifah, is the founder of the Hanafi school. He died in 150 AH.",
+        "sources": [
+          [
+            "Siyar A'lam an-Nubala",
+            null
+          ]
+        ]
+      },
+      {
+        "answer": "Malik ibn Anas",
+        "options": [
+          "Malik ibn Anas",
+          "Abu Hanifah",
+          "Al-Shafi'i",
+          "Al-Layth ibn Sa'd"
+        ],
+        "clues": [
+          "He lived and taught in Madinah.",
+          "He rarely left the city of the Prophet ﷺ.",
+          "Al-Shafi'i studied under him.",
+          "He wrote one of the earliest books of hadith and fiqh.",
+          "He compiled al-Muwatta'."
+        ],
+        "explain": "Malik ibn Anas, the imam of Madinah, compiled al-Muwatta' and founded the Maliki school. He died in 179 AH.",
+        "sources": [
+          [
+            "Siyar A'lam an-Nubala",
+            null
+          ]
+        ]
+      },
+      {
+        "answer": "Al-Shafi'i",
+        "options": [
+          "Al-Shafi'i",
+          "Malik ibn Anas",
+          "Ahmad ibn Hanbal",
+          "Abu Yusuf"
+        ],
+        "clues": [
+          "He was from Quraysh.",
+          "He studied under Malik in Madinah.",
+          "He lived in Makkah, Iraq and finally Egypt.",
+          "He wrote al-Risalah, the first book on usul al-fiqh.",
+          "He founded a school of fiqh named after him."
+        ],
+        "explain": "Muhammad ibn Idris al-Shafi'i laid out the principles of jurisprudence in al-Risalah. He died in Egypt in 204 AH.",
+        "sources": [
+          [
+            "Siyar A'lam an-Nubala",
+            null
+          ]
+        ]
+      },
+      {
+        "answer": "Ahmad ibn Hanbal",
+        "options": [
+          "Ahmad ibn Hanbal",
+          "Al-Shafi'i",
+          "Yahya ibn Ma'in",
+          "Ishaq ibn Rahawayh"
+        ],
+        "clues": [
+          "He lived in Baghdad.",
+          "He studied under al-Shafi'i.",
+          "He was imprisoned and flogged during the Mihnah.",
+          "He compiled a huge Musnad of hadith.",
+          "He founded the fourth of the Sunni schools."
+        ],
+        "explain": "Ahmad ibn Hanbal stood firm in the Mihnah, compiled the Musnad, and is the founder of the Hanbali school. He died in 241 AH.",
+        "sources": [
+          [
+            "Siyar A'lam an-Nubala",
+            null
+          ]
+        ]
+      },
+      {
+        "answer": "Ibn Kathir",
+        "options": [
+          "Ibn Kathir",
+          "Al-Tabari",
+          "Al-Qurtubi",
+          "Al-Suyuti"
+        ],
+        "clues": [
+          "He lived in Damascus.",
+          "He was a student of Ibn Taymiyyah.",
+          "He wrote a world history called al-Bidaya wan-Nihaya.",
+          "His tafsir explains the Qur'an by the Qur'an and then the Sunnah.",
+          "His tafsir is among the most widely read in the world."
+        ],
+        "explain": "Isma'il ibn Kathir of Damascus wrote Tafsir al-Qur'an al-Azim and al-Bidaya wan-Nihaya. He died in 774 AH.",
+        "sources": [
+          [
+            "Ibn Hajar, Al-Durar al-Kaminah",
+            null
+          ]
+        ]
+      },
+      {
+        "answer": "Al-Nawawi",
+        "options": [
+          "Al-Nawawi",
+          "Ibn Hajar al-Asqalani",
+          "Ibn Kathir",
+          "Al-Dhahabi"
+        ],
+        "clues": [
+          "He came from the village of Nawa in Syria.",
+          "He never married and died young, aged about 45.",
+          "He wrote a famous commentary on Sahih Muslim.",
+          "He compiled Riyad as-Salihin.",
+          "His collection of forty hadith is memorised worldwide."
+        ],
+        "explain": "Yahya ibn Sharaf al-Nawawi compiled Riyad as-Salihin and the Forty Hadith, and commented on Sahih Muslim. He died in 676 AH.",
+        "sources": [
+          [
+            "Al-Bidaya wan-Nihaya",
+            null
+          ]
+        ]
+      },
+      {
+        "answer": "Al-Tabari",
+        "options": [
+          "Al-Tabari",
+          "Ibn Kathir",
+          "Al-Qurtubi",
+          "Al-Baghawi"
+        ],
+        "clues": [
+          "He came from Tabaristan.",
+          "He lived in Baghdad.",
+          "He wrote a great History of the Prophets and Kings.",
+          "His tafsir gathers the reports of the companions and their students.",
+          "He died in 310 AH."
+        ],
+        "explain": "Muhammad ibn Jarir al-Tabari wrote Jami' al-Bayan, a foundational tafsir, and the Tarikh. He died in 310 AH.",
+        "sources": [
+          [
+            "Siyar A'lam an-Nubala",
+            null
+          ]
+        ]
+      },
+      {
+        "answer": "Ibn Hajar al-Asqalani",
+        "options": [
+          "Ibn Hajar al-Asqalani",
+          "Al-Nawawi",
+          "Al-Suyuti",
+          "Al-Dhahabi"
+        ],
+        "clues": [
+          "He lived in Cairo.",
+          "He was a chief judge of Egypt.",
+          "He wrote Bulugh al-Maram.",
+          "He spent about 25 years on one commentary.",
+          "He wrote Fath al-Bari, the great commentary on Sahih al-Bukhari."
+        ],
+        "explain": "Ahmad ibn Ali ibn Hajar al-Asqalani wrote Fath al-Bari on Sahih al-Bukhari and Bulugh al-Maram. He died in 852 AH.",
+        "sources": [
+          [
+            "Ibn al-Imad, Shadharat al-Dhahab",
+            null
+          ]
+        ]
+      },
+      {
+        "answer": "Ibn Hisham",
+        "options": [
+          "Ibn Hisham",
+          "Ibn Ishaq",
+          "Al-Waqidi",
+          "Ibn Sa'd"
+        ],
+        "clues": [
+          "He lived in Egypt.",
+          "He worked on an earlier scholar's book.",
+          "He trimmed and edited it.",
+          "His version is the best-known early biography of the Prophet ﷺ.",
+          "His Sirah is based on the work of Ibn Ishaq."
+        ],
+        "explain": "Abd al-Malik ibn Hisham edited Ibn Ishaq's biography, and his Sirah became the standard early life of the Prophet ﷺ.",
+        "sources": [
+          [
+            "Siyar A'lam an-Nubala",
+            null
+          ]
+        ]
+      },
+      {
+        "answer": "Umar ibn Abd al-Aziz",
+        "options": [
+          "Umar ibn Abd al-Aziz",
+          "Umar ibn al-Khattab",
+          "Harun al-Rashid",
+          "Mu'awiyah"
+        ],
+        "clues": [
+          "He was an Umayyad ruler.",
+          "His great-grandfather on his mother's side was Umar ibn al-Khattab.",
+          "He ruled for only about two and a half years.",
+          "He ordered the hadith to be written down officially.",
+          "Many call him the fifth rightly guided caliph."
+        ],
+        "explain": "Umar ibn Abd al-Aziz ruled from 99 to 101 AH and was known for his justice. Al-Bukhari mentions in a chapter heading that he wrote ordering the hadith to be gathered.",
+        "sources": [
+          [
+            "Al-Bidaya wan-Nihaya",
+            null
+          ],
+          [
+            "Sahih al-Bukhari, Book of Knowledge, chapter heading before hadith 100",
+            null
+          ]
+        ]
+      },
+      {
+        "answer": "Salah al-Din al-Ayyubi",
+        "options": [
+          "Salah al-Din al-Ayyubi",
+          "Nur al-Din Zangi",
+          "Baybars",
+          "Qutuz"
+        ],
+        "clues": [
+          "He was of Kurdish origin.",
+          "He ended the Fatimid state in Egypt.",
+          "He founded the Ayyubid dynasty.",
+          "He defeated the Crusaders at Hattin.",
+          "He took back Jerusalem in 583 AH."
+        ],
+        "explain": "Salah al-Din defeated the Crusaders at Hattin and restored Jerusalem to Muslim rule in 583 AH (1187 CE).",
+        "sources": [
+          [
+            "Al-Bidaya wan-Nihaya",
+            null
+          ]
+        ]
+      },
+      {
+        "answer": "Halimah al-Sa'diyyah",
+        "options": [
+          "Halimah al-Sa'diyyah",
+          "Aminah bint Wahb",
+          "Umm Ayman",
+          "Thuwaybah"
+        ],
+        "clues": [
+          "She was from the tribe of Banu Sa'd.",
+          "She came to Makkah looking for a baby to nurse.",
+          "She took an orphan no one else wanted.",
+          "Her animals and household were blessed after that.",
+          "She was the Prophet's wet nurse."
+        ],
+        "explain": "Halimah of Banu Sa'd nursed the Prophet ﷺ in the desert. The splitting of his chest happened while he was with her people.",
+        "sources": [
+          [
+            "Ar-Raheeq Al-Makhtum",
+            null
+          ],
+          [
+            "Muslim 162c",
+            "playing"
+          ]
+        ]
+      },
+      {
+        "answer": "Umm Ayman",
+        "options": [
+          "Umm Ayman",
+          "Halimah al-Sa'diyyah",
+          "Aminah bint Wahb",
+          "Sumayyah"
+        ],
+        "clues": [
+          "She was from Abyssinia.",
+          "She cared for the Prophet ﷺ as a child.",
+          "She served his family from the time he was a child.",
+          "She married Zayd ibn Harithah.",
+          "She was the mother of Usamah ibn Zayd."
+        ],
+        "explain": "Barakah, known as Umm Ayman, was the Prophet's nurse after Aminah. She later married Zayd and bore Usamah.",
+        "sources": [
+          [
+            "Ar-Raheeq Al-Makhtum",
+            null
+          ],
+          [
+            "Muslim 2454",
+            "Umm Aiman"
+          ]
+        ]
+      },
+      {
+        "answer": "Abu Ayyub al-Ansari",
+        "options": [
+          "Abu Ayyub al-Ansari",
+          "Sa'd ibn Mu'adh",
+          "Abu Talhah",
+          "Sa'd ibn Ubadah"
+        ],
+        "clues": [
+          "He was from the Khazraj of Madinah.",
+          "The Prophet's camel knelt near his house.",
+          "The Prophet ﷺ stayed with him when he first arrived.",
+          "He fought in almost every battle.",
+          "He died during the siege of Constantinople and is buried by its walls."
+        ],
+        "explain": "When the Prophet ﷺ arrived in Madinah he stayed in the house of Abu Ayyub. Abu Ayyub died decades later on the expedition to Constantinople.",
+        "sources": [
+          [
+            "Ar-Raheeq Al-Makhtum",
+            null
+          ],
+          [
+            "Siyar A'lam an-Nubala",
+            null
+          ]
+        ]
+      },
+      {
+        "answer": "Sumayyah bint Khayyat",
+        "options": [
+          "Sumayyah bint Khayyat",
+          "Umm Ayman",
+          "Nusaybah bint Ka'b",
+          "Asma bint Abi Bakr"
+        ],
+        "clues": [
+          "She was an early Muslim of Makkah.",
+          "She and her family were tortured in the heat.",
+          "The Prophet ﷺ told her family to be patient, for their promise was Paradise.",
+          "Abu Jahl killed her.",
+          "She was the first martyr in Islam and the mother of Ammar."
+        ],
+        "explain": "Sumayyah, mother of Ammar ibn Yasir, was killed by Abu Jahl for refusing to leave Islam, the first martyr in Islam.",
+        "sources": [
+          [
+            "Ar-Raheeq Al-Makhtum",
+            null
+          ]
+        ]
+      },
+      {
+        "answer": "Nusaybah bint Ka'b",
+        "options": [
+          "Nusaybah bint Ka'b",
+          "Asma bint Abi Bakr",
+          "Umm Sulaym",
+          "Sumayyah bint Khayyat"
+        ],
+        "clues": [
+          "She was one of the Ansar.",
+          "She was at the second Pledge of Aqabah.",
+          "She went to Uhud to give water to the wounded.",
+          "She fought to defend the Prophet ﷺ when others scattered.",
+          "She is known as Umm Umarah."
+        ],
+        "explain": "Nusaybah bint Ka'b, Umm Umarah, defended the Prophet ﷺ at Uhud and was badly wounded.",
+        "sources": [
+          [
+            "Ar-Raheeq Al-Makhtum",
+            null
+          ],
+          [
+            "Siyar A'lam an-Nubala",
+            null
+          ]
+        ]
+      },
+      {
+        "answer": "Ka'b ibn Malik",
+        "options": [
+          "Ka'b ibn Malik",
+          "Hassan ibn Thabit",
+          "Abu Dharr al-Ghifari",
+          "Hilal ibn Umayyah"
+        ],
+        "clues": [
+          "He was one of the Ansar and a poet.",
+          "He stayed behind from one expedition without an excuse.",
+          "He told the truth instead of making an excuse.",
+          "He was boycotted for fifty days until his repentance was accepted.",
+          "He was one of the three who stayed behind from Tabuk."
+        ],
+        "explain": "Ka'b ibn Malik told the long story of how he stayed behind from Tabuk, confessed honestly, and was forgiven. Surah At-Tawbah mentions the three who were left behind.",
+        "sources": [
+          [
+            "Bukhari 4418",
+            "Ka`b"
+          ],
+          [
+            "Quran 9:118",
+            "three"
+          ]
+        ]
+      },
+      {
+        "answer": "Abdullah ibn Rawahah",
+        "options": [
+          "Abdullah ibn Rawahah",
+          "Zayd ibn Harithah",
+          "Ja'far ibn Abi Talib",
+          "Hassan ibn Thabit"
+        ],
+        "clues": [
+          "He was one of the Ansar.",
+          "He was a poet.",
+          "He was one of the twelve leaders chosen at Aqabah.",
+          "He was the third commander at Mu'tah.",
+          "He was martyred after Zayd and Ja'far."
+        ],
+        "explain": "At Mu'tah, Zayd, then Ja'far, then Ibn Rawahah took the banner and were martyred one after another.",
+        "sources": [
+          [
+            "Bukhari 4262",
+            "Ibn Rawaha"
+          ]
+        ]
+      },
+      {
+        "answer": "Khubayb ibn Adi",
+        "options": [
+          "Khubayb ibn Adi",
+          "Zayd ibn al-Dathinah",
+          "Asim ibn Thabit",
+          "Mus'ab ibn Umayr"
+        ],
+        "clues": [
+          "He was one of the Ansar.",
+          "He was captured after the betrayal at al-Raji'.",
+          "He was sold to the Quraysh in Makkah.",
+          "He asked to pray two rak'ahs before being executed.",
+          "He began the sunnah of praying before being killed."
+        ],
+        "explain": "Khubayb was the first to establish the two rak'ahs prayed before execution, as Abu Hurayrah relates in Sahih al-Bukhari.",
+        "sources": [
+          [
+            "Bukhari 3045",
+            "Khubaib"
+          ]
+        ]
+      },
+      {
+        "answer": "Abu Musa al-Ash'ari",
+        "options": [
+          "Abu Musa al-Ash'ari",
+          "Mu'adh ibn Jabal",
+          "Abu Hurayrah",
+          "Ubayy ibn Ka'b"
+        ],
+        "clues": [
+          "He came from Yemen.",
+          "He arrived in Madinah with the people of the ships at Khaybar.",
+          "He was later a governor of Basra and Kufa.",
+          "He was one of the two arbiters after Siffin.",
+          "The Prophet ﷺ said he had been given a flute of the family of Dawud."
+        ],
+        "explain": "The Prophet ﷺ praised Abu Musa's beautiful recitation, saying he had been given one of the flutes of the family of Dawud.",
+        "sources": [
+          [
+            "Bukhari 5048",
+            "Abu Musa"
+          ]
+        ]
+      },
+      {
+        "answer": "Abdullah ibn Salam",
+        "options": [
+          "Abdullah ibn Salam",
+          "Waraqah ibn Nawfal",
+          "Salman al-Farisi",
+          "Ka'b al-Ahbar"
+        ],
+        "clues": [
+          "He was a Jewish scholar of Madinah.",
+          "He came to the Prophet ﷺ when he arrived in Madinah.",
+          "He asked three questions only a prophet would know.",
+          "He accepted Islam on hearing the answers.",
+          "The Prophet ﷺ gave him glad tidings of Paradise."
+        ],
+        "explain": "Abdullah ibn Salam put three questions to the Prophet ﷺ on his arrival in Madinah, and accepted Islam when he heard the answers.",
+        "sources": [
+          [
+            "Bukhari 3329",
+            "Salam"
+          ]
+        ]
+      },
+      {
+        "answer": "Abdullah ibn Ubayy",
+        "options": [
+          "Abdullah ibn Ubayy",
+          "Abu Jahl",
+          "Abu Lahab",
+          "Musaylimah"
+        ],
+        "clues": [
+          "He was a leader in Madinah before the Hijrah.",
+          "He was about to be crowned when the Prophet ﷺ arrived.",
+          "He withdrew a third of the army before Uhud.",
+          "He said the more honourable would drive out the meaner.",
+          "He was the head of the hypocrites."
+        ],
+        "explain": "Surah Al-Munafiqun records his words, \"If we return to Madinah, the more honourable will drive out the meaner.\" Abdullah ibn Ubayy led the hypocrites.",
+        "sources": [
+          [
+            "Quran 63:8",
+            "mightier"
+          ],
+          [
+            "Bukhari 4900",
+            "Ubai"
+          ]
+        ]
+      },
+      {
+        "answer": "Musaylimah",
+        "options": [
+          "Musaylimah",
+          "Al-Aswad al-Ansi",
+          "Tulayhah",
+          "Abdullah ibn Ubayy"
+        ],
+        "clues": [
+          "He was from the tribe of Banu Hanifah.",
+          "He came to Madinah and wanted a share of authority.",
+          "He falsely claimed prophethood.",
+          "He was killed at the Battle of Yamamah.",
+          "He is known as \"the liar\"."
+        ],
+        "explain": "Musaylimah came to Madinah demanding a share of rule. The Prophet ﷺ refused him, and he was later killed at Yamamah.",
+        "sources": [
+          [
+            "Bukhari 4373",
+            "Musailima"
+          ]
+        ]
+      },
+      {
+        "answer": "Thumamah ibn Uthal",
+        "options": [
+          "Thumamah ibn Uthal",
+          "Musaylimah",
+          "Abdullah ibn Salam",
+          "Ikrimah ibn Abi Jahl"
+        ],
+        "clues": [
+          "He was a chief of Banu Hanifah in al-Yamamah.",
+          "He was captured and tied to a pillar of the mosque.",
+          "The Prophet ﷺ released him after three days.",
+          "He bathed and accepted Islam on his own.",
+          "He cut off the grain supply from al-Yamamah to Makkah."
+        ],
+        "explain": "Thumamah ibn Uthal was tied in the mosque, then freed. He accepted Islam and said no grain would reach Quraysh from al-Yamamah without the Prophet's permission.",
+        "sources": [
+          [
+            "Bukhari 4372",
+            "Thumama"
+          ]
+        ]
+      },
+      {
+        "answer": "Juwayriyah bint al-Harith",
+        "options": [
+          "Juwayriyah bint al-Harith",
+          "Safiyyah bint Huyayy",
+          "Maymunah bint al-Harith",
+          "Sawdah bint Zam'ah"
+        ],
+        "clues": [
+          "She was one of the Prophet's wives.",
+          "She was the daughter of the chief of Banu al-Mustaliq.",
+          "Her marriage led the Muslims to free many of her people.",
+          "The Prophet ﷺ taught her words of dhikr that outweigh a morning's worship.",
+          "Those words begin \"Subhan Allah wa bihamdihi, adada khalqihi\"."
+        ],
+        "explain": "The Prophet ﷺ found Juwayriyah still in remembrance after the morning and taught her four phrases that outweigh it.",
+        "sources": [
+          [
+            "Muslim 2726",
+            "Juwairiya"
+          ]
+        ]
+      },
+      {
+        "answer": "Safiyyah bint Huyayy",
+        "options": [
+          "Safiyyah bint Huyayy",
+          "Juwayriyah bint al-Harith",
+          "Maymunah bint al-Harith",
+          "Umm Habibah"
+        ],
+        "clues": [
+          "She was one of the Prophet's wives.",
+          "Her father was a chief of Banu al-Nadir.",
+          "She was among the captives of Khaybar.",
+          "The Prophet ﷺ freed her and married her.",
+          "Her freedom was her dowry."
+        ],
+        "explain": "Anas relates that the Prophet ﷺ freed Safiyyah and made her freedom her dowry.",
+        "sources": [
+          [
+            "Bukhari 371",
+            "Safiya"
+          ]
+        ]
+      },
+      {
+        "answer": "Sawdah bint Zam'ah",
+        "options": [
+          "Sawdah bint Zam'ah",
+          "Hafsah bint Umar",
+          "Umm Salamah",
+          "Zaynab bint Khuzaymah"
+        ],
+        "clues": [
+          "She was one of the Prophet's wives.",
+          "She was an early Muslim who had migrated to Abyssinia.",
+          "He married her after Khadijah's death.",
+          "In her old age she gave her day to Aishah.",
+          "She was known for her cheerful nature."
+        ],
+        "explain": "Aishah relates that Sawdah gave her day and night to Aishah, seeking to please the Prophet ﷺ.",
+        "sources": [
+          [
+            "Bukhari 5212",
+            "Sauda"
+          ]
+        ]
+      },
+      {
+        "answer": "The Battle of Banu Qurayzah",
+        "options": [
+          "The Battle of Banu Qurayzah",
+          "The expulsion of Banu Qaynuqa'",
+          "The Battle of Khaybar",
+          "The expulsion of Banu al-Nadir"
+        ],
+        "clues": [
+          "It came straight after a famous battle.",
+          "It was against a Jewish tribe of Madinah.",
+          "They had broken their treaty during the siege of Madinah.",
+          "Jibril told the Prophet ﷺ not to lay down his arms yet.",
+          "The Prophet ﷺ told his companions to pray Asr only at their land."
+        ],
+        "explain": "After the Trench, the Prophet ﷺ said, \"None of you should pray Asr except at Banu Qurayzah.\" Sa'd ibn Mu'adh judged their case.",
+        "sources": [
+          [
+            "Bukhari 946",
+            "Quraiza"
+          ],
+          [
+            "Quran 33:26",
+            "strongholds"
+          ]
+        ]
+      },
+      {
+        "answer": "Hamra al-Asad",
+        "options": [
+          "Hamra al-Asad",
+          "Dhat al-Riqa'",
+          "Badr al-Maw'id",
+          "Bi'r Ma'unah"
+        ],
+        "clues": [
+          "It was an expedition.",
+          "It happened the day after a defeat.",
+          "Only those who had fought the day before were allowed to go.",
+          "Many of them were wounded.",
+          "They pursued the Quraysh army after Uhud."
+        ],
+        "explain": "The Qur'an praises \"those who responded to Allah and the Messenger after the wound had struck them.\" This was the march to Hamra al-Asad after Uhud.",
+        "sources": [
+          [
+            "Quran 3:172",
+            "heard the call"
+          ],
+          [
+            "Ar-Raheeq Al-Makhtum",
+            null
+          ]
+        ]
+      },
+      {
+        "answer": "Bi'r Ma'unah",
+        "options": [
+          "Bi'r Ma'unah",
+          "Al-Raji'",
+          "Hamra al-Asad",
+          "Dhat al-Riqa'"
+        ],
+        "clues": [
+          "It was a tragedy of the Madinan period.",
+          "Seventy reciters of the Qur'an were sent to teach a tribe.",
+          "They were betrayed and killed.",
+          "The Prophet ﷺ made qunut against the killers for a month.",
+          "It is named after a well."
+        ],
+        "explain": "The Prophet ﷺ sent seventy reciters, who were killed at Bi'r Ma'unah. He supplicated against the killers in the qunut for a month.",
+        "sources": [
+          [
+            "Bukhari 4090",
+            "Ma'una"
+          ]
+        ]
+      },
+      {
+        "answer": "The expedition of Dhat al-Riqa'",
+        "options": [
+          "The expedition of Dhat al-Riqa'",
+          "Hamra al-Asad",
+          "Bi'r Ma'unah",
+          "The expedition of Tabuk"
+        ],
+        "clues": [
+          "It was an expedition of the Madinan period.",
+          "The ground was so rough their feet were torn.",
+          "They wrapped their feet in rags.",
+          "The prayer of fear was prayed during it.",
+          "Its name means \"the one with the rags\"."
+        ],
+        "explain": "Abu Musa said their feet were cut so they wrapped them in rags, so it was called Dhat al-Riqa'. The prayer of fear was prayed on it.",
+        "sources": [
+          [
+            "Bukhari 4128",
+            "rags"
+          ]
+        ]
+      },
+      {
+        "answer": "The Ifk",
+        "options": [
+          "The Ifk",
+          "The Ridda",
+          "The Fitnah",
+          "The Mubahalah"
+        ],
+        "clues": [
+          "It happened on the return from an expedition.",
+          "A necklace was lost.",
+          "Someone was left behind and brought back by a companion.",
+          "Hypocrites spread a lie.",
+          "Allah declared Aishah innocent in Surah An-Nur."
+        ],
+        "explain": "Surah An-Nur was revealed about those who brought forward the lie (al-ifk) against Aishah, declaring her innocence.",
+        "sources": [
+          [
+            "Quran 24:11",
+            "slander"
+          ],
+          [
+            "Bukhari 4750",
+            "necklace"
+          ]
+        ]
+      },
+      {
+        "answer": "Mutawatir",
+        "options": [
+          "Mutawatir",
+          "Ahad",
+          "Mursal",
+          "Mawquf"
+        ],
+        "clues": [
+          "It is a term of hadith science.",
+          "It describes how many people narrated something.",
+          "So many narrated it at every stage that agreeing on a lie is impossible.",
+          "The Qur'an reached us this way.",
+          "It gives certain knowledge."
+        ],
+        "explain": "A mutawatir report is narrated by so many at every level that they could not have agreed on a falsehood. The Qur'an has come to us this way.",
+        "sources": [
+          [
+            "Ibn al-Salah, Muqaddimah",
+            null
+          ]
+        ]
+      },
+      {
+        "answer": "Mursal",
+        "options": [
+          "Mursal",
+          "Mawquf",
+          "Munqati'",
+          "Mawdu'"
+        ],
+        "clues": [
+          "It is a term of hadith science.",
+          "It describes a gap in the chain.",
+          "The gap is at the companion's level.",
+          "A tabi'i says, \"The Prophet ﷺ said,\" without naming the companion.",
+          "It is a hadith the successor attributes directly to the Prophet ﷺ."
+        ],
+        "explain": "A mursal hadith is one where a successor (tabi'i) narrates directly from the Prophet ﷺ, leaving out the companion.",
+        "sources": [
+          [
+            "Ibn al-Salah, Muqaddimah",
+            null
+          ]
+        ]
+      },
+      {
+        "answer": "Mawquf",
+        "options": [
+          "Mawquf",
+          "Marfu'",
+          "Mursal",
+          "Maqtu'"
+        ],
+        "clues": [
+          "It is a term of hadith science.",
+          "It describes who the words belong to.",
+          "The words stop at a companion.",
+          "It is not raised to the Prophet ﷺ.",
+          "Its name means \"stopped\"."
+        ],
+        "explain": "A mawquf report is a saying or action of a companion, not attributed to the Prophet ﷺ. One raised to him is marfu'.",
+        "sources": [
+          [
+            "Ibn al-Salah, Muqaddimah",
+            null
+          ]
+        ]
+      },
+      {
+        "answer": "Mawdu'",
+        "options": [
+          "Mawdu'",
+          "Da'if",
+          "Hasan",
+          "Mursal"
+        ],
+        "clues": [
+          "It is a term of hadith science.",
+          "It is the worst kind of narration.",
+          "It may not be narrated except to warn about it.",
+          "Whoever lies about the Prophet ﷺ deliberately has a seat in the Fire.",
+          "It means fabricated."
+        ],
+        "explain": "A mawdu' hadith is a fabrication. The Prophet ﷺ said, \"Whoever tells a lie against me intentionally, let him take his seat in the Fire.\"",
+        "sources": [
+          [
+            "Bukhari 110",
+            "lie"
+          ],
+          [
+            "Ibn al-Salah, Muqaddimah",
+            null
+          ]
+        ]
+      },
+      {
+        "answer": "The matn",
+        "options": [
+          "The matn",
+          "The isnad",
+          "The sanad",
+          "The rawi"
+        ],
+        "clues": [
+          "It is a term of hadith science.",
+          "Every hadith has one.",
+          "It comes after the chain.",
+          "Scholars check it for contradiction and defects too.",
+          "It is the text of the hadith itself."
+        ],
+        "explain": "A hadith has two parts: the isnad (chain of narrators) and the matn (the text that is narrated).",
+        "sources": [
+          [
+            "Ibn al-Salah, Muqaddimah",
+            null
+          ]
+        ]
+      },
+      {
+        "answer": "Hafs 'an 'Asim",
+        "options": [
+          "Hafs 'an 'Asim",
+          "Warsh 'an Nafi'",
+          "Qalun 'an Nafi'",
+          "Al-Duri 'an Abi 'Amr"
+        ],
+        "clues": [
+          "It is a way of reciting the Qur'an.",
+          "It goes back to a reciter of Kufa.",
+          "It is passed down through his student.",
+          "Most printed mushafs today follow it.",
+          "It is the narration of Hafs from 'Asim."
+        ],
+        "explain": "The recitation of 'Asim of Kufa, as narrated by his student Hafs, is the one followed by most mushafs printed today.",
+        "sources": [
+          [
+            "Ibn al-Jazari, Al-Nashr fil-Qira'at al-'Ashr",
+            null
+          ]
+        ]
+      },
+      {
+        "answer": "Warsh 'an Nafi'",
+        "options": [
+          "Warsh 'an Nafi'",
+          "Hafs 'an 'Asim",
+          "Qalun 'an Nafi'",
+          "Shu'bah 'an 'Asim"
+        ],
+        "clues": [
+          "It is a way of reciting the Qur'an.",
+          "It goes back to the reciter of Madinah.",
+          "It is passed down through his Egyptian student.",
+          "It is widely read in North and West Africa.",
+          "It is the narration of Warsh from Nafi'."
+        ],
+        "explain": "Nafi' was the reciter of Madinah, and Warsh's narration of his recitation is the one most read across North and West Africa.",
+        "sources": [
+          [
+            "Ibn al-Jazari, Al-Nashr fil-Qira'at al-'Ashr",
+            null
+          ]
+        ]
+      },
+      {
+        "answer": "Az-Zahrawan",
+        "options": [
+          "Az-Zahrawan",
+          "Al-Mu'awwidhatayn",
+          "Al-Mufassal",
+          "Al-Musabbihat"
+        ],
+        "clues": [
+          "It is a name for two surahs together.",
+          "The Prophet ﷺ said to recite them.",
+          "They will come on the Day of Resurrection like two clouds.",
+          "They will argue for their companions.",
+          "They are Al-Baqarah and Ali 'Imran."
+        ],
+        "explain": "The Prophet ﷺ said, \"Recite the two bright ones, al-Baqarah and Ali 'Imran, for they will come on the Day of Resurrection like two clouds.\"",
+        "sources": [
+          [
+            "Muslim 804",
+            "two bright"
+          ]
+        ]
+      },
+      {
+        "answer": "Ayat al-Dayn",
+        "options": [
+          "Ayat al-Dayn",
+          "Ayat al-Kursi",
+          "Ayat al-Nur",
+          "Ayat al-Sayf"
+        ],
+        "clues": [
+          "It is a single ayah.",
+          "It is in Surah Al-Baqarah.",
+          "It is the longest ayah in the Qur'an.",
+          "It tells believers to write down their contracts.",
+          "It is the verse of debt."
+        ],
+        "explain": "Al-Baqarah 282, the verse of debt, tells believers to write down a debt for a fixed term. It is the longest verse of the Qur'an.",
+        "sources": [
+          [
+            "Quran 2:282",
+            "debt"
+          ]
+        ]
+      },
+      {
+        "answer": "Hamalat al-Arsh",
+        "options": [
+          "Hamalat al-Arsh",
+          "Kiraman Katibin",
+          "Munkar and Nakir",
+          "Harut and Marut"
+        ],
+        "clues": [
+          "They are angels.",
+          "They glorify their Lord.",
+          "They ask forgiveness for the believers.",
+          "On the Day of Judgement eight of them will bear their charge.",
+          "They are the bearers of the Throne."
+        ],
+        "explain": "Surah Ghafir says those who bear the Throne glorify their Lord and ask forgiveness for those who believe.",
+        "sources": [
+          [
+            "Quran 40:7",
+            "bear the Throne"
+          ],
+          [
+            "Quran 69:17",
+            "eight"
+          ]
+        ]
+      },
+      {
+        "answer": "Raqib and Atid",
+        "options": [
+          "Raqib and Atid",
+          "Munkar and Nakir",
+          "Harut and Marut",
+          "Jibril and Mika'il"
+        ],
+        "clues": [
+          "They are described in Surah Qaf.",
+          "One sits on the right and one on the left.",
+          "Not a word is uttered without them noting it.",
+          "They are always present and ready.",
+          "The Qur'an describes the recorder as \"raqib, atid\"."
+        ],
+        "explain": "Surah Qaf says, \"Not a word does he utter but there is with him a watcher, ready.\" The Arabic is raqib atid.",
+        "sources": [
+          [
+            "Quran 50:18",
+            "observer"
+          ]
+        ]
+      },
+      {
+        "answer": "Sijjin",
+        "options": [
+          "Sijjin",
+          "Illiyyin",
+          "Al-Lawh al-Mahfuz",
+          "Saqar"
+        ],
+        "clues": [
+          "It is mentioned in Surah Al-Mutaffifin.",
+          "It is connected to records of deeds.",
+          "The Qur'an asks, \"And what will make you know what it is?\"",
+          "It is called a written register.",
+          "The record of the wicked is in it."
+        ],
+        "explain": "Surah Al-Mutaffifin says the record of the wicked is in Sijjin, a written register.",
+        "sources": [
+          [
+            "Quran 83:7",
+            "Sijjin"
+          ]
+        ]
+      },
+      {
+        "answer": "Illiyyin",
+        "options": [
+          "Illiyyin",
+          "Sijjin",
+          "Al-Firdaws",
+          "Al-Bayt al-Ma'mur"
+        ],
+        "clues": [
+          "It is mentioned in Surah Al-Mutaffifin.",
+          "It is connected to records of deeds.",
+          "Those brought near to Allah witness it.",
+          "It is called a written register.",
+          "The record of the righteous is in it."
+        ],
+        "explain": "Surah Al-Mutaffifin says the record of the righteous is in Illiyyin, a written register witnessed by those brought near.",
+        "sources": [
+          [
+            "Quran 83:18",
+            "Illiyin"
+          ]
+        ]
+      },
+      {
+        "answer": "Al-Hutamah",
+        "options": [
+          "Al-Hutamah",
+          "Saqar",
+          "Ladha",
+          "Al-Hawiyah"
+        ],
+        "clues": [
+          "It is a name of the Fire.",
+          "It is named in Surah Al-Humazah.",
+          "It is for the slanderer who piles up wealth.",
+          "It rises over the hearts.",
+          "Its name means \"the crusher\"."
+        ],
+        "explain": "Surah Al-Humazah says the backbiter who hoards wealth will be thrown into al-Hutamah, the fire of Allah, kindled, rising over the hearts.",
+        "sources": [
+          [
+            "Quran 104:4",
+            "Consuming One"
+          ]
+        ]
+      },
+      {
+        "answer": "Saqar",
+        "options": [
+          "Saqar",
+          "Al-Hutamah",
+          "Al-Hawiyah",
+          "Jahim"
+        ],
+        "clues": [
+          "It is a name of the Fire.",
+          "It is named in Surah Al-Muddaththir.",
+          "It leaves nothing and spares nothing.",
+          "Nineteen are over it.",
+          "The people of Paradise ask the criminals what brought them into it."
+        ],
+        "explain": "Surah Al-Muddaththir says, \"I will drive him into Saqar... over it are nineteen.\"",
+        "sources": [
+          [
+            "Quran 74:26",
+            "burning"
+          ],
+          [
+            "Quran 74:30",
+            "nineteen"
+          ]
+        ]
+      },
+      {
+        "answer": "Al-Maqam al-Mahmud",
+        "options": [
+          "Al-Maqam al-Mahmud",
+          "Al-Wasilah",
+          "Al-Kawthar",
+          "Sidrat al-Muntaha"
+        ],
+        "clues": [
+          "It is a station on the Day of Judgement.",
+          "It is promised to the Prophet ﷺ.",
+          "It is mentioned right after the command to pray at night.",
+          "It is linked to the great intercession.",
+          "Its name means \"the praised station\"."
+        ],
+        "explain": "Allah tells the Prophet ﷺ to pray at night, \"It may be that your Lord will raise you to a praised station.\"",
+        "sources": [
+          [
+            "Quran 17:79",
+            "praised estate"
+          ]
+        ]
+      },
+      {
+        "answer": "Al-Wasilah",
+        "options": [
+          "Al-Wasilah",
+          "Al-Maqam al-Mahmud",
+          "Al-Firdaws",
+          "Al-Kawthar"
+        ],
+        "clues": [
+          "It is a rank in Paradise.",
+          "Only one servant of Allah will have it.",
+          "The Prophet ﷺ hoped it would be him.",
+          "We ask for it for him after the adhan.",
+          "Whoever asks for it for him will have his intercession."
+        ],
+        "explain": "The supplication after the adhan asks Allah to grant Muhammad al-Wasilah and the praised station. Whoever says it is promised his intercession.",
+        "sources": [
+          [
+            "Bukhari 614",
+            "Al-Wasila"
+          ]
+        ]
+      },
+      {
+        "answer": "Dabbat al-Ard",
+        "options": [
+          "Dabbat al-Ard",
+          "The Dajjal",
+          "Ya'juj and Ma'juj",
+          "The Trumpet"
+        ],
+        "clues": [
+          "It is one of the major signs of the Hour.",
+          "It is mentioned in Surah An-Naml.",
+          "It will come out of the earth.",
+          "It will speak to people.",
+          "Its name means \"the beast of the earth\"."
+        ],
+        "explain": "Surah An-Naml says Allah will bring forth for them a beast from the earth that will speak to them.",
+        "sources": [
+          [
+            "Quran 27:82",
+            "beast"
+          ]
+        ]
+      },
+      {
+        "answer": "The sun rising from the west",
+        "options": [
+          "The sun rising from the west",
+          "The smoke",
+          "The descent of Isa",
+          "The beast of the earth"
+        ],
+        "clues": [
+          "It is one of the major signs of the Hour.",
+          "Everyone who sees it will believe.",
+          "Faith will no longer benefit those who did not believe before.",
+          "The door of repentance will close.",
+          "The sun will come up from the opposite side."
+        ],
+        "explain": "The Prophet ﷺ said the Hour will not come until the sun rises from the west, and when people see it they will all believe, but it will not help those who did not believe before.",
+        "sources": [
+          [
+            "Bukhari 4635",
+            "west"
+          ]
+        ]
+      },
+      {
+        "answer": "Al-Buraq",
+        "options": [
+          "Al-Buraq",
+          "Al-Qaswa'",
+          "The she-camel of Salih",
+          "Duldul"
+        ],
+        "clues": [
+          "It was an animal.",
+          "It was white.",
+          "It was smaller than a mule and larger than a donkey.",
+          "Each stride reached as far as it could see.",
+          "The Prophet ﷺ rode it on the Night Journey."
+        ],
+        "explain": "In the Mi'raj hadith the Prophet ﷺ describes al-Buraq, a white animal between a mule and a donkey, whose stride reached the furthest point of its sight.",
+        "sources": [
+          [
+            "Bukhari 3207",
+            "Buraq"
+          ]
+        ]
+      },
+      {
+        "answer": "Al-Qaswa'",
+        "options": [
+          "Al-Qaswa'",
+          "Al-Buraq",
+          "Duldul",
+          "Al-Adba'"
+        ],
+        "clues": [
+          "It was an animal.",
+          "It belonged to the Prophet ﷺ.",
+          "It knelt at Hudaybiyyah and would not move.",
+          "The Prophet ﷺ said it was stopped by the One who stopped the elephant.",
+          "It was his she-camel."
+        ],
+        "explain": "At Hudaybiyyah al-Qaswa' knelt down. The Prophet ﷺ said she was not stubborn but was held back by the One who held back the elephant.",
+        "sources": [
+          [
+            "Bukhari 2731",
+            "Al-Qaswa"
+          ]
+        ]
+      },
+      {
+        "answer": "The Prophet's ring",
+        "options": [
+          "The Prophet's ring",
+          "The Prophet's sword",
+          "The Prophet's staff",
+          "The Prophet's cloak"
+        ],
+        "clues": [
+          "It belonged to the Prophet ﷺ.",
+          "It was made of silver.",
+          "He had it made to seal letters to kings.",
+          "It passed to Abu Bakr, Umar and Uthman.",
+          "It was engraved \"Muhammad Messenger of Allah\"."
+        ],
+        "explain": "The Prophet ﷺ had a silver ring made and engraved \"Muhammad Rasul Allah\", to seal his letters.",
+        "sources": [
+          [
+            "Bukhari 5872",
+            "ring"
+          ]
+        ]
+      },
+      {
+        "answer": "The Tabut",
+        "options": [
+          "The Tabut",
+          "The Ark of Nuh",
+          "The golden calf",
+          "The staff of Musa"
+        ],
+        "clues": [
+          "It is mentioned in Surah Al-Baqarah.",
+          "It was a sign of a king's authority.",
+          "It held reassurance from Allah.",
+          "It contained relics of the families of Musa and Harun.",
+          "Angels carried it."
+        ],
+        "explain": "Bani Isra'il were told the sign of Talut's kingship was that the ark (tabut) would come to them, carried by angels, holding peace of reassurance and relics.",
+        "sources": [
+          [
+            "Quran 2:248",
+            "ark"
+          ]
+        ]
+      },
+      {
+        "answer": "The shirt of Yusuf",
+        "options": [
+          "The shirt of Yusuf",
+          "The staff of Musa",
+          "The ring of Sulayman",
+          "The Tabut"
+        ],
+        "clues": [
+          "It belonged to a prophet.",
+          "His brothers brought it back stained with false blood.",
+          "It was torn from behind, proving his innocence.",
+          "It was cast over a father's face.",
+          "Ya'qub's sight returned through it."
+        ],
+        "explain": "Yusuf's shirt appears three times in Surah Yusuf: with false blood, torn from behind, and finally restoring Ya'qub's sight.",
+        "sources": [
+          [
+            "Quran 12:93",
+            "shirt"
+          ],
+          [
+            "Quran 12:18",
+            "shirt"
+          ]
+        ]
+      },
+      {
+        "answer": "Mubahalah",
+        "options": [
+          "Mubahalah",
+          "Li'an",
+          "Bay'ah",
+          "Shura"
+        ],
+        "clues": [
+          "It is a kind of challenge.",
+          "It is mentioned in Surah Ali 'Imran.",
+          "It was offered to a Christian delegation from Najran.",
+          "Both sides bring their families.",
+          "They pray for Allah's curse on whoever is lying."
+        ],
+        "explain": "Surah Ali 'Imran says, \"Come, let us call our sons and your sons... then invoke the curse of Allah upon the liars.\"",
+        "sources": [
+          [
+            "Quran 3:61",
+            "curse"
+          ]
+        ]
+      },
+      {
+        "answer": "Li'an",
+        "options": [
+          "Li'an",
+          "Zihar",
+          "Ila'",
+          "Khul'"
+        ],
+        "clues": [
+          "It is a procedure in family law.",
+          "It is set out in Surah An-Nur.",
+          "A husband accuses his wife without four witnesses.",
+          "Each swears four times, then calls down a curse or wrath.",
+          "The marriage ends permanently after it."
+        ],
+        "explain": "Surah An-Nur sets out the oaths: the husband testifies four times by Allah and then invokes Allah's curse on himself if he lies, and the wife may do the same.",
+        "sources": [
+          [
+            "Quran 24:6",
+            "testimonies"
+          ]
+        ]
+      },
+      {
+        "answer": "Zihar",
+        "options": [
+          "Zihar",
+          "Li'an",
+          "Ila'",
+          "Talaq"
+        ],
+        "clues": [
+          "It was a pre-Islamic practice.",
+          "A woman came pleading to the Prophet ﷺ about it.",
+          "Surah Al-Mujadilah was revealed about it.",
+          "A man declared his wife to be like his mother's back.",
+          "Its expiation is freeing a slave, fasting two months, or feeding sixty poor."
+        ],
+        "explain": "Surah Al-Mujadilah condemned zihar and set its expiation: freeing a slave, or fasting two consecutive months, or feeding sixty needy people.",
+        "sources": [
+          [
+            "Quran 58:2",
+            "mothers"
+          ],
+          [
+            "Quran 58:4",
+            "sixty"
+          ]
+        ]
+      },
+      {
+        "answer": "Al-Lat",
+        "options": [
+          "Al-Lat",
+          "Al-Uzza",
+          "Manat",
+          "Hubal"
+        ],
+        "clues": [
+          "It was an idol of pre-Islamic Arabia.",
+          "It is named in Surah An-Najm.",
+          "It was linked to the tribe of Thaqif.",
+          "Its shrine was in Ta'if.",
+          "It is named first of the three idols in Surah An-Najm."
+        ],
+        "explain": "Surah An-Najm asks, \"Have you considered al-Lat and al-Uzza, and Manat, the third, the other?\" Al-Lat was the idol of Thaqif at Ta'if.",
+        "sources": [
+          [
+            "Quran 53:19",
+            "Lat"
+          ],
+          [
+            "Al-Bidaya wan-Nihaya",
+            null
+          ]
+        ]
+      },
+      {
+        "answer": "Al-Uzza",
+        "options": [
+          "Al-Uzza",
+          "Al-Lat",
+          "Manat",
+          "Hubal"
+        ],
+        "clues": [
+          "It was an idol of pre-Islamic Arabia.",
+          "It is named in Surah An-Najm.",
+          "Quraysh honoured it greatly.",
+          "Its shrine was at Nakhlah, near Makkah.",
+          "Khalid ibn al-Walid was sent to destroy it after the conquest."
+        ],
+        "explain": "Al-Uzza, named in Surah An-Najm, was revered by Quraysh. After the conquest of Makkah, Khalid ibn al-Walid destroyed it.",
+        "sources": [
+          [
+            "Quran 53:19",
+            "Uzza"
+          ],
+          [
+            "Al-Bidaya wan-Nihaya",
+            null
+          ]
+        ]
+      },
+      {
+        "answer": "Manat",
+        "options": [
+          "Manat",
+          "Al-Lat",
+          "Al-Uzza",
+          "Hubal"
+        ],
+        "clues": [
+          "It was an idol of pre-Islamic Arabia.",
+          "It is named in Surah An-Najm as \"the third\".",
+          "It stood on the coast between Makkah and Madinah.",
+          "The Aws and Khazraj used to start their pilgrimage for it.",
+          "Aishah explained the verse about Safa and Marwah by its story."
+        ],
+        "explain": "Aishah explained that the Ansar used to assume ihram for Manat at al-Mushallal, and felt uneasy about going between Safa and Marwah until the verse was revealed.",
+        "sources": [
+          [
+            "Quran 53:20",
+            "Manat"
+          ],
+          [
+            "Bukhari 4861",
+            "Manat"
+          ]
+        ]
+      },
+      {
+        "answer": "Hubal",
+        "options": [
+          "Hubal",
+          "Al-Lat",
+          "Al-Uzza",
+          "Wadd"
+        ],
+        "clues": [
+          "It was an idol of pre-Islamic Arabia.",
+          "It stood inside or beside the Ka'bah.",
+          "Quraysh cast divining arrows before it.",
+          "Abu Sufyan called out its name at the end of Uhud.",
+          "The Muslims replied, \"Allah is Higher and more Majestic.\""
+        ],
+        "explain": "At Uhud Abu Sufyan shouted, \"O Hubal, be high!\" The Prophet ﷺ told the Muslims to answer, \"Allah is Higher and more Majestic.\"",
+        "sources": [
+          [
+            "Bukhari 3039",
+            "Hubal"
+          ]
+        ]
+      },
+      {
+        "answer": "The idols of Nuh's people",
+        "options": [
+          "The idols of Nuh's people",
+          "The idols of Quraysh",
+          "The idols of 'Ad",
+          "The idols of Ibrahim's people"
+        ],
+        "clues": [
+          "They are named in the Qur'an.",
+          "They are named in a surah called after a prophet.",
+          "There are five of them.",
+          "Their names are Wadd, Suwa', Yaghuth, Ya'uq and Nasr.",
+          "Nuh's people refused to leave them."
+        ],
+        "explain": "Surah Nuh says, \"They said: Do not leave your gods, nor Wadd, nor Suwa', nor Yaghuth, Ya'uq and Nasr.\"",
+        "sources": [
+          [
+            "Quran 71:23",
+            "Wadd"
+          ]
+        ]
+      },
+      {
+        "answer": "Al-Azlam",
+        "options": [
+          "Al-Azlam",
+          "Al-Ansab",
+          "Al-Maysir",
+          "Al-Bahirah"
+        ],
+        "clues": [
+          "It was a pre-Islamic practice.",
+          "It used arrows.",
+          "People used it to decide their affairs.",
+          "It is forbidden in Surah Al-Ma'idah.",
+          "It is seeking decisions by divining arrows."
+        ],
+        "explain": "Surah Al-Ma'idah forbids seeking decisions by divining arrows (al-azlam), calling it defiance.",
+        "sources": [
+          [
+            "Quran 5:3",
+            "arrows"
+          ],
+          [
+            "Quran 5:90",
+            "arrows"
+          ]
+        ]
+      },
+      {
+        "answer": "Ghanimah",
+        "options": [
+          "Ghanimah",
+          "Fay'",
+          "Zakat",
+          "Jizyah"
+        ],
+        "clues": [
+          "It is a term from the rules of war.",
+          "Surah Al-Anfal is named after it.",
+          "It is gained through fighting.",
+          "A fifth of it belongs to Allah and the Messenger and others named.",
+          "It means the spoils of war."
+        ],
+        "explain": "Surah Al-Anfal says, \"Know that whatever you take as spoils, a fifth is for Allah, the Messenger, kin, orphans, the needy and the traveller.\"",
+        "sources": [
+          [
+            "Quran 8:41",
+            "spoil"
+          ]
+        ]
+      },
+      {
+        "answer": "Khums",
+        "options": [
+          "Khums",
+          "Zakat",
+          "Ushr",
+          "Jizyah"
+        ],
+        "clues": [
+          "It is a share.",
+          "It is taken from the spoils of war.",
+          "It is set out in Surah Al-Anfal.",
+          "It is for Allah, the Messenger, kin, orphans, the needy and the traveller.",
+          "It means one fifth."
+        ],
+        "explain": "Surah Al-Anfal sets aside a fifth (khums) of the spoils for those it names.",
+        "sources": [
+          [
+            "Quran 8:41",
+            "fifth"
+          ]
+        ]
+      },
+      {
+        "answer": "Kalalah",
+        "options": [
+          "Kalalah",
+          "Mahram",
+          "Asabah",
+          "Dhawu al-Arham"
+        ],
+        "clues": [
+          "It is a term from the law of inheritance.",
+          "It appears in the last verse of Surah An-Nisa.",
+          "Umar said it was one of the things he wished the Prophet ﷺ had explained more.",
+          "It concerns someone who leaves no parent and no child.",
+          "The Qur'an calls its ruling a pronouncement from Allah."
+        ],
+        "explain": "The last verse of An-Nisa says, \"They ask you for a ruling. Say: Allah gives you a ruling concerning kalalah,\" one who leaves neither parent nor child.",
+        "sources": [
+          [
+            "Quran 4:176",
+            "pronouncement"
+          ],
+          [
+            "Bukhari 5588",
+            "Kalala"
+          ]
+        ]
+      },
+      {
+        "answer": "Ila'",
+        "options": [
+          "Ila'",
+          "Zihar",
+          "Li'an",
+          "Khul'"
+        ],
+        "clues": [
+          "It is a term from family law.",
+          "It is mentioned in Surah Al-Baqarah.",
+          "It is an oath taken by a husband.",
+          "He swears to keep away from his wife.",
+          "He is given four months to return or divorce."
+        ],
+        "explain": "Surah Al-Baqarah says those who swear to stay away from their wives must wait four months. If they return, Allah is Forgiving.",
+        "sources": [
+          [
+            "Quran 2:226",
+            "forswear"
+          ]
+        ]
+      },
+      {
+        "answer": "The Hudud",
+        "options": [
+          "The Hudud",
+          "The Qisas",
+          "The Ta'zir",
+          "The Kaffarat"
+        ],
+        "clues": [
+          "It is a term from Islamic law.",
+          "The word appears in the Qur'an many times.",
+          "The Qur'an says, \"Do not transgress them.\"",
+          "It is used for fixed legal penalties.",
+          "Its singular means \"a boundary\"."
+        ],
+        "explain": "The Qur'an says, \"These are the limits of Allah, so do not transgress them.\" Jurists use hudud for the fixed penalties.",
+        "sources": [
+          [
+            "Quran 2:229",
+            "limits"
+          ]
+        ]
+      },
+      {
+        "answer": "Al-Hawiyah",
+        "options": [
+          "Al-Hawiyah",
+          "Al-Hutamah",
+          "Saqar",
+          "Sijjin"
+        ],
+        "clues": [
+          "It is a name of the Fire.",
+          "It is named in Surah Al-Qari'ah.",
+          "It is for the one whose scales are light.",
+          "The Qur'an calls it his mother.",
+          "It is called a blazing fire."
+        ],
+        "explain": "Surah Al-Qari'ah says whoever's scales are light, his mother will be Hawiyah, a raging fire.",
+        "sources": [
+          [
+            "Quran 101:9",
+            "Hungry"
+          ],
+          [
+            "Quran 101:11",
+            "Raging"
+          ]
+        ]
+      },
+      {
+        "answer": "The valley of Tuwa",
+        "options": [
+          "The valley of Tuwa",
+          "Wadi Muhassir",
+          "Wadi Bakkah",
+          "Wadi al-Qura"
+        ],
+        "clues": [
+          "It is a valley named in the Qur'an.",
+          "It is called sacred.",
+          "A prophet was told to take off his sandals there.",
+          "He saw a fire and went towards it.",
+          "Allah spoke to Musa there."
+        ],
+        "explain": "Allah told Musa, \"Take off your sandals, you are in the sacred valley of Tuwa.\"",
+        "sources": [
+          [
+            "Quran 20:12",
+            "Tuwa"
+          ]
+        ]
+      },
+      {
+        "answer": "Wadi Muhassir",
+        "options": [
+          "Wadi Muhassir",
+          "The valley of Tuwa",
+          "Wadi Arafah",
+          "Wadi al-Aqiq"
+        ],
+        "clues": [
+          "It is a small valley.",
+          "It lies between Muzdalifah and Mina.",
+          "Pilgrims pass through it on the morning of the 10th.",
+          "The Prophet ﷺ moved quickly through it.",
+          "It is linked by many to the destruction of the army of the elephant."
+        ],
+        "explain": "Jabir described how the Prophet ﷺ hurried a little when he came to the valley of Muhassir on his way to Mina.",
+        "sources": [
+          [
+            "Muslim 1218",
+            "Muhassir"
+          ]
+        ]
+      },
+      {
+        "answer": "Hijr Isma'il",
+        "options": [
+          "Hijr Isma'il",
+          "Maqam Ibrahim",
+          "The Multazam",
+          "The Black Stone"
+        ],
+        "clues": [
+          "It is next to the Ka'bah.",
+          "It is a semicircular wall.",
+          "Part of the space inside it belongs to the Ka'bah.",
+          "Quraysh left it out when they rebuilt the Ka'bah for lack of funds.",
+          "Tawaf is done outside it."
+        ],
+        "explain": "Aishah asked about the wall beside the Ka'bah. The Prophet ﷺ said it is part of the House, but Quraysh ran short of lawful funds when rebuilding.",
+        "sources": [
+          [
+            "Bukhari 1584",
+            "wall"
+          ]
+        ]
+      },
+      {
+        "answer": "Dhat 'Irq",
+        "options": [
+          "Dhat 'Irq",
+          "Qarn al-Manazil",
+          "Yalamlam",
+          "Al-Juhfah"
+        ],
+        "clues": [
+          "It is a place to the north east of Makkah.",
+          "It is a miqat.",
+          "It was set in the time of Umar.",
+          "It is for the people of Iraq.",
+          "Umar fixed it level with Qarn al-Manazil."
+        ],
+        "explain": "When Basra and Kufa were founded, people asked Umar for a miqat, and he set Dhat 'Irq for them, level with Qarn.",
+        "sources": [
+          [
+            "Bukhari 1531",
+            "Dhat"
+          ]
+        ]
+      },
+      {
+        "answer": "Yalamlam",
+        "options": [
+          "Yalamlam",
+          "Al-Juhfah",
+          "Qarn al-Manazil",
+          "Dhat 'Irq"
+        ],
+        "clues": [
+          "It is a place south of Makkah.",
+          "It is a miqat.",
+          "It was set by the Prophet ﷺ himself.",
+          "It is used by pilgrims coming from the south.",
+          "It is the miqat of the people of Yemen."
+        ],
+        "explain": "The Prophet ﷺ set Yalamlam as the miqat for the people of Yemen.",
+        "sources": [
+          [
+            "Bukhari 1524",
+            "Yalamlam"
+          ]
+        ]
+      },
+      {
+        "answer": "Al-Juhfah",
+        "options": [
+          "Al-Juhfah",
+          "Yalamlam",
+          "Dhul-Hulayfah",
+          "Qarn al-Manazil"
+        ],
+        "clues": [
+          "It is a place north west of Makkah, near the coast.",
+          "It is a miqat.",
+          "It was set by the Prophet ﷺ himself.",
+          "Pilgrims today often enter ihram at nearby Rabigh.",
+          "It is the miqat of the people of al-Sham."
+        ],
+        "explain": "The Prophet ﷺ set al-Juhfah as the miqat for the people of al-Sham.",
+        "sources": [
+          [
+            "Bukhari 1524",
+            "Juhfa"
+          ]
+        ]
+      },
+      {
+        "answer": "Al-Sham",
+        "options": [
+          "Al-Sham",
+          "Al-Yaman",
+          "Al-Iraq",
+          "Al-Hijaz"
+        ],
+        "clues": [
+          "It is a region, not a single city.",
+          "The Prophet ﷺ prayed for blessing on it.",
+          "Its miqat is al-Juhfah.",
+          "It includes the lands of Masjid al-Aqsa.",
+          "It covers what is now Syria, Lebanon, Jordan and Palestine."
+        ],
+        "explain": "The Prophet ﷺ prayed, \"O Allah, bless us in our Sham and our Yemen.\"",
+        "sources": [
+          [
+            "Bukhari 1037",
+            "Sham"
+          ]
+        ]
+      },
+      {
+        "answer": "Al-Andalus",
+        "options": [
+          "Al-Andalus",
+          "Sicily",
+          "Al-Maghrib",
+          "Ifriqiyah"
+        ],
+        "clues": [
+          "It was a Muslim land in Europe.",
+          "Muslims crossed into it in 92 AH.",
+          "Cordoba was its great capital.",
+          "Muslims ruled parts of it for nearly eight centuries.",
+          "Its last kingdom, Granada, fell in 897 AH."
+        ],
+        "explain": "Muslims entered al-Andalus (Iberia) in 92 AH (711 CE). Granada, the last Muslim kingdom there, fell in 897 AH (1492 CE).",
+        "sources": [
+          [
+            "Al-Bidaya wan-Nihaya",
+            null
+          ],
+          [
+            "Ibn al-Imad, Shadharat al-Dhahab",
+            null
+          ]
+        ]
+      },
+      {
+        "answer": "The Dome of the Rock",
+        "options": [
+          "The Dome of the Rock",
+          "Masjid al-Aqsa",
+          "The Umayyad Mosque",
+          "Masjid Quba"
+        ],
+        "clues": [
+          "It is a building in Jerusalem.",
+          "It stands within the precinct of al-Aqsa.",
+          "It was built under the Umayyad caliph Abd al-Malik.",
+          "It was completed in 72 AH.",
+          "It has a golden dome over a rock."
+        ],
+        "explain": "The Dome of the Rock was built by Abd al-Malik ibn Marwan and completed in 72 AH. It stands in the al-Aqsa precinct.",
+        "sources": [
+          [
+            "Al-Bidaya wan-Nihaya",
+            null
+          ]
+        ]
+      },
+      {
+        "answer": "Bayt al-Hikmah",
+        "options": [
+          "Bayt al-Hikmah",
+          "Al-Azhar",
+          "Al-Nizamiyyah",
+          "Dar al-Ilm"
+        ],
+        "clues": [
+          "It was an institution in Baghdad.",
+          "It flourished under the Abbasids.",
+          "It is linked especially with the caliph al-Ma'mun.",
+          "Scholars translated Greek and Persian works there.",
+          "Its name means \"the House of Wisdom\"."
+        ],
+        "explain": "Bayt al-Hikmah in Abbasid Baghdad was a library and centre of translation, especially under al-Ma'mun.",
+        "sources": [
+          [
+            "Ibn al-Nadim, Al-Fihrist",
+            null
+          ]
+        ]
+      },
+      {
+        "answer": "Al-Azhar",
+        "options": [
+          "Al-Azhar",
+          "Al-Qarawiyyin",
+          "Al-Zaytunah",
+          "Bayt al-Hikmah"
+        ],
+        "clues": [
+          "It is a mosque and a place of learning.",
+          "It is in Cairo.",
+          "It was founded by the Fatimids in the 4th century AH.",
+          "It became a great centre of Sunni learning after the Fatimid era.",
+          "It is one of the oldest universities in the world."
+        ],
+        "explain": "Al-Azhar was founded in Cairo in the 4th century AH. It became a centre of Sunni scholarship after the Fatimid era.",
+        "sources": [
+          [
+            "Al-Bidaya wan-Nihaya",
+            null
+          ]
+        ]
+      },
+      {
+        "answer": "Masjid al-Qiblatayn",
+        "options": [
+          "Masjid al-Qiblatayn",
+          "Masjid Quba",
+          "Masjid al-Fath",
+          "Masjid al-Jumu'ah"
+        ],
+        "clues": [
+          "It is a mosque in Madinah.",
+          "It belonged to the tribe of Banu Salimah.",
+          "Something changed while people were praying there.",
+          "They turned round in the middle of the prayer.",
+          "Its name means \"the mosque of the two qiblahs\"."
+        ],
+        "explain": "Masjid al-Qiblatayn in Madinah is associated with the change of qiblah from Jerusalem to the Ka'bah.",
+        "sources": [
+          [
+            "Al-Samhudi, Wafa' al-Wafa",
+            null
+          ],
+          [
+            "Quran 2:144",
+            "Inviolable"
+          ]
+        ]
+      },
+      {
+        "answer": "Masjid al-Dirar",
+        "options": [
+          "Masjid al-Dirar",
+          "Masjid Quba",
+          "Masjid al-Qiblatayn",
+          "Masjid al-Fath"
+        ],
+        "clues": [
+          "It was a building in Madinah.",
+          "It was built by hypocrites.",
+          "They asked the Prophet ﷺ to pray in it.",
+          "Allah told him never to stand in it.",
+          "The Qur'an says it was built to cause harm and division."
+        ],
+        "explain": "Surah At-Tawbah describes a mosque built to cause harm, disbelief and division, and tells the Prophet ﷺ never to stand in it.",
+        "sources": [
+          [
+            "Quran 9:107",
+            "place of worship"
+          ],
+          [
+            "Quran 9:108",
+            "Never stand"
+          ]
+        ]
+      },
+      {
+        "answer": "The people of Tubba'",
+        "options": [
+          "The people of Tubba'",
+          "The people of 'Ad",
+          "The people of Saba'",
+          "The people of Madyan"
+        ],
+        "clues": [
+          "They are mentioned in the Qur'an twice.",
+          "They lived in Yemen.",
+          "Their name comes from a title of their kings.",
+          "The Qur'an asks if Quraysh are better than them.",
+          "They were destroyed for their crimes."
+        ],
+        "explain": "Surah Ad-Dukhan asks, \"Are they better, or the people of Tubba' and those before them? We destroyed them.\"",
+        "sources": [
+          [
+            "Quran 44:37",
+            "Tubb'a"
+          ],
+          [
+            "Quran 50:14",
+            "Tubb'a"
+          ]
+        ]
+      },
+      {
+        "answer": "Ashab al-Rass",
+        "options": [
+          "Ashab al-Rass",
+          "Ashab al-Aykah",
+          "Ashab al-Ukhdud",
+          "Ashab al-Kahf"
+        ],
+        "clues": [
+          "They are mentioned in the Qur'an.",
+          "They are mentioned twice.",
+          "They are listed with 'Ad and Thamud.",
+          "They denied the messengers.",
+          "Their name refers to a well."
+        ],
+        "explain": "Surah Al-Furqan mentions 'Ad, Thamud and the dwellers of al-Rass among the nations destroyed after denying the messengers.",
+        "sources": [
+          [
+            "Quran 25:38",
+            "Ar-Rass"
+          ],
+          [
+            "Quran 50:12",
+            "Ar-Rass"
+          ]
+        ]
+      },
+      {
+        "answer": "Ashab al-Aykah",
+        "options": [
+          "Ashab al-Aykah",
+          "Ashab al-Rass",
+          "Ashab al-Kahf",
+          "Ashab al-Fil"
+        ],
+        "clues": [
+          "They are mentioned in the Qur'an.",
+          "Shu'ayb was sent to them.",
+          "They cheated in measure.",
+          "They were destroyed by the punishment of the day of the shadow.",
+          "Their name means \"the people of the thicket\"."
+        ],
+        "explain": "Surah Ash-Shu'ara says the dwellers of the wood (al-Aykah) denied the messengers when Shu'ayb told them to give full measure.",
+        "sources": [
+          [
+            "Quran 26:176",
+            "wood"
+          ],
+          [
+            "Quran 26:189",
+            "gloom"
+          ]
+        ]
+      },
+      {
+        "answer": "The people of the Sabbath",
+        "options": [
+          "The people of the Sabbath",
+          "The people of the Cave",
+          "The people of the Ditch",
+          "The people of Madyan"
+        ],
+        "clues": [
+          "They were from Bani Isra'il.",
+          "They lived in a town by the sea.",
+          "Fish came to them openly on one day of the week.",
+          "They broke a command by trapping them.",
+          "They were turned into apes."
+        ],
+        "explain": "The Qur'an tells of the town by the sea whose people broke the Sabbath by trapping fish. They were told, \"Be apes, despised.\"",
+        "sources": [
+          [
+            "Quran 7:163",
+            "Sabbath"
+          ],
+          [
+            "Quran 2:65",
+            "apes"
+          ]
+        ]
+      },
+      {
+        "answer": "The man who came running",
+        "options": [
+          "The man who came running",
+          "The believer of Fir'awn's family",
+          "Luqman",
+          "Khidr"
+        ],
+        "clues": [
+          "He is mentioned in Surah Ya-Sin.",
+          "He came from the far end of a town.",
+          "He told his people to follow the messengers.",
+          "He said, \"I have believed in your Lord, so listen to me.\"",
+          "On entering Paradise he wished his people knew how Allah had forgiven him."
+        ],
+        "explain": "Surah Ya-Sin tells of a man who came running from the far end of the city urging his people to follow the messengers. When told to enter Paradise, he wished his people knew.",
+        "sources": [
+          [
+            "Quran 36:20",
+            "running"
+          ],
+          [
+            "Quran 36:25",
+            "believed"
+          ],
+          [
+            "Quran 36:26",
+            "Paradise"
+          ]
+        ]
+      },
+      {
+        "answer": "The believer of Fir'awn's family",
+        "options": [
+          "The believer of Fir'awn's family",
+          "The man who came running",
+          "Haman",
+          "Asiyah"
+        ],
+        "clues": [
+          "He is mentioned in Surah Ghafir.",
+          "He hid his faith.",
+          "He spoke up when Fir'awn wanted to kill Musa.",
+          "He asked, \"Will you kill a man because he says my Lord is Allah?\"",
+          "He was from the family of Fir'awn himself."
+        ],
+        "explain": "Surah Ghafir tells of a believing man of Fir'awn's family, who had hidden his faith, defending Musa.",
+        "sources": [
+          [
+            "Quran 40:28",
+            "believing man"
+          ]
+        ]
+      },
+      {
+        "answer": "The two sons of Adam",
+        "options": [
+          "The two sons of Adam",
+          "The two sons of Ibrahim",
+          "The two sons of Nuh",
+          "The two brothers of Yusuf"
+        ],
+        "clues": [
+          "Their story is in Surah Al-Ma'idah.",
+          "Each offered a sacrifice.",
+          "Only one was accepted.",
+          "One killed the other.",
+          "A raven showed the killer how to bury his brother."
+        ],
+        "explain": "Surah Al-Ma'idah tells the story of the two sons of Adam. Allah sent a raven to show the killer how to hide his brother's body.",
+        "sources": [
+          [
+            "Quran 5:27",
+            "two sons of Adam"
+          ],
+          [
+            "Quran 5:31",
+            "raven"
+          ]
+        ]
+      },
+      {
+        "answer": "The owners of the garden",
+        "options": [
+          "The owners of the garden",
+          "The two men of Al-Kahf",
+          "The people of Saba'",
+          "The people of the Sabbath"
+        ],
+        "clues": [
+          "Their story is in Surah Al-Qalam.",
+          "They swore to harvest their fruit early in the morning.",
+          "They did not say \"in sha' Allah\".",
+          "They meant to keep the poor away.",
+          "They found their garden burned and black."
+        ],
+        "explain": "Surah Al-Qalam tells of the owners of a garden who planned to harvest it without giving the poor, and found it destroyed overnight.",
+        "sources": [
+          [
+            "Quran 68:17",
+            "garden"
+          ]
+        ]
+      },
+      {
+        "answer": "The man with two gardens",
+        "options": [
+          "The man with two gardens",
+          "Qarun",
+          "The owners of the garden",
+          "The people of Saba'"
+        ],
+        "clues": [
+          "His story is in Surah Al-Kahf.",
+          "He had two gardens with a river between them.",
+          "He told his friend, \"I have more wealth than you.\"",
+          "He thought his garden would never perish.",
+          "He ended up wringing his hands over what he had spent on it."
+        ],
+        "explain": "Surah Al-Kahf gives the parable of two men, one given two gardens. He boasted, and his fruit was destroyed.",
+        "sources": [
+          [
+            "Quran 18:32",
+            "two men"
+          ],
+          [
+            "Quran 18:42",
+            "fruit"
+          ]
+        ]
+      },
+      {
+        "answer": "The man who died for a hundred years",
+        "options": [
+          "The man who died for a hundred years",
+          "The People of the Cave",
+          "Uzayr",
+          "Dhul-Qarnayn"
+        ],
+        "clues": [
+          "His story is in Surah Al-Baqarah.",
+          "He passed by a town in ruins.",
+          "He asked how Allah could bring it back to life.",
+          "Allah caused him to die and then raised him.",
+          "His food had not spoiled, but his donkey had turned to bones."
+        ],
+        "explain": "Surah Al-Baqarah tells of the man who passed a ruined town. Allah made him die for a hundred years and then raised him, as a sign.",
+        "sources": [
+          [
+            "Quran 2:259",
+            "hundred years"
+          ]
+        ]
+      },
+      {
+        "answer": "The wind of Sulayman",
+        "options": [
+          "The wind of Sulayman",
+          "The wind of 'Ad",
+          "The staff of Musa",
+          "The ship of Nuh"
+        ],
+        "clues": [
+          "It was a gift to a prophet.",
+          "It blew at his command.",
+          "Its morning journey was a month's travel.",
+          "Its evening journey was a month's travel too.",
+          "It was made subject to Sulayman."
+        ],
+        "explain": "Allah says, \"And to Sulayman the wind; its morning course was a month and its evening course a month.\"",
+        "sources": [
+          [
+            "Quran 34:12",
+            "wind"
+          ],
+          [
+            "Quran 21:81",
+            "wind"
+          ]
+        ]
+      },
+      {
+        "answer": "The coats of mail of Dawud",
+        "options": [
+          "The coats of mail of Dawud",
+          "The wind of Sulayman",
+          "The staff of Musa",
+          "The Tabut"
+        ],
+        "clues": [
+          "It was a skill given to a prophet.",
+          "Iron was made soft for him.",
+          "Allah told him to measure the links well.",
+          "It protected people in battle.",
+          "He was taught how to make armour."
+        ],
+        "explain": "Allah made iron soft for Dawud and taught him to make coats of mail to protect people in battle.",
+        "sources": [
+          [
+            "Quran 21:80",
+            "of mail"
+          ],
+          [
+            "Quran 34:10",
+            "iron"
+          ]
+        ]
+      },
+      {
+        "answer": "Ahad",
+        "options": [
+          "Ahad",
+          "Mutawatir",
+          "Mursal",
+          "Mawdu'"
+        ],
+        "clues": [
+          "It is a term of hadith science.",
+          "It describes how many narrated something.",
+          "Most hadith fall into it.",
+          "It does not reach the level of tawatur.",
+          "It can still be sahih."
+        ],
+        "explain": "An ahad hadith is any narration that does not reach the level of mutawatir. Many of them are authentic.",
+        "sources": [
+          [
+            "Ibn al-Salah, Muqaddimah",
+            null
+          ]
+        ]
+      },
+      {
+        "answer": "Da'if",
+        "options": [
+          "Da'if",
+          "Hasan",
+          "Sahih",
+          "Mawdu'"
+        ],
+        "clues": [
+          "It is a grade of hadith.",
+          "It falls below hasan.",
+          "It lacks one or more conditions of acceptance.",
+          "It can be caused by a broken chain or a weak narrator.",
+          "It means weak."
+        ],
+        "explain": "A da'if hadith fails to meet the conditions of a sahih or hasan hadith, such as a connected chain or reliable narrators.",
+        "sources": [
+          [
+            "Ibn al-Salah, Muqaddimah",
+            null
+          ]
+        ]
+      },
+      {
+        "answer": "Hasan",
+        "options": [
+          "Hasan",
+          "Sahih",
+          "Da'if",
+          "Mursal"
+        ],
+        "clues": [
+          "It is a grade of hadith.",
+          "It is accepted as evidence.",
+          "It sits between sahih and da'if.",
+          "Its narrators are reliable but some are less precise.",
+          "Al-Tirmidhi used it very often."
+        ],
+        "explain": "A hasan hadith has a connected chain of trustworthy narrators whose precision is slightly below that of a sahih hadith.",
+        "sources": [
+          [
+            "Ibn al-Salah, Muqaddimah",
+            null
+          ]
+        ]
+      },
+      {
+        "answer": "Sahih",
+        "options": [
+          "Sahih",
+          "Hasan",
+          "Mutawatir",
+          "Marfu'"
+        ],
+        "clues": [
+          "It is a grade of hadith.",
+          "It is the highest grade of acceptance.",
+          "Its chain is connected throughout.",
+          "Its narrators are upright and precise, with no hidden defect.",
+          "It means authentic or sound."
+        ],
+        "explain": "A sahih hadith has a connected chain of upright, precise narrators and is free of irregularity and hidden defects.",
+        "sources": [
+          [
+            "Ibn al-Salah, Muqaddimah",
+            null
+          ]
+        ]
+      },
+      {
+        "answer": "Tawhid al-Rububiyyah",
+        "options": [
+          "Tawhid al-Rububiyyah",
+          "Tawhid al-Uluhiyyah",
+          "Tawhid al-Asma' wal-Sifat",
+          "Ihsan"
+        ],
+        "clues": [
+          "It is one category of tawhid as scholars explain it.",
+          "It concerns Allah's actions.",
+          "It means He alone creates, provides and controls all things.",
+          "Even the idol worshippers of Makkah affirmed it.",
+          "It is the oneness of Lordship."
+        ],
+        "explain": "Al-Fatihah opens with \"Lord of the worlds\". The Qur'an notes that the pagans admitted Allah created the heavens and earth.",
+        "sources": [
+          [
+            "Quran 1:2",
+            "Lord of the Worlds"
+          ],
+          [
+            "Quran 31:25",
+            "Allah"
+          ]
+        ]
+      },
+      {
+        "answer": "Tawhid al-Uluhiyyah",
+        "options": [
+          "Tawhid al-Uluhiyyah",
+          "Tawhid al-Rububiyyah",
+          "Tawhid al-Asma' wal-Sifat",
+          "Ikhlas"
+        ],
+        "clues": [
+          "It is one category of tawhid as scholars explain it.",
+          "It concerns the actions of the servants.",
+          "Every messenger called his people to it.",
+          "It means all worship is for Allah alone.",
+          "\"You alone we worship\" expresses it."
+        ],
+        "explain": "Every messenger said, \"Worship Allah, you have no god but Him.\" Al-Fatihah says, \"You alone we worship.\"",
+        "sources": [
+          [
+            "Quran 1:5",
+            "worship"
+          ],
+          [
+            "Quran 21:25",
+            "worship"
+          ]
+        ]
+      },
+      {
+        "answer": "Tawhid al-Asma' wal-Sifat",
+        "options": [
+          "Tawhid al-Asma' wal-Sifat",
+          "Tawhid al-Rububiyyah",
+          "Tawhid al-Uluhiyyah",
+          "Al-Asma' al-Husna"
+        ],
+        "clues": [
+          "It is one category of tawhid as scholars explain it.",
+          "It concerns how Allah is described.",
+          "It affirms what Allah affirmed for Himself.",
+          "It rejects likening Him to His creation.",
+          "\"There is nothing like Him, and He is the Hearing, the Seeing\" sums it up."
+        ],
+        "explain": "Surah Ash-Shura says, \"There is nothing like unto Him, and He is the Hearer, the Seer.\"",
+        "sources": [
+          [
+            "Quran 42:11",
+            "likeness"
+          ]
+        ]
+      },
+      {
+        "answer": "The Battle of Nahawand",
+        "options": [
+          "The Battle of Nahawand",
+          "The Battle of Qadisiyyah",
+          "The Battle of Yarmuk",
+          "The Battle of the Bridge"
+        ],
+        "clues": [
+          "It was fought in the time of Umar.",
+          "It was fought in Persia.",
+          "The Muslim commander al-Nu'man ibn Muqarrin was martyred in it.",
+          "It broke the power of the Sasanian army.",
+          "It is called \"the victory of victories\"."
+        ],
+        "explain": "Nahawand, around 21 AH, ended organised Sasanian resistance and became known as the victory of victories.",
+        "sources": [
+          [
+            "Al-Bidaya wan-Nihaya",
+            null
+          ]
+        ]
+      },
+      {
+        "answer": "The Battle of Hattin",
+        "options": [
+          "The Battle of Hattin",
+          "The Battle of Ain Jalut",
+          "The Battle of Manzikert",
+          "The siege of Acre"
+        ],
+        "clues": [
+          "It was fought against the Crusaders.",
+          "It was fought near Lake Tiberias.",
+          "The Crusader army suffered terribly from thirst.",
+          "It happened in 583 AH.",
+          "Salah al-Din's victory there opened the way to Jerusalem."
+        ],
+        "explain": "At Hattin in 583 AH Salah al-Din destroyed the Crusader army, and Jerusalem was retaken a few months later.",
+        "sources": [
+          [
+            "Al-Bidaya wan-Nihaya",
+            null
+          ]
+        ]
+      },
+      {
+        "answer": "The Battle of Ain Jalut",
+        "options": [
+          "The Battle of Ain Jalut",
+          "The Battle of Hattin",
+          "The sack of Baghdad",
+          "The Battle of Nahawand"
+        ],
+        "clues": [
+          "It was fought in Palestine.",
+          "It came two years after the fall of Baghdad.",
+          "It was fought against the Mongols.",
+          "The Mamluks of Egypt won it.",
+          "Qutuz and Baybars led the Muslims there in 658 AH."
+        ],
+        "explain": "At Ain Jalut in 658 AH the Mamluks under Qutuz, with Baybars, defeated the Mongols and halted their advance.",
+        "sources": [
+          [
+            "Al-Bidaya wan-Nihaya",
+            null
+          ]
+        ]
+      },
+      {
+        "answer": "The conquest of Constantinople",
+        "options": [
+          "The conquest of Constantinople",
+          "The fall of Granada",
+          "The Battle of Hattin",
+          "The siege of Vienna"
+        ],
+        "clues": [
+          "Muslims tried to take this city for centuries.",
+          "Abu Ayyub al-Ansari is buried near its walls.",
+          "Ships were carried overland to reach its harbour.",
+          "It was taken by Sultan Mehmed II.",
+          "It happened in 857 AH and the city became Istanbul."
+        ],
+        "explain": "Sultan Mehmed II took Constantinople in 857 AH (1453 CE), after centuries of attempts going back to the Umayyads.",
+        "sources": [
+          [
+            "Ibn al-Imad, Shadharat al-Dhahab",
+            null
+          ]
+        ]
+      },
+      {
+        "answer": "The Mihnah",
+        "options": [
+          "The Mihnah",
+          "The Ridda",
+          "The first fitnah",
+          "The Ifk"
+        ],
+        "clues": [
+          "It was a trial imposed by the state.",
+          "It began under the Abbasid caliph al-Ma'mun.",
+          "Scholars were questioned about the nature of the Qur'an.",
+          "Ahmad ibn Hanbal refused to say the Qur'an was created.",
+          "Its name means \"the trial\" or \"the inquisition\"."
+        ],
+        "explain": "In the Mihnah, scholars were forced to declare the Qur'an created. Ahmad ibn Hanbal refused and was imprisoned and flogged.",
+        "sources": [
+          [
+            "Siyar A'lam an-Nubala",
+            null
+          ]
+        ]
+      },
+      {
+        "answer": "The Battle of Siffin",
+        "options": [
+          "The Battle of Siffin",
+          "The Battle of the Camel",
+          "The Battle of Nahrawan",
+          "The Battle of Karbala"
+        ],
+        "clues": [
+          "It was fought between Muslims.",
+          "It was fought on the Euphrates in 37 AH.",
+          "Ammar ibn Yasir was killed in it.",
+          "Copies of the Qur'an were raised on spears.",
+          "It ended in an arbitration."
+        ],
+        "explain": "At Siffin in 37 AH Ammar ibn Yasir was killed. The fighting ended when arbitration was agreed.",
+        "sources": [
+          [
+            "Al-Bidaya wan-Nihaya",
+            null
+          ],
+          [
+            "Bukhari 447",
+            "Ammar"
+          ]
+        ]
+      },
+      {
+        "answer": "Karbala",
+        "options": [
+          "Karbala",
+          "Siffin",
+          "Kufa",
+          "Najaf"
+        ],
+        "clues": [
+          "It is a place in Iraq.",
+          "It is near the Euphrates.",
+          "A tragedy happened there on the 10th of Muharram.",
+          "It happened in 61 AH.",
+          "Al-Husayn ibn Ali was martyred there."
+        ],
+        "explain": "Al-Husayn ibn Ali, the Prophet's grandson, was martyred at Karbala on the 10th of Muharram, 61 AH.",
+        "sources": [
+          [
+            "Al-Bidaya wan-Nihaya",
+            null
+          ]
+        ]
+      },
+      {
+        "answer": "The Year of Ramadah",
+        "options": [
+          "The Year of Ramadah",
+          "The Year of Sorrow",
+          "The Year of Delegations",
+          "The Year of the Elephant"
+        ],
+        "clues": [
+          "It was a year of hardship.",
+          "It happened in the time of Umar.",
+          "Drought and famine struck the Hijaz.",
+          "Umar refused to eat better than his people until it ended.",
+          "Its name means \"the year of ashes\"."
+        ],
+        "explain": "In 18 AH a severe drought and famine struck Arabia. Umar shared the hardship, and historians relate he asked for rain through al-Abbas.",
+        "sources": [
+          [
+            "Al-Bidaya wan-Nihaya",
+            null
+          ],
+          [
+            "Bukhari 1010",
+            "Abbas"
+          ]
+        ]
+      },
+      {
+        "answer": "The plague of Amwas",
+        "options": [
+          "The plague of Amwas",
+          "The Year of Ramadah",
+          "The famine of Egypt",
+          "The flood of Arim"
+        ],
+        "clues": [
+          "It struck al-Sham in the time of Umar.",
+          "Umar turned back from the journey there.",
+          "He was told the Prophet ﷺ said not to enter a land with plague.",
+          "Abu Ubaydah and Mu'adh ibn Jabal died in it.",
+          "It is named after a village in Palestine."
+        ],
+        "explain": "Umar turned back at Sargh on hearing of the plague in al-Sham, after Abd al-Rahman ibn Awf told him the Prophet's instruction. Abu Ubaydah and Mu'adh died in the plague of Amwas.",
+        "sources": [
+          [
+            "Bukhari 5729",
+            "plague"
+          ],
+          [
+            "Al-Bidaya wan-Nihaya",
+            null
+          ]
+        ]
+      },
+      {
+        "answer": "Rabi' al-Awwal",
+        "options": [
+          "Rabi' al-Awwal",
+          "Rabi' al-Thani",
+          "Safar",
+          "Jumada al-Ula"
+        ],
+        "clues": [
+          "It is a month.",
+          "It is the third month of the Islamic year.",
+          "The Prophet ﷺ arrived in Madinah in it.",
+          "Most historians date his birth to it.",
+          "He passed away in it in 11 AH."
+        ],
+        "explain": "Rabi' al-Awwal is the month of the Prophet's arrival in Madinah and of his passing in 11 AH, and most date his birth to it.",
+        "sources": [
+          [
+            "Ar-Raheeq Al-Makhtum",
+            null
+          ]
+        ]
+      },
+      {
+        "answer": "Safar",
+        "options": [
+          "Safar",
+          "Muharram",
+          "Rabi' al-Awwal",
+          "Shawwal"
+        ],
+        "clues": [
+          "It is a month.",
+          "It is the second month of the Islamic year.",
+          "Pre-Islamic Arabs considered it unlucky.",
+          "The Prophet ﷺ rejected that belief.",
+          "He said, \"There is no Safar.\""
+        ],
+        "explain": "The Prophet ﷺ said there is no contagion without Allah's decree, no evil omen, no hamah and no Safar, rejecting the belief that it was an unlucky month.",
+        "sources": [
+          [
+            "Bukhari 5757",
+            "Safar"
+          ]
+        ]
+      },
+      {
+        "answer": "Dhul-Qa'dah",
+        "options": [
+          "Dhul-Qa'dah",
+          "Dhul-Hijjah",
+          "Shawwal",
+          "Rajab"
+        ],
+        "clues": [
+          "It is a month.",
+          "It is one of the four sacred months.",
+          "It is the eleventh month of the Islamic year.",
+          "The Treaty of Hudaybiyyah was made in it.",
+          "It comes just before the month of Hajj."
+        ],
+        "explain": "Dhul-Qa'dah is the first of the three consecutive sacred months. Several of the Prophet's umrahs, including Hudaybiyyah, took place in it.",
+        "sources": [
+          [
+            "Bukhari 4662",
+            "Dhul-Qa`da"
+          ],
+          [
+            "Bukhari 1778",
+            "Dhi-l-Qa'da"
+          ]
+        ]
+      },
+      {
+        "answer": "The kafan",
+        "options": [
+          "The kafan",
+          "The ihram",
+          "The hijab",
+          "The kiswah"
+        ],
+        "clues": [
+          "It is made of cloth.",
+          "It is used only once.",
+          "It is sunnah for it to be white.",
+          "The Prophet ﷺ was wrapped in three white sheets.",
+          "It is the shroud."
+        ],
+        "explain": "Aishah said the Prophet ﷺ was shrouded in three white Yemeni sheets, with no shirt or turban among them.",
+        "sources": [
+          [
+            "Bukhari 1264",
+            "white"
+          ]
+        ]
+      },
+      {
+        "answer": "Tamattu'",
+        "options": [
+          "Tamattu'",
+          "Qiran",
+          "Ifrad",
+          "Umrah"
+        ],
+        "clues": [
+          "It is a way of performing Hajj.",
+          "Umrah is done first in the months of Hajj.",
+          "The pilgrim leaves ihram between the two.",
+          "An offering, or a fast, is required.",
+          "The Prophet ﷺ told those without a sacrificial animal to do it at the Farewell Pilgrimage."
+        ],
+        "explain": "Surah Al-Baqarah says whoever combines Umrah with Hajj must make an offering, or fast if unable.",
+        "sources": [
+          [
+            "Quran 2:196",
+            "visit"
+          ],
+          [
+            "Muslim 1218",
+            "Umra"
+          ]
+        ]
+      },
+      {
+        "answer": "Halq",
+        "options": [
+          "Halq",
+          "Taqsir",
+          "Ramy",
+          "Sa'i"
+        ],
+        "clues": [
+          "It is a rite of Hajj and Umrah.",
+          "It marks leaving ihram.",
+          "The Prophet ﷺ prayed three times for those who do it.",
+          "It is better than just trimming.",
+          "It is shaving the head."
+        ],
+        "explain": "The Prophet ﷺ prayed for mercy on those who shave their heads, three times, before including those who trim.",
+        "sources": [
+          [
+            "Quran 48:27",
+            "shaven"
+          ],
+          [
+            "Bukhari 1727",
+            "shave"
+          ]
+        ]
+      },
+      {
+        "answer": "The kiswah",
+        "options": [
+          "The kiswah",
+          "The kafan",
+          "The hijab",
+          "The ihram"
+        ],
+        "clues": [
+          "It is made of cloth.",
+          "It is black, with gold embroidery.",
+          "It is replaced every year.",
+          "Its embroidered band carries verses of the Qur'an.",
+          "It is the covering of the Ka'bah."
+        ],
+        "explain": "The kiswah is the cloth that covers the Ka'bah, renewed every year.",
+        "sources": [
+          [
+            "Al-Azraqi, Akhbar Makkah",
             null
           ]
         ]
