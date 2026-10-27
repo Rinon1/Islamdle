@@ -1,0 +1,5489 @@
+{
+ "easy": [
+  {
+   "statements": [
+    "Surah Al-Balad has 20 ayat.",
+    "Surah An-Nisa was revealed in Makkah.",
+    "Surah Al-Ikhlas has 4 ayat."
+   ],
+   "wrong": 1,
+   "explain": "Surah An-Nisa is a Madani surah, revealed in Madinah. The other two statements are correct. Ayat counts follow the standard Hafs mushaf.",
+   "sources": [
+    [
+     "Quran.com data",
+     null
+    ],
+    [
+     "Quran 90:1",
+     null
+    ],
+    [
+     "Quran 4:1",
+     null
+    ],
+    [
+     "Quran 112:1",
+     null
+    ]
+   ]
+  },
+  {
+   "statements": [
+    "Surah Al-Humazah was revealed in Makkah.",
+    "Surah 'Abasa has 32 ayat.",
+    "The name Surah Al-Qadr means “The Power”."
+   ],
+   "wrong": 1,
+   "explain": "Surah 'Abasa has 42 ayat, not 32. The other two statements are correct. Ayat counts follow the standard Hafs mushaf.",
+   "sources": [
+    [
+     "Quran.com data",
+     null
+    ],
+    [
+     "Quran 104:1",
+     null
+    ],
+    [
+     "Quran 80:1",
+     null
+    ],
+    [
+     "Quran 97:1",
+     null
+    ]
+   ]
+  },
+  {
+   "statements": [
+    "Surah Al-Waqi'ah comes right after Surah At-Tur.",
+    "Surah Al-Fil comes right after Surah Al-Humazah.",
+    "Surah Ya-Sin was revealed in Makkah."
+   ],
+   "wrong": 0,
+   "explain": "Surah Al-Waqi'ah comes right after Surah Ar-Rahman, not Surah At-Tur. The other two statements are correct.",
+   "sources": [
+    [
+     "Quran.com data",
+     null
+    ],
+    [
+     "Quran 56:1",
+     null
+    ],
+    [
+     "Quran 105:1",
+     null
+    ],
+    [
+     "Quran 36:1",
+     null
+    ]
+   ]
+  },
+  {
+   "statements": [
+    "The name Surah An-Nas means “Mankind”.",
+    "The name Surah Al-Bayyinah means “The Clear Proof”.",
+    "Surah Al-Qari'ah was revealed in Madinah."
+   ],
+   "wrong": 2,
+   "explain": "Surah Al-Qari'ah is a Makki surah, revealed in Makkah. The other two statements are correct.",
+   "sources": [
+    [
+     "Quran.com data",
+     null
+    ],
+    [
+     "Quran 114:1",
+     null
+    ],
+    [
+     "Quran 98:1",
+     null
+    ],
+    [
+     "Quran 101:1",
+     null
+    ]
+   ]
+  },
+  {
+   "statements": [
+    "Surah Al-Kafirun was revealed in Makkah.",
+    "Surah Al-Balad has 12 ayat.",
+    "The name Surah Al-Ghashiyah means “The Overwhelming”."
+   ],
+   "wrong": 1,
+   "explain": "Surah Al-Balad has 20 ayat, not 12. The other two statements are correct. Ayat counts follow the standard Hafs mushaf.",
+   "sources": [
+    [
+     "Quran.com data",
+     null
+    ],
+    [
+     "Quran 109:1",
+     null
+    ],
+    [
+     "Quran 90:1",
+     null
+    ],
+    [
+     "Quran 88:1",
+     null
+    ]
+   ]
+  },
+  {
+   "statements": [
+    "Surah Quraysh comes right after Surah Al-Fil.",
+    "Surah Az-Zalzalah has 12 ayat.",
+    "The name Surah Al-Ghashiyah means “The Overwhelming”."
+   ],
+   "wrong": 1,
+   "explain": "Surah Az-Zalzalah has 8 ayat, not 12. The other two statements are correct. Ayat counts follow the standard Hafs mushaf.",
+   "sources": [
+    [
+     "Quran.com data",
+     null
+    ],
+    [
+     "Quran 106:1",
+     null
+    ],
+    [
+     "Quran 99:1",
+     null
+    ],
+    [
+     "Quran 88:1",
+     null
+    ]
+   ]
+  },
+  {
+   "statements": [
+    "Surah At-Tariq comes right after Surah Al-Balad.",
+    "Surah Al-Layl comes right after Surah Ash-Shams.",
+    "Surah Al-Waqi'ah has 96 ayat."
+   ],
+   "wrong": 0,
+   "explain": "Surah At-Tariq comes right after Surah Al-Buruj, not Surah Al-Balad. The other two statements are correct. Ayat counts follow the standard Hafs mushaf.",
+   "sources": [
+    [
+     "Quran.com data",
+     null
+    ],
+    [
+     "Quran 86:1",
+     null
+    ],
+    [
+     "Quran 92:1",
+     null
+    ],
+    [
+     "Quran 56:1",
+     null
+    ]
+   ]
+  },
+  {
+   "statements": [
+    "Surah Al-Ma'un has 7 ayat.",
+    "The name Surah Al-Fil means “Originator”.",
+    "The name Surah Al-Bayyinah means “The Clear Proof”."
+   ],
+   "wrong": 1,
+   "explain": "Surah Al-Fil means “The Elephant”. “Originator” is the meaning of Surah Fatir. The other two statements are correct. Ayat counts follow the standard Hafs mushaf.",
+   "sources": [
+    [
+     "Quran.com data",
+     null
+    ],
+    [
+     "Quran 107:1",
+     null
+    ],
+    [
+     "Quran 105:1",
+     null
+    ],
+    [
+     "Quran 98:1",
+     null
+    ]
+   ]
+  },
+  {
+   "statements": [
+    "Surah Al-'Alaq has 19 ayat.",
+    "The name Surah Al-Ghashiyah means “The Night Journey”.",
+    "The name Surah 'Abasa means “He Frowned”."
+   ],
+   "wrong": 1,
+   "explain": "Surah Al-Ghashiyah means “The Overwhelming”. “The Night Journey” is the meaning of Surah Al-Isra. The other two statements are correct. Ayat counts follow the standard Hafs mushaf.",
+   "sources": [
+    [
+     "Quran.com data",
+     null
+    ],
+    [
+     "Quran 96:1",
+     null
+    ],
+    [
+     "Quran 88:1",
+     null
+    ],
+    [
+     "Quran 80:1",
+     null
+    ]
+   ]
+  },
+  {
+   "statements": [
+    "Surah Yusuf was revealed in Madinah.",
+    "Surah An-Nisa has 176 ayat.",
+    "Surah Al-Kawthar comes right after Surah Al-Ma'un."
+   ],
+   "wrong": 0,
+   "explain": "Surah Yusuf is a Makki surah, revealed in Makkah. The other two statements are correct. Ayat counts follow the standard Hafs mushaf.",
+   "sources": [
+    [
+     "Quran.com data",
+     null
+    ],
+    [
+     "Quran 12:1",
+     null
+    ],
+    [
+     "Quran 4:1",
+     null
+    ],
+    [
+     "Quran 108:1",
+     null
+    ]
+   ]
+  },
+  {
+   "statements": [
+    "Surah Al-Mulk comes right after Surah At-Tahrim.",
+    "Surah Al-Layl was revealed in Madinah.",
+    "The name Surah Yusuf means “Joseph”."
+   ],
+   "wrong": 1,
+   "explain": "Surah Al-Layl is a Makki surah, revealed in Makkah. The other two statements are correct.",
+   "sources": [
+    [
+     "Quran.com data",
+     null
+    ],
+    [
+     "Quran 67:1",
+     null
+    ],
+    [
+     "Quran 92:1",
+     null
+    ],
+    [
+     "Quran 12:1",
+     null
+    ]
+   ]
+  },
+  {
+   "statements": [
+    "Surah Al-'Alaq comes right after Surah At-Tin.",
+    "Surah At-Takwir comes right after Surah An-Naba.",
+    "Surah Al-Layl was revealed in Makkah."
+   ],
+   "wrong": 1,
+   "explain": "Surah At-Takwir comes right after Surah 'Abasa, not Surah An-Naba. The other two statements are correct.",
+   "sources": [
+    [
+     "Quran.com data",
+     null
+    ],
+    [
+     "Quran 96:1",
+     null
+    ],
+    [
+     "Quran 81:1",
+     null
+    ],
+    [
+     "Quran 92:1",
+     null
+    ]
+   ]
+  },
+  {
+   "statements": [
+    "The name Surah Al-Fatihah means “The Emissaries”.",
+    "Surah Al-Fil comes right after Surah Al-Humazah.",
+    "The name Surah Al-Bayyinah means “The Clear Proof”."
+   ],
+   "wrong": 0,
+   "explain": "Surah Al-Fatihah means “The Opener”. “The Emissaries” is the meaning of Surah Al-Mursalat. The other two statements are correct.",
+   "sources": [
+    [
+     "Quran.com data",
+     null
+    ],
+    [
+     "Quran 1:1",
+     null
+    ],
+    [
+     "Quran 105:1",
+     null
+    ],
+    [
+     "Quran 98:1",
+     null
+    ]
+   ]
+  },
+  {
+   "statements": [
+    "Surah Al-Fil was revealed in Madinah.",
+    "Surah Al-Fajr has 30 ayat.",
+    "The name Surah Al-Ikhlas means “The Sincerity”."
+   ],
+   "wrong": 0,
+   "explain": "Surah Al-Fil is a Makki surah, revealed in Makkah. The other two statements are correct. Ayat counts follow the standard Hafs mushaf.",
+   "sources": [
+    [
+     "Quran.com data",
+     null
+    ],
+    [
+     "Quran 105:1",
+     null
+    ],
+    [
+     "Quran 89:1",
+     null
+    ],
+    [
+     "Quran 112:1",
+     null
+    ]
+   ]
+  },
+  {
+   "statements": [
+    "Surah Al-Ikhlas has 4 ayat.",
+    "The name Surah An-Nas means “Mankind”.",
+    "Surah Al-Kawthar has 10 ayat."
+   ],
+   "wrong": 2,
+   "explain": "Surah Al-Kawthar has 3 ayat, not 10. The other two statements are correct. Ayat counts follow the standard Hafs mushaf.",
+   "sources": [
+    [
+     "Quran.com data",
+     null
+    ],
+    [
+     "Quran 112:1",
+     null
+    ],
+    [
+     "Quran 114:1",
+     null
+    ],
+    [
+     "Quran 108:1",
+     null
+    ]
+   ]
+  },
+  {
+   "statements": [
+    "Surah Al-Ikhlas comes right after Surah Al-Falaq.",
+    "The name Surah An-Nasr means “The Divine Support”.",
+    "Surah Al-'Adiyat comes right after Surah Az-Zalzalah."
+   ],
+   "wrong": 0,
+   "explain": "Surah Al-Ikhlas comes right after Surah Al-Masad, not Surah Al-Falaq. The other two statements are correct.",
+   "sources": [
+    [
+     "Quran.com data",
+     null
+    ],
+    [
+     "Quran 112:1",
+     null
+    ],
+    [
+     "Quran 110:1",
+     null
+    ],
+    [
+     "Quran 100:1",
+     null
+    ]
+   ]
+  },
+  {
+   "statements": [
+    "Surah Al-Kahf comes right after Surah Al-Anbya.",
+    "Surah Al-Fatihah has 7 ayat.",
+    "Surah Al-Infitar was revealed in Makkah."
+   ],
+   "wrong": 0,
+   "explain": "Surah Al-Kahf comes right after Surah Al-Isra, not Surah Al-Anbya. The other two statements are correct. Ayat counts follow the standard Hafs mushaf.",
+   "sources": [
+    [
+     "Quran.com data",
+     null
+    ],
+    [
+     "Quran 18:1",
+     null
+    ],
+    [
+     "Quran 1:1",
+     null
+    ],
+    [
+     "Quran 82:1",
+     null
+    ]
+   ]
+  },
+  {
+   "statements": [
+    "Surah Az-Zalzalah has 15 ayat.",
+    "Surah At-Takwir comes right after Surah 'Abasa.",
+    "The name Surah Al-'Adiyat means “The Courser”."
+   ],
+   "wrong": 0,
+   "explain": "Surah Az-Zalzalah has 8 ayat, not 15. The other two statements are correct. Ayat counts follow the standard Hafs mushaf.",
+   "sources": [
+    [
+     "Quran.com data",
+     null
+    ],
+    [
+     "Quran 99:1",
+     null
+    ],
+    [
+     "Quran 81:1",
+     null
+    ],
+    [
+     "Quran 100:1",
+     null
+    ]
+   ]
+  },
+  {
+   "statements": [
+    "Surah Al-Inshiqaq was revealed in Makkah.",
+    "Surah Al-'Alaq comes right after Surah Ad-Duhaa.",
+    "The name Surah Al-Fatihah means “The Opener”."
+   ],
+   "wrong": 1,
+   "explain": "Surah Al-'Alaq comes right after Surah At-Tin, not Surah Ad-Duhaa. The other two statements are correct.",
+   "sources": [
+    [
+     "Quran.com data",
+     null
+    ],
+    [
+     "Quran 84:1",
+     null
+    ],
+    [
+     "Quran 96:1",
+     null
+    ],
+    [
+     "Quran 1:1",
+     null
+    ]
+   ]
+  },
+  {
+   "statements": [
+    "Surah Al-Buruj was revealed in Makkah.",
+    "Surah An-Nazi'at has 60 ayat.",
+    "Surah An-Nisa was revealed in Madinah."
+   ],
+   "wrong": 1,
+   "explain": "Surah An-Nazi'at has 46 ayat, not 60. The other two statements are correct. Ayat counts follow the standard Hafs mushaf.",
+   "sources": [
+    [
+     "Quran.com data",
+     null
+    ],
+    [
+     "Quran 85:1",
+     null
+    ],
+    [
+     "Quran 79:1",
+     null
+    ],
+    [
+     "Quran 4:1",
+     null
+    ]
+   ]
+  },
+  {
+   "statements": [
+    "Surah Al-Bayyinah comes right after Surah Al-Qadr.",
+    "Surah Al-A'la comes right after Surah Ash-Shams.",
+    "Surah An-Nas has 6 ayat."
+   ],
+   "wrong": 1,
+   "explain": "Surah Al-A'la comes right after Surah At-Tariq, not Surah Ash-Shams. The other two statements are correct. Ayat counts follow the standard Hafs mushaf.",
+   "sources": [
+    [
+     "Quran.com data",
+     null
+    ],
+    [
+     "Quran 98:1",
+     null
+    ],
+    [
+     "Quran 87:1",
+     null
+    ],
+    [
+     "Quran 114:1",
+     null
+    ]
+   ]
+  },
+  {
+   "statements": [
+    "Surah Al-Mulk comes right after Surah At-Tahrim.",
+    "Surah An-Nisa comes right after Surah Ali 'Imran.",
+    "Surah Al-Qadr comes right after Surah Al-Qari'ah."
+   ],
+   "wrong": 2,
+   "explain": "Surah Al-Qadr comes right after Surah Al-'Alaq, not Surah Al-Qari'ah. The other two statements are correct.",
+   "sources": [
+    [
+     "Quran.com data",
+     null
+    ],
+    [
+     "Quran 67:1",
+     null
+    ],
+    [
+     "Quran 4:1",
+     null
+    ],
+    [
+     "Quran 97:1",
+     null
+    ]
+   ]
+  },
+  {
+   "statements": [
+    "Surah Yusuf was revealed in Madinah.",
+    "The name Surah Al-Qadr means “The Power”.",
+    "The name Surah Al-'Alaq means “The Clot”."
+   ],
+   "wrong": 0,
+   "explain": "Surah Yusuf is a Makki surah, revealed in Makkah. The other two statements are correct.",
+   "sources": [
+    [
+     "Quran.com data",
+     null
+    ],
+    [
+     "Quran 12:1",
+     null
+    ],
+    [
+     "Quran 97:1",
+     null
+    ],
+    [
+     "Quran 96:1",
+     null
+    ]
+   ]
+  },
+  {
+   "statements": [
+    "Surah Ali 'Imran was revealed in Madinah.",
+    "Surah Ar-Rahman has 78 ayat.",
+    "Surah Ad-Duhaa was revealed in Madinah."
+   ],
+   "wrong": 2,
+   "explain": "Surah Ad-Duhaa is a Makki surah, revealed in Makkah. The other two statements are correct. Ayat counts follow the standard Hafs mushaf.",
+   "sources": [
+    [
+     "Quran.com data",
+     null
+    ],
+    [
+     "Quran 3:1",
+     null
+    ],
+    [
+     "Quran 55:1",
+     null
+    ],
+    [
+     "Quran 93:1",
+     null
+    ]
+   ]
+  },
+  {
+   "statements": [
+    "Surah At-Takwir has 29 ayat.",
+    "Surah Quraysh comes right after Surah Al-Fil.",
+    "Surah Ash-Shams was revealed in Madinah."
+   ],
+   "wrong": 2,
+   "explain": "Surah Ash-Shams is a Makki surah, revealed in Makkah. The other two statements are correct. Ayat counts follow the standard Hafs mushaf.",
+   "sources": [
+    [
+     "Quran.com data",
+     null
+    ],
+    [
+     "Quran 81:1",
+     null
+    ],
+    [
+     "Quran 106:1",
+     null
+    ],
+    [
+     "Quran 91:1",
+     null
+    ]
+   ]
+  },
+  {
+   "statements": [
+    "Surah An-Nasr comes right after Surah Al-Kafirun.",
+    "Surah Al-Qari'ah comes right after Surah Al-Humazah.",
+    "Surah Al-Layl has 21 ayat."
+   ],
+   "wrong": 1,
+   "explain": "Surah Al-Qari'ah comes right after Surah Al-'Adiyat, not Surah Al-Humazah. The other two statements are correct. Ayat counts follow the standard Hafs mushaf.",
+   "sources": [
+    [
+     "Quran.com data",
+     null
+    ],
+    [
+     "Quran 110:1",
+     null
+    ],
+    [
+     "Quran 101:1",
+     null
+    ],
+    [
+     "Quran 92:1",
+     null
+    ]
+   ]
+  },
+  {
+   "statements": [
+    "Surah Az-Zalzalah has 14 ayat.",
+    "Surah Al-Qadr has 5 ayat.",
+    "Surah Ash-Shams has 15 ayat."
+   ],
+   "wrong": 0,
+   "explain": "Surah Az-Zalzalah has 8 ayat, not 14. The other two statements are correct. Ayat counts follow the standard Hafs mushaf.",
+   "sources": [
+    [
+     "Quran.com data",
+     null
+    ],
+    [
+     "Quran 99:1",
+     null
+    ],
+    [
+     "Quran 97:1",
+     null
+    ],
+    [
+     "Quran 91:1",
+     null
+    ]
+   ]
+  },
+  {
+   "statements": [
+    "Surah Ar-Rahman has 78 ayat.",
+    "The name Surah An-Nas means “The Morning Hours”.",
+    "The name Surah Al-Mutaffifin means “The Defrauding”."
+   ],
+   "wrong": 1,
+   "explain": "Surah An-Nas means “Mankind”. “The Morning Hours” is the meaning of Surah Ad-Duhaa. The other two statements are correct. Ayat counts follow the standard Hafs mushaf.",
+   "sources": [
+    [
+     "Quran.com data",
+     null
+    ],
+    [
+     "Quran 55:1",
+     null
+    ],
+    [
+     "Quran 114:1",
+     null
+    ],
+    [
+     "Quran 83:1",
+     null
+    ]
+   ]
+  },
+  {
+   "statements": [
+    "The name Surah Al-Mulk means “The Sovereignty”.",
+    "Surah Al-Fatihah has 7 ayat.",
+    "The name Surah Al-'Adiyat means “The Prohibition”."
+   ],
+   "wrong": 2,
+   "explain": "Surah Al-'Adiyat means “The Courser”. “The Prohibition” is the meaning of Surah At-Tahrim. The other two statements are correct. Ayat counts follow the standard Hafs mushaf.",
+   "sources": [
+    [
+     "Quran.com data",
+     null
+    ],
+    [
+     "Quran 67:1",
+     null
+    ],
+    [
+     "Quran 1:1",
+     null
+    ],
+    [
+     "Quran 100:1",
+     null
+    ]
+   ]
+  },
+  {
+   "statements": [
+    "Surah Az-Zalzalah has 12 ayat.",
+    "Surah An-Naba comes right after Surah Al-Mursalat.",
+    "Surah Maryam was revealed in Makkah."
+   ],
+   "wrong": 0,
+   "explain": "Surah Az-Zalzalah has 8 ayat, not 12. The other two statements are correct. Ayat counts follow the standard Hafs mushaf.",
+   "sources": [
+    [
+     "Quran.com data",
+     null
+    ],
+    [
+     "Quran 99:1",
+     null
+    ],
+    [
+     "Quran 78:1",
+     null
+    ],
+    [
+     "Quran 19:1",
+     null
+    ]
+   ]
+  },
+  {
+   "statements": [
+    "Surah Maryam comes right after Surah Al-Kahf.",
+    "The name Surah Al-Falaq means “The Daybreak”.",
+    "Surah Al-A'la comes right after Surah Al-Balad."
+   ],
+   "wrong": 2,
+   "explain": "Surah Al-A'la comes right after Surah At-Tariq, not Surah Al-Balad. The other two statements are correct.",
+   "sources": [
+    [
+     "Quran.com data",
+     null
+    ],
+    [
+     "Quran 19:1",
+     null
+    ],
+    [
+     "Quran 113:1",
+     null
+    ],
+    [
+     "Quran 87:1",
+     null
+    ]
+   ]
+  },
+  {
+   "statements": [
+    "The name Surah An-Nasr means “The Divine Support”.",
+    "Surah Quraysh was revealed in Madinah.",
+    "Surah Al-Waqi'ah has 96 ayat."
+   ],
+   "wrong": 1,
+   "explain": "Surah Quraysh is a Makki surah, revealed in Makkah. The other two statements are correct. Ayat counts follow the standard Hafs mushaf.",
+   "sources": [
+    [
+     "Quran.com data",
+     null
+    ],
+    [
+     "Quran 110:1",
+     null
+    ],
+    [
+     "Quran 106:1",
+     null
+    ],
+    [
+     "Quran 56:1",
+     null
+    ]
+   ]
+  },
+  {
+   "statements": [
+    "The name Surah Al-Mutaffifin means “The Defrauding”.",
+    "Surah Al-Qari'ah comes right after Surah Al-'Adiyat.",
+    "Surah Al-Kawthar has 8 ayat."
+   ],
+   "wrong": 2,
+   "explain": "Surah Al-Kawthar has 3 ayat, not 8. The other two statements are correct. Ayat counts follow the standard Hafs mushaf.",
+   "sources": [
+    [
+     "Quran.com data",
+     null
+    ],
+    [
+     "Quran 83:1",
+     null
+    ],
+    [
+     "Quran 101:1",
+     null
+    ],
+    [
+     "Quran 108:1",
+     null
+    ]
+   ]
+  },
+  {
+   "statements": [
+    "Surah Ash-Shams comes right after Surah At-Tin.",
+    "The name Surah Maryam means “Mary”.",
+    "Surah Al-Ma'un comes right after Surah Quraysh."
+   ],
+   "wrong": 0,
+   "explain": "Surah Ash-Shams comes right after Surah Al-Balad, not Surah At-Tin. The other two statements are correct.",
+   "sources": [
+    [
+     "Quran.com data",
+     null
+    ],
+    [
+     "Quran 91:1",
+     null
+    ],
+    [
+     "Quran 19:1",
+     null
+    ],
+    [
+     "Quran 107:1",
+     null
+    ]
+   ]
+  },
+  {
+   "statements": [
+    "Surah Al-Ma'un comes right after Surah Quraysh.",
+    "Surah 'Abasa has 30 ayat.",
+    "Surah Al-Ghashiyah comes right after Surah Al-A'la."
+   ],
+   "wrong": 1,
+   "explain": "Surah 'Abasa has 42 ayat, not 30. The other two statements are correct. Ayat counts follow the standard Hafs mushaf.",
+   "sources": [
+    [
+     "Quran.com data",
+     null
+    ],
+    [
+     "Quran 107:1",
+     null
+    ],
+    [
+     "Quran 80:1",
+     null
+    ],
+    [
+     "Quran 88:1",
+     null
+    ]
+   ]
+  },
+  {
+   "statements": [
+    "Surah An-Naba has 33 ayat.",
+    "Surah Ya-Sin comes right after Surah Fatir.",
+    "The name Surah Al-Qari'ah means “The Calamity”."
+   ],
+   "wrong": 0,
+   "explain": "Surah An-Naba has 40 ayat, not 33. The other two statements are correct. Ayat counts follow the standard Hafs mushaf.",
+   "sources": [
+    [
+     "Quran.com data",
+     null
+    ],
+    [
+     "Quran 78:1",
+     null
+    ],
+    [
+     "Quran 36:1",
+     null
+    ],
+    [
+     "Quran 101:1",
+     null
+    ]
+   ]
+  },
+  {
+   "statements": [
+    "Surah Al-Baqarah was revealed in Madinah.",
+    "The name Surah Al-Waqi'ah means “The Rooms”.",
+    "Surah Quraysh comes right after Surah Al-Fil."
+   ],
+   "wrong": 1,
+   "explain": "Surah Al-Waqi'ah means “The Inevitable”. “The Rooms” is the meaning of Surah Al-Hujurat. The other two statements are correct.",
+   "sources": [
+    [
+     "Quran.com data",
+     null
+    ],
+    [
+     "Quran 2:1",
+     null
+    ],
+    [
+     "Quran 56:1",
+     null
+    ],
+    [
+     "Quran 106:1",
+     null
+    ]
+   ]
+  },
+  {
+   "statements": [
+    "Surah Al-Kahf was revealed in Madinah.",
+    "Surah Al-Buruj has 22 ayat.",
+    "Surah Al-Infitar comes right after Surah At-Takwir."
+   ],
+   "wrong": 0,
+   "explain": "Surah Al-Kahf is a Makki surah, revealed in Makkah. The other two statements are correct. Ayat counts follow the standard Hafs mushaf.",
+   "sources": [
+    [
+     "Quran.com data",
+     null
+    ],
+    [
+     "Quran 18:1",
+     null
+    ],
+    [
+     "Quran 85:1",
+     null
+    ],
+    [
+     "Quran 82:1",
+     null
+    ]
+   ]
+  },
+  {
+   "statements": [
+    "Surah Al-Ma'un has 7 ayat.",
+    "The name Surah 'Abasa means “He Frowned”.",
+    "Surah Al-'Adiyat has 19 ayat."
+   ],
+   "wrong": 2,
+   "explain": "Surah Al-'Adiyat has 11 ayat, not 19. The other two statements are correct. Ayat counts follow the standard Hafs mushaf.",
+   "sources": [
+    [
+     "Quran.com data",
+     null
+    ],
+    [
+     "Quran 107:1",
+     null
+    ],
+    [
+     "Quran 80:1",
+     null
+    ],
+    [
+     "Quran 100:1",
+     null
+    ]
+   ]
+  },
+  {
+   "statements": [
+    "Surah Al-Kafirun comes right after Surah Al-Kawthar.",
+    "The name Surah Ash-Sharh means “The Disbelievers”.",
+    "Surah Al-Infitar comes right after Surah At-Takwir."
+   ],
+   "wrong": 1,
+   "explain": "Surah Ash-Sharh means “The Relief”. “The Disbelievers” is the meaning of Surah Al-Kafirun. The other two statements are correct.",
+   "sources": [
+    [
+     "Quran.com data",
+     null
+    ],
+    [
+     "Quran 109:1",
+     null
+    ],
+    [
+     "Quran 94:1",
+     null
+    ],
+    [
+     "Quran 82:1",
+     null
+    ]
+   ]
+  },
+  {
+   "statements": [
+    "The name Surah At-Takwir means “The Overthrowing”.",
+    "Surah At-Tariq was revealed in Makkah.",
+    "Surah Al-Fajr comes right after Surah At-Tariq."
+   ],
+   "wrong": 2,
+   "explain": "Surah Al-Fajr comes right after Surah Al-Ghashiyah, not Surah At-Tariq. The other two statements are correct.",
+   "sources": [
+    [
+     "Quran.com data",
+     null
+    ],
+    [
+     "Quran 81:1",
+     null
+    ],
+    [
+     "Quran 86:1",
+     null
+    ],
+    [
+     "Quran 89:1",
+     null
+    ]
+   ]
+  },
+  {
+   "statements": [
+    "Surah Ad-Duhaa comes right after Surah Al-Layl.",
+    "Surah Al-Fajr has 30 ayat.",
+    "The name Surah Al-A'la means “The Believers”."
+   ],
+   "wrong": 2,
+   "explain": "Surah Al-A'la means “The Most High”. “The Believers” is the meaning of Surah Al-Mu'minun. The other two statements are correct. Ayat counts follow the standard Hafs mushaf.",
+   "sources": [
+    [
+     "Quran.com data",
+     null
+    ],
+    [
+     "Quran 93:1",
+     null
+    ],
+    [
+     "Quran 89:1",
+     null
+    ],
+    [
+     "Quran 87:1",
+     null
+    ]
+   ]
+  },
+  {
+   "statements": [
+    "The name Surah Al-A'la means “The Most High”.",
+    "Surah An-Naba was revealed in Makkah.",
+    "Surah Al-Baqarah has 333 ayat."
+   ],
+   "wrong": 2,
+   "explain": "Surah Al-Baqarah has 286 ayat, not 333. The other two statements are correct. Ayat counts follow the standard Hafs mushaf.",
+   "sources": [
+    [
+     "Quran.com data",
+     null
+    ],
+    [
+     "Quran 87:1",
+     null
+    ],
+    [
+     "Quran 78:1",
+     null
+    ],
+    [
+     "Quran 2:1",
+     null
+    ]
+   ]
+  },
+  {
+   "statements": [
+    "The name Surah Ad-Duhaa means “The Morning Hours”.",
+    "The name Surah Ash-Shams means “The Sun”.",
+    "The name Surah Ar-Rahman means “The Troops”."
+   ],
+   "wrong": 2,
+   "explain": "Surah Ar-Rahman means “The Beneficent”. “The Troops” is the meaning of Surah Az-Zumar. The other two statements are correct.",
+   "sources": [
+    [
+     "Quran.com data",
+     null
+    ],
+    [
+     "Quran 93:1",
+     null
+    ],
+    [
+     "Quran 91:1",
+     null
+    ],
+    [
+     "Quran 55:1",
+     null
+    ]
+   ]
+  },
+  {
+   "statements": [
+    "Surah Al-Baqarah has 238 ayat.",
+    "Surah Al-Kahf has 110 ayat.",
+    "The name Surah Yusuf means “Joseph”."
+   ],
+   "wrong": 0,
+   "explain": "Surah Al-Baqarah has 286 ayat, not 238. The other two statements are correct. Ayat counts follow the standard Hafs mushaf.",
+   "sources": [
+    [
+     "Quran.com data",
+     null
+    ],
+    [
+     "Quran 2:1",
+     null
+    ],
+    [
+     "Quran 18:1",
+     null
+    ],
+    [
+     "Quran 12:1",
+     null
+    ]
+   ]
+  },
+  {
+   "statements": [
+    "The name Surah Al-Kahf means “The Cave”.",
+    "The name Surah Al-Balad means “The City”.",
+    "Surah Al-Buruj has 26 ayat."
+   ],
+   "wrong": 2,
+   "explain": "Surah Al-Buruj has 22 ayat, not 26. The other two statements are correct. Ayat counts follow the standard Hafs mushaf.",
+   "sources": [
+    [
+     "Quran.com data",
+     null
+    ],
+    [
+     "Quran 18:1",
+     null
+    ],
+    [
+     "Quran 90:1",
+     null
+    ],
+    [
+     "Quran 85:1",
+     null
+    ]
+   ]
+  },
+  {
+   "statements": [
+    "Surah Ali 'Imran comes right after Surah Al-Baqarah.",
+    "Surah Maryam comes right after Surah Al-Kahf.",
+    "The name Surah Ar-Rahman means “The Ant”."
+   ],
+   "wrong": 2,
+   "explain": "Surah Ar-Rahman means “The Beneficent”. “The Ant” is the meaning of Surah An-Naml. The other two statements are correct.",
+   "sources": [
+    [
+     "Quran.com data",
+     null
+    ],
+    [
+     "Quran 3:1",
+     null
+    ],
+    [
+     "Quran 19:1",
+     null
+    ],
+    [
+     "Quran 55:1",
+     null
+    ]
+   ]
+  },
+  {
+   "statements": [
+    "Surah Al-Fajr comes right after Surah Al-Ghashiyah.",
+    "Surah Al-'Asr has 7 ayat.",
+    "Surah Al-Masad has 5 ayat."
+   ],
+   "wrong": 1,
+   "explain": "Surah Al-'Asr has 3 ayat, not 7. The other two statements are correct. Ayat counts follow the standard Hafs mushaf.",
+   "sources": [
+    [
+     "Quran.com data",
+     null
+    ],
+    [
+     "Quran 89:1",
+     null
+    ],
+    [
+     "Quran 103:1",
+     null
+    ],
+    [
+     "Quran 111:1",
+     null
+    ]
+   ]
+  },
+  {
+   "statements": [
+    "Surah At-Tariq comes right after Surah Al-Buruj.",
+    "The name Surah Al-Masad means “The Night Journey”.",
+    "Surah At-Takathur comes right after Surah Al-Qari'ah."
+   ],
+   "wrong": 1,
+   "explain": "Surah Al-Masad means “The Palm Fiber”. “The Night Journey” is the meaning of Surah Al-Isra. The other two statements are correct.",
+   "sources": [
+    [
+     "Quran.com data",
+     null
+    ],
+    [
+     "Quran 86:1",
+     null
+    ],
+    [
+     "Quran 111:1",
+     null
+    ],
+    [
+     "Quran 102:1",
+     null
+    ]
+   ]
+  },
+  {
+   "statements": [
+    "The name Surah At-Takathur means “The Poets”.",
+    "Surah Al-'Asr was revealed in Makkah.",
+    "Surah Ali 'Imran comes right after Surah Al-Baqarah."
+   ],
+   "wrong": 0,
+   "explain": "Surah At-Takathur means “Rivalry in increase”. “The Poets” is the meaning of Surah Ash-Shu'ara. The other two statements are correct.",
+   "sources": [
+    [
+     "Quran.com data",
+     null
+    ],
+    [
+     "Quran 102:1",
+     null
+    ],
+    [
+     "Quran 103:1",
+     null
+    ],
+    [
+     "Quran 3:1",
+     null
+    ]
+   ]
+  },
+  {
+   "statements": [
+    "Surah Ali 'Imran was revealed in Makkah.",
+    "Surah Al-Infitar comes right after Surah At-Takwir.",
+    "Surah An-Nasr comes right after Surah Al-Kafirun."
+   ],
+   "wrong": 0,
+   "explain": "Surah Ali 'Imran is a Madani surah, revealed in Madinah. The other two statements are correct.",
+   "sources": [
+    [
+     "Quran.com data",
+     null
+    ],
+    [
+     "Quran 3:1",
+     null
+    ],
+    [
+     "Quran 82:1",
+     null
+    ],
+    [
+     "Quran 110:1",
+     null
+    ]
+   ]
+  },
+  {
+   "statements": [
+    "Surah Al-Inshiqaq comes right after Surah Al-Mutaffifin.",
+    "Surah Ash-Sharh comes right after Surah Al-Bayyinah.",
+    "Surah Ya-Sin was revealed in Makkah."
+   ],
+   "wrong": 1,
+   "explain": "Surah Ash-Sharh comes right after Surah Ad-Duhaa, not Surah Al-Bayyinah. The other two statements are correct.",
+   "sources": [
+    [
+     "Quran.com data",
+     null
+    ],
+    [
+     "Quran 84:1",
+     null
+    ],
+    [
+     "Quran 94:1",
+     null
+    ],
+    [
+     "Quran 36:1",
+     null
+    ]
+   ]
+  },
+  {
+   "statements": [
+    "Surah An-Nazi'at was revealed in Makkah.",
+    "Surah Al-Mutaffifin comes right after Surah At-Tariq.",
+    "The name Surah Ad-Duhaa means “The Morning Hours”."
+   ],
+   "wrong": 1,
+   "explain": "Surah Al-Mutaffifin comes right after Surah Al-Infitar, not Surah At-Tariq. The other two statements are correct.",
+   "sources": [
+    [
+     "Quran.com data",
+     null
+    ],
+    [
+     "Quran 79:1",
+     null
+    ],
+    [
+     "Quran 83:1",
+     null
+    ],
+    [
+     "Quran 93:1",
+     null
+    ]
+   ]
+  },
+  {
+   "statements": [
+    "Surah Al-Inshiqaq has 25 ayat.",
+    "Surah Al-Balad was revealed in Madinah.",
+    "Surah An-Naba comes right after Surah Al-Mursalat."
+   ],
+   "wrong": 1,
+   "explain": "Surah Al-Balad is a Makki surah, revealed in Makkah. The other two statements are correct. Ayat counts follow the standard Hafs mushaf.",
+   "sources": [
+    [
+     "Quran.com data",
+     null
+    ],
+    [
+     "Quran 84:1",
+     null
+    ],
+    [
+     "Quran 90:1",
+     null
+    ],
+    [
+     "Quran 78:1",
+     null
+    ]
+   ]
+  },
+  {
+   "statements": [
+    "The name Surah Al-Mulk means “The Sovereignty”.",
+    "Surah At-Tariq has 22 ayat.",
+    "The name Surah Al-Mutaffifin means “The Defrauding”."
+   ],
+   "wrong": 1,
+   "explain": "Surah At-Tariq has 17 ayat, not 22. The other two statements are correct. Ayat counts follow the standard Hafs mushaf.",
+   "sources": [
+    [
+     "Quran.com data",
+     null
+    ],
+    [
+     "Quran 67:1",
+     null
+    ],
+    [
+     "Quran 86:1",
+     null
+    ],
+    [
+     "Quran 83:1",
+     null
+    ]
+   ]
+  },
+  {
+   "statements": [
+    "The name Surah Al-Kafirun means “The Disbelievers”.",
+    "Surah Al-Masad has 5 ayat.",
+    "Surah Al-Falaq has 12 ayat."
+   ],
+   "wrong": 2,
+   "explain": "Surah Al-Falaq has 5 ayat, not 12. The other two statements are correct. Ayat counts follow the standard Hafs mushaf.",
+   "sources": [
+    [
+     "Quran.com data",
+     null
+    ],
+    [
+     "Quran 109:1",
+     null
+    ],
+    [
+     "Quran 111:1",
+     null
+    ],
+    [
+     "Quran 113:1",
+     null
+    ]
+   ]
+  },
+  {
+   "statements": [
+    "Surah Al-'Asr comes right after Surah Al-Ma'un.",
+    "The name Surah Al-Falaq means “The Daybreak”.",
+    "Surah Al-Baqarah comes right after Surah Al-Fatihah."
+   ],
+   "wrong": 0,
+   "explain": "Surah Al-'Asr comes right after Surah At-Takathur, not Surah Al-Ma'un. The other two statements are correct.",
+   "sources": [
+    [
+     "Quran.com data",
+     null
+    ],
+    [
+     "Quran 103:1",
+     null
+    ],
+    [
+     "Quran 113:1",
+     null
+    ],
+    [
+     "Quran 2:1",
+     null
+    ]
+   ]
+  },
+  {
+   "statements": [
+    "Surah Al-Kafirun has 6 ayat.",
+    "The name Surah An-Nazi'at means “The Fig”.",
+    "Surah Ya-Sin comes right after Surah Fatir."
+   ],
+   "wrong": 1,
+   "explain": "Surah An-Nazi'at means “Those who drag forth”. “The Fig” is the meaning of Surah At-Tin. The other two statements are correct. Ayat counts follow the standard Hafs mushaf.",
+   "sources": [
+    [
+     "Quran.com data",
+     null
+    ],
+    [
+     "Quran 109:1",
+     null
+    ],
+    [
+     "Quran 79:1",
+     null
+    ],
+    [
+     "Quran 36:1",
+     null
+    ]
+   ]
+  },
+  {
+   "statements": [
+    "Surah Al-Humazah has 13 ayat.",
+    "Surah Al-Inshiqaq was revealed in Makkah.",
+    "Surah At-Tin comes right after Surah Ash-Sharh."
+   ],
+   "wrong": 0,
+   "explain": "Surah Al-Humazah has 9 ayat, not 13. The other two statements are correct. Ayat counts follow the standard Hafs mushaf.",
+   "sources": [
+    [
+     "Quran.com data",
+     null
+    ],
+    [
+     "Quran 104:1",
+     null
+    ],
+    [
+     "Quran 84:1",
+     null
+    ],
+    [
+     "Quran 95:1",
+     null
+    ]
+   ]
+  },
+  {
+   "statements": [
+    "Surah Ash-Sharh has 8 ayat.",
+    "Surah At-Takathur comes right after Surah Al-Fil.",
+    "Surah Al-Falaq comes right after Surah Al-Ikhlas."
+   ],
+   "wrong": 1,
+   "explain": "Surah At-Takathur comes right after Surah Al-Qari'ah, not Surah Al-Fil. The other two statements are correct. Ayat counts follow the standard Hafs mushaf.",
+   "sources": [
+    [
+     "Quran.com data",
+     null
+    ],
+    [
+     "Quran 94:1",
+     null
+    ],
+    [
+     "Quran 102:1",
+     null
+    ],
+    [
+     "Quran 113:1",
+     null
+    ]
+   ]
+  },
+  {
+   "statements": [
+    "The name Surah At-Takathur means “Rivalry in increase”.",
+    "Surah At-Tin has 16 ayat.",
+    "Surah Al-'Asr was revealed in Makkah."
+   ],
+   "wrong": 1,
+   "explain": "Surah At-Tin has 8 ayat, not 16. The other two statements are correct. Ayat counts follow the standard Hafs mushaf.",
+   "sources": [
+    [
+     "Quran.com data",
+     null
+    ],
+    [
+     "Quran 102:1",
+     null
+    ],
+    [
+     "Quran 95:1",
+     null
+    ],
+    [
+     "Quran 103:1",
+     null
+    ]
+   ]
+  },
+  {
+   "statements": [
+    "Surah Al-Masad has 5 ayat.",
+    "Surah Al-Buruj was revealed in Makkah.",
+    "Surah Ash-Sharh comes right after Surah Al-Qadr."
+   ],
+   "wrong": 2,
+   "explain": "Surah Ash-Sharh comes right after Surah Ad-Duhaa, not Surah Al-Qadr. The other two statements are correct. Ayat counts follow the standard Hafs mushaf.",
+   "sources": [
+    [
+     "Quran.com data",
+     null
+    ],
+    [
+     "Quran 111:1",
+     null
+    ],
+    [
+     "Quran 85:1",
+     null
+    ],
+    [
+     "Quran 94:1",
+     null
+    ]
+   ]
+  },
+  {
+   "statements": [
+    "Surah An-Nazi'at comes right after Surah An-Naba.",
+    "Surah Al-Humazah comes right after Surah Al-Ma'un.",
+    "Surah Al-Kawthar has 3 ayat."
+   ],
+   "wrong": 1,
+   "explain": "Surah Al-Humazah comes right after Surah Al-'Asr, not Surah Al-Ma'un. The other two statements are correct. Ayat counts follow the standard Hafs mushaf.",
+   "sources": [
+    [
+     "Quran.com data",
+     null
+    ],
+    [
+     "Quran 79:1",
+     null
+    ],
+    [
+     "Quran 104:1",
+     null
+    ],
+    [
+     "Quran 108:1",
+     null
+    ]
+   ]
+  }
+ ],
+ "medium": [
+  {
+   "statements": [
+    "Surah Ash-Sharh has 8 ayat.",
+    "Surah Al-Furqan comes right after Surah Al-Hajj.",
+    "The name Surah Al-Masad means “The Palm Fiber”."
+   ],
+   "wrong": 1,
+   "explain": "Surah Al-Furqan comes right after Surah An-Nur, not Surah Al-Hajj. The other two statements are correct. Ayat counts follow the standard Hafs mushaf.",
+   "sources": [
+    [
+     "Quran.com data",
+     null
+    ],
+    [
+     "Quran 94:1",
+     null
+    ],
+    [
+     "Quran 25:1",
+     null
+    ],
+    [
+     "Quran 111:1",
+     null
+    ]
+   ]
+  },
+  {
+   "statements": [
+    "Surah Ad-Duhaa has 11 ayat.",
+    "Surah Ibrahim begins in juz 13.",
+    "Surah At-Talaq has 6 ayat."
+   ],
+   "wrong": 2,
+   "explain": "Surah At-Talaq has 12 ayat, not 6. The other two statements are correct. Ayat counts follow the standard Hafs mushaf.",
+   "sources": [
+    [
+     "Quran.com data",
+     null
+    ],
+    [
+     "Quran 93:1",
+     null
+    ],
+    [
+     "Quran 14:1",
+     null
+    ],
+    [
+     "Quran 65:1",
+     null
+    ]
+   ]
+  },
+  {
+   "statements": [
+    "Surah As-Saf has 14 ayat.",
+    "The name Surah Ghafir means “The Forgiver”.",
+    "Surah Qaf was revealed in Madinah."
+   ],
+   "wrong": 2,
+   "explain": "Surah Qaf is a Makki surah, revealed in Makkah. The other two statements are correct. Ayat counts follow the standard Hafs mushaf.",
+   "sources": [
+    [
+     "Quran.com data",
+     null
+    ],
+    [
+     "Quran 61:1",
+     null
+    ],
+    [
+     "Quran 40:1",
+     null
+    ],
+    [
+     "Quran 50:1",
+     null
+    ]
+   ]
+  },
+  {
+   "statements": [
+    "Surah Al-Qamar comes right after Surah Adh-Dhariyat.",
+    "Surah Ad-Dukhan has 59 ayat.",
+    "Surah As-Saffat was revealed in Makkah."
+   ],
+   "wrong": 0,
+   "explain": "Surah Al-Qamar comes right after Surah An-Najm, not Surah Adh-Dhariyat. The other two statements are correct. Ayat counts follow the standard Hafs mushaf.",
+   "sources": [
+    [
+     "Quran.com data",
+     null
+    ],
+    [
+     "Quran 54:1",
+     null
+    ],
+    [
+     "Quran 44:1",
+     null
+    ],
+    [
+     "Quran 37:1",
+     null
+    ]
+   ]
+  },
+  {
+   "statements": [
+    "Surah Al-Buruj has 14 ayat.",
+    "Surah Al-Muzzammil comes right after Surah Al-Jinn.",
+    "Surah Ghafir was revealed in Makkah."
+   ],
+   "wrong": 0,
+   "explain": "Surah Al-Buruj has 22 ayat, not 14. The other two statements are correct. Ayat counts follow the standard Hafs mushaf.",
+   "sources": [
+    [
+     "Quran.com data",
+     null
+    ],
+    [
+     "Quran 85:1",
+     null
+    ],
+    [
+     "Quran 73:1",
+     null
+    ],
+    [
+     "Quran 40:1",
+     null
+    ]
+   ]
+  },
+  {
+   "statements": [
+    "The name Surah An-Nas means “Mankind”.",
+    "Surah At-Tin comes right after Surah Ash-Sharh.",
+    "Surah Al-Humazah was revealed in Madinah."
+   ],
+   "wrong": 2,
+   "explain": "Surah Al-Humazah is a Makki surah, revealed in Makkah. The other two statements are correct.",
+   "sources": [
+    [
+     "Quran.com data",
+     null
+    ],
+    [
+     "Quran 114:1",
+     null
+    ],
+    [
+     "Quran 95:1",
+     null
+    ],
+    [
+     "Quran 104:1",
+     null
+    ]
+   ]
+  },
+  {
+   "statements": [
+    "Surah Ad-Dukhan has 59 ayat.",
+    "Surah Al-Falaq has 13 ayat.",
+    "Surah Quraysh has 4 ayat."
+   ],
+   "wrong": 1,
+   "explain": "Surah Al-Falaq has 5 ayat, not 13. The other two statements are correct. Ayat counts follow the standard Hafs mushaf.",
+   "sources": [
+    [
+     "Quran.com data",
+     null
+    ],
+    [
+     "Quran 44:1",
+     null
+    ],
+    [
+     "Quran 113:1",
+     null
+    ],
+    [
+     "Quran 106:1",
+     null
+    ]
+   ]
+  },
+  {
+   "statements": [
+    "Surah An-Nas comes right after Surah An-Nasr.",
+    "Surah Az-Zumar has 75 ayat.",
+    "The name Surah Al-Insan means “The Man”."
+   ],
+   "wrong": 0,
+   "explain": "Surah An-Nas comes right after Surah Al-Falaq, not Surah An-Nasr. The other two statements are correct. Ayat counts follow the standard Hafs mushaf.",
+   "sources": [
+    [
+     "Quran.com data",
+     null
+    ],
+    [
+     "Quran 114:1",
+     null
+    ],
+    [
+     "Quran 39:1",
+     null
+    ],
+    [
+     "Quran 76:1",
+     null
+    ]
+   ]
+  },
+  {
+   "statements": [
+    "The name Surah Al-Anbya means “The Prophets”.",
+    "Surah Al-Mutaffifin comes right after Surah Al-Infitar.",
+    "Surah Al-Muzzammil was revealed in Madinah."
+   ],
+   "wrong": 2,
+   "explain": "Surah Al-Muzzammil is a Makki surah, revealed in Makkah. The other two statements are correct.",
+   "sources": [
+    [
+     "Quran.com data",
+     null
+    ],
+    [
+     "Quran 21:1",
+     null
+    ],
+    [
+     "Quran 83:1",
+     null
+    ],
+    [
+     "Quran 73:1",
+     null
+    ]
+   ]
+  },
+  {
+   "statements": [
+    "Surah Al-Kafirun was revealed in Makkah.",
+    "Surah At-Tur comes right after Surah Adh-Dhariyat.",
+    "Surah Al-Ghashiyah has 22 ayat."
+   ],
+   "wrong": 2,
+   "explain": "Surah Al-Ghashiyah has 26 ayat, not 22. The other two statements are correct. Ayat counts follow the standard Hafs mushaf.",
+   "sources": [
+    [
+     "Quran.com data",
+     null
+    ],
+    [
+     "Quran 109:1",
+     null
+    ],
+    [
+     "Quran 52:1",
+     null
+    ],
+    [
+     "Quran 88:1",
+     null
+    ]
+   ]
+  },
+  {
+   "statements": [
+    "The name Surah An-Nas means “The Courser”.",
+    "Surah Al-Haqqah comes right after Surah Al-Qalam.",
+    "The name Surah Fussilat means “Explained in Detail”."
+   ],
+   "wrong": 0,
+   "explain": "Surah An-Nas means “Mankind”. “The Courser” is the meaning of Surah Al-'Adiyat. The other two statements are correct.",
+   "sources": [
+    [
+     "Quran.com data",
+     null
+    ],
+    [
+     "Quran 114:1",
+     null
+    ],
+    [
+     "Quran 69:1",
+     null
+    ],
+    [
+     "Quran 41:1",
+     null
+    ]
+   ]
+  },
+  {
+   "statements": [
+    "The name Surah Al-Baqarah means “The Sun”.",
+    "Surah Al-Hujurat comes right after Surah Al-Fath.",
+    "The name Surah Ash-Shams means “The Sun”."
+   ],
+   "wrong": 0,
+   "explain": "Surah Al-Baqarah means “The Cow”. “The Sun” is the meaning of Surah Ash-Shams. The other two statements are correct.",
+   "sources": [
+    [
+     "Quran.com data",
+     null
+    ],
+    [
+     "Quran 2:1",
+     null
+    ],
+    [
+     "Quran 49:1",
+     null
+    ],
+    [
+     "Quran 91:1",
+     null
+    ]
+   ]
+  },
+  {
+   "statements": [
+    "Surah As-Saf begins in juz 30.",
+    "The name Surah Al-Ahqaf means “The Wind-Curved Sandhills”.",
+    "Surah Al-Ma'idah begins in juz 6."
+   ],
+   "wrong": 0,
+   "explain": "Surah As-Saf begins in juz 28, not juz 30. The other two statements are correct.",
+   "sources": [
+    [
+     "Quran.com data",
+     null
+    ],
+    [
+     "Quran 61:1",
+     null
+    ],
+    [
+     "Quran 46:1",
+     null
+    ],
+    [
+     "Quran 5:1",
+     null
+    ]
+   ]
+  },
+  {
+   "statements": [
+    "Surah As-Sajdah was revealed in Makkah.",
+    "Surah Al-A'la has 19 ayat.",
+    "Surah Adh-Dhariyat has 75 ayat."
+   ],
+   "wrong": 2,
+   "explain": "Surah Adh-Dhariyat has 60 ayat, not 75. The other two statements are correct. Ayat counts follow the standard Hafs mushaf.",
+   "sources": [
+    [
+     "Quran.com data",
+     null
+    ],
+    [
+     "Quran 32:1",
+     null
+    ],
+    [
+     "Quran 87:1",
+     null
+    ],
+    [
+     "Quran 51:1",
+     null
+    ]
+   ]
+  },
+  {
+   "statements": [
+    "Surah At-Takwir has 29 ayat.",
+    "Surah Al-Inshiqaq was revealed in Makkah.",
+    "The name Surah Al-Qadr means “The Hypocrites”."
+   ],
+   "wrong": 2,
+   "explain": "Surah Al-Qadr means “The Power”. “The Hypocrites” is the meaning of Surah Al-Munafiqun. The other two statements are correct. Ayat counts follow the standard Hafs mushaf.",
+   "sources": [
+    [
+     "Quran.com data",
+     null
+    ],
+    [
+     "Quran 81:1",
+     null
+    ],
+    [
+     "Quran 84:1",
+     null
+    ],
+    [
+     "Quran 97:1",
+     null
+    ]
+   ]
+  },
+  {
+   "statements": [
+    "The name Surah Yunus means “Jonah”.",
+    "Surah Al-Hujurat begins in juz 26.",
+    "Surah Nuh comes right after Surah Al-Muddaththir."
+   ],
+   "wrong": 2,
+   "explain": "Surah Nuh comes right after Surah Al-Ma'arij, not Surah Al-Muddaththir. The other two statements are correct.",
+   "sources": [
+    [
+     "Quran.com data",
+     null
+    ],
+    [
+     "Quran 10:1",
+     null
+    ],
+    [
+     "Quran 49:1",
+     null
+    ],
+    [
+     "Quran 71:1",
+     null
+    ]
+   ]
+  },
+  {
+   "statements": [
+    "Surah Al-Mulk comes right after Surah At-Tahrim.",
+    "Surah Ar-Rahman has 78 ayat.",
+    "The name Surah Al-Humazah means “Sheba”."
+   ],
+   "wrong": 2,
+   "explain": "Surah Al-Humazah means “The Traducer”. “Sheba” is the meaning of Surah Saba. The other two statements are correct. Ayat counts follow the standard Hafs mushaf.",
+   "sources": [
+    [
+     "Quran.com data",
+     null
+    ],
+    [
+     "Quran 67:1",
+     null
+    ],
+    [
+     "Quran 55:1",
+     null
+    ],
+    [
+     "Quran 104:1",
+     null
+    ]
+   ]
+  },
+  {
+   "statements": [
+    "The name Surah Al-Qamar means “The Moon”.",
+    "Surah At-Talaq begins in juz 27.",
+    "Surah Al-Fatihah begins in juz 1."
+   ],
+   "wrong": 1,
+   "explain": "Surah At-Talaq begins in juz 28, not juz 27. The other two statements are correct.",
+   "sources": [
+    [
+     "Quran.com data",
+     null
+    ],
+    [
+     "Quran 54:1",
+     null
+    ],
+    [
+     "Quran 65:1",
+     null
+    ],
+    [
+     "Quran 1:1",
+     null
+    ]
+   ]
+  },
+  {
+   "statements": [
+    "Surah Al-'Adiyat comes right after Surah Az-Zalzalah.",
+    "Surah An-Nasr was revealed in Makkah.",
+    "Surah Al-Isra has 111 ayat."
+   ],
+   "wrong": 1,
+   "explain": "Surah An-Nasr is a Madani surah, revealed in Madinah. The other two statements are correct. Ayat counts follow the standard Hafs mushaf.",
+   "sources": [
+    [
+     "Quran.com data",
+     null
+    ],
+    [
+     "Quran 100:1",
+     null
+    ],
+    [
+     "Quran 110:1",
+     null
+    ],
+    [
+     "Quran 17:1",
+     null
+    ]
+   ]
+  },
+  {
+   "statements": [
+    "The name Surah Al-Buruj means “The Mansions of the Stars”.",
+    "Surah At-Takwir was revealed in Madinah.",
+    "Surah Adh-Dhariyat has 60 ayat."
+   ],
+   "wrong": 1,
+   "explain": "Surah At-Takwir is a Makki surah, revealed in Makkah. The other two statements are correct. Ayat counts follow the standard Hafs mushaf.",
+   "sources": [
+    [
+     "Quran.com data",
+     null
+    ],
+    [
+     "Quran 85:1",
+     null
+    ],
+    [
+     "Quran 81:1",
+     null
+    ],
+    [
+     "Quran 51:1",
+     null
+    ]
+   ]
+  },
+  {
+   "statements": [
+    "Surah At-Tin has 8 ayat.",
+    "Surah Al-Humazah comes right after Surah Al-'Asr.",
+    "Surah Yusuf begins in juz 14."
+   ],
+   "wrong": 2,
+   "explain": "Surah Yusuf begins in juz 12, not juz 14. The other two statements are correct. Ayat counts follow the standard Hafs mushaf.",
+   "sources": [
+    [
+     "Quran.com data",
+     null
+    ],
+    [
+     "Quran 95:1",
+     null
+    ],
+    [
+     "Quran 104:1",
+     null
+    ],
+    [
+     "Quran 12:1",
+     null
+    ]
+   ]
+  },
+  {
+   "statements": [
+    "Surah Al-Isra has 111 ayat.",
+    "Surah Al-'Alaq comes right after Surah Al-Layl.",
+    "The name Surah Nuh means “Noah”."
+   ],
+   "wrong": 1,
+   "explain": "Surah Al-'Alaq comes right after Surah At-Tin, not Surah Al-Layl. The other two statements are correct. Ayat counts follow the standard Hafs mushaf.",
+   "sources": [
+    [
+     "Quran.com data",
+     null
+    ],
+    [
+     "Quran 17:1",
+     null
+    ],
+    [
+     "Quran 96:1",
+     null
+    ],
+    [
+     "Quran 71:1",
+     null
+    ]
+   ]
+  },
+  {
+   "statements": [
+    "Surah Al-'Alaq was revealed in Makkah.",
+    "Surah Luqman has 34 ayat.",
+    "Surah Al-Masad comes right after Surah Al-Falaq."
+   ],
+   "wrong": 2,
+   "explain": "Surah Al-Masad comes right after Surah An-Nasr, not Surah Al-Falaq. The other two statements are correct. Ayat counts follow the standard Hafs mushaf.",
+   "sources": [
+    [
+     "Quran.com data",
+     null
+    ],
+    [
+     "Quran 96:1",
+     null
+    ],
+    [
+     "Quran 31:1",
+     null
+    ],
+    [
+     "Quran 111:1",
+     null
+    ]
+   ]
+  },
+  {
+   "statements": [
+    "Surah Al-Kafirun begins in juz 30.",
+    "Surah Al-Fath comes right after Surah Muhammad.",
+    "The name Surah Al-Qamar means “The Courser”."
+   ],
+   "wrong": 2,
+   "explain": "Surah Al-Qamar means “The Moon”. “The Courser” is the meaning of Surah Al-'Adiyat. The other two statements are correct.",
+   "sources": [
+    [
+     "Quran.com data",
+     null
+    ],
+    [
+     "Quran 109:1",
+     null
+    ],
+    [
+     "Quran 48:1",
+     null
+    ],
+    [
+     "Quran 54:1",
+     null
+    ]
+   ]
+  },
+  {
+   "statements": [
+    "The name Surah At-Takwir means “Family of Imran”.",
+    "The name Surah Al-Furqan means “The Criterion”.",
+    "Surah Al-Balad was revealed in Makkah."
+   ],
+   "wrong": 0,
+   "explain": "Surah At-Takwir means “The Overthrowing”. “Family of Imran” is the meaning of Surah Ali 'Imran. The other two statements are correct.",
+   "sources": [
+    [
+     "Quran.com data",
+     null
+    ],
+    [
+     "Quran 81:1",
+     null
+    ],
+    [
+     "Quran 25:1",
+     null
+    ],
+    [
+     "Quran 90:1",
+     null
+    ]
+   ]
+  },
+  {
+   "statements": [
+    "Surah Al-Kahf comes right after Surah Ibrahim.",
+    "Surah Al-Munafiqun begins in juz 28.",
+    "Surah Al-Mumtahanah comes right after Surah Al-Hashr."
+   ],
+   "wrong": 0,
+   "explain": "Surah Al-Kahf comes right after Surah Al-Isra, not Surah Ibrahim. The other two statements are correct.",
+   "sources": [
+    [
+     "Quran.com data",
+     null
+    ],
+    [
+     "Quran 18:1",
+     null
+    ],
+    [
+     "Quran 63:1",
+     null
+    ],
+    [
+     "Quran 60:1",
+     null
+    ]
+   ]
+  },
+  {
+   "statements": [
+    "Surah Al-Anbya comes right after Surah Taha.",
+    "The name Surah Al-Ikhlas means “The Prohibition”.",
+    "Surah Ali 'Imran has 200 ayat."
+   ],
+   "wrong": 1,
+   "explain": "Surah Al-Ikhlas means “The Sincerity”. “The Prohibition” is the meaning of Surah At-Tahrim. The other two statements are correct. Ayat counts follow the standard Hafs mushaf.",
+   "sources": [
+    [
+     "Quran.com data",
+     null
+    ],
+    [
+     "Quran 21:1",
+     null
+    ],
+    [
+     "Quran 112:1",
+     null
+    ],
+    [
+     "Quran 3:1",
+     null
+    ]
+   ]
+  },
+  {
+   "statements": [
+    "Surah Al-Fatihah has 15 ayat.",
+    "Surah Al-Kahf has 110 ayat.",
+    "The name Surah Al-Muzzammil means “The Enshrouded One”."
+   ],
+   "wrong": 0,
+   "explain": "Surah Al-Fatihah has 7 ayat, not 15. The other two statements are correct. Ayat counts follow the standard Hafs mushaf.",
+   "sources": [
+    [
+     "Quran.com data",
+     null
+    ],
+    [
+     "Quran 1:1",
+     null
+    ],
+    [
+     "Quran 18:1",
+     null
+    ],
+    [
+     "Quran 73:1",
+     null
+    ]
+   ]
+  },
+  {
+   "statements": [
+    "The name Surah Al-'Adiyat means “The Courser”.",
+    "Surah Al-Buruj was revealed in Madinah.",
+    "Surah Adh-Dhariyat comes right after Surah Qaf."
+   ],
+   "wrong": 1,
+   "explain": "Surah Al-Buruj is a Makki surah, revealed in Makkah. The other two statements are correct.",
+   "sources": [
+    [
+     "Quran.com data",
+     null
+    ],
+    [
+     "Quran 100:1",
+     null
+    ],
+    [
+     "Quran 85:1",
+     null
+    ],
+    [
+     "Quran 51:1",
+     null
+    ]
+   ]
+  },
+  {
+   "statements": [
+    "Surah Al-Hashr has 20 ayat.",
+    "The name Surah Al-Inshiqaq means “The Sundering”.",
+    "Surah Ad-Dukhan comes right after Surah Az-Zukhruf."
+   ],
+   "wrong": 0,
+   "explain": "Surah Al-Hashr has 24 ayat, not 20. The other two statements are correct. Ayat counts follow the standard Hafs mushaf.",
+   "sources": [
+    [
+     "Quran.com data",
+     null
+    ],
+    [
+     "Quran 59:1",
+     null
+    ],
+    [
+     "Quran 84:1",
+     null
+    ],
+    [
+     "Quran 44:1",
+     null
+    ]
+   ]
+  },
+  {
+   "statements": [
+    "Surah Ali 'Imran begins in juz 2.",
+    "Surah Ibrahim was revealed in Makkah.",
+    "Surah Al-Baqarah comes right after Surah Al-Fatihah."
+   ],
+   "wrong": 0,
+   "explain": "Surah Ali 'Imran begins in juz 3, not juz 2. The other two statements are correct.",
+   "sources": [
+    [
+     "Quran.com data",
+     null
+    ],
+    [
+     "Quran 3:1",
+     null
+    ],
+    [
+     "Quran 14:1",
+     null
+    ],
+    [
+     "Quran 2:1",
+     null
+    ]
+   ]
+  },
+  {
+   "statements": [
+    "Surah Al-Balad has 25 ayat.",
+    "Surah Az-Zukhruf comes right after Surah Ash-Shuraa.",
+    "The name Surah Ash-Shams means “The Sun”."
+   ],
+   "wrong": 0,
+   "explain": "Surah Al-Balad has 20 ayat, not 25. The other two statements are correct. Ayat counts follow the standard Hafs mushaf.",
+   "sources": [
+    [
+     "Quran.com data",
+     null
+    ],
+    [
+     "Quran 90:1",
+     null
+    ],
+    [
+     "Quran 43:1",
+     null
+    ],
+    [
+     "Quran 91:1",
+     null
+    ]
+   ]
+  },
+  {
+   "statements": [
+    "The name Surah 'Abasa means “He Frowned”.",
+    "Surah Al-Munafiqun has 11 ayat.",
+    "Surah An-Nisa comes right after Surah Al-Fatihah."
+   ],
+   "wrong": 2,
+   "explain": "Surah An-Nisa comes right after Surah Ali 'Imran, not Surah Al-Fatihah. The other two statements are correct. Ayat counts follow the standard Hafs mushaf.",
+   "sources": [
+    [
+     "Quran.com data",
+     null
+    ],
+    [
+     "Quran 80:1",
+     null
+    ],
+    [
+     "Quran 63:1",
+     null
+    ],
+    [
+     "Quran 4:1",
+     null
+    ]
+   ]
+  },
+  {
+   "statements": [
+    "Surah Ash-Shams has 15 ayat.",
+    "Surah Al-Qalam comes right after Surah At-Talaq.",
+    "Surah Al-Ma'idah has 120 ayat."
+   ],
+   "wrong": 1,
+   "explain": "Surah Al-Qalam comes right after Surah Al-Mulk, not Surah At-Talaq. The other two statements are correct. Ayat counts follow the standard Hafs mushaf.",
+   "sources": [
+    [
+     "Quran.com data",
+     null
+    ],
+    [
+     "Quran 91:1",
+     null
+    ],
+    [
+     "Quran 68:1",
+     null
+    ],
+    [
+     "Quran 5:1",
+     null
+    ]
+   ]
+  },
+  {
+   "statements": [
+    "The name Surah Al-Kahf means “The Cave”.",
+    "Surah Al-Jumu'ah begins in juz 26.",
+    "Surah Al-A'la has 19 ayat."
+   ],
+   "wrong": 1,
+   "explain": "Surah Al-Jumu'ah begins in juz 28, not juz 26. The other two statements are correct. Ayat counts follow the standard Hafs mushaf.",
+   "sources": [
+    [
+     "Quran.com data",
+     null
+    ],
+    [
+     "Quran 18:1",
+     null
+    ],
+    [
+     "Quran 62:1",
+     null
+    ],
+    [
+     "Quran 87:1",
+     null
+    ]
+   ]
+  },
+  {
+   "statements": [
+    "Surah As-Sajdah has 30 ayat.",
+    "The name Surah Yunus means “The Sun”.",
+    "Surah Al-Furqan has 77 ayat."
+   ],
+   "wrong": 1,
+   "explain": "Surah Yunus means “Jonah”. “The Sun” is the meaning of Surah Ash-Shams. The other two statements are correct. Ayat counts follow the standard Hafs mushaf.",
+   "sources": [
+    [
+     "Quran.com data",
+     null
+    ],
+    [
+     "Quran 32:1",
+     null
+    ],
+    [
+     "Quran 10:1",
+     null
+    ],
+    [
+     "Quran 25:1",
+     null
+    ]
+   ]
+  },
+  {
+   "statements": [
+    "Surah Az-Zukhruf was revealed in Madinah.",
+    "The name Surah Ar-Rahman means “The Beneficent”.",
+    "Surah At-Tin comes right after Surah Ash-Sharh."
+   ],
+   "wrong": 0,
+   "explain": "Surah Az-Zukhruf is a Makki surah, revealed in Makkah. The other two statements are correct.",
+   "sources": [
+    [
+     "Quran.com data",
+     null
+    ],
+    [
+     "Quran 43:1",
+     null
+    ],
+    [
+     "Quran 55:1",
+     null
+    ],
+    [
+     "Quran 95:1",
+     null
+    ]
+   ]
+  },
+  {
+   "statements": [
+    "Surah Al-Bayyinah comes right after Surah Ash-Sharh.",
+    "Surah Ali 'Imran begins in juz 3.",
+    "Surah Al-Fatihah begins in juz 1."
+   ],
+   "wrong": 0,
+   "explain": "Surah Al-Bayyinah comes right after Surah Al-Qadr, not Surah Ash-Sharh. The other two statements are correct.",
+   "sources": [
+    [
+     "Quran.com data",
+     null
+    ],
+    [
+     "Quran 98:1",
+     null
+    ],
+    [
+     "Quran 3:1",
+     null
+    ],
+    [
+     "Quran 1:1",
+     null
+    ]
+   ]
+  },
+  {
+   "statements": [
+    "The name Surah Al-Qalam means “The Pen”.",
+    "The name Surah An-Nur means “The Light”.",
+    "Surah At-Tur begins in juz 29."
+   ],
+   "wrong": 2,
+   "explain": "Surah At-Tur begins in juz 27, not juz 29. The other two statements are correct.",
+   "sources": [
+    [
+     "Quran.com data",
+     null
+    ],
+    [
+     "Quran 68:1",
+     null
+    ],
+    [
+     "Quran 24:1",
+     null
+    ],
+    [
+     "Quran 52:1",
+     null
+    ]
+   ]
+  },
+  {
+   "statements": [
+    "Surah An-Nasr comes right after Surah Al-Kafirun.",
+    "The name Surah As-Saffat means “Those who set the Ranks”.",
+    "Surah Al-Insan has 21 ayat."
+   ],
+   "wrong": 2,
+   "explain": "Surah Al-Insan has 31 ayat, not 21. The other two statements are correct. Ayat counts follow the standard Hafs mushaf.",
+   "sources": [
+    [
+     "Quran.com data",
+     null
+    ],
+    [
+     "Quran 110:1",
+     null
+    ],
+    [
+     "Quran 37:1",
+     null
+    ],
+    [
+     "Quran 76:1",
+     null
+    ]
+   ]
+  },
+  {
+   "statements": [
+    "Surah At-Takathur comes right after Surah Al-Qari'ah.",
+    "The name Surah At-Taghabun means “The Mutual Disillusion”.",
+    "Surah Qaf begins in juz 24."
+   ],
+   "wrong": 2,
+   "explain": "Surah Qaf begins in juz 26, not juz 24. The other two statements are correct.",
+   "sources": [
+    [
+     "Quran.com data",
+     null
+    ],
+    [
+     "Quran 102:1",
+     null
+    ],
+    [
+     "Quran 64:1",
+     null
+    ],
+    [
+     "Quran 50:1",
+     null
+    ]
+   ]
+  },
+  {
+   "statements": [
+    "Surah Muhammad has 38 ayat.",
+    "Surah Qaf has 33 ayat.",
+    "The name Surah Al-Kawthar means “The Abundance”."
+   ],
+   "wrong": 1,
+   "explain": "Surah Qaf has 45 ayat, not 33. The other two statements are correct. Ayat counts follow the standard Hafs mushaf.",
+   "sources": [
+    [
+     "Quran.com data",
+     null
+    ],
+    [
+     "Quran 47:1",
+     null
+    ],
+    [
+     "Quran 50:1",
+     null
+    ],
+    [
+     "Quran 108:1",
+     null
+    ]
+   ]
+  },
+  {
+   "statements": [
+    "Surah Al-Kawthar has 3 ayat.",
+    "Surah Al-Mursalat comes right after Surah Al-Muzzammil.",
+    "Surah At-Tahrim begins in juz 28."
+   ],
+   "wrong": 1,
+   "explain": "Surah Al-Mursalat comes right after Surah Al-Insan, not Surah Al-Muzzammil. The other two statements are correct. Ayat counts follow the standard Hafs mushaf.",
+   "sources": [
+    [
+     "Quran.com data",
+     null
+    ],
+    [
+     "Quran 108:1",
+     null
+    ],
+    [
+     "Quran 77:1",
+     null
+    ],
+    [
+     "Quran 66:1",
+     null
+    ]
+   ]
+  },
+  {
+   "statements": [
+    "Surah Al-Mu'minun begins in juz 18.",
+    "Surah Al-Qiyamah begins in juz 29.",
+    "Surah Ash-Shuraa has 37 ayat."
+   ],
+   "wrong": 2,
+   "explain": "Surah Ash-Shuraa has 53 ayat, not 37. The other two statements are correct. Ayat counts follow the standard Hafs mushaf.",
+   "sources": [
+    [
+     "Quran.com data",
+     null
+    ],
+    [
+     "Quran 23:1",
+     null
+    ],
+    [
+     "Quran 75:1",
+     null
+    ],
+    [
+     "Quran 42:1",
+     null
+    ]
+   ]
+  },
+  {
+   "statements": [
+    "Surah Al-Ma'arij has 44 ayat.",
+    "The name Surah Al-Fath means “The Spider”.",
+    "Surah Ar-Rahman has 78 ayat."
+   ],
+   "wrong": 1,
+   "explain": "Surah Al-Fath means “The Victory”. “The Spider” is the meaning of Surah Al-'Ankabut. The other two statements are correct. Ayat counts follow the standard Hafs mushaf.",
+   "sources": [
+    [
+     "Quran.com data",
+     null
+    ],
+    [
+     "Quran 70:1",
+     null
+    ],
+    [
+     "Quran 48:1",
+     null
+    ],
+    [
+     "Quran 55:1",
+     null
+    ]
+   ]
+  },
+  {
+   "statements": [
+    "Surah Ad-Duhaa comes right after Surah Al-Balad.",
+    "Surah Al-Isra has 111 ayat.",
+    "Surah An-Naba has 40 ayat."
+   ],
+   "wrong": 0,
+   "explain": "Surah Ad-Duhaa comes right after Surah Al-Layl, not Surah Al-Balad. The other two statements are correct. Ayat counts follow the standard Hafs mushaf.",
+   "sources": [
+    [
+     "Quran.com data",
+     null
+    ],
+    [
+     "Quran 93:1",
+     null
+    ],
+    [
+     "Quran 17:1",
+     null
+    ],
+    [
+     "Quran 78:1",
+     null
+    ]
+   ]
+  },
+  {
+   "statements": [
+    "Surah As-Sajdah comes right after Surah Luqman.",
+    "Surah Al-Hujurat comes right after Surah Al-Ahqaf.",
+    "Surah Al-Mu'minun has 118 ayat."
+   ],
+   "wrong": 1,
+   "explain": "Surah Al-Hujurat comes right after Surah Al-Fath, not Surah Al-Ahqaf. The other two statements are correct. Ayat counts follow the standard Hafs mushaf.",
+   "sources": [
+    [
+     "Quran.com data",
+     null
+    ],
+    [
+     "Quran 32:1",
+     null
+    ],
+    [
+     "Quran 49:1",
+     null
+    ],
+    [
+     "Quran 23:1",
+     null
+    ]
+   ]
+  },
+  {
+   "statements": [
+    "Surah Al-Bayyinah begins in juz 30.",
+    "Surah At-Takathur was revealed in Makkah.",
+    "Surah Al-Inshiqaq was revealed in Madinah."
+   ],
+   "wrong": 2,
+   "explain": "Surah Al-Inshiqaq is a Makki surah, revealed in Makkah. The other two statements are correct.",
+   "sources": [
+    [
+     "Quran.com data",
+     null
+    ],
+    [
+     "Quran 98:1",
+     null
+    ],
+    [
+     "Quran 102:1",
+     null
+    ],
+    [
+     "Quran 84:1",
+     null
+    ]
+   ]
+  },
+  {
+   "statements": [
+    "The name Surah An-Nisa means “The Women”.",
+    "Surah Al-Jathiyah was revealed in Madinah.",
+    "The name Surah Fussilat means “Explained in Detail”."
+   ],
+   "wrong": 1,
+   "explain": "Surah Al-Jathiyah is a Makki surah, revealed in Makkah. The other two statements are correct.",
+   "sources": [
+    [
+     "Quran.com data",
+     null
+    ],
+    [
+     "Quran 4:1",
+     null
+    ],
+    [
+     "Quran 45:1",
+     null
+    ],
+    [
+     "Quran 41:1",
+     null
+    ]
+   ]
+  },
+  {
+   "statements": [
+    "Surah Al-Qiyamah has 40 ayat.",
+    "The name Surah An-Nisa means “The Women”.",
+    "The name Surah Al-A'raf means “The Romans”."
+   ],
+   "wrong": 2,
+   "explain": "Surah Al-A'raf means “The Heights”. “The Romans” is the meaning of Surah Ar-Rum. The other two statements are correct. Ayat counts follow the standard Hafs mushaf.",
+   "sources": [
+    [
+     "Quran.com data",
+     null
+    ],
+    [
+     "Quran 75:1",
+     null
+    ],
+    [
+     "Quran 4:1",
+     null
+    ],
+    [
+     "Quran 7:1",
+     null
+    ]
+   ]
+  },
+  {
+   "statements": [
+    "Surah As-Saffat has 235 ayat.",
+    "Surah Al-A'la begins in juz 30.",
+    "Surah Al-'Adiyat has 11 ayat."
+   ],
+   "wrong": 0,
+   "explain": "Surah As-Saffat has 182 ayat, not 235. The other two statements are correct. Ayat counts follow the standard Hafs mushaf.",
+   "sources": [
+    [
+     "Quran.com data",
+     null
+    ],
+    [
+     "Quran 37:1",
+     null
+    ],
+    [
+     "Quran 87:1",
+     null
+    ],
+    [
+     "Quran 100:1",
+     null
+    ]
+   ]
+  },
+  {
+   "statements": [
+    "The name Surah Muhammad means “The Tidings”.",
+    "Surah Al-Muddaththir has 56 ayat.",
+    "The name Surah Al-Infitar means “The Cleaving”."
+   ],
+   "wrong": 0,
+   "explain": "Surah Muhammad means “Muhammad”. “The Tidings” is the meaning of Surah An-Naba. The other two statements are correct. Ayat counts follow the standard Hafs mushaf.",
+   "sources": [
+    [
+     "Quran.com data",
+     null
+    ],
+    [
+     "Quran 47:1",
+     null
+    ],
+    [
+     "Quran 74:1",
+     null
+    ],
+    [
+     "Quran 82:1",
+     null
+    ]
+   ]
+  },
+  {
+   "statements": [
+    "The name Surah Al-Mujadila means “The Pleading Woman”.",
+    "Surah Az-Zumar was revealed in Madinah.",
+    "Surah An-Nazi'at was revealed in Makkah."
+   ],
+   "wrong": 1,
+   "explain": "Surah Az-Zumar is a Makki surah, revealed in Makkah. The other two statements are correct.",
+   "sources": [
+    [
+     "Quran.com data",
+     null
+    ],
+    [
+     "Quran 58:1",
+     null
+    ],
+    [
+     "Quran 39:1",
+     null
+    ],
+    [
+     "Quran 79:1",
+     null
+    ]
+   ]
+  },
+  {
+   "statements": [
+    "Surah Al-Layl comes right after Surah Ash-Shams.",
+    "Surah Al-Fil has 11 ayat.",
+    "Surah An-Nur was revealed in Madinah."
+   ],
+   "wrong": 1,
+   "explain": "Surah Al-Fil has 5 ayat, not 11. The other two statements are correct. Ayat counts follow the standard Hafs mushaf.",
+   "sources": [
+    [
+     "Quran.com data",
+     null
+    ],
+    [
+     "Quran 92:1",
+     null
+    ],
+    [
+     "Quran 105:1",
+     null
+    ],
+    [
+     "Quran 24:1",
+     null
+    ]
+   ]
+  },
+  {
+   "statements": [
+    "Surah Al-Jathiyah comes right after Surah Al-Fath.",
+    "Surah Al-Qiyamah has 40 ayat.",
+    "Surah Quraysh comes right after Surah Al-Fil."
+   ],
+   "wrong": 0,
+   "explain": "Surah Al-Jathiyah comes right after Surah Ad-Dukhan, not Surah Al-Fath. The other two statements are correct. Ayat counts follow the standard Hafs mushaf.",
+   "sources": [
+    [
+     "Quran.com data",
+     null
+    ],
+    [
+     "Quran 45:1",
+     null
+    ],
+    [
+     "Quran 75:1",
+     null
+    ],
+    [
+     "Quran 106:1",
+     null
+    ]
+   ]
+  },
+  {
+   "statements": [
+    "Surah Ash-Shuraa begins in juz 25.",
+    "Surah Al-Jumu'ah begins in juz 28.",
+    "Surah Al-Bayyinah comes right after Surah At-Takathur."
+   ],
+   "wrong": 2,
+   "explain": "Surah Al-Bayyinah comes right after Surah Al-Qadr, not Surah At-Takathur. The other two statements are correct.",
+   "sources": [
+    [
+     "Quran.com data",
+     null
+    ],
+    [
+     "Quran 42:1",
+     null
+    ],
+    [
+     "Quran 62:1",
+     null
+    ],
+    [
+     "Quran 98:1",
+     null
+    ]
+   ]
+  },
+  {
+   "statements": [
+    "Surah At-Takathur comes right after Surah Al-Qari'ah.",
+    "The name Surah Al-Qadr means “The Power”.",
+    "The name Surah Al-An'am means “The Declining Day”."
+   ],
+   "wrong": 2,
+   "explain": "Surah Al-An'am means “The Cattle”. “The Declining Day” is the meaning of Surah Al-'Asr. The other two statements are correct.",
+   "sources": [
+    [
+     "Quran.com data",
+     null
+    ],
+    [
+     "Quran 102:1",
+     null
+    ],
+    [
+     "Quran 97:1",
+     null
+    ],
+    [
+     "Quran 6:1",
+     null
+    ]
+   ]
+  },
+  {
+   "statements": [
+    "Surah An-Nazi'at begins in juz 30.",
+    "Surah Al-Falaq has 11 ayat.",
+    "Surah 'Abasa was revealed in Makkah."
+   ],
+   "wrong": 1,
+   "explain": "Surah Al-Falaq has 5 ayat, not 11. The other two statements are correct. Ayat counts follow the standard Hafs mushaf.",
+   "sources": [
+    [
+     "Quran.com data",
+     null
+    ],
+    [
+     "Quran 79:1",
+     null
+    ],
+    [
+     "Quran 113:1",
+     null
+    ],
+    [
+     "Quran 80:1",
+     null
+    ]
+   ]
+  },
+  {
+   "statements": [
+    "Surah Al-Fajr comes right after Surah Al-Buruj.",
+    "Surah Al-Hashr has 24 ayat.",
+    "Surah Fussilat has 54 ayat."
+   ],
+   "wrong": 0,
+   "explain": "Surah Al-Fajr comes right after Surah Al-Ghashiyah, not Surah Al-Buruj. The other two statements are correct. Ayat counts follow the standard Hafs mushaf.",
+   "sources": [
+    [
+     "Quran.com data",
+     null
+    ],
+    [
+     "Quran 89:1",
+     null
+    ],
+    [
+     "Quran 59:1",
+     null
+    ],
+    [
+     "Quran 41:1",
+     null
+    ]
+   ]
+  },
+  {
+   "statements": [
+    "Surah Sad begins in juz 23.",
+    "Surah Al-Mutaffifin comes right after Surah Al-A'la.",
+    "The name Surah Al-Ikhlas means “The Sincerity”."
+   ],
+   "wrong": 1,
+   "explain": "Surah Al-Mutaffifin comes right after Surah Al-Infitar, not Surah Al-A'la. The other two statements are correct.",
+   "sources": [
+    [
+     "Quran.com data",
+     null
+    ],
+    [
+     "Quran 38:1",
+     null
+    ],
+    [
+     "Quran 83:1",
+     null
+    ],
+    [
+     "Quran 112:1",
+     null
+    ]
+   ]
+  },
+  {
+   "statements": [
+    "The name Surah Al-Fajr means “The Forgiver”.",
+    "Surah Al-Falaq begins in juz 30.",
+    "Surah At-Taghabun has 18 ayat."
+   ],
+   "wrong": 0,
+   "explain": "Surah Al-Fajr means “The Dawn”. “The Forgiver” is the meaning of Surah Ghafir. The other two statements are correct. Ayat counts follow the standard Hafs mushaf.",
+   "sources": [
+    [
+     "Quran.com data",
+     null
+    ],
+    [
+     "Quran 89:1",
+     null
+    ],
+    [
+     "Quran 113:1",
+     null
+    ],
+    [
+     "Quran 64:1",
+     null
+    ]
+   ]
+  },
+  {
+   "statements": [
+    "Surah An-Naba begins in juz 28.",
+    "The name Surah Al-Ma'un means “Small kindnesses”.",
+    "Surah Az-Zumar has 75 ayat."
+   ],
+   "wrong": 0,
+   "explain": "Surah An-Naba begins in juz 30, not juz 28. The other two statements are correct. Ayat counts follow the standard Hafs mushaf.",
+   "sources": [
+    [
+     "Quran.com data",
+     null
+    ],
+    [
+     "Quran 78:1",
+     null
+    ],
+    [
+     "Quran 107:1",
+     null
+    ],
+    [
+     "Quran 39:1",
+     null
+    ]
+   ]
+  },
+  {
+   "statements": [
+    "Surah Al-Balad comes right after Surah Al-Fajr.",
+    "Surah Al-Insan has 31 ayat.",
+    "Surah Luqman begins in juz 23."
+   ],
+   "wrong": 2,
+   "explain": "Surah Luqman begins in juz 21, not juz 23. The other two statements are correct. Ayat counts follow the standard Hafs mushaf.",
+   "sources": [
+    [
+     "Quran.com data",
+     null
+    ],
+    [
+     "Quran 90:1",
+     null
+    ],
+    [
+     "Quran 76:1",
+     null
+    ],
+    [
+     "Quran 31:1",
+     null
+    ]
+   ]
+  },
+  {
+   "statements": [
+    "Surah An-Nasr comes right after Surah Quraysh.",
+    "Surah Al-A'raf has 206 ayat.",
+    "Surah Ibrahim begins in juz 13."
+   ],
+   "wrong": 0,
+   "explain": "Surah An-Nasr comes right after Surah Al-Kafirun, not Surah Quraysh. The other two statements are correct. Ayat counts follow the standard Hafs mushaf.",
+   "sources": [
+    [
+     "Quran.com data",
+     null
+    ],
+    [
+     "Quran 110:1",
+     null
+    ],
+    [
+     "Quran 7:1",
+     null
+    ],
+    [
+     "Quran 14:1",
+     null
+    ]
+   ]
+  },
+  {
+   "statements": [
+    "Surah Al-Waqi'ah begins in juz 25.",
+    "Surah Al-Mutaffifin comes right after Surah Al-Infitar.",
+    "Surah Luqman was revealed in Makkah."
+   ],
+   "wrong": 0,
+   "explain": "Surah Al-Waqi'ah begins in juz 27, not juz 25. The other two statements are correct.",
+   "sources": [
+    [
+     "Quran.com data",
+     null
+    ],
+    [
+     "Quran 56:1",
+     null
+    ],
+    [
+     "Quran 83:1",
+     null
+    ],
+    [
+     "Quran 31:1",
+     null
+    ]
+   ]
+  },
+  {
+   "statements": [
+    "Surah An-Naba has 40 ayat.",
+    "Surah Al-Ahqaf was revealed in Makkah.",
+    "Surah Al-Hashr begins in juz 27."
+   ],
+   "wrong": 2,
+   "explain": "Surah Al-Hashr begins in juz 28, not juz 27. The other two statements are correct. Ayat counts follow the standard Hafs mushaf.",
+   "sources": [
+    [
+     "Quran.com data",
+     null
+    ],
+    [
+     "Quran 78:1",
+     null
+    ],
+    [
+     "Quran 46:1",
+     null
+    ],
+    [
+     "Quran 59:1",
+     null
+    ]
+   ]
+  },
+  {
+   "statements": [
+    "Surah At-Tahrim was revealed in Madinah.",
+    "Surah Al-Jumu'ah begins in juz 29.",
+    "The name Surah Al-Waqi'ah means “The Inevitable”."
+   ],
+   "wrong": 1,
+   "explain": "Surah Al-Jumu'ah begins in juz 28, not juz 29. The other two statements are correct.",
+   "sources": [
+    [
+     "Quran.com data",
+     null
+    ],
+    [
+     "Quran 66:1",
+     null
+    ],
+    [
+     "Quran 62:1",
+     null
+    ],
+    [
+     "Quran 56:1",
+     null
+    ]
+   ]
+  },
+  {
+   "statements": [
+    "The name Surah Yunus means “The Cleaving”.",
+    "Surah Al-Munafiqun comes right after Surah Al-Jumu'ah.",
+    "The name Surah Al-Jathiyah means “The Crouching”."
+   ],
+   "wrong": 0,
+   "explain": "Surah Yunus means “Jonah”. “The Cleaving” is the meaning of Surah Al-Infitar. The other two statements are correct.",
+   "sources": [
+    [
+     "Quran.com data",
+     null
+    ],
+    [
+     "Quran 10:1",
+     null
+    ],
+    [
+     "Quran 63:1",
+     null
+    ],
+    [
+     "Quran 45:1",
+     null
+    ]
+   ]
+  },
+  {
+   "statements": [
+    "Surah Al-A'raf was revealed in Madinah.",
+    "Surah Al-'Asr begins in juz 30.",
+    "The name Surah Ash-Sharh means “The Relief”."
+   ],
+   "wrong": 0,
+   "explain": "Surah Al-A'raf is a Makki surah, revealed in Makkah. The other two statements are correct.",
+   "sources": [
+    [
+     "Quran.com data",
+     null
+    ],
+    [
+     "Quran 7:1",
+     null
+    ],
+    [
+     "Quran 103:1",
+     null
+    ],
+    [
+     "Quran 94:1",
+     null
+    ]
+   ]
+  },
+  {
+   "statements": [
+    "Surah Sad has 88 ayat.",
+    "Surah Ghafir comes right after Surah Ya-Sin.",
+    "Surah At-Tahrim was revealed in Madinah."
+   ],
+   "wrong": 1,
+   "explain": "Surah Ghafir comes right after Surah Az-Zumar, not Surah Ya-Sin. The other two statements are correct. Ayat counts follow the standard Hafs mushaf.",
+   "sources": [
+    [
+     "Quran.com data",
+     null
+    ],
+    [
+     "Quran 38:1",
+     null
+    ],
+    [
+     "Quran 40:1",
+     null
+    ],
+    [
+     "Quran 66:1",
+     null
+    ]
+   ]
+  }
+ ],
+ "hard": [
+  {
+   "statements": [
+    "Surah Ar-Rum has 71 ayat.",
+    "Surah Al-Mulk comes right after Surah At-Tahrim.",
+    "Surah Luqman was revealed in Makkah."
+   ],
+   "wrong": 0,
+   "explain": "Surah Ar-Rum has 60 ayat, not 71. The other two statements are correct. Ayat counts follow the standard Hafs mushaf.",
+   "sources": [
+    [
+     "Quran.com data",
+     null
+    ],
+    [
+     "Quran 30:1",
+     null
+    ],
+    [
+     "Quran 67:1",
+     null
+    ],
+    [
+     "Quran 31:1",
+     null
+    ]
+   ]
+  },
+  {
+   "statements": [
+    "Surah Al-Mu'minun is surah number 23 in the mushaf.",
+    "Surah Al-Jathiyah begins in juz 23.",
+    "Surah An-Nahl has 128 ayat."
+   ],
+   "wrong": 1,
+   "explain": "Surah Al-Jathiyah begins in juz 25, not juz 23. The other two statements are correct. Ayat counts follow the standard Hafs mushaf.",
+   "sources": [
+    [
+     "Quran.com data",
+     null
+    ],
+    [
+     "Quran 23:1",
+     null
+    ],
+    [
+     "Quran 45:1",
+     null
+    ],
+    [
+     "Quran 16:1",
+     null
+    ]
+   ]
+  },
+  {
+   "statements": [
+    "Surah Al-Fatihah has 7 ayat.",
+    "Surah Al-Layl comes right after Surah Ash-Shams.",
+    "Surah Al-Qamar has 68 ayat."
+   ],
+   "wrong": 2,
+   "explain": "Surah Al-Qamar has 55 ayat, not 68. The other two statements are correct. Ayat counts follow the standard Hafs mushaf.",
+   "sources": [
+    [
+     "Quran.com data",
+     null
+    ],
+    [
+     "Quran 1:1",
+     null
+    ],
+    [
+     "Quran 92:1",
+     null
+    ],
+    [
+     "Quran 54:1",
+     null
+    ]
+   ]
+  },
+  {
+   "statements": [
+    "Surah Al-Baqarah is surah number 4 in the mushaf.",
+    "Surah At-Takathur comes right after Surah Al-Qari'ah.",
+    "Surah Al-Mutaffifin is surah number 83 in the mushaf."
+   ],
+   "wrong": 0,
+   "explain": "Surah Al-Baqarah is surah number 2, not 4. The other two statements are correct.",
+   "sources": [
+    [
+     "Quran.com data",
+     null
+    ],
+    [
+     "Quran 2:1",
+     null
+    ],
+    [
+     "Quran 102:1",
+     null
+    ],
+    [
+     "Quran 83:1",
+     null
+    ]
+   ]
+  },
+  {
+   "statements": [
+    "Surah Az-Zalzalah comes right after Surah At-Takathur.",
+    "Surah Al-Bayyinah begins in juz 30.",
+    "Surah Luqman comes right after Surah Ar-Rum."
+   ],
+   "wrong": 0,
+   "explain": "Surah Az-Zalzalah comes right after Surah Al-Bayyinah, not Surah At-Takathur. The other two statements are correct.",
+   "sources": [
+    [
+     "Quran.com data",
+     null
+    ],
+    [
+     "Quran 99:1",
+     null
+    ],
+    [
+     "Quran 98:1",
+     null
+    ],
+    [
+     "Quran 31:1",
+     null
+    ]
+   ]
+  },
+  {
+   "statements": [
+    "Surah At-Takwir is surah number 81 in the mushaf.",
+    "Surah Al-Qamar was revealed in Makkah.",
+    "Surah Ar-Rum is surah number 27 in the mushaf."
+   ],
+   "wrong": 2,
+   "explain": "Surah Ar-Rum is surah number 30, not 27. The other two statements are correct.",
+   "sources": [
+    [
+     "Quran.com data",
+     null
+    ],
+    [
+     "Quran 81:1",
+     null
+    ],
+    [
+     "Quran 54:1",
+     null
+    ],
+    [
+     "Quran 30:1",
+     null
+    ]
+   ]
+  },
+  {
+   "statements": [
+    "Surah An-Nisa begins in juz 4.",
+    "Surah Al-Muzzammil was revealed in Madinah.",
+    "Surah Al-Mumtahanah was revealed in Madinah."
+   ],
+   "wrong": 1,
+   "explain": "Surah Al-Muzzammil is a Makki surah, revealed in Makkah. The other two statements are correct.",
+   "sources": [
+    [
+     "Quran.com data",
+     null
+    ],
+    [
+     "Quran 4:1",
+     null
+    ],
+    [
+     "Quran 73:1",
+     null
+    ],
+    [
+     "Quran 60:1",
+     null
+    ]
+   ]
+  },
+  {
+   "statements": [
+    "Surah Al-Fil was revealed in Makkah.",
+    "Surah Al-'Asr was revealed in Madinah.",
+    "Surah An-Nisa is surah number 4 in the mushaf."
+   ],
+   "wrong": 1,
+   "explain": "Surah Al-'Asr is a Makki surah, revealed in Makkah. The other two statements are correct.",
+   "sources": [
+    [
+     "Quran.com data",
+     null
+    ],
+    [
+     "Quran 105:1",
+     null
+    ],
+    [
+     "Quran 103:1",
+     null
+    ],
+    [
+     "Quran 4:1",
+     null
+    ]
+   ]
+  },
+  {
+   "statements": [
+    "Surah Al-Masad has 5 ayat.",
+    "Surah Al-Munafiqun comes right after Surah Al-Jumu'ah.",
+    "Surah At-Tariq is surah number 84 in the mushaf."
+   ],
+   "wrong": 2,
+   "explain": "Surah At-Tariq is surah number 86, not 84. The other two statements are correct. Ayat counts follow the standard Hafs mushaf.",
+   "sources": [
+    [
+     "Quran.com data",
+     null
+    ],
+    [
+     "Quran 111:1",
+     null
+    ],
+    [
+     "Quran 63:1",
+     null
+    ],
+    [
+     "Quran 86:1",
+     null
+    ]
+   ]
+  },
+  {
+   "statements": [
+    "Surah Al-Fil comes right after Surah Al-Kafirun.",
+    "Surah Al-Ma'arij was revealed in Makkah.",
+    "Surah Al-Ikhlas has 4 ayat."
+   ],
+   "wrong": 0,
+   "explain": "Surah Al-Fil comes right after Surah Al-Humazah, not Surah Al-Kafirun. The other two statements are correct. Ayat counts follow the standard Hafs mushaf.",
+   "sources": [
+    [
+     "Quran.com data",
+     null
+    ],
+    [
+     "Quran 105:1",
+     null
+    ],
+    [
+     "Quran 70:1",
+     null
+    ],
+    [
+     "Quran 112:1",
+     null
+    ]
+   ]
+  },
+  {
+   "statements": [
+    "Surah Al-A'raf was revealed in Makkah.",
+    "Surah Ar-Rum is surah number 32 in the mushaf.",
+    "Surah Luqman has 34 ayat."
+   ],
+   "wrong": 1,
+   "explain": "Surah Ar-Rum is surah number 30, not 32. The other two statements are correct. Ayat counts follow the standard Hafs mushaf.",
+   "sources": [
+    [
+     "Quran.com data",
+     null
+    ],
+    [
+     "Quran 7:1",
+     null
+    ],
+    [
+     "Quran 30:1",
+     null
+    ],
+    [
+     "Quran 31:1",
+     null
+    ]
+   ]
+  },
+  {
+   "statements": [
+    "Surah Al-Muddaththir was revealed in Madinah.",
+    "Surah Nuh is surah number 71 in the mushaf.",
+    "Surah Adh-Dhariyat is surah number 51 in the mushaf."
+   ],
+   "wrong": 0,
+   "explain": "Surah Al-Muddaththir is a Makki surah, revealed in Makkah. The other two statements are correct.",
+   "sources": [
+    [
+     "Quran.com data",
+     null
+    ],
+    [
+     "Quran 74:1",
+     null
+    ],
+    [
+     "Quran 71:1",
+     null
+    ],
+    [
+     "Quran 51:1",
+     null
+    ]
+   ]
+  },
+  {
+   "statements": [
+    "Surah Ar-Ra'd begins in juz 13.",
+    "Surah Al-Humazah begins in juz 28.",
+    "Surah Al-Muddaththir was revealed in Makkah."
+   ],
+   "wrong": 1,
+   "explain": "Surah Al-Humazah begins in juz 30, not juz 28. The other two statements are correct.",
+   "sources": [
+    [
+     "Quran.com data",
+     null
+    ],
+    [
+     "Quran 13:1",
+     null
+    ],
+    [
+     "Quran 104:1",
+     null
+    ],
+    [
+     "Quran 74:1",
+     null
+    ]
+   ]
+  },
+  {
+   "statements": [
+    "Surah At-Tahrim is surah number 63 in the mushaf.",
+    "Surah Al-Munafiqun begins in juz 28.",
+    "Surah Al-Fatihah has 7 ayat."
+   ],
+   "wrong": 0,
+   "explain": "Surah At-Tahrim is surah number 66, not 63. The other two statements are correct. Ayat counts follow the standard Hafs mushaf.",
+   "sources": [
+    [
+     "Quran.com data",
+     null
+    ],
+    [
+     "Quran 66:1",
+     null
+    ],
+    [
+     "Quran 63:1",
+     null
+    ],
+    [
+     "Quran 1:1",
+     null
+    ]
+   ]
+  },
+  {
+   "statements": [
+    "Surah Al-Qalam begins in juz 27.",
+    "Surah Al-Jumu'ah comes right after Surah As-Saf.",
+    "Surah Al-Hajj comes right after Surah Al-Anbya."
+   ],
+   "wrong": 0,
+   "explain": "Surah Al-Qalam begins in juz 29, not juz 27. The other two statements are correct.",
+   "sources": [
+    [
+     "Quran.com data",
+     null
+    ],
+    [
+     "Quran 68:1",
+     null
+    ],
+    [
+     "Quran 62:1",
+     null
+    ],
+    [
+     "Quran 22:1",
+     null
+    ]
+   ]
+  },
+  {
+   "statements": [
+    "Surah Al-Anbya is surah number 19 in the mushaf.",
+    "Surah Al-A'raf is surah number 7 in the mushaf.",
+    "Surah Al-Qasas begins in juz 20."
+   ],
+   "wrong": 0,
+   "explain": "Surah Al-Anbya is surah number 21, not 19. The other two statements are correct.",
+   "sources": [
+    [
+     "Quran.com data",
+     null
+    ],
+    [
+     "Quran 21:1",
+     null
+    ],
+    [
+     "Quran 7:1",
+     null
+    ],
+    [
+     "Quran 28:1",
+     null
+    ]
+   ]
+  },
+  {
+   "statements": [
+    "Surah Al-Buruj begins in juz 30.",
+    "Surah Al-Ma'idah is surah number 2 in the mushaf.",
+    "Surah Al-Isra was revealed in Makkah."
+   ],
+   "wrong": 1,
+   "explain": "Surah Al-Ma'idah is surah number 5, not 2. The other two statements are correct.",
+   "sources": [
+    [
+     "Quran.com data",
+     null
+    ],
+    [
+     "Quran 85:1",
+     null
+    ],
+    [
+     "Quran 5:1",
+     null
+    ],
+    [
+     "Quran 17:1",
+     null
+    ]
+   ]
+  },
+  {
+   "statements": [
+    "Surah At-Tariq comes right after Surah Al-Buruj.",
+    "Surah Al-Jinn comes right after Surah Al-Haqqah.",
+    "Surah Al-Balad is surah number 90 in the mushaf."
+   ],
+   "wrong": 1,
+   "explain": "Surah Al-Jinn comes right after Surah Nuh, not Surah Al-Haqqah. The other two statements are correct.",
+   "sources": [
+    [
+     "Quran.com data",
+     null
+    ],
+    [
+     "Quran 86:1",
+     null
+    ],
+    [
+     "Quran 72:1",
+     null
+    ],
+    [
+     "Quran 90:1",
+     null
+    ]
+   ]
+  },
+  {
+   "statements": [
+    "Surah At-Taghabun has 18 ayat.",
+    "Surah Nuh has 28 ayat.",
+    "Surah As-Saf begins in juz 29."
+   ],
+   "wrong": 2,
+   "explain": "Surah As-Saf begins in juz 28, not juz 29. The other two statements are correct. Ayat counts follow the standard Hafs mushaf.",
+   "sources": [
+    [
+     "Quran.com data",
+     null
+    ],
+    [
+     "Quran 64:1",
+     null
+    ],
+    [
+     "Quran 71:1",
+     null
+    ],
+    [
+     "Quran 61:1",
+     null
+    ]
+   ]
+  },
+  {
+   "statements": [
+    "Surah As-Saffat begins in juz 24.",
+    "Surah Al-Qalam was revealed in Makkah.",
+    "Surah Al-Balad was revealed in Makkah."
+   ],
+   "wrong": 0,
+   "explain": "Surah As-Saffat begins in juz 23, not juz 24. The other two statements are correct.",
+   "sources": [
+    [
+     "Quran.com data",
+     null
+    ],
+    [
+     "Quran 37:1",
+     null
+    ],
+    [
+     "Quran 68:1",
+     null
+    ],
+    [
+     "Quran 90:1",
+     null
+    ]
+   ]
+  },
+  {
+   "statements": [
+    "Surah Al-Mu'minun is surah number 23 in the mushaf.",
+    "Surah Al-Ikhlas has 4 ayat.",
+    "Surah 'Abasa is surah number 82 in the mushaf."
+   ],
+   "wrong": 2,
+   "explain": "Surah 'Abasa is surah number 80, not 82. The other two statements are correct. Ayat counts follow the standard Hafs mushaf.",
+   "sources": [
+    [
+     "Quran.com data",
+     null
+    ],
+    [
+     "Quran 23:1",
+     null
+    ],
+    [
+     "Quran 112:1",
+     null
+    ],
+    [
+     "Quran 80:1",
+     null
+    ]
+   ]
+  },
+  {
+   "statements": [
+    "Surah Al-Kahf was revealed in Madinah.",
+    "Surah Ash-Shu'ara has 227 ayat.",
+    "Surah Al-Mujadila is surah number 58 in the mushaf."
+   ],
+   "wrong": 0,
+   "explain": "Surah Al-Kahf is a Makki surah, revealed in Makkah. The other two statements are correct. Ayat counts follow the standard Hafs mushaf.",
+   "sources": [
+    [
+     "Quran.com data",
+     null
+    ],
+    [
+     "Quran 18:1",
+     null
+    ],
+    [
+     "Quran 26:1",
+     null
+    ],
+    [
+     "Quran 58:1",
+     null
+    ]
+   ]
+  },
+  {
+   "statements": [
+    "Surah At-Tariq begins in juz 30.",
+    "Surah Al-'Ankabut was revealed in Makkah.",
+    "Surah Al-Kahf has 84 ayat."
+   ],
+   "wrong": 2,
+   "explain": "Surah Al-Kahf has 110 ayat, not 84. The other two statements are correct. Ayat counts follow the standard Hafs mushaf.",
+   "sources": [
+    [
+     "Quran.com data",
+     null
+    ],
+    [
+     "Quran 86:1",
+     null
+    ],
+    [
+     "Quran 29:1",
+     null
+    ],
+    [
+     "Quran 18:1",
+     null
+    ]
+   ]
+  },
+  {
+   "statements": [
+    "Surah Al-Fatihah begins in juz 1.",
+    "Surah Al-Insan has 36 ayat.",
+    "Surah Al-Fil has 5 ayat."
+   ],
+   "wrong": 1,
+   "explain": "Surah Al-Insan has 31 ayat, not 36. The other two statements are correct. Ayat counts follow the standard Hafs mushaf.",
+   "sources": [
+    [
+     "Quran.com data",
+     null
+    ],
+    [
+     "Quran 1:1",
+     null
+    ],
+    [
+     "Quran 76:1",
+     null
+    ],
+    [
+     "Quran 105:1",
+     null
+    ]
+   ]
+  },
+  {
+   "statements": [
+    "Surah Al-Hashr was revealed in Makkah.",
+    "Surah Al-Qadr is surah number 97 in the mushaf.",
+    "Surah An-Naba comes right after Surah Al-Mursalat."
+   ],
+   "wrong": 0,
+   "explain": "Surah Al-Hashr is a Madani surah, revealed in Madinah. The other two statements are correct.",
+   "sources": [
+    [
+     "Quran.com data",
+     null
+    ],
+    [
+     "Quran 59:1",
+     null
+    ],
+    [
+     "Quran 97:1",
+     null
+    ],
+    [
+     "Quran 78:1",
+     null
+    ]
+   ]
+  },
+  {
+   "statements": [
+    "Surah Al-Bayyinah comes right after Surah Al-Qadr.",
+    "Surah Ad-Dukhan comes right after Surah Muhammad.",
+    "Surah Al-Ma'idah has 120 ayat."
+   ],
+   "wrong": 1,
+   "explain": "Surah Ad-Dukhan comes right after Surah Az-Zukhruf, not Surah Muhammad. The other two statements are correct. Ayat counts follow the standard Hafs mushaf.",
+   "sources": [
+    [
+     "Quran.com data",
+     null
+    ],
+    [
+     "Quran 98:1",
+     null
+    ],
+    [
+     "Quran 44:1",
+     null
+    ],
+    [
+     "Quran 5:1",
+     null
+    ]
+   ]
+  },
+  {
+   "statements": [
+    "Surah Muhammad has 38 ayat.",
+    "Surah Al-Ahqaf comes right after Surah Al-Hujurat.",
+    "Surah Al-Qari'ah was revealed in Makkah."
+   ],
+   "wrong": 1,
+   "explain": "Surah Al-Ahqaf comes right after Surah Al-Jathiyah, not Surah Al-Hujurat. The other two statements are correct. Ayat counts follow the standard Hafs mushaf.",
+   "sources": [
+    [
+     "Quran.com data",
+     null
+    ],
+    [
+     "Quran 47:1",
+     null
+    ],
+    [
+     "Quran 46:1",
+     null
+    ],
+    [
+     "Quran 101:1",
+     null
+    ]
+   ]
+  },
+  {
+   "statements": [
+    "Surah An-Nasr is surah number 112 in the mushaf.",
+    "Surah Qaf has 45 ayat.",
+    "Surah Ad-Duhaa is surah number 93 in the mushaf."
+   ],
+   "wrong": 0,
+   "explain": "Surah An-Nasr is surah number 110, not 112. The other two statements are correct. Ayat counts follow the standard Hafs mushaf.",
+   "sources": [
+    [
+     "Quran.com data",
+     null
+    ],
+    [
+     "Quran 110:1",
+     null
+    ],
+    [
+     "Quran 50:1",
+     null
+    ],
+    [
+     "Quran 93:1",
+     null
+    ]
+   ]
+  },
+  {
+   "statements": [
+    "Surah Ali 'Imran was revealed in Madinah.",
+    "Surah Ibrahim was revealed in Makkah.",
+    "Surah At-Takathur has 12 ayat."
+   ],
+   "wrong": 2,
+   "explain": "Surah At-Takathur has 8 ayat, not 12. The other two statements are correct. Ayat counts follow the standard Hafs mushaf.",
+   "sources": [
+    [
+     "Quran.com data",
+     null
+    ],
+    [
+     "Quran 3:1",
+     null
+    ],
+    [
+     "Quran 14:1",
+     null
+    ],
+    [
+     "Quran 102:1",
+     null
+    ]
+   ]
+  },
+  {
+   "statements": [
+    "Surah At-Tahrim has 12 ayat.",
+    "Surah As-Saf is surah number 59 in the mushaf.",
+    "Surah An-Nas begins in juz 30."
+   ],
+   "wrong": 1,
+   "explain": "Surah As-Saf is surah number 61, not 59. The other two statements are correct. Ayat counts follow the standard Hafs mushaf.",
+   "sources": [
+    [
+     "Quran.com data",
+     null
+    ],
+    [
+     "Quran 66:1",
+     null
+    ],
+    [
+     "Quran 61:1",
+     null
+    ],
+    [
+     "Quran 114:1",
+     null
+    ]
+   ]
+  },
+  {
+   "statements": [
+    "Surah Al-A'la is surah number 84 in the mushaf.",
+    "Surah Al-Qiyamah begins in juz 29.",
+    "Surah As-Saffat was revealed in Makkah."
+   ],
+   "wrong": 0,
+   "explain": "Surah Al-A'la is surah number 87, not 84. The other two statements are correct.",
+   "sources": [
+    [
+     "Quran.com data",
+     null
+    ],
+    [
+     "Quran 87:1",
+     null
+    ],
+    [
+     "Quran 75:1",
+     null
+    ],
+    [
+     "Quran 37:1",
+     null
+    ]
+   ]
+  },
+  {
+   "statements": [
+    "Surah Al-Isra is surah number 17 in the mushaf.",
+    "Surah An-Nisa has 176 ayat.",
+    "Surah Al-Jathiyah comes right after Surah Al-Hujurat."
+   ],
+   "wrong": 2,
+   "explain": "Surah Al-Jathiyah comes right after Surah Ad-Dukhan, not Surah Al-Hujurat. The other two statements are correct. Ayat counts follow the standard Hafs mushaf.",
+   "sources": [
+    [
+     "Quran.com data",
+     null
+    ],
+    [
+     "Quran 17:1",
+     null
+    ],
+    [
+     "Quran 4:1",
+     null
+    ],
+    [
+     "Quran 45:1",
+     null
+    ]
+   ]
+  },
+  {
+   "statements": [
+    "Surah Ar-Rahman comes right after Surah Al-Mujadila.",
+    "Surah Maryam is surah number 19 in the mushaf.",
+    "Surah 'Abasa was revealed in Makkah."
+   ],
+   "wrong": 0,
+   "explain": "Surah Ar-Rahman comes right after Surah Al-Qamar, not Surah Al-Mujadila. The other two statements are correct.",
+   "sources": [
+    [
+     "Quran.com data",
+     null
+    ],
+    [
+     "Quran 55:1",
+     null
+    ],
+    [
+     "Quran 19:1",
+     null
+    ],
+    [
+     "Quran 80:1",
+     null
+    ]
+   ]
+  },
+  {
+   "statements": [
+    "Surah Al-Hijr comes right after Surah Ibrahim.",
+    "Surah Fatir begins in juz 22.",
+    "Surah An-Nas is surah number 112 in the mushaf."
+   ],
+   "wrong": 2,
+   "explain": "Surah An-Nas is surah number 114, not 112. The other two statements are correct.",
+   "sources": [
+    [
+     "Quran.com data",
+     null
+    ],
+    [
+     "Quran 15:1",
+     null
+    ],
+    [
+     "Quran 35:1",
+     null
+    ],
+    [
+     "Quran 114:1",
+     null
+    ]
+   ]
+  },
+  {
+   "statements": [
+    "Surah At-Talaq begins in juz 28.",
+    "Surah An-Nasr begins in juz 30.",
+    "Surah Al-Bayyinah has 15 ayat."
+   ],
+   "wrong": 2,
+   "explain": "Surah Al-Bayyinah has 8 ayat, not 15. The other two statements are correct. Ayat counts follow the standard Hafs mushaf.",
+   "sources": [
+    [
+     "Quran.com data",
+     null
+    ],
+    [
+     "Quran 65:1",
+     null
+    ],
+    [
+     "Quran 110:1",
+     null
+    ],
+    [
+     "Quran 98:1",
+     null
+    ]
+   ]
+  },
+  {
+   "statements": [
+    "Surah Al-'Adiyat is surah number 102 in the mushaf.",
+    "Surah Ali 'Imran comes right after Surah Al-Baqarah.",
+    "Surah As-Saf comes right after Surah Al-Mumtahanah."
+   ],
+   "wrong": 0,
+   "explain": "Surah Al-'Adiyat is surah number 100, not 102. The other two statements are correct.",
+   "sources": [
+    [
+     "Quran.com data",
+     null
+    ],
+    [
+     "Quran 100:1",
+     null
+    ],
+    [
+     "Quran 3:1",
+     null
+    ],
+    [
+     "Quran 61:1",
+     null
+    ]
+   ]
+  },
+  {
+   "statements": [
+    "Surah Al-Qasas was revealed in Makkah.",
+    "Surah At-Tin is surah number 95 in the mushaf.",
+    "Surah Al-Humazah was revealed in Madinah."
+   ],
+   "wrong": 2,
+   "explain": "Surah Al-Humazah is a Makki surah, revealed in Makkah. The other two statements are correct.",
+   "sources": [
+    [
+     "Quran.com data",
+     null
+    ],
+    [
+     "Quran 28:1",
+     null
+    ],
+    [
+     "Quran 95:1",
+     null
+    ],
+    [
+     "Quran 104:1",
+     null
+    ]
+   ]
+  },
+  {
+   "statements": [
+    "Surah Al-'Ankabut is surah number 29 in the mushaf.",
+    "Surah Al-Infitar comes right after Surah At-Takwir.",
+    "Surah Sad comes right after Surah Fatir."
+   ],
+   "wrong": 2,
+   "explain": "Surah Sad comes right after Surah As-Saffat, not Surah Fatir. The other two statements are correct.",
+   "sources": [
+    [
+     "Quran.com data",
+     null
+    ],
+    [
+     "Quran 29:1",
+     null
+    ],
+    [
+     "Quran 82:1",
+     null
+    ],
+    [
+     "Quran 38:1",
+     null
+    ]
+   ]
+  },
+  {
+   "statements": [
+    "Surah Al-Jinn comes right after Surah Nuh.",
+    "Surah Al-Hijr is surah number 15 in the mushaf.",
+    "Surah An-Naba was revealed in Madinah."
+   ],
+   "wrong": 2,
+   "explain": "Surah An-Naba is a Makki surah, revealed in Makkah. The other two statements are correct.",
+   "sources": [
+    [
+     "Quran.com data",
+     null
+    ],
+    [
+     "Quran 72:1",
+     null
+    ],
+    [
+     "Quran 15:1",
+     null
+    ],
+    [
+     "Quran 78:1",
+     null
+    ]
+   ]
+  },
+  {
+   "statements": [
+    "Surah Al-Qalam was revealed in Madinah.",
+    "Surah Yusuf was revealed in Makkah.",
+    "Surah Al-Waqi'ah begins in juz 27."
+   ],
+   "wrong": 0,
+   "explain": "Surah Al-Qalam is a Makki surah, revealed in Makkah. The other two statements are correct.",
+   "sources": [
+    [
+     "Quran.com data",
+     null
+    ],
+    [
+     "Quran 68:1",
+     null
+    ],
+    [
+     "Quran 12:1",
+     null
+    ],
+    [
+     "Quran 56:1",
+     null
+    ]
+   ]
+  },
+  {
+   "statements": [
+    "Surah Al-Buruj was revealed in Madinah.",
+    "Surah Al-Kawthar begins in juz 30.",
+    "Surah Az-Zalzalah comes right after Surah Al-Bayyinah."
+   ],
+   "wrong": 0,
+   "explain": "Surah Al-Buruj is a Makki surah, revealed in Makkah. The other two statements are correct.",
+   "sources": [
+    [
+     "Quran.com data",
+     null
+    ],
+    [
+     "Quran 85:1",
+     null
+    ],
+    [
+     "Quran 108:1",
+     null
+    ],
+    [
+     "Quran 99:1",
+     null
+    ]
+   ]
+  },
+  {
+   "statements": [
+    "Surah Maryam was revealed in Madinah.",
+    "Surah Al-Ikhlas comes right after Surah Al-Masad.",
+    "Surah Al-'Alaq has 19 ayat."
+   ],
+   "wrong": 0,
+   "explain": "Surah Maryam is a Makki surah, revealed in Makkah. The other two statements are correct. Ayat counts follow the standard Hafs mushaf.",
+   "sources": [
+    [
+     "Quran.com data",
+     null
+    ],
+    [
+     "Quran 19:1",
+     null
+    ],
+    [
+     "Quran 112:1",
+     null
+    ],
+    [
+     "Quran 96:1",
+     null
+    ]
+   ]
+  },
+  {
+   "statements": [
+    "Surah Al-Baqarah begins in juz 3.",
+    "Surah Al-Anfal was revealed in Madinah.",
+    "Surah Al-Inshiqaq is surah number 84 in the mushaf."
+   ],
+   "wrong": 0,
+   "explain": "Surah Al-Baqarah begins in juz 1, not juz 3. The other two statements are correct.",
+   "sources": [
+    [
+     "Quran.com data",
+     null
+    ],
+    [
+     "Quran 2:1",
+     null
+    ],
+    [
+     "Quran 8:1",
+     null
+    ],
+    [
+     "Quran 84:1",
+     null
+    ]
+   ]
+  },
+  {
+   "statements": [
+    "Surah Al-Ahzab was revealed in Makkah.",
+    "Surah Az-Zalzalah comes right after Surah Al-Bayyinah.",
+    "Surah Al-'Ankabut has 69 ayat."
+   ],
+   "wrong": 0,
+   "explain": "Surah Al-Ahzab is a Madani surah, revealed in Madinah. The other two statements are correct. Ayat counts follow the standard Hafs mushaf.",
+   "sources": [
+    [
+     "Quran.com data",
+     null
+    ],
+    [
+     "Quran 33:1",
+     null
+    ],
+    [
+     "Quran 99:1",
+     null
+    ],
+    [
+     "Quran 29:1",
+     null
+    ]
+   ]
+  },
+  {
+   "statements": [
+    "Surah Al-Jinn was revealed in Makkah.",
+    "Surah Al-An'am comes right after Surah Al-Ma'idah.",
+    "Surah Al-Munafiqun begins in juz 29."
+   ],
+   "wrong": 2,
+   "explain": "Surah Al-Munafiqun begins in juz 28, not juz 29. The other two statements are correct.",
+   "sources": [
+    [
+     "Quran.com data",
+     null
+    ],
+    [
+     "Quran 72:1",
+     null
+    ],
+    [
+     "Quran 6:1",
+     null
+    ],
+    [
+     "Quran 63:1",
+     null
+    ]
+   ]
+  },
+  {
+   "statements": [
+    "Surah Al-Furqan begins in juz 18.",
+    "Surah 'Abasa comes right after Surah Al-Mursalat.",
+    "Surah Al-Layl begins in juz 30."
+   ],
+   "wrong": 1,
+   "explain": "Surah 'Abasa comes right after Surah An-Nazi'at, not Surah Al-Mursalat. The other two statements are correct.",
+   "sources": [
+    [
+     "Quran.com data",
+     null
+    ],
+    [
+     "Quran 25:1",
+     null
+    ],
+    [
+     "Quran 80:1",
+     null
+    ],
+    [
+     "Quran 92:1",
+     null
+    ]
+   ]
+  },
+  {
+   "statements": [
+    "Surah Ash-Shuraa has 53 ayat.",
+    "Surah Al-Insan begins in juz 29.",
+    "Surah Al-'Alaq comes right after Surah Al-Layl."
+   ],
+   "wrong": 2,
+   "explain": "Surah Al-'Alaq comes right after Surah At-Tin, not Surah Al-Layl. The other two statements are correct. Ayat counts follow the standard Hafs mushaf.",
+   "sources": [
+    [
+     "Quran.com data",
+     null
+    ],
+    [
+     "Quran 42:1",
+     null
+    ],
+    [
+     "Quran 76:1",
+     null
+    ],
+    [
+     "Quran 96:1",
+     null
+    ]
+   ]
+  },
+  {
+   "statements": [
+    "Surah Fussilat begins in juz 24.",
+    "Surah Al-Waqi'ah is surah number 56 in the mushaf.",
+    "Surah Al-Ahqaf begins in juz 24."
+   ],
+   "wrong": 2,
+   "explain": "Surah Al-Ahqaf begins in juz 26, not juz 24. The other two statements are correct.",
+   "sources": [
+    [
+     "Quran.com data",
+     null
+    ],
+    [
+     "Quran 41:1",
+     null
+    ],
+    [
+     "Quran 56:1",
+     null
+    ],
+    [
+     "Quran 46:1",
+     null
+    ]
+   ]
+  },
+  {
+   "statements": [
+    "Surah Al-Waqi'ah begins in juz 27.",
+    "Surah Al-Mulk was revealed in Madinah.",
+    "Surah Taha has 135 ayat."
+   ],
+   "wrong": 1,
+   "explain": "Surah Al-Mulk is a Makki surah, revealed in Makkah. The other two statements are correct. Ayat counts follow the standard Hafs mushaf.",
+   "sources": [
+    [
+     "Quran.com data",
+     null
+    ],
+    [
+     "Quran 56:1",
+     null
+    ],
+    [
+     "Quran 67:1",
+     null
+    ],
+    [
+     "Quran 20:1",
+     null
+    ]
+   ]
+  },
+  {
+   "statements": [
+    "Surah Qaf begins in juz 27.",
+    "Surah Al-Kawthar is surah number 108 in the mushaf.",
+    "Surah Al-Insan has 31 ayat."
+   ],
+   "wrong": 0,
+   "explain": "Surah Qaf begins in juz 26, not juz 27. The other two statements are correct. Ayat counts follow the standard Hafs mushaf.",
+   "sources": [
+    [
+     "Quran.com data",
+     null
+    ],
+    [
+     "Quran 50:1",
+     null
+    ],
+    [
+     "Quran 108:1",
+     null
+    ],
+    [
+     "Quran 76:1",
+     null
+    ]
+   ]
+  },
+  {
+   "statements": [
+    "Surah Hud has 123 ayat.",
+    "Surah Ad-Dukhan was revealed in Makkah.",
+    "Surah Al-Baqarah was revealed in Makkah."
+   ],
+   "wrong": 2,
+   "explain": "Surah Al-Baqarah is a Madani surah, revealed in Madinah. The other two statements are correct. Ayat counts follow the standard Hafs mushaf.",
+   "sources": [
+    [
+     "Quran.com data",
+     null
+    ],
+    [
+     "Quran 11:1",
+     null
+    ],
+    [
+     "Quran 44:1",
+     null
+    ],
+    [
+     "Quran 2:1",
+     null
+    ]
+   ]
+  },
+  {
+   "statements": [
+    "Surah Al-Qamar begins in juz 28.",
+    "Surah Al-Jumu'ah is surah number 62 in the mushaf.",
+    "Surah Nuh comes right after Surah Al-Ma'arij."
+   ],
+   "wrong": 0,
+   "explain": "Surah Al-Qamar begins in juz 27, not juz 28. The other two statements are correct.",
+   "sources": [
+    [
+     "Quran.com data",
+     null
+    ],
+    [
+     "Quran 54:1",
+     null
+    ],
+    [
+     "Quran 62:1",
+     null
+    ],
+    [
+     "Quran 71:1",
+     null
+    ]
+   ]
+  },
+  {
+   "statements": [
+    "Surah Ibrahim is surah number 12 in the mushaf.",
+    "Surah Yunus comes right after Surah At-Tawbah.",
+    "Surah Al-Isra has 111 ayat."
+   ],
+   "wrong": 0,
+   "explain": "Surah Ibrahim is surah number 14, not 12. The other two statements are correct. Ayat counts follow the standard Hafs mushaf.",
+   "sources": [
+    [
+     "Quran.com data",
+     null
+    ],
+    [
+     "Quran 14:1",
+     null
+    ],
+    [
+     "Quran 10:1",
+     null
+    ],
+    [
+     "Quran 17:1",
+     null
+    ]
+   ]
+  },
+  {
+   "statements": [
+    "Surah Ad-Duhaa has 11 ayat.",
+    "Surah Al-Mu'minun was revealed in Madinah.",
+    "Surah Al-Qadr comes right after Surah Al-'Alaq."
+   ],
+   "wrong": 1,
+   "explain": "Surah Al-Mu'minun is a Makki surah, revealed in Makkah. The other two statements are correct. Ayat counts follow the standard Hafs mushaf.",
+   "sources": [
+    [
+     "Quran.com data",
+     null
+    ],
+    [
+     "Quran 93:1",
+     null
+    ],
+    [
+     "Quran 23:1",
+     null
+    ],
+    [
+     "Quran 97:1",
+     null
+    ]
+   ]
+  },
+  {
+   "statements": [
+    "Surah Al-Fath comes right after Surah Adh-Dhariyat.",
+    "Surah Al-Ghashiyah is surah number 88 in the mushaf.",
+    "Surah An-Nahl was revealed in Makkah."
+   ],
+   "wrong": 0,
+   "explain": "Surah Al-Fath comes right after Surah Muhammad, not Surah Adh-Dhariyat. The other two statements are correct.",
+   "sources": [
+    [
+     "Quran.com data",
+     null
+    ],
+    [
+     "Quran 48:1",
+     null
+    ],
+    [
+     "Quran 88:1",
+     null
+    ],
+    [
+     "Quran 16:1",
+     null
+    ]
+   ]
+  },
+  {
+   "statements": [
+    "Surah Al-Kahf was revealed in Makkah.",
+    "Surah An-Naba is surah number 78 in the mushaf.",
+    "Surah Al-Masad comes right after Surah Al-Falaq."
+   ],
+   "wrong": 2,
+   "explain": "Surah Al-Masad comes right after Surah An-Nasr, not Surah Al-Falaq. The other two statements are correct.",
+   "sources": [
+    [
+     "Quran.com data",
+     null
+    ],
+    [
+     "Quran 18:1",
+     null
+    ],
+    [
+     "Quran 78:1",
+     null
+    ],
+    [
+     "Quran 111:1",
+     null
+    ]
+   ]
+  },
+  {
+   "statements": [
+    "Surah Al-Qasas was revealed in Makkah.",
+    "Surah Al-A'raf was revealed in Madinah.",
+    "Surah Al-Ma'arij comes right after Surah Al-Haqqah."
+   ],
+   "wrong": 1,
+   "explain": "Surah Al-A'raf is a Makki surah, revealed in Makkah. The other two statements are correct.",
+   "sources": [
+    [
+     "Quran.com data",
+     null
+    ],
+    [
+     "Quran 28:1",
+     null
+    ],
+    [
+     "Quran 7:1",
+     null
+    ],
+    [
+     "Quran 70:1",
+     null
+    ]
+   ]
+  },
+  {
+   "statements": [
+    "Surah Ad-Duhaa comes right after Surah Al-Layl.",
+    "Surah Al-Ahqaf begins in juz 26.",
+    "Surah Ash-Shu'ara begins in juz 20."
+   ],
+   "wrong": 2,
+   "explain": "Surah Ash-Shu'ara begins in juz 19, not juz 20. The other two statements are correct.",
+   "sources": [
+    [
+     "Quran.com data",
+     null
+    ],
+    [
+     "Quran 93:1",
+     null
+    ],
+    [
+     "Quran 46:1",
+     null
+    ],
+    [
+     "Quran 26:1",
+     null
+    ]
+   ]
+  },
+  {
+   "statements": [
+    "Surah Al-Masad was revealed in Makkah.",
+    "Surah At-Talaq has 12 ayat.",
+    "Surah Yunus comes right after Surah Al-A'raf."
+   ],
+   "wrong": 2,
+   "explain": "Surah Yunus comes right after Surah At-Tawbah, not Surah Al-A'raf. The other two statements are correct. Ayat counts follow the standard Hafs mushaf.",
+   "sources": [
+    [
+     "Quran.com data",
+     null
+    ],
+    [
+     "Quran 111:1",
+     null
+    ],
+    [
+     "Quran 65:1",
+     null
+    ],
+    [
+     "Quran 10:1",
+     null
+    ]
+   ]
+  },
+  {
+   "statements": [
+    "Surah Al-'Alaq comes right after Surah Ad-Duhaa.",
+    "Surah Al-'Asr comes right after Surah At-Takathur.",
+    "Surah Fatir has 45 ayat."
+   ],
+   "wrong": 0,
+   "explain": "Surah Al-'Alaq comes right after Surah At-Tin, not Surah Ad-Duhaa. The other two statements are correct. Ayat counts follow the standard Hafs mushaf.",
+   "sources": [
+    [
+     "Quran.com data",
+     null
+    ],
+    [
+     "Quran 96:1",
+     null
+    ],
+    [
+     "Quran 103:1",
+     null
+    ],
+    [
+     "Quran 35:1",
+     null
+    ]
+   ]
+  },
+  {
+   "statements": [
+    "Surah At-Tin has 8 ayat.",
+    "Surah Ar-Rahman begins in juz 27.",
+    "Surah An-Nur begins in juz 16."
+   ],
+   "wrong": 2,
+   "explain": "Surah An-Nur begins in juz 18, not juz 16. The other two statements are correct. Ayat counts follow the standard Hafs mushaf.",
+   "sources": [
+    [
+     "Quran.com data",
+     null
+    ],
+    [
+     "Quran 95:1",
+     null
+    ],
+    [
+     "Quran 55:1",
+     null
+    ],
+    [
+     "Quran 24:1",
+     null
+    ]
+   ]
+  },
+  {
+   "statements": [
+    "Surah Ibrahim begins in juz 12.",
+    "Surah Al-Balad was revealed in Makkah.",
+    "Surah Al-Muzzammil has 20 ayat."
+   ],
+   "wrong": 0,
+   "explain": "Surah Ibrahim begins in juz 13, not juz 12. The other two statements are correct. Ayat counts follow the standard Hafs mushaf.",
+   "sources": [
+    [
+     "Quran.com data",
+     null
+    ],
+    [
+     "Quran 14:1",
+     null
+    ],
+    [
+     "Quran 90:1",
+     null
+    ],
+    [
+     "Quran 73:1",
+     null
+    ]
+   ]
+  },
+  {
+   "statements": [
+    "Surah Al-Qiyamah comes right after Surah Al-Muddaththir.",
+    "Surah Al-Layl was revealed in Makkah.",
+    "Surah Ghafir has 61 ayat."
+   ],
+   "wrong": 2,
+   "explain": "Surah Ghafir has 85 ayat, not 61. The other two statements are correct. Ayat counts follow the standard Hafs mushaf.",
+   "sources": [
+    [
+     "Quran.com data",
+     null
+    ],
+    [
+     "Quran 75:1",
+     null
+    ],
+    [
+     "Quran 92:1",
+     null
+    ],
+    [
+     "Quran 40:1",
+     null
+    ]
+   ]
+  },
+  {
+   "statements": [
+    "Surah Saba was revealed in Madinah.",
+    "Surah At-Taghabun is surah number 64 in the mushaf.",
+    "Surah Sad has 88 ayat."
+   ],
+   "wrong": 0,
+   "explain": "Surah Saba is a Makki surah, revealed in Makkah. The other two statements are correct. Ayat counts follow the standard Hafs mushaf.",
+   "sources": [
+    [
+     "Quran.com data",
+     null
+    ],
+    [
+     "Quran 34:1",
+     null
+    ],
+    [
+     "Quran 64:1",
+     null
+    ],
+    [
+     "Quran 38:1",
+     null
+    ]
+   ]
+  },
+  {
+   "statements": [
+    "Surah Al-Qiyamah comes right after Surah Al-Jinn.",
+    "Surah Al-Fajr comes right after Surah Al-Ghashiyah.",
+    "Surah Al-Kafirun is surah number 109 in the mushaf."
+   ],
+   "wrong": 0,
+   "explain": "Surah Al-Qiyamah comes right after Surah Al-Muddaththir, not Surah Al-Jinn. The other two statements are correct.",
+   "sources": [
+    [
+     "Quran.com data",
+     null
+    ],
+    [
+     "Quran 75:1",
+     null
+    ],
+    [
+     "Quran 89:1",
+     null
+    ],
+    [
+     "Quran 109:1",
+     null
+    ]
+   ]
+  },
+  {
+   "statements": [
+    "Surah At-Takwir has 29 ayat.",
+    "Surah An-Naml has 116 ayat.",
+    "Surah An-Nazi'at is surah number 79 in the mushaf."
+   ],
+   "wrong": 1,
+   "explain": "Surah An-Naml has 93 ayat, not 116. The other two statements are correct. Ayat counts follow the standard Hafs mushaf.",
+   "sources": [
+    [
+     "Quran.com data",
+     null
+    ],
+    [
+     "Quran 81:1",
+     null
+    ],
+    [
+     "Quran 27:1",
+     null
+    ],
+    [
+     "Quran 79:1",
+     null
+    ]
+   ]
+  },
+  {
+   "statements": [
+    "Surah An-Nas begins in juz 30.",
+    "Surah As-Sajdah comes right after Surah Luqman.",
+    "Surah Al-Hashr begins in juz 27."
+   ],
+   "wrong": 2,
+   "explain": "Surah Al-Hashr begins in juz 28, not juz 27. The other two statements are correct.",
+   "sources": [
+    [
+     "Quran.com data",
+     null
+    ],
+    [
+     "Quran 114:1",
+     null
+    ],
+    [
+     "Quran 32:1",
+     null
+    ],
+    [
+     "Quran 59:1",
+     null
+    ]
+   ]
+  },
+  {
+   "statements": [
+    "Surah An-Nahl was revealed in Madinah.",
+    "Surah Al-Hashr comes right after Surah Al-Mujadila.",
+    "Surah Al-An'am has 165 ayat."
+   ],
+   "wrong": 0,
+   "explain": "Surah An-Nahl is a Makki surah, revealed in Makkah. The other two statements are correct. Ayat counts follow the standard Hafs mushaf.",
+   "sources": [
+    [
+     "Quran.com data",
+     null
+    ],
+    [
+     "Quran 16:1",
+     null
+    ],
+    [
+     "Quran 59:1",
+     null
+    ],
+    [
+     "Quran 6:1",
+     null
+    ]
+   ]
+  },
+  {
+   "statements": [
+    "Surah Al-Fajr has 22 ayat.",
+    "Surah Al-Mumtahanah comes right after Surah Al-Hashr.",
+    "Surah At-Takathur was revealed in Makkah."
+   ],
+   "wrong": 0,
+   "explain": "Surah Al-Fajr has 30 ayat, not 22. The other two statements are correct. Ayat counts follow the standard Hafs mushaf.",
+   "sources": [
+    [
+     "Quran.com data",
+     null
+    ],
+    [
+     "Quran 89:1",
+     null
+    ],
+    [
+     "Quran 60:1",
+     null
+    ],
+    [
+     "Quran 102:1",
+     null
+    ]
+   ]
+  },
+  {
+   "statements": [
+    "Surah Yunus is surah number 10 in the mushaf.",
+    "Surah As-Saffat is surah number 35 in the mushaf.",
+    "Surah Al-Furqan was revealed in Makkah."
+   ],
+   "wrong": 1,
+   "explain": "Surah As-Saffat is surah number 37, not 35. The other two statements are correct.",
+   "sources": [
+    [
+     "Quran.com data",
+     null
+    ],
+    [
+     "Quran 10:1",
+     null
+    ],
+    [
+     "Quran 37:1",
+     null
+    ],
+    [
+     "Quran 25:1",
+     null
+    ]
+   ]
+  }
+ ]
+}

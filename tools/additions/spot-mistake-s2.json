@@ -1,0 +1,5134 @@
+{
+ "easy": [
+  {
+   "statements": [
+    "Makkah was conquered in 8 AH.",
+    "The Qur'an was revealed over about 23 years.",
+    "Eid al-Fitr comes at the end of Dhul-Hijjah."
+   ],
+   "wrong": 2,
+   "explain": "Eid al-Fitr is on the 1st of Shawwal, after Ramadan. The other two statements are correct.",
+   "sources": [
+    [
+     "Ar-Raheeq Al-Makhtum",
+     null
+    ],
+    [
+     "Quran 17:106",
+     "intervals"
+    ],
+    [
+     "Bukhari 1990",
+     "Fitr"
+    ]
+   ]
+  },
+  {
+   "statements": [
+    "Islam is built on seven pillars.",
+    "Dhuhr has four rak'ahs.",
+    "The prayer ends with the taslim."
+   ],
+   "wrong": 0,
+   "explain": "The Prophet ﷺ said Islam is built on five. The other two statements are correct.",
+   "sources": [
+    [
+     "Bukhari 8",
+     "five"
+    ],
+    [
+     "Muslim 612",
+     "Zuhr"
+    ],
+    [
+     "Abu Dawud 61",
+     "Taslim"
+    ]
+   ]
+  },
+  {
+   "statements": [
+    "Ihram is the sacred state entered before Hajj or Umrah.",
+    "The Ka'bah is in Makkah.",
+    "Surah Al-Ikhlas describes the Day of Judgement."
+   ],
+   "wrong": 2,
+   "explain": "Al-Ikhlas says, \"Say: He is Allah, the One.\" The other two statements are correct.",
+   "sources": [
+    [
+     "Bukhari 1524",
+     "Miqat"
+    ],
+    [
+     "Quran 3:96",
+     "Becca"
+    ],
+    [
+     "Quran 112:1",
+     "One"
+    ]
+   ]
+  },
+  {
+   "statements": [
+    "Laylat al-Qadr is sought in the last ten nights of Ramadan.",
+    "People who are fasting should wait an hour after sunset to break the fast.",
+    "The Prophet ﷺ passed away in Madinah."
+   ],
+   "wrong": 1,
+   "explain": "The Prophet ﷺ said people will remain upon good as long as they hurry to break the fast. The other two statements are correct.",
+   "sources": [
+    [
+     "Bukhari 2017",
+     "last ten"
+    ],
+    [
+     "Bukhari 1957",
+     "hasten"
+    ],
+    [
+     "Ar-Raheeq Al-Makhtum",
+     null
+    ]
+   ]
+  },
+  {
+   "statements": [
+    "Wudu is required before reading a hadith book.",
+    "Muhammad ﷺ is the last prophet.",
+    "The Battle of Badr was in the month of Ramadan."
+   ],
+   "wrong": 0,
+   "explain": "The Prophet ﷺ said no prayer is accepted without purification. The other two statements are correct.",
+   "sources": [
+    [
+     "Muslim 224a",
+     "purification"
+    ],
+    [
+     "Quran 5:6",
+     "faces"
+    ],
+    [
+     "Quran 33:40",
+     "Seal"
+    ],
+    [
+     "Ar-Raheeq Al-Makhtum",
+     null
+    ],
+    [
+     "Quran 3:123",
+     "Badr"
+    ]
+   ]
+  },
+  {
+   "statements": [
+    "Tayammum uses milk when water cannot be found.",
+    "Iblis refused to bow down to Adam.",
+    "Angels are created from light."
+   ],
+   "wrong": 0,
+   "explain": "Allah says if you find no water, use clean earth. The other two statements are correct.",
+   "sources": [
+    [
+     "Quran 5:6",
+     "clean, high ground"
+    ],
+    [
+     "Quran 2:34",
+     "Iblis"
+    ],
+    [
+     "Muslim 2996",
+     "light"
+    ]
+   ]
+  },
+  {
+   "statements": [
+    "Harun was the father of Musa.",
+    "The Qur'an was revealed in the month of Ramadan.",
+    "Abu Bakr was the first caliph."
+   ],
+   "wrong": 0,
+   "explain": "Musa asked Allah to strengthen him with his brother Harun. The other two statements are correct.",
+   "sources": [
+    [
+     "Quran 20:30",
+     "brother"
+    ],
+    [
+     "Quran 2:185",
+     "Ramadan"
+    ],
+    [
+     "Al-Bidaya wan-Nihaya",
+     null
+    ]
+   ]
+  },
+  {
+   "statements": [
+    "Muslims believe only in Muhammad ﷺ and no earlier prophet.",
+    "Surah Ar-Rahman repeats \"Which of the favours of your Lord will you deny?\"",
+    "The Prophet ﷺ said the strong person controls himself when angry."
+   ],
+   "wrong": 0,
+   "explain": "Believers make no distinction between any of Allah's messengers. The other two statements are correct.",
+   "sources": [
+    [
+     "Quran 2:285",
+     "messengers"
+    ],
+    [
+     "Quran 55:13",
+     "favours"
+    ],
+    [
+     "Bukhari 6114",
+     "anger"
+    ]
+   ]
+  },
+  {
+   "statements": [
+    "Zakat is paid on wealth held for a full lunar year.",
+    "Ali ibn Abi Talib was the second caliph.",
+    "The Qur'an was revealed in Arabic."
+   ],
+   "wrong": 1,
+   "explain": "The order was Abu Bakr, Umar, Uthman, then Ali. The other two statements are correct.",
+   "sources": [
+    [
+     "Ibn Qudamah, Al-Mughni",
+     null
+    ],
+    [
+     "Al-Bidaya wan-Nihaya",
+     null
+    ],
+    [
+     "Quran 12:2",
+     "Arabic"
+    ]
+   ]
+  },
+  {
+   "statements": [
+    "Surah Yusuf tells one prophet's story from start to end.",
+    "There are five obligatory prayers each day.",
+    "Umar ibn al-Khattab was the fourth caliph."
+   ],
+   "wrong": 2,
+   "explain": "Umar was the second caliph. Ali was the fourth. The other two statements are correct.",
+   "sources": [
+    [
+     "Quran 12:3",
+     "narrate"
+    ],
+    [
+     "Bukhari 1395",
+     "five prayers"
+    ],
+    [
+     "Al-Bidaya wan-Nihaya",
+     null
+    ]
+   ]
+  },
+  {
+   "statements": [
+    "The Prophet ﷺ said suhur should be avoided.",
+    "The Qur'an has 114 surahs.",
+    "Sa'i is walking between Safa and Marwah."
+   ],
+   "wrong": 0,
+   "explain": "He said, \"Take suhur, for in suhur there is blessing.\" The other two statements are correct.",
+   "sources": [
+    [
+     "Bukhari 1923",
+     "blessing"
+    ],
+    [
+     "Quran.com data",
+     null
+    ],
+    [
+     "Quran 2:158",
+     "Safa"
+    ]
+   ]
+  },
+  {
+   "statements": [
+    "Khadijah was the Prophet's first wife.",
+    "An-Nas is the last surah of the mushaf.",
+    "Ruku' is prostrating in the prayer."
+   ],
+   "wrong": 2,
+   "explain": "Ruku' is bowing. Prostrating is sujud. The other two statements are correct.",
+   "sources": [
+    [
+     "Bukhari 3",
+     "Khadija"
+    ],
+    [
+     "Quran.com data",
+     null
+    ],
+    [
+     "Quran 22:77",
+     "Bow down"
+    ]
+   ]
+  },
+  {
+   "statements": [
+    "Hasan and Husayn were grandsons of the Prophet ﷺ.",
+    "Abu Talib was the Prophet's grandfather.",
+    "A Muslim is told to be good to his neighbour."
+   ],
+   "wrong": 1,
+   "explain": "Abu Talib was his uncle. His grandfather was Abd al-Muttalib. The other two statements are correct.",
+   "sources": [
+    [
+     "Bukhari 3753",
+     "Hasan"
+    ],
+    [
+     "Bukhari 3884",
+     "Abu Talib"
+    ],
+    [
+     "Bukhari 6014",
+     "neighbor"
+    ]
+   ]
+  },
+  {
+   "statements": [
+    "Masjid an-Nabawi is in Madinah.",
+    "Hajj is obligatory once in a lifetime for those who are able.",
+    "Ramadan is the twelfth month of the Islamic year."
+   ],
+   "wrong": 2,
+   "explain": "Ramadan is the ninth month. Dhul-Hijjah is the twelfth. The other two statements are correct.",
+   "sources": [
+    [
+     "Bukhari 1190",
+     "my Mosque"
+    ],
+    [
+     "Quran 3:97",
+     "pilgrimage"
+    ],
+    [
+     "Muslim 1337",
+     "every year"
+    ],
+    [
+     "Ar-Raheeq Al-Makhtum",
+     null
+    ]
+   ]
+  },
+  {
+   "statements": [
+    "Zamzam water is in Madinah.",
+    "There are four sacred months.",
+    "Fatimah was the daughter of the Prophet ﷺ."
+   ],
+   "wrong": 0,
+   "explain": "The well of Zamzam is in Makkah, near the Ka'bah. The other two statements are correct.",
+   "sources": [
+    [
+     "Bukhari 3364",
+     "Zamzam"
+    ],
+    [
+     "Quran 9:36",
+     "four"
+    ],
+    [
+     "Bukhari 3714",
+     "Fatima"
+    ]
+   ]
+  },
+  {
+   "statements": [
+    "Al-Baqarah is the longest surah in the Qur'an.",
+    "The Prophet's father lived until he became a prophet.",
+    "The Prophet ﷺ was born in Makkah."
+   ],
+   "wrong": 1,
+   "explain": "His father Abdullah died young, and Allah reminds him, \"Did He not find you an orphan?\" The other two statements are correct.",
+   "sources": [
+    [
+     "Quran.com data",
+     null
+    ],
+    [
+     "Quran 93:6",
+     "orphan"
+    ],
+    [
+     "Ar-Raheeq Al-Makhtum",
+     null
+    ]
+   ]
+  },
+  {
+   "statements": [
+    "Adam was created from clay.",
+    "\"Prayer is better than sleep\" is said in the adhan of Isha.",
+    "The five daily prayers were made obligatory on the Mi'raj."
+   ],
+   "wrong": 1,
+   "explain": "The phrase is added to the Fajr adhan. The other two statements are correct.",
+   "sources": [
+    [
+     "Quran 7:12",
+     "mud"
+    ],
+    [
+     "Abu Dawud 500",
+     "sleep"
+    ],
+    [
+     "Bukhari 349",
+     "fifty"
+    ]
+   ]
+  },
+  {
+   "statements": [
+    "Al-Fatihah is the first surah of the mushaf.",
+    "Jumu'ah prayer is on Friday.",
+    "Smiling at your brother is makruh."
+   ],
+   "wrong": 2,
+   "explain": "The Prophet ﷺ said, \"Your smiling in the face of your brother is charity.\" The other two statements are correct.",
+   "sources": [
+    [
+     "Quran.com data",
+     null
+    ],
+    [
+     "Quran 62:9",
+     "day of congregation"
+    ],
+    [
+     "Tirmidhi 1956",
+     "smiling"
+    ],
+    [
+     "Bukhari 6021",
+     "Sadaqa"
+    ]
+   ]
+  },
+  {
+   "statements": [
+    "Belief in the angels is one of the articles of faith.",
+    "The Prophet ﷺ performed Hajj ten times.",
+    "Eating with the right hand is sunnah."
+   ],
+   "wrong": 1,
+   "explain": "Anas said he performed Hajj once. The other two statements are correct.",
+   "sources": [
+    [
+     "Muslim 8",
+     "angels"
+    ],
+    [
+     "Bukhari 1778",
+     "Once"
+    ],
+    [
+     "Bukhari 5376",
+     "right hand"
+    ]
+   ]
+  },
+  {
+   "statements": [
+    "Isma'il was the son of Ibrahim and Hajar.",
+    "Bilal was the first muezzin of Islam.",
+    "Fajr has four rak'ahs."
+   ],
+   "wrong": 2,
+   "explain": "Fajr has two rak'ahs. The other two statements are correct.",
+   "sources": [
+    [
+     "Bukhari 3364",
+     "mother of Ishmael"
+    ],
+    [
+     "Bukhari 604",
+     "Bilal"
+    ],
+    [
+     "Muslim 612",
+     "Fajr"
+    ]
+   ]
+  },
+  {
+   "statements": [
+    "Surah Al-Fil tells of the army of the elephant.",
+    "Ibrahim built the Ark.",
+    "Yunus was swallowed by a great fish."
+   ],
+   "wrong": 1,
+   "explain": "Allah told Nuh to build the ship. The other two statements are correct.",
+   "sources": [
+    [
+     "Quran 105:1",
+     "Elephant"
+    ],
+    [
+     "Quran 11:37",
+     "ship"
+    ],
+    [
+     "Quran 37:142",
+     "fish"
+    ],
+    [
+     "Quran 12:10",
+     "pit"
+    ]
+   ]
+  },
+  {
+   "statements": [
+    "Al-Kawthar is the shortest surah, with three ayat.",
+    "\"Alhamdulillah\" is said after sneezing.",
+    "Saying \"Bismillah\" is sunnah only after eating."
+   ],
+   "wrong": 2,
+   "explain": "The Prophet ﷺ told a boy, \"Say Bismillah and eat with your right hand.\" The other two statements are correct.",
+   "sources": [
+    [
+     "Quran.com data",
+     null
+    ],
+    [
+     "Bukhari 6224",
+     "Praise be to Allah"
+    ],
+    [
+     "Bukhari 5376",
+     "Name of Allah"
+    ]
+   ]
+  },
+  {
+   "statements": [
+    "Surah Al-Kahf tells the story of the People of the Elephant.",
+    "The Qur'an is divided into 30 juz.",
+    "Muharram is the first month of the Islamic year."
+   ],
+   "wrong": 0,
+   "explain": "Al-Kahf tells of the sleepers in the cave. Al-Fil tells of the elephant. The other two statements are correct.",
+   "sources": [
+    [
+     "Quran 18:9",
+     "Cave"
+    ],
+    [
+     "Quran 105:1",
+     "Elephant"
+    ],
+    [
+     "Quran.com data",
+     null
+    ],
+    [
+     "Muslim 1163",
+     "Muharram"
+    ]
+   ]
+  },
+  {
+   "statements": [
+    "Dawud was given the Zabur.",
+    "Laylat al-Qadr is better than a thousand months.",
+    "The Hijrah was the migration from Madinah to Makkah."
+   ],
+   "wrong": 2,
+   "explain": "The Prophet ﷺ migrated from Makkah to Madinah. The other two statements are correct.",
+   "sources": [
+    [
+     "Quran 17:55",
+     "Psalms"
+    ],
+    [
+     "Quran 97:3",
+     "thousand months"
+    ],
+    [
+     "Quran 9:40",
+     "drove him forth"
+    ],
+    [
+     "Ar-Raheeq Al-Makhtum",
+     null
+    ]
+   ]
+  },
+  {
+   "statements": [
+    "Musa was given the Tawrat.",
+    "Ayat al-Kursi is in Surah Al-Baqarah.",
+    "Muslims pray facing Masjid an-Nabawi."
+   ],
+   "wrong": 2,
+   "explain": "The qiblah is the Ka'bah in the Masjid al-Haram. The other two statements are correct.",
+   "sources": [
+    [
+     "Quran 5:44",
+     "Torah"
+    ],
+    [
+     "Quran 5:46",
+     "Gospel"
+    ],
+    [
+     "Quran 2:255",
+     "Throne"
+    ],
+    [
+     "Quran 2:144",
+     "Inviolable"
+    ]
+   ]
+  },
+  {
+   "statements": [
+    "Al-Fatihah has seven ayat.",
+    "The Prophet's mother was Aminah.",
+    "Eid al-Adha falls in Rajab."
+   ],
+   "wrong": 2,
+   "explain": "Eid al-Adha is on the 10th of Dhul-Hijjah. The other two statements are correct.",
+   "sources": [
+    [
+     "Quran.com data",
+     null
+    ],
+    [
+     "Quran 15:87",
+     "seven"
+    ],
+    [
+     "Ar-Raheeq Al-Makhtum",
+     null
+    ],
+    [
+     "Bukhari 5558",
+     "rams"
+    ],
+    [
+     "Muslim 1218",
+     "sacrifice"
+    ]
+   ]
+  },
+  {
+   "statements": [
+    "Zakat is a pillar of Islam.",
+    "Nuh was the first human being.",
+    "Umrah can be performed at any time of the year."
+   ],
+   "wrong": 1,
+   "explain": "Allah created Adam first, and from him his mate. The other two statements are correct.",
+   "sources": [
+    [
+     "Bukhari 8",
+     "Zakat"
+    ],
+    [
+     "Quran 2:30",
+     "viceroy"
+    ],
+    [
+     "Quran 4:1",
+     "single soul"
+    ],
+    [
+     "Bukhari 1782",
+     "Ramadan"
+    ]
+   ]
+  },
+  {
+   "statements": [
+    "Musa's staff turned into a snake.",
+    "The Prophet ﷺ said actions are judged only by their results.",
+    "The first word revealed was \"Read\" (Iqra')."
+   ],
+   "wrong": 1,
+   "explain": "The first hadith in al-Bukhari: actions are by intentions. The other two statements are correct.",
+   "sources": [
+    [
+     "Quran 20:20",
+     "serpent"
+    ],
+    [
+     "Bukhari 1",
+     "intention"
+    ],
+    [
+     "Quran 96:1",
+     "Read"
+    ],
+    [
+     "Bukhari 3",
+     "Read"
+    ]
+   ]
+  },
+  {
+   "statements": [
+    "The day of Arafah is the 1st of Shawwal.",
+    "Jinn are created from smokeless fire.",
+    "Washing the face is part of wudu."
+   ],
+   "wrong": 0,
+   "explain": "Pilgrims stand at Arafah on the 9th of Dhul-Hijjah, the day before Eid al-Adha. The other two statements are correct.",
+   "sources": [
+    [
+     "Muslim 1218",
+     "Arafa"
+    ],
+    [
+     "Quran 55:15",
+     "fire"
+    ],
+    [
+     "Quran 5:6",
+     "faces"
+    ]
+   ]
+  },
+  {
+   "statements": [
+    "Smiling is a sign of a hypocrite.",
+    "Masjid al-Aqsa is in Jerusalem.",
+    "Charity does not decrease wealth."
+   ],
+   "wrong": 0,
+   "explain": "The Prophet ﷺ said the signs of a hypocrite are lying, breaking promises and betraying trust. The other two statements are correct.",
+   "sources": [
+    [
+     "Bukhari 33",
+     "lie"
+    ],
+    [
+     "Quran 17:1",
+     "Far Distant"
+    ],
+    [
+     "Muslim 2588",
+     "Charity"
+    ]
+   ]
+  },
+  {
+   "statements": [
+    "Suhur is the meal after sunset.",
+    "Uthman ibn Affan was the third caliph.",
+    "Fasting in Ramadan is one of the pillars of Islam."
+   ],
+   "wrong": 0,
+   "explain": "Suhur is eaten before dawn. The meal at sunset is iftar. The other two statements are correct.",
+   "sources": [
+    [
+     "Bukhari 1923",
+     "Suhur"
+    ],
+    [
+     "Al-Bidaya wan-Nihaya",
+     null
+    ],
+    [
+     "Bukhari 8",
+     "Ramadan"
+    ]
+   ]
+  },
+  {
+   "statements": [
+    "Nuh could understand the speech of birds.",
+    "Yusuf was thrown into a well by his brothers.",
+    "The Islamic calendar begins with the Hijrah."
+   ],
+   "wrong": 0,
+   "explain": "Sulayman said, \"We have been taught the language of birds.\" The other two statements are correct.",
+   "sources": [
+    [
+     "Quran 27:16",
+     "birds"
+    ],
+    [
+     "Quran 12:15",
+     "pit"
+    ],
+    [
+     "Bukhari 3934",
+     "Medina"
+    ]
+   ]
+  },
+  {
+   "statements": [
+    "The first revelation came in the cave of Thawr.",
+    "The Isra was the journey from Makkah to Jerusalem by night.",
+    "The Ka'bah was rebuilt by Quraysh when the Prophet ﷺ was young."
+   ],
+   "wrong": 0,
+   "explain": "Revelation began in the cave of Hira. Thawr is where the Prophet ﷺ hid during the Hijrah. The other two statements are correct.",
+   "sources": [
+    [
+     "Bukhari 3",
+     "Hira"
+    ],
+    [
+     "Quran 17:1",
+     "by night"
+    ],
+    [
+     "Quran 2:127",
+     "foundations"
+    ],
+    [
+     "Bukhari 1582",
+     "stones"
+    ]
+   ]
+  },
+  {
+   "statements": [
+    "Zakat al-Fitr is given before the Eid prayer.",
+    "Muslims greet each other with \"As-salamu alaykum\".",
+    "The Islamic calendar is solar."
+   ],
+   "wrong": 2,
+   "explain": "The months follow the moon. Allah says the new moons are signs of time for people and for Hajj. The other two statements are correct.",
+   "sources": [
+    [
+     "Bukhari 1509",
+     "prayer"
+    ],
+    [
+     "Muslim 54",
+     "salutation"
+    ],
+    [
+     "Quran 2:189",
+     "new moons"
+    ]
+   ]
+  },
+  {
+   "statements": [
+    "Maryam is the only woman named in the Qur'an.",
+    "The adhan is the call to break the fast only.",
+    "The Prophet ﷺ named the mother three times as the most deserving of good company."
+   ],
+   "wrong": 1,
+   "explain": "The adhan announces the time of every obligatory prayer. The other two statements are correct.",
+   "sources": [
+    [
+     "Quran 19:16",
+     "Mary"
+    ],
+    [
+     "Bukhari 604",
+     "Adhan"
+    ],
+    [
+     "Bukhari 5971",
+     "mother"
+    ]
+   ]
+  },
+  {
+   "statements": [
+    "Surah Maryam is named after the mother of Isa.",
+    "Maghrib has three rak'ahs.",
+    "Mika'il brought the revelation to the Prophet ﷺ."
+   ],
+   "wrong": 2,
+   "explain": "Jibril (Gabriel) brought the Qur'an down to the Prophet's heart. The other two statements are correct.",
+   "sources": [
+    [
+     "Quran 19:34",
+     "son of Mary"
+    ],
+    [
+     "Muslim 612",
+     "Maghrib"
+    ],
+    [
+     "Quran 2:97",
+     "Gabriel"
+    ]
+   ]
+  },
+  {
+   "statements": [
+    "Pilgrims stone the Jamarat at Mina.",
+    "Isa was the son of Zakariyya.",
+    "The Islamic year has twelve months."
+   ],
+   "wrong": 1,
+   "explain": "Isa was born to Maryam miraculously. Zakariyya's son was Yahya. The other two statements are correct.",
+   "sources": [
+    [
+     "Muslim 1218",
+     "Mina"
+    ],
+    [
+     "Quran 19:20",
+     "no mortal"
+    ],
+    [
+     "Quran 19:7",
+     "John"
+    ],
+    [
+     "Quran 9:36",
+     "twelve"
+    ]
+   ]
+  },
+  {
+   "statements": [
+    "Tawaf is walking around the Ka'bah three times.",
+    "Ibrahim was thrown into a fire and was not harmed.",
+    "Ya'qub was the father of Yusuf."
+   ],
+   "wrong": 0,
+   "explain": "Tawaf is seven circuits around the Ka'bah. The other two statements are correct.",
+   "sources": [
+    [
+     "Bukhari 1616",
+     "last four"
+    ],
+    [
+     "Quran 21:69",
+     "fire"
+    ],
+    [
+     "Quran 12:4",
+     "father"
+    ]
+   ]
+  },
+  {
+   "statements": [
+    "Surah Al-Fatihah does not begin with the basmalah.",
+    "Ashura is on the 10th of Muharram.",
+    "Ibrahim and Isma'il raised the foundations of the Ka'bah."
+   ],
+   "wrong": 0,
+   "explain": "At-Tawbah is the only surah that does not open with the basmalah. The other two statements are correct.",
+   "sources": [
+    [
+     "Quran.com data",
+     null
+    ],
+    [
+     "Bukhari 2004",
+     "Ashura"
+    ],
+    [
+     "Quran 2:127",
+     "Ishmael"
+    ]
+   ]
+  },
+  {
+   "statements": [
+    "Masjid Quba is in Madinah.",
+    "Allah promised to preserve the Qur'an.",
+    "Surah Al-Falaq and Surah An-Nas are about the battle of Badr."
+   ],
+   "wrong": 2,
+   "explain": "Both surahs begin, \"Say: I seek refuge.\" The other two statements are correct.",
+   "sources": [
+    [
+     "Bukhari 1193",
+     "Quba"
+    ],
+    [
+     "Quran 15:9",
+     "Guardian"
+    ],
+    [
+     "Quran 113:1",
+     "refuge"
+    ],
+    [
+     "Quran 114:1",
+     "refuge"
+    ]
+   ]
+  },
+  {
+   "statements": [
+    "The Isra was the journey from Makkah to Madinah by day.",
+    "Jibril brought the revelation to the Prophet ﷺ.",
+    "Ramadan is the ninth month of the Islamic year."
+   ],
+   "wrong": 0,
+   "explain": "Surah Al-Isra describes the night journey from the Inviolable Mosque to the Far Mosque. The other two statements are correct.",
+   "sources": [
+    [
+     "Quran 17:1",
+     "by night"
+    ],
+    [
+     "Quran 2:97",
+     "Gabriel"
+    ],
+    [
+     "Ar-Raheeq Al-Makhtum",
+     null
+    ]
+   ]
+  },
+  {
+   "statements": [
+    "Makkah was conquered in 2 AH.",
+    "Nuh built the Ark.",
+    "The Qur'an is divided into 30 juz."
+   ],
+   "wrong": 0,
+   "explain": "The conquest of Makkah was in Ramadan, 8 AH. Badr was in 2 AH. The other two statements are correct.",
+   "sources": [
+    [
+     "Ar-Raheeq Al-Makhtum",
+     null
+    ],
+    [
+     "Quran 11:37",
+     "ship"
+    ],
+    [
+     "Quran.com data",
+     null
+    ]
+   ]
+  },
+  {
+   "statements": [
+    "Surah Al-Ikhlas describes the oneness of Allah.",
+    "Fasting in Shawwal is one of the pillars of Islam.",
+    "Muhammad ﷺ is the last prophet."
+   ],
+   "wrong": 1,
+   "explain": "The pillar is fasting Ramadan, not Shawwal. The other two statements are correct.",
+   "sources": [
+    [
+     "Quran 112:1",
+     "One"
+    ],
+    [
+     "Bukhari 8",
+     "Ramadan"
+    ],
+    [
+     "Quran 33:40",
+     "Seal"
+    ]
+   ]
+  },
+  {
+   "statements": [
+    "The Qur'an was revealed in Persian.",
+    "Jumu'ah prayer is on Friday.",
+    "Fatimah was the daughter of the Prophet ﷺ."
+   ],
+   "wrong": 0,
+   "explain": "Allah says, \"We have sent it down as an Arabic Qur'an.\" The other two statements are correct.",
+   "sources": [
+    [
+     "Quran 12:2",
+     "Arabic"
+    ],
+    [
+     "Quran 62:9",
+     "day of congregation"
+    ],
+    [
+     "Bukhari 3714",
+     "Fatima"
+    ]
+   ]
+  },
+  {
+   "statements": [
+    "The Prophet ﷺ named the mother three times as the most deserving of good company.",
+    "The Prophet ﷺ performed Hajj once.",
+    "Yusuf was thrown into the sea by his brothers."
+   ],
+   "wrong": 2,
+   "explain": "Yusuf's brothers threw him into the depths of a well. The other two statements are correct.",
+   "sources": [
+    [
+     "Bukhari 5971",
+     "mother"
+    ],
+    [
+     "Bukhari 1778",
+     "Once"
+    ],
+    [
+     "Quran 12:15",
+     "pit"
+    ]
+   ]
+  },
+  {
+   "statements": [
+    "Surah Yusuf tells the story of Nuh.",
+    "Maryam is the only woman named in the Qur'an.",
+    "Isma'il was the son of Ibrahim and Hajar."
+   ],
+   "wrong": 0,
+   "explain": "Surah Yusuf tells the story of Yusuf in one surah. The other two statements are correct.",
+   "sources": [
+    [
+     "Quran 12:3",
+     "narrate"
+    ],
+    [
+     "Quran 19:16",
+     "Mary"
+    ],
+    [
+     "Bukhari 3364",
+     "mother of Ishmael"
+    ]
+   ]
+  },
+  {
+   "statements": [
+    "Zamzam water is in Makkah.",
+    "Dhuhr has three rak'ahs.",
+    "Musa was given the Tawrat."
+   ],
+   "wrong": 1,
+   "explain": "Dhuhr has four rak'ahs. The other two statements are correct.",
+   "sources": [
+    [
+     "Bukhari 3364",
+     "Zamzam"
+    ],
+    [
+     "Muslim 612",
+     "Zuhr"
+    ],
+    [
+     "Quran 5:44",
+     "Torah"
+    ],
+    [
+     "Quran 5:46",
+     "Gospel"
+    ]
+   ]
+  },
+  {
+   "statements": [
+    "The Prophet ﷺ said the strong person controls himself when angry.",
+    "The Qur'an was revealed over about 23 years.",
+    "Laylat al-Qadr is sought in the first ten nights of Ramadan."
+   ],
+   "wrong": 2,
+   "explain": "The Prophet ﷺ said to seek it in the odd nights of the last ten. The other two statements are correct.",
+   "sources": [
+    [
+     "Bukhari 6114",
+     "anger"
+    ],
+    [
+     "Quran 17:106",
+     "intervals"
+    ],
+    [
+     "Ar-Raheeq Al-Makhtum",
+     null
+    ],
+    [
+     "Bukhari 2017",
+     "last ten"
+    ]
+   ]
+  },
+  {
+   "statements": [
+    "Surah Al-Falaq and Surah An-Nas seek refuge in Allah.",
+    "Isa was born to Maryam without a father.",
+    "The Ka'bah was first built by Quraysh."
+   ],
+   "wrong": 2,
+   "explain": "Ibrahim and Isma'il raised its foundations. Quraysh rebuilt it in the Prophet's youth. The other two statements are correct.",
+   "sources": [
+    [
+     "Quran 113:1",
+     "refuge"
+    ],
+    [
+     "Quran 114:1",
+     "refuge"
+    ],
+    [
+     "Quran 19:20",
+     "no mortal"
+    ],
+    [
+     "Quran 19:7",
+     "John"
+    ],
+    [
+     "Quran 2:127",
+     "foundations"
+    ],
+    [
+     "Bukhari 1582",
+     "stones"
+    ]
+   ]
+  },
+  {
+   "statements": [
+    "The Hijrah was the migration from Makkah to Madinah.",
+    "Tayammum uses clean earth when water cannot be found.",
+    "Jinn are created from light."
+   ],
+   "wrong": 2,
+   "explain": "Allah says He created the jinn from smokeless fire. The other two statements are correct.",
+   "sources": [
+    [
+     "Quran 9:40",
+     "drove him forth"
+    ],
+    [
+     "Ar-Raheeq Al-Makhtum",
+     null
+    ],
+    [
+     "Quran 5:6",
+     "clean, high ground"
+    ],
+    [
+     "Quran 55:15",
+     "fire"
+    ]
+   ]
+  },
+  {
+   "statements": [
+    "Yunus was swallowed by a great fish.",
+    "Khadijah was the Prophet's first wife.",
+    "Pilgrims stone the Jamarat at Arafah."
+   ],
+   "wrong": 2,
+   "explain": "The stoning of the Jamarat takes place in Mina. The other two statements are correct.",
+   "sources": [
+    [
+     "Quran 37:142",
+     "fish"
+    ],
+    [
+     "Quran 12:10",
+     "pit"
+    ],
+    [
+     "Bukhari 3",
+     "Khadija"
+    ],
+    [
+     "Muslim 1218",
+     "Mina"
+    ]
+   ]
+  },
+  {
+   "statements": [
+    "Fajr has two rak'ahs.",
+    "The prayer ends with the iqamah.",
+    "Tawaf is walking around the Ka'bah seven times."
+   ],
+   "wrong": 1,
+   "explain": "The prayer begins with takbir and ends with taslim. The other two statements are correct.",
+   "sources": [
+    [
+     "Muslim 612",
+     "Fajr"
+    ],
+    [
+     "Abu Dawud 61",
+     "Taslim"
+    ],
+    [
+     "Bukhari 1616",
+     "last four"
+    ]
+   ]
+  },
+  {
+   "statements": [
+    "The Islamic calendar begins with the Hijrah.",
+    "Washing the whole body is part of wudu.",
+    "\"Alhamdulillah\" is said after sneezing."
+   ],
+   "wrong": 1,
+   "explain": "Wudu is washing the face, arms, wiping the head and washing the feet. Washing the whole body is ghusl. The other two statements are correct.",
+   "sources": [
+    [
+     "Bukhari 3934",
+     "Medina"
+    ],
+    [
+     "Quran 5:6",
+     "faces"
+    ],
+    [
+     "Bukhari 6224",
+     "Praise be to Allah"
+    ]
+   ]
+  },
+  {
+   "statements": [
+    "Eid al-Adha falls in Dhul-Hijjah.",
+    "Jibril refused to bow down to Adam.",
+    "Surah At-Tawbah does not begin with the basmalah."
+   ],
+   "wrong": 1,
+   "explain": "All the angels bowed except Iblis. The other two statements are correct.",
+   "sources": [
+    [
+     "Bukhari 5558",
+     "rams"
+    ],
+    [
+     "Muslim 1218",
+     "sacrifice"
+    ],
+    [
+     "Quran 2:34",
+     "Iblis"
+    ],
+    [
+     "Quran.com data",
+     null
+    ]
+   ]
+  },
+  {
+   "statements": [
+    "Angels are created from clay.",
+    "Sa'i is walking between Safa and Marwah.",
+    "Umar ibn al-Khattab was the second caliph."
+   ],
+   "wrong": 0,
+   "explain": "The Prophet ﷺ said angels were created from light, jinn from smokeless fire, and Adam from what was described to you. The other two statements are correct.",
+   "sources": [
+    [
+     "Muslim 2996",
+     "light"
+    ],
+    [
+     "Quran 2:158",
+     "Safa"
+    ],
+    [
+     "Al-Bidaya wan-Nihaya",
+     null
+    ]
+   ]
+  },
+  {
+   "statements": [
+    "Zakat al-Fitr is given at the end of Dhul-Hijjah.",
+    "Abu Talib was the Prophet's uncle.",
+    "The Prophet ﷺ was an orphan."
+   ],
+   "wrong": 0,
+   "explain": "The Prophet ﷺ ordered zakat al-fitr to be paid before people go out to the Eid prayer. The other two statements are correct.",
+   "sources": [
+    [
+     "Bukhari 1509",
+     "prayer"
+    ],
+    [
+     "Bukhari 3884",
+     "Abu Talib"
+    ],
+    [
+     "Quran 93:6",
+     "orphan"
+    ]
+   ]
+  },
+  {
+   "statements": [
+    "Surah Al-Baqarah repeats \"Which of the favours of your Lord will you deny?\" many times.",
+    "Umrah can be performed at any time of the year.",
+    "People who are fasting should hurry to break the fast at sunset."
+   ],
+   "wrong": 0,
+   "explain": "This refrain runs through Surah Ar-Rahman. The other two statements are correct.",
+   "sources": [
+    [
+     "Quran 55:13",
+     "favours"
+    ],
+    [
+     "Bukhari 1782",
+     "Ramadan"
+    ],
+    [
+     "Bukhari 1957",
+     "hasten"
+    ]
+   ]
+  },
+  {
+   "statements": [
+    "Charity does not decrease wealth.",
+    "Bilal was the first muezzin of Islam.",
+    "Masjid al-Aqsa is in Damascus."
+   ],
+   "wrong": 2,
+   "explain": "Masjid al-Aqsa is in Jerusalem. The other two statements are correct.",
+   "sources": [
+    [
+     "Muslim 2588",
+     "Charity"
+    ],
+    [
+     "Bukhari 604",
+     "Bilal"
+    ],
+    [
+     "Quran 17:1",
+     "Far Distant"
+    ]
+   ]
+  },
+  {
+   "statements": [
+    "Muharram is the first month of the Islamic year.",
+    "Masjid Quba is in Madinah.",
+    "The Qur'an says it will be changed over time."
+   ],
+   "wrong": 2,
+   "explain": "Allah says, \"We have sent down the Reminder and We will preserve it.\" The other two statements are correct.",
+   "sources": [
+    [
+     "Muslim 1163",
+     "Muharram"
+    ],
+    [
+     "Bukhari 1193",
+     "Quba"
+    ],
+    [
+     "Quran 15:9",
+     "Guardian"
+    ]
+   ]
+  },
+  {
+   "statements": [
+    "Ya'qub was the father of Yusuf.",
+    "Laylat al-Qadr is better than a hundred months.",
+    "An-Nas is the last surah of the mushaf."
+   ],
+   "wrong": 1,
+   "explain": "Surah Al-Qadr says it is better than a thousand months. The other two statements are correct.",
+   "sources": [
+    [
+     "Quran 12:4",
+     "father"
+    ],
+    [
+     "Quran 97:3",
+     "thousand months"
+    ],
+    [
+     "Quran.com data",
+     null
+    ]
+   ]
+  },
+  {
+   "statements": [
+    "Harun was the brother of Musa.",
+    "Surah Al-Fil tells of the army of the elephant.",
+    "There are three obligatory prayers each day."
+   ],
+   "wrong": 2,
+   "explain": "Five prayers are obligatory every day and night. The other two statements are correct.",
+   "sources": [
+    [
+     "Quran 20:30",
+     "brother"
+    ],
+    [
+     "Quran 105:1",
+     "Elephant"
+    ],
+    [
+     "Bukhari 1395",
+     "five prayers"
+    ]
+   ]
+  },
+  {
+   "statements": [
+    "Muslims greet each other with \"Allahu Akbar\".",
+    "Surah Al-Kahf tells the story of the People of the Cave.",
+    "\"Prayer is better than sleep\" is said in the adhan of Fajr."
+   ],
+   "wrong": 0,
+   "explain": "The greeting of Islam is salam. The other two statements are correct.",
+   "sources": [
+    [
+     "Muslim 54",
+     "salutation"
+    ],
+    [
+     "Quran 18:9",
+     "Cave"
+    ],
+    [
+     "Quran 105:1",
+     "Elephant"
+    ],
+    [
+     "Abu Dawud 500",
+     "sleep"
+    ]
+   ]
+  },
+  {
+   "statements": [
+    "Ayat al-Kursi is in Surah Ali 'Imran.",
+    "Abu Bakr was the first caliph.",
+    "Suhur is the meal before dawn."
+   ],
+   "wrong": 0,
+   "explain": "Ayat al-Kursi is verse 255 of Surah Al-Baqarah. The other two statements are correct.",
+   "sources": [
+    [
+     "Quran 2:255",
+     "Throne"
+    ],
+    [
+     "Al-Bidaya wan-Nihaya",
+     null
+    ],
+    [
+     "Bukhari 1923",
+     "Suhur"
+    ]
+   ]
+  },
+  {
+   "statements": [
+    "Eid al-Fitr comes at the end of Ramadan.",
+    "Maghrib has three rak'ahs.",
+    "Adam was created from fire."
+   ],
+   "wrong": 2,
+   "explain": "Allah created man from clay. Iblis boasted that he was made of fire. The other two statements are correct.",
+   "sources": [
+    [
+     "Bukhari 1990",
+     "Fitr"
+    ],
+    [
+     "Ar-Raheeq Al-Makhtum",
+     null
+    ],
+    [
+     "Muslim 612",
+     "Maghrib"
+    ],
+    [
+     "Quran 7:12",
+     "mud"
+    ]
+   ]
+  },
+  {
+   "statements": [
+    "The Prophet ﷺ said there is blessing in suhur.",
+    "Al-Ikhlas is the shortest surah, with two ayat.",
+    "The first word revealed was \"Read\" (Iqra')."
+   ],
+   "wrong": 1,
+   "explain": "Al-Kawthar is the shortest surah. Al-Ikhlas has four ayat. The other two statements are correct.",
+   "sources": [
+    [
+     "Bukhari 1923",
+     "blessing"
+    ],
+    [
+     "Quran.com data",
+     null
+    ],
+    [
+     "Quran 96:1",
+     "Read"
+    ],
+    [
+     "Bukhari 3",
+     "Read"
+    ]
+   ]
+  },
+  {
+   "statements": [
+    "Ibrahim was thrown into the sea and was not harmed.",
+    "Hajj is obligatory once in a lifetime for those who are able.",
+    "Musa's staff turned into a snake."
+   ],
+   "wrong": 0,
+   "explain": "Allah said, \"O fire, be coolness and safety for Ibrahim.\" The other two statements are correct.",
+   "sources": [
+    [
+     "Quran 21:69",
+     "fire"
+    ],
+    [
+     "Quran 3:97",
+     "pilgrimage"
+    ],
+    [
+     "Muslim 1337",
+     "every year"
+    ],
+    [
+     "Quran 20:20",
+     "serpent"
+    ]
+   ]
+  },
+  {
+   "statements": [
+    "Islam is built on five pillars.",
+    "The Prophet ﷺ was born in Madinah.",
+    "Ihram is the sacred state entered before Hajj or Umrah."
+   ],
+   "wrong": 1,
+   "explain": "He was born in Makkah and migrated to Madinah later. The other two statements are correct.",
+   "sources": [
+    [
+     "Bukhari 8",
+     "five"
+    ],
+    [
+     "Ar-Raheeq Al-Makhtum",
+     null
+    ],
+    [
+     "Bukhari 1524",
+     "Miqat"
+    ]
+   ]
+  },
+  {
+   "statements": [
+    "Zakat is paid on wealth held for a single day.",
+    "Surah Maryam is named after the mother of Isa.",
+    "Sulayman could understand the speech of birds."
+   ],
+   "wrong": 0,
+   "explain": "Zakat is due on savings above the nisab held for a lunar year. The other two statements are correct.",
+   "sources": [
+    [
+     "Ibn Qudamah, Al-Mughni",
+     null
+    ],
+    [
+     "Quran 19:34",
+     "son of Mary"
+    ],
+    [
+     "Quran 27:16",
+     "birds"
+    ]
+   ]
+  },
+  {
+   "statements": [
+    "Eating with the right hand is sunnah.",
+    "The Islamic calendar is lunar.",
+    "Ali 'Imran is the longest surah in the Qur'an."
+   ],
+   "wrong": 2,
+   "explain": "Al-Baqarah, with 286 ayat, is the longest surah. The other two statements are correct.",
+   "sources": [
+    [
+     "Bukhari 5376",
+     "right hand"
+    ],
+    [
+     "Quran 2:189",
+     "new moons"
+    ],
+    [
+     "Quran.com data",
+     null
+    ]
+   ]
+  },
+  {
+   "statements": [
+    "Dawud was given the Tawrat.",
+    "Muslims pray facing the Ka'bah.",
+    "Muslims believe in all the prophets."
+   ],
+   "wrong": 0,
+   "explain": "Allah says He gave Dawud the Zabur (Psalms). The other two statements are correct.",
+   "sources": [
+    [
+     "Quran 17:55",
+     "Psalms"
+    ],
+    [
+     "Quran 2:144",
+     "Inviolable"
+    ],
+    [
+     "Quran 2:285",
+     "messengers"
+    ]
+   ]
+  },
+  {
+   "statements": [
+    "There are six sacred months.",
+    "The five daily prayers were made obligatory on the Mi'raj.",
+    "The Prophet's mother was Aminah."
+   ],
+   "wrong": 0,
+   "explain": "Allah says that of the twelve months, four are sacred. The other two statements are correct.",
+   "sources": [
+    [
+     "Quran 9:36",
+     "four"
+    ],
+    [
+     "Bukhari 349",
+     "fifty"
+    ],
+    [
+     "Ar-Raheeq Al-Makhtum",
+     null
+    ]
+   ]
+  },
+  {
+   "statements": [
+    "Hasan and Husayn were grandsons of the Prophet ﷺ.",
+    "Saying \"Bismillah\" is sunnah before eating.",
+    "The Qur'an was first revealed in the month of Muharram."
+   ],
+   "wrong": 2,
+   "explain": "Allah says Ramadan is the month in which the Qur'an was revealed. The other two statements are correct.",
+   "sources": [
+    [
+     "Bukhari 3753",
+     "Hasan"
+    ],
+    [
+     "Bukhari 5376",
+     "Name of Allah"
+    ],
+    [
+     "Quran 2:185",
+     "Ramadan"
+    ]
+   ]
+  },
+  {
+   "statements": [
+    "Ali ibn Abi Talib was the fourth caliph.",
+    "Uthman ibn Affan was the first caliph.",
+    "The adhan is the call to prayer."
+   ],
+   "wrong": 1,
+   "explain": "Uthman was the third caliph, after Abu Bakr and Umar. The other two statements are correct.",
+   "sources": [
+    [
+     "Al-Bidaya wan-Nihaya",
+     null
+    ],
+    [
+     "Bukhari 604",
+     "Adhan"
+    ]
+   ]
+  },
+  {
+   "statements": [
+    "The Prophet ﷺ passed away in Madinah.",
+    "The Ka'bah is in Jerusalem.",
+    "The Islamic year has twelve months."
+   ],
+   "wrong": 1,
+   "explain": "The Ka'bah is in Makkah. Masjid al-Aqsa is in Jerusalem. The other two statements are correct.",
+   "sources": [
+    [
+     "Ar-Raheeq Al-Makhtum",
+     null
+    ],
+    [
+     "Quran 3:96",
+     "Becca"
+    ],
+    [
+     "Quran 9:36",
+     "twelve"
+    ]
+   ]
+  },
+  {
+   "statements": [
+    "The day of Arafah is the 9th of Dhul-Hijjah.",
+    "Lying is a sign of a hypocrite.",
+    "Belief in the angels is not part of faith."
+   ],
+   "wrong": 2,
+   "explain": "In the hadith of Jibril, faith includes belief in Allah, His angels, books, messengers, the Last Day and qadar. The other two statements are correct.",
+   "sources": [
+    [
+     "Muslim 1218",
+     "Arafa"
+    ],
+    [
+     "Bukhari 33",
+     "lie"
+    ],
+    [
+     "Muslim 8",
+     "angels"
+    ]
+   ]
+  },
+  {
+   "statements": [
+    "Masjid an-Nabawi is in Makkah.",
+    "The Prophet ﷺ said actions are judged by intentions.",
+    "Smiling at your brother is a charity."
+   ],
+   "wrong": 0,
+   "explain": "The Prophet's Mosque is in Madinah. The other two statements are correct.",
+   "sources": [
+    [
+     "Bukhari 1190",
+     "my Mosque"
+    ],
+    [
+     "Bukhari 1",
+     "intention"
+    ],
+    [
+     "Tirmidhi 1956",
+     "smiling"
+    ],
+    [
+     "Bukhari 6021",
+     "Sadaqa"
+    ]
+   ]
+  }
+ ],
+ "medium": [
+  {
+   "statements": [
+    "The last two verses of Al-Fatihah suffice the one who recites them at night.",
+    "Harut and Marut were sent down in Babylon.",
+    "The Prophet ﷺ said none of you truly believes until he loves for his brother what he loves for himself."
+   ],
+   "wrong": 0,
+   "explain": "The Prophet ﷺ said whoever recites the last two verses of Al-Baqarah at night, they will suffice him. The other two statements are correct.",
+   "sources": [
+    [
+     "Bukhari 5009",
+     "two Verses"
+    ],
+    [
+     "Quran 2:102",
+     "Babel"
+    ],
+    [
+     "Bukhari 13",
+     "brother"
+    ]
+   ]
+  },
+  {
+   "statements": [
+    "The archers' leaving their post turned the tide at Uhud.",
+    "Yunus is called Dhun-Nun in the Qur'an.",
+    "Fasting the day of Arafah expiates ten years of sins."
+   ],
+   "wrong": 2,
+   "explain": "It expiates the year before and the year after. The other two statements are correct.",
+   "sources": [
+    [
+     "Bukhari 3039",
+     "archers"
+    ],
+    [
+     "Quran 21:87",
+     "Dhu'n-Nun"
+    ],
+    [
+     "Muslim 1162b",
+     "Arafa"
+    ]
+   ]
+  },
+  {
+   "statements": [
+    "Qarun was swallowed by the earth.",
+    "Al-Khidr built a boat to escape a flood.",
+    "The Prophet ﷺ travelled to Ta'if to invite its people."
+   ],
+   "wrong": 1,
+   "explain": "He made a hole in the boat because a king was seizing every good boat. The other two statements are correct.",
+   "sources": [
+    [
+     "Quran 28:81",
+     "earth"
+    ],
+    [
+     "Quran 18:79",
+     "ship"
+    ],
+    [
+     "Bukhari 3231",
+     "Abd-Yalail"
+    ]
+   ]
+  },
+  {
+   "statements": [
+    "Sulayman had jinn working for him.",
+    "Abu Ubaydah was called the trustworthy one of this ummah.",
+    "Imran was the guardian of Maryam in the sanctuary."
+   ],
+   "wrong": 2,
+   "explain": "Allah placed Maryam in the care of Zakariyya. The other two statements are correct.",
+   "sources": [
+    [
+     "Quran 34:12",
+     "jinn"
+    ],
+    [
+     "Bukhari 3744",
+     "Abu 'Ubaida"
+    ],
+    [
+     "Quran 3:37",
+     "Zachariah"
+    ]
+   ]
+  },
+  {
+   "statements": [
+    "Surah Al-Asr says mankind is in loss except those who believe and do good.",
+    "Kindness to parents comes right after worshipping Allah in Surah Al-Isra.",
+    "Abu Bakr was called the Sword of Allah."
+   ],
+   "wrong": 2,
+   "explain": "The Prophet ﷺ called Khalid a sword from the swords of Allah. The other two statements are correct.",
+   "sources": [
+    [
+     "Quran 103:2",
+     "loss"
+    ],
+    [
+     "Quran 17:23",
+     "parents"
+    ],
+    [
+     "Bukhari 4262",
+     "Sword"
+    ]
+   ]
+  },
+  {
+   "statements": [
+    "Zayd ibn Harithah is the only companion named in the Qur'an.",
+    "Hajar ran between Arafah and Mina seven times.",
+    "Uthman married two daughters of the Prophet ﷺ."
+   ],
+   "wrong": 1,
+   "explain": "Hajar ran between Safa and Marwah looking for water, and pilgrims do the same. The other two statements are correct.",
+   "sources": [
+    [
+     "Quran 33:37",
+     "Zeyd"
+    ],
+    [
+     "Bukhari 3364",
+     "Safa"
+    ],
+    [
+     "Al-Bidaya wan-Nihaya",
+     null
+    ]
+   ]
+  },
+  {
+   "statements": [
+    "Abu Jahl is named in the Qur'an.",
+    "Anas ibn Malik served the Prophet ﷺ for ten years.",
+    "The Muslims first faced Jerusalem in prayer."
+   ],
+   "wrong": 0,
+   "explain": "Surah Al-Masad names Abu Lahab. Abu Jahl is not named. The other two statements are correct.",
+   "sources": [
+    [
+     "Quran 111:1",
+     "Abu Lahab"
+    ],
+    [
+     "Bukhari 6038",
+     "ten years"
+    ],
+    [
+     "Bukhari 40",
+     "Jerusalem"
+    ]
+   ]
+  },
+  {
+   "statements": [
+    "Abu Hurayrah narrated more hadith than any other companion.",
+    "The Battle of Hunayn is named in the Qur'an.",
+    "The Qur'an forbids honey and milk."
+   ],
+   "wrong": 2,
+   "explain": "Surah Al-Ma'idah calls wine and gambling an abomination of Satan's work. The other two statements are correct.",
+   "sources": [
+    [
+     "Bukhari 118",
+     "Abu Huraira"
+    ],
+    [
+     "Quran 9:25",
+     "Huneyn"
+    ],
+    [
+     "Quran 5:90",
+     "strong drink"
+    ]
+   ]
+  },
+  {
+   "statements": [
+    "The best prayer after the obligatory ones is the night prayer.",
+    "Talut killed Jalut.",
+    "The qiblah was changed in the second year after the Hijrah."
+   ],
+   "wrong": 1,
+   "explain": "Allah says Dawud killed Jalut. The other two statements are correct.",
+   "sources": [
+    [
+     "Muslim 1163",
+     "night"
+    ],
+    [
+     "Quran 2:251",
+     "Goliath"
+    ],
+    [
+     "Bukhari 40",
+     "months"
+    ]
+   ]
+  },
+  {
+   "statements": [
+    "Allah says the most honoured of you is the most righteous.",
+    "Travellers may shorten four-rak'ah prayers to two.",
+    "\"Today I have perfected your religion\" was revealed at Badr."
+   ],
+   "wrong": 2,
+   "explain": "Umar said this verse was revealed on a Friday, while the Prophet ﷺ stood at Arafah. The other two statements are correct.",
+   "sources": [
+    [
+     "Quran 49:13",
+     "noblest"
+    ],
+    [
+     "Quran 4:101",
+     "curtail"
+    ],
+    [
+     "Bukhari 1090",
+     "two"
+    ],
+    [
+     "Bukhari 45",
+     "Arafat"
+    ],
+    [
+     "Quran 5:3",
+     "perfected"
+    ]
+   ]
+  },
+  {
+   "statements": [
+    "Khalid ibn al-Walid led the gathering of the Qur'an.",
+    "Luqman advised his son not to associate partners with Allah.",
+    "Zakat has eight categories of recipients."
+   ],
+   "wrong": 0,
+   "explain": "Abu Bakr gave the task to Zayd ibn Thabit, a scribe of revelation. The other two statements are correct.",
+   "sources": [
+    [
+     "Bukhari 4986",
+     "Zaid"
+    ],
+    [
+     "Quran 31:13",
+     "partners"
+    ],
+    [
+     "Quran 9:60",
+     "poor"
+    ]
+   ]
+  },
+  {
+   "statements": [
+    "The Prophet ﷺ said Paradise is surrounded by hardships.",
+    "Ayyub is known for his patience in illness.",
+    "A trench was dug around Makkah in the Battle of Hunayn."
+   ],
+   "wrong": 2,
+   "explain": "The trench (khandaq) protected Madinah against the Confederates. The other two statements are correct.",
+   "sources": [
+    [
+     "Muslim 2822",
+     "Paradise"
+    ],
+    [
+     "Quran 38:44",
+     "steadfast"
+    ],
+    [
+     "Bukhari 4099",
+     "trench"
+    ]
+   ]
+  },
+  {
+   "statements": [
+    "Surah Al-Qadr says the angels and the Spirit descend on Laylat al-Qadr.",
+    "Fish is forbidden in the Qur'an.",
+    "Surah Al-Kahf is recommended on Fridays."
+   ],
+   "wrong": 1,
+   "explain": "The Qur'an forbids carrion, blood and the flesh of swine. Seafood is lawful. The other two statements are correct.",
+   "sources": [
+    [
+     "Quran 97:4",
+     "angels"
+    ],
+    [
+     "Quran 2:173",
+     "swine"
+    ],
+    [
+     "Quran 5:96",
+     "sea"
+    ],
+    [
+     "Ibn al-Qayyim, Zad al-Ma'ad",
+     null
+    ]
+   ]
+  },
+  {
+   "statements": [
+    "Musa met al-Khidr in Egypt's palace.",
+    "The Year of Sorrow saw the deaths of Abu Talib and Khadijah.",
+    "Backbiting is compared in the Qur'an to eating a dead brother's flesh."
+   ],
+   "wrong": 0,
+   "explain": "Musa travelled to the junction of the two seas to meet the servant of Allah. The other two statements are correct.",
+   "sources": [
+    [
+     "Quran 18:60",
+     "two rivers meet"
+    ],
+    [
+     "Ar-Raheeq Al-Makhtum",
+     null
+    ],
+    [
+     "Quran 49:12",
+     "flesh"
+    ]
+   ]
+  },
+  {
+   "statements": [
+    "Allah says in Surah Al-Baqarah that He is near and answers the caller.",
+    "There are fifteen places of prostration in the Qur'an in the common count.",
+    "Shaytan flees from a house where poetry is recited."
+   ],
+   "wrong": 2,
+   "explain": "The Prophet ﷺ said Shaytan flees from the house in which Surah Al-Baqarah is recited. The other two statements are correct.",
+   "sources": [
+    [
+     "Quran 2:186",
+     "nigh"
+    ],
+    [
+     "Quran.com data",
+     null
+    ],
+    [
+     "Muslim 780",
+     "Baqara"
+    ]
+   ]
+  },
+  {
+   "statements": [
+    "Dhul-Qarnayn built a wall of iron and copper.",
+    "Trade is forbidden in the Qur'an.",
+    "The Prophet ﷺ said the upper hand is better than the lower hand."
+   ],
+   "wrong": 1,
+   "explain": "Allah permitted trade and forbade usury. The other two statements are correct.",
+   "sources": [
+    [
+     "Quran 18:96",
+     "iron"
+    ],
+    [
+     "Quran 2:275",
+     "usury"
+    ],
+    [
+     "Bukhari 1429",
+     "upper hand"
+    ]
+   ]
+  },
+  {
+   "statements": [
+    "The Prophet ﷺ said the strongest believer is more beloved to Allah than the weak one, and in both there is good.",
+    "Lut's people lived in the time of Ibrahim.",
+    "Pilgrims spend the night at Ta'if after Arafah."
+   ],
+   "wrong": 2,
+   "explain": "After sunset at Arafah they go to Muzdalifah. The other two statements are correct.",
+   "sources": [
+    [
+     "Muslim 2664",
+     "strong"
+    ],
+    [
+     "Quran 29:26",
+     "Lot"
+    ],
+    [
+     "Muslim 1218",
+     "Muzdalifa"
+    ]
+   ]
+  },
+  {
+   "statements": [
+    "The Qur'an was first gathered into one volume under Ali.",
+    "Abu Bakr accompanied the Prophet ﷺ on the Hijrah.",
+    "The Dajjal is blind in one eye."
+   ],
+   "wrong": 0,
+   "explain": "After Yamamah, Zayd ibn Thabit gathered it under Abu Bakr. The other two statements are correct.",
+   "sources": [
+    [
+     "Bukhari 4986",
+     "Abu Bakr"
+    ],
+    [
+     "Bukhari 3653",
+     "Abu Bakr"
+    ],
+    [
+     "Bukhari 7131",
+     "one-eyed"
+    ]
+   ]
+  },
+  {
+   "statements": [
+    "Sujud is the position in which a servant is closest to his Lord.",
+    "Uthman slept in the Prophet's bed on the night of the Hijrah.",
+    "Isma'il helped his father build the Ka'bah."
+   ],
+   "wrong": 1,
+   "explain": "Ali stayed behind in his bed and later returned the trusts people had left with the Prophet ﷺ. The other two statements are correct.",
+   "sources": [
+    [
+     "Muslim 482",
+     "prostrating"
+    ],
+    [
+     "Ar-Raheeq Al-Makhtum",
+     null
+    ],
+    [
+     "Quran 2:127",
+     "Ishmael"
+    ]
+   ]
+  },
+  {
+   "statements": [
+    "Ya'juj and Ma'juj were held back by a barrier.",
+    "The Qur'an calls the believers brothers.",
+    "The first migration was to Yemen."
+   ],
+   "wrong": 2,
+   "explain": "Persecuted Muslims first migrated to Abyssinia, ruled by the Negus. The other two statements are correct.",
+   "sources": [
+    [
+     "Quran 18:94",
+     "barrier"
+    ],
+    [
+     "Quran 49:10",
+     "brothers"
+    ],
+    [
+     "Ar-Raheeq Al-Makhtum",
+     null
+    ]
+   ]
+  },
+  {
+   "statements": [
+    "The angels Munkar and Nakir question the dead in the grave.",
+    "Isa will return before the end of time.",
+    "Fasting Ashura expiates the next ten years."
+   ],
+   "wrong": 2,
+   "explain": "The Prophet ﷺ said it expiates the year before. The other two statements are correct.",
+   "sources": [
+    [
+     "Tirmidhi 1071",
+     "Munkar"
+    ],
+    [
+     "Bukhari 2222",
+     "son of Mary"
+    ],
+    [
+     "Muslim 1162b",
+     "Ashura"
+    ]
+   ]
+  },
+  {
+   "statements": [
+    "Uthman sent standard copies of the Qur'an to the main cities.",
+    "Hud was sent to the people of Thamud.",
+    "The Prophet ﷺ said whoever believes in Allah and the Last Day should speak good or stay silent."
+   ],
+   "wrong": 1,
+   "explain": "Hud was sent to 'Ad. Salih was sent to Thamud. The other two statements are correct.",
+   "sources": [
+    [
+     "Bukhari 4987",
+     "Uthman"
+    ],
+    [
+     "Quran 11:50",
+     "Hud"
+    ],
+    [
+     "Bukhari 6018",
+     "keep quiet"
+    ]
+   ]
+  },
+  {
+   "statements": [
+    "The Expedition of Tabuk was against the Byzantines.",
+    "Hamzah was martyred at Badr.",
+    "The Hijrah took place in 622 CE."
+   ],
+   "wrong": 1,
+   "explain": "Hamzah fought at Badr and was martyred at Uhud. The other two statements are correct.",
+   "sources": [
+    [
+     "Bukhari 4418",
+     "Tabuk"
+    ],
+    [
+     "Ar-Raheeq Al-Makhtum",
+     null
+    ],
+    [
+     "Bukhari 4072",
+     "Hamza"
+    ]
+   ]
+  },
+  {
+   "statements": [
+    "The Muslims at Badr numbered a little over three hundred.",
+    "The Muhajirun were the Muslims who migrated from Makkah.",
+    "Witr is prayed before Fajr's adhan only on Fridays."
+   ],
+   "wrong": 2,
+   "explain": "Witr is prayed between Isha and Fajr. The other two statements are correct.",
+   "sources": [
+    [
+     "Bukhari 3957",
+     "three-hundred-and-ten"
+    ],
+    [
+     "Quran 9:100",
+     "Muhajirin"
+    ],
+    [
+     "Bukhari 998",
+     "witr"
+    ]
+   ]
+  },
+  {
+   "statements": [
+    "Every child is born on the fitrah.",
+    "The Treaty of Hudaybiyyah was made with Quraysh.",
+    "The Prophet ﷺ said the best of you are those who own the most land."
+   ],
+   "wrong": 2,
+   "explain": "He said, \"The best of you are those who learn the Qur'an and teach it.\" The other two statements are correct.",
+   "sources": [
+    [
+     "Bukhari 1385",
+     "born"
+    ],
+    [
+     "Bukhari 2731",
+     "Quraish"
+    ],
+    [
+     "Bukhari 5027",
+     "Qur'an"
+    ]
+   ]
+  },
+  {
+   "statements": [
+    "Al-Fatihah is recited in every rak'ah of the prayer.",
+    "Mu'adh ibn Jabal was sent to Persia.",
+    "Surah Al-Fath was revealed after Hudaybiyyah."
+   ],
+   "wrong": 1,
+   "explain": "The Prophet ﷺ sent Mu'adh to Yemen. The other two statements are correct.",
+   "sources": [
+    [
+     "Bukhari 756",
+     "Fatiha"
+    ],
+    [
+     "Bukhari 1395",
+     "Yemen"
+    ],
+    [
+     "Bukhari 4177",
+     "victory"
+    ]
+   ]
+  },
+  {
+   "statements": [
+    "Surah Al-Ikhlas is equal to a third of the Qur'an.",
+    "Haman was the brother of Musa.",
+    "I'tikaf is usually done in the last ten days of Ramadan."
+   ],
+   "wrong": 1,
+   "explain": "Haman served Fir'awn. Musa's brother was Harun. The other two statements are correct.",
+   "sources": [
+    [
+     "Bukhari 5013",
+     "third"
+    ],
+    [
+     "Quran 28:38",
+     "Haman"
+    ],
+    [
+     "Bukhari 2026",
+     "last ten"
+    ]
+   ]
+  },
+  {
+   "statements": [
+    "Surah Al-Hujurat teaches not to mock other people.",
+    "The Prophet ﷺ said the most beloved deeds to Allah are the most consistent, even if small.",
+    "The Prophet ﷺ said the world is a paradise for the believer."
+   ],
+   "wrong": 2,
+   "explain": "The world is the believer's prison and the disbeliever's paradise. The other two statements are correct.",
+   "sources": [
+    [
+     "Quran 49:11",
+     "deride"
+    ],
+    [
+     "Bukhari 6464",
+     "most regular"
+    ],
+    [
+     "Muslim 2956",
+     "prison"
+    ]
+   ]
+  },
+  {
+   "statements": [
+    "The Battle of Badr was the first major battle of Islam.",
+    "The Prophet ﷺ said a surah of thirty verses, Al-Mulk, intercedes for the one who recites it.",
+    "Allah says with ease comes only hardship."
+   ],
+   "wrong": 2,
+   "explain": "Surah Ash-Sharh: with hardship comes ease, twice. The other two statements are correct.",
+   "sources": [
+    [
+     "Quran 3:123",
+     "Badr"
+    ],
+    [
+     "Ar-Raheeq Al-Makhtum",
+     null
+    ],
+    [
+     "Tirmidhi 2891",
+     "thirty"
+    ],
+    [
+     "Quran 94:5",
+     "ease"
+    ]
+   ]
+  },
+  {
+   "statements": [
+    "Ayat al-Kursi is the greatest verse in the Qur'an.",
+    "Surah Al-Ma'un praises those who pray only to be seen.",
+    "The People of the Cave slept for 309 years."
+   ],
+   "wrong": 1,
+   "explain": "It warns \"those who want to be seen\". The other two statements are correct.",
+   "sources": [
+    [
+     "Muslim 810",
+     "greatest"
+    ],
+    [
+     "Quran 107:6",
+     "seen"
+    ],
+    [
+     "Quran 18:25",
+     "three hundred"
+    ]
+   ]
+  },
+  {
+   "statements": [
+    "The Prophet ﷺ prayed at night until his feet swelled.",
+    "Ibrahim's father was named Azar in the Qur'an.",
+    "Allah says people must be forced into religion."
+   ],
+   "wrong": 2,
+   "explain": "Al-Baqarah 256: there is no compulsion in religion. The other two statements are correct.",
+   "sources": [
+    [
+     "Bukhari 4836",
+     "feet"
+    ],
+    [
+     "Quran 6:74",
+     "Azar"
+    ],
+    [
+     "Quran 2:256",
+     "compulsion"
+    ]
+   ]
+  },
+  {
+   "statements": [
+    "The Ansar were the Muslims of Madinah.",
+    "Tahajjud is prayed at noon.",
+    "Yahya was the son of Zakariyya."
+   ],
+   "wrong": 1,
+   "explain": "Allah tells the Prophet ﷺ, \"And in some part of the night, pray tahajjud.\" The other two statements are correct.",
+   "sources": [
+    [
+     "Quran 9:100",
+     "Ansar"
+    ],
+    [
+     "Quran 17:79",
+     "night"
+    ],
+    [
+     "Quran 19:7",
+     "John"
+    ]
+   ]
+  },
+  {
+   "statements": [
+    "The Prophet ﷺ encouraged cutting ties with relatives.",
+    "The miqat for the people of Madinah is Dhul-Hulayfah.",
+    "Malik is the keeper of Hell."
+   ],
+   "wrong": 0,
+   "explain": "He said the one who cuts ties of kinship will not enter Paradise. The other two statements are correct.",
+   "sources": [
+    [
+     "Bukhari 5984",
+     "kinship"
+    ],
+    [
+     "Bukhari 1524",
+     "Medina"
+    ],
+    [
+     "Quran 43:77",
+     "O master"
+    ]
+   ]
+  },
+  {
+   "statements": [
+    "Zamzam appeared for Hajar and her son.",
+    "Salih was sent to Thamud.",
+    "Shu'ayb was sent to 'Ad."
+   ],
+   "wrong": 2,
+   "explain": "Shu'ayb was sent to Madyan. Hud was sent to 'Ad. The other two statements are correct.",
+   "sources": [
+    [
+     "Bukhari 3364",
+     "Zamzam"
+    ],
+    [
+     "Quran 11:61",
+     "Thamud"
+    ],
+    [
+     "Quran 11:84",
+     "Midian"
+    ]
+   ]
+  },
+  {
+   "statements": [
+    "Allah burdens every soul beyond what it can bear.",
+    "The Treaty of Hudaybiyyah was made with Quraysh.",
+    "The Farewell Pilgrimage was in 10 AH."
+   ],
+   "wrong": 0,
+   "explain": "The end of Al-Baqarah says Allah tasks no soul beyond its capacity. The other two statements are correct.",
+   "sources": [
+    [
+     "Quran 2:286",
+     "beyond its scope"
+    ],
+    [
+     "Bukhari 2731",
+     "Quraish"
+    ],
+    [
+     "Ar-Raheeq Al-Makhtum",
+     null
+    ]
+   ]
+  },
+  {
+   "statements": [
+    "Mu'awiyah sent standard copies of the Qur'an to the main cities.",
+    "The miqat for the people of Madinah is Dhul-Hulayfah.",
+    "Isma'il helped his father build the Ka'bah."
+   ],
+   "wrong": 0,
+   "explain": "Uthman had copies made from Hafsah's sheets and sent them out. The other two statements are correct.",
+   "sources": [
+    [
+     "Bukhari 4987",
+     "Uthman"
+    ],
+    [
+     "Bukhari 1524",
+     "Medina"
+    ],
+    [
+     "Quran 2:127",
+     "Ishmael"
+    ]
+   ]
+  },
+  {
+   "statements": [
+    "Ayyub is known for building the Ka'bah.",
+    "The Prophet ﷺ said none of you truly believes until he loves for his brother what he loves for himself.",
+    "Abu Lahab is the only opponent of the Prophet named in the Qur'an."
+   ],
+   "wrong": 0,
+   "explain": "Allah says of Ayyub, \"We found him patient.\" The other two statements are correct.",
+   "sources": [
+    [
+     "Quran 38:44",
+     "steadfast"
+    ],
+    [
+     "Bukhari 13",
+     "brother"
+    ],
+    [
+     "Quran 111:1",
+     "Abu Lahab"
+    ]
+   ]
+  },
+  {
+   "statements": [
+    "The Qur'an forbids wine and gambling.",
+    "The Prophet ﷺ said the world is a prison for the believer.",
+    "Hajar ran between Arafah and Mina seven times."
+   ],
+   "wrong": 2,
+   "explain": "Hajar ran between Safa and Marwah looking for water, and pilgrims do the same. The other two statements are correct.",
+   "sources": [
+    [
+     "Quran 5:90",
+     "strong drink"
+    ],
+    [
+     "Muslim 2956",
+     "prison"
+    ],
+    [
+     "Bukhari 3364",
+     "Safa"
+    ]
+   ]
+  },
+  {
+   "statements": [
+    "Zakat has three categories of recipients.",
+    "The Qur'an was first gathered into one volume under Abu Bakr.",
+    "Pork is forbidden in the Qur'an."
+   ],
+   "wrong": 0,
+   "explain": "Surah At-Tawbah lists eight categories. The other two statements are correct.",
+   "sources": [
+    [
+     "Quran 9:60",
+     "poor"
+    ],
+    [
+     "Bukhari 4986",
+     "Abu Bakr"
+    ],
+    [
+     "Quran 2:173",
+     "swine"
+    ],
+    [
+     "Quran 5:96",
+     "sea"
+    ]
+   ]
+  },
+  {
+   "statements": [
+    "The Prophet ﷺ said the best of you are those who learn the Qur'an and teach it.",
+    "Allah says with hardship comes ease.",
+    "The Muslims at Badr numbered about three thousand."
+   ],
+   "wrong": 2,
+   "explain": "Al-Bara' said the people of Badr were about the number of Talut's men, a little over three hundred. The other two statements are correct.",
+   "sources": [
+    [
+     "Bukhari 5027",
+     "Qur'an"
+    ],
+    [
+     "Quran 94:5",
+     "ease"
+    ],
+    [
+     "Bukhari 3957",
+     "three-hundred-and-ten"
+    ]
+   ]
+  },
+  {
+   "statements": [
+    "The Muhajirun were the Muslims who migrated from Makkah.",
+    "Khalid was called the trustworthy one of this ummah.",
+    "Abu Bakr accompanied the Prophet ﷺ on the Hijrah."
+   ],
+   "wrong": 1,
+   "explain": "The Prophet ﷺ said the trustworthy one of this ummah is Abu Ubaydah. The other two statements are correct.",
+   "sources": [
+    [
+     "Quran 9:100",
+     "Muhajirin"
+    ],
+    [
+     "Bukhari 3744",
+     "Abu 'Ubaida"
+    ],
+    [
+     "Bukhari 3653",
+     "Abu Bakr"
+    ]
+   ]
+  },
+  {
+   "statements": [
+    "The Prophet ﷺ said the Fire is surrounded by hardships.",
+    "Zayd ibn Harithah is the only companion named in the Qur'an.",
+    "The Muslims first faced Jerusalem in prayer."
+   ],
+   "wrong": 0,
+   "explain": "Paradise is surrounded by hardships, and the Fire by desires. The other two statements are correct.",
+   "sources": [
+    [
+     "Muslim 2822",
+     "Paradise"
+    ],
+    [
+     "Quran 33:37",
+     "Zeyd"
+    ],
+    [
+     "Bukhari 40",
+     "Jerusalem"
+    ]
+   ]
+  },
+  {
+   "statements": [
+    "The Prophet ﷺ prayed at night until his feet swelled.",
+    "Lut's people lived in the time of Ibrahim.",
+    "The Prophet ﷺ said the most beloved deeds to Allah are the biggest, even if rare."
+   ],
+   "wrong": 2,
+   "explain": "The most beloved deed to Allah is the most regular, even if little. The other two statements are correct.",
+   "sources": [
+    [
+     "Bukhari 4836",
+     "feet"
+    ],
+    [
+     "Quran 29:26",
+     "Lot"
+    ],
+    [
+     "Bukhari 6464",
+     "most regular"
+    ]
+   ]
+  },
+  {
+   "statements": [
+    "I'tikaf is only allowed in the first ten days of Ramadan.",
+    "The last two verses of Al-Baqarah suffice the one who recites them at night.",
+    "The Ansar were the Muslims of Madinah."
+   ],
+   "wrong": 0,
+   "explain": "The Prophet ﷺ used to make i'tikaf in the last ten days of Ramadan. The other two statements are correct.",
+   "sources": [
+    [
+     "Bukhari 2026",
+     "last ten"
+    ],
+    [
+     "Bukhari 5009",
+     "two Verses"
+    ],
+    [
+     "Quran 9:100",
+     "Ansar"
+    ]
+   ]
+  },
+  {
+   "statements": [
+    "Allah says in Surah Al-Baqarah that He is far and does not answer.",
+    "The People of the Cave slept for 309 years.",
+    "Surah Al-Ikhlas is equal to a third of the Qur'an."
+   ],
+   "wrong": 0,
+   "explain": "When My servants ask you about Me, I am near. The other two statements are correct.",
+   "sources": [
+    [
+     "Quran 2:186",
+     "nigh"
+    ],
+    [
+     "Quran 18:25",
+     "three hundred"
+    ],
+    [
+     "Bukhari 5013",
+     "third"
+    ]
+   ]
+  },
+  {
+   "statements": [
+    "Allah says there is no compulsion in religion.",
+    "A trench was dug around Madinah in the Battle of the Confederates.",
+    "Ruku' is the position in which a servant is closest to his Lord."
+   ],
+   "wrong": 2,
+   "explain": "The Prophet ﷺ said the closest a servant is to his Lord is when he is prostrating. The other two statements are correct.",
+   "sources": [
+    [
+     "Quran 2:256",
+     "compulsion"
+    ],
+    [
+     "Bukhari 4099",
+     "trench"
+    ],
+    [
+     "Muslim 482",
+     "prostrating"
+    ]
+   ]
+  },
+  {
+   "statements": [
+    "Pilgrims spend the night at Muzdalifah after Arafah.",
+    "Witr is prayed after Isha.",
+    "Anas ibn Malik served the Prophet ﷺ for two years."
+   ],
+   "wrong": 2,
+   "explain": "Anas said he served the Prophet ﷺ for ten years. The other two statements are correct.",
+   "sources": [
+    [
+     "Muslim 1218",
+     "Muzdalifa"
+    ],
+    [
+     "Bukhari 998",
+     "witr"
+    ],
+    [
+     "Bukhari 6038",
+     "ten years"
+    ]
+   ]
+  },
+  {
+   "statements": [
+    "Surah Al-Kahf is recommended on Mondays.",
+    "Travellers may shorten four-rak'ah prayers to two.",
+    "Shu'ayb was sent to Madyan."
+   ],
+   "wrong": 0,
+   "explain": "Reciting Al-Kahf on Friday is narrated to bring light between the two Fridays. The other two statements are correct.",
+   "sources": [
+    [
+     "Ibn al-Qayyim, Zad al-Ma'ad",
+     null
+    ],
+    [
+     "Quran 4:101",
+     "curtail"
+    ],
+    [
+     "Bukhari 1090",
+     "two"
+    ],
+    [
+     "Quran 11:84",
+     "Midian"
+    ]
+   ]
+  },
+  {
+   "statements": [
+    "The Qur'an calls the believers brothers.",
+    "Surah Al-Fath was revealed after Hudaybiyyah.",
+    "Surah Al-Qadr says the jinn descend on Laylat al-Qadr."
+   ],
+   "wrong": 2,
+   "explain": "Surah Al-Qadr: the angels and the Spirit descend in it by the permission of their Lord. The other two statements are correct.",
+   "sources": [
+    [
+     "Quran 49:10",
+     "brothers"
+    ],
+    [
+     "Bukhari 4177",
+     "victory"
+    ],
+    [
+     "Quran 97:4",
+     "angels"
+    ]
+   ]
+  },
+  {
+   "statements": [
+    "There are fifteen places of prostration in the Qur'an in the common count.",
+    "The Prophet ﷺ forbade cutting ties of kinship.",
+    "Ridwan is named in the Qur'an as the keeper of Hell."
+   ],
+   "wrong": 2,
+   "explain": "The Qur'an names Malik as the keeper of the Fire. The other two statements are correct.",
+   "sources": [
+    [
+     "Quran.com data",
+     null
+    ],
+    [
+     "Bukhari 5984",
+     "kinship"
+    ],
+    [
+     "Quran 43:77",
+     "O master"
+    ]
+   ]
+  },
+  {
+   "statements": [
+    "Musa met al-Khidr where the two seas meet.",
+    "Al-Khidr damaged a boat to save it from a king.",
+    "Surah Al-Asr says mankind is always successful."
+   ],
+   "wrong": 2,
+   "explain": "Al-Asr: man is in loss, except those who believe, do righteous deeds and counsel truth and patience. The other two statements are correct.",
+   "sources": [
+    [
+     "Quran 18:60",
+     "two rivers meet"
+    ],
+    [
+     "Quran 18:79",
+     "ship"
+    ],
+    [
+     "Quran 103:2",
+     "loss"
+    ]
+   ]
+  },
+  {
+   "statements": [
+    "Al-Fatihah is recited in every rak'ah of the prayer.",
+    "Salih was sent to Madyan.",
+    "Surah Al-Ma'un warns those who pray only to be seen."
+   ],
+   "wrong": 1,
+   "explain": "Salih was sent to Thamud. The other two statements are correct.",
+   "sources": [
+    [
+     "Bukhari 756",
+     "Fatiha"
+    ],
+    [
+     "Quran 11:61",
+     "Thamud"
+    ],
+    [
+     "Quran 107:6",
+     "seen"
+    ]
+   ]
+  },
+  {
+   "statements": [
+    "Fasting the day of Arafah expiates two years of sins.",
+    "Mu'adh ibn Jabal was sent to Yemen.",
+    "Abu Bakr was called the Sword of Allah."
+   ],
+   "wrong": 2,
+   "explain": "The Prophet ﷺ called Khalid a sword from the swords of Allah. The other two statements are correct.",
+   "sources": [
+    [
+     "Muslim 1162b",
+     "Arafa"
+    ],
+    [
+     "Bukhari 1395",
+     "Yemen"
+    ],
+    [
+     "Bukhari 4262",
+     "Sword"
+    ]
+   ]
+  },
+  {
+   "statements": [
+    "The Farewell Pilgrimage was in 10 AH.",
+    "Haman was the minister of Fir'awn.",
+    "The Prophet ﷺ travelled to Damascus to invite its people."
+   ],
+   "wrong": 2,
+   "explain": "He went to Ta'if, and its people rejected him. The other two statements are correct.",
+   "sources": [
+    [
+     "Ar-Raheeq Al-Makhtum",
+     null
+    ],
+    [
+     "Quran 28:38",
+     "Haman"
+    ],
+    [
+     "Bukhari 3231",
+     "Abd-Yalail"
+    ]
+   ]
+  },
+  {
+   "statements": [
+    "The qiblah was changed in the tenth year after the Hijrah.",
+    "Ya'juj and Ma'juj were held back by a barrier.",
+    "Allah says the most honoured of you is the most righteous."
+   ],
+   "wrong": 0,
+   "explain": "The qiblah changed about sixteen or seventeen months after the Hijrah. The other two statements are correct.",
+   "sources": [
+    [
+     "Bukhari 40",
+     "months"
+    ],
+    [
+     "Quran 18:94",
+     "barrier"
+    ],
+    [
+     "Quran 49:13",
+     "noblest"
+    ]
+   ]
+  },
+  {
+   "statements": [
+    "Fasting Ashura expiates the previous year.",
+    "The Battle of Badr was the first major battle of Islam.",
+    "Harut and Marut were sent down in Makkah."
+   ],
+   "wrong": 2,
+   "explain": "Al-Baqarah places them in Babylon. The other two statements are correct.",
+   "sources": [
+    [
+     "Muslim 1162b",
+     "Ashura"
+    ],
+    [
+     "Quran 3:123",
+     "Badr"
+    ],
+    [
+     "Ar-Raheeq Al-Makhtum",
+     null
+    ],
+    [
+     "Quran 2:102",
+     "Babel"
+    ]
+   ]
+  },
+  {
+   "statements": [
+    "The Prophet ﷺ said the strongest believer is more beloved to Allah than the weak one, and in both there is good.",
+    "Surah Al-Hujurat teaches not to mock other people.",
+    "Ali married two daughters of the Prophet ﷺ."
+   ],
+   "wrong": 2,
+   "explain": "Uthman married Ruqayyah and then Umm Kulthum. Ali married Fatimah. The other two statements are correct.",
+   "sources": [
+    [
+     "Muslim 2664",
+     "strong"
+    ],
+    [
+     "Quran 49:11",
+     "deride"
+    ],
+    [
+     "Al-Bidaya wan-Nihaya",
+     null
+    ]
+   ]
+  },
+  {
+   "statements": [
+    "The Expedition of Tabuk was against the Persians.",
+    "Yunus is called Dhun-Nun in the Qur'an.",
+    "Sulayman had jinn working for him."
+   ],
+   "wrong": 0,
+   "explain": "Tabuk, in 9 AH, was a march north to face the Byzantines. The other two statements are correct.",
+   "sources": [
+    [
+     "Bukhari 4418",
+     "Tabuk"
+    ],
+    [
+     "Ar-Raheeq Al-Makhtum",
+     null
+    ],
+    [
+     "Quran 21:87",
+     "Dhu'n-Nun"
+    ],
+    [
+     "Quran 34:12",
+     "jinn"
+    ]
+   ]
+  },
+  {
+   "statements": [
+    "Hud was sent to the people of 'Ad.",
+    "The best prayer after the obligatory ones is the Duha prayer.",
+    "Zayd ibn Thabit led the gathering of the Qur'an."
+   ],
+   "wrong": 1,
+   "explain": "The Prophet ﷺ said the best prayer after the obligatory ones is the prayer at night. The other two statements are correct.",
+   "sources": [
+    [
+     "Quran 11:50",
+     "Hud"
+    ],
+    [
+     "Muslim 1163",
+     "night"
+    ],
+    [
+     "Bukhari 4986",
+     "Zaid"
+    ]
+   ]
+  },
+  {
+   "statements": [
+    "The Prophet ﷺ said Surah Al-Kawthar intercedes for the one who recites it until he is forgiven.",
+    "Every child is born on the fitrah.",
+    "The Dajjal is blind in one eye."
+   ],
+   "wrong": 0,
+   "explain": "The Prophet ﷺ said a surah of thirty verses interceded for a man until he was forgiven: Tabarak alladhi biyadihil-mulk. The other two statements are correct.",
+   "sources": [
+    [
+     "Tirmidhi 2891",
+     "thirty"
+    ],
+    [
+     "Bukhari 1385",
+     "born"
+    ],
+    [
+     "Bukhari 7131",
+     "one-eyed"
+    ]
+   ]
+  },
+  {
+   "statements": [
+    "The archers' leaving their post turned the tide at Badr.",
+    "The first migration was to Abyssinia.",
+    "Backbiting is compared in the Qur'an to eating a dead brother's flesh."
+   ],
+   "wrong": 0,
+   "explain": "At Uhud the archers left the hill against orders, and the Muslims were attacked from behind. The other two statements are correct.",
+   "sources": [
+    [
+     "Bukhari 3039",
+     "archers"
+    ],
+    [
+     "Ar-Raheeq Al-Makhtum",
+     null
+    ],
+    [
+     "Quran 49:12",
+     "flesh"
+    ]
+   ]
+  },
+  {
+   "statements": [
+    "Interest (riba) is forbidden in the Qur'an.",
+    "Hamzah was martyred at Uhud.",
+    "Surah Al-Isra allows saying \"uff\" to parents."
+   ],
+   "wrong": 2,
+   "explain": "Al-Isra commands goodness to parents and forbids even saying \"uff\". The other two statements are correct.",
+   "sources": [
+    [
+     "Quran 2:275",
+     "usury"
+    ],
+    [
+     "Bukhari 4072",
+     "Hamza"
+    ],
+    [
+     "Quran 17:23",
+     "parents"
+    ]
+   ]
+  },
+  {
+   "statements": [
+    "Yahya was the son of Imran.",
+    "Abu Hurayrah narrated more hadith than any other companion.",
+    "Ayat al-Kursi is the greatest verse in the Qur'an."
+   ],
+   "wrong": 0,
+   "explain": "Yahya was born to Zakariyya in his old age. The other two statements are correct.",
+   "sources": [
+    [
+     "Quran 19:7",
+     "John"
+    ],
+    [
+     "Bukhari 118",
+     "Abu Huraira"
+    ],
+    [
+     "Muslim 810",
+     "greatest"
+    ]
+   ]
+  },
+  {
+   "statements": [
+    "\"Today I have perfected your religion\" was revealed at Arafah.",
+    "The angels Munkar and Nakir question the dead in the grave.",
+    "Qarun drowned in the sea."
+   ],
+   "wrong": 2,
+   "explain": "Allah caused the earth to swallow Qarun. Fir'awn drowned. The other two statements are correct.",
+   "sources": [
+    [
+     "Bukhari 45",
+     "Arafat"
+    ],
+    [
+     "Quran 5:3",
+     "perfected"
+    ],
+    [
+     "Tirmidhi 1071",
+     "Munkar"
+    ],
+    [
+     "Quran 28:81",
+     "earth"
+    ]
+   ]
+  },
+  {
+   "statements": [
+    "Dawud killed Jalut.",
+    "Luqman advised his son not to associate partners with Allah.",
+    "The Year of Sorrow saw the deaths of Abu Bakr and Umar."
+   ],
+   "wrong": 2,
+   "explain": "Abu Talib and Khadijah died in the same year, before the Hijrah. The other two statements are correct.",
+   "sources": [
+    [
+     "Quran 2:251",
+     "Goliath"
+    ],
+    [
+     "Quran 31:13",
+     "partners"
+    ],
+    [
+     "Ar-Raheeq Al-Makhtum",
+     null
+    ]
+   ]
+  },
+  {
+   "statements": [
+    "Allah does not burden a soul beyond what it can bear.",
+    "The Battle of Uhud is named in the Qur'an.",
+    "Shaytan flees from a house where Al-Baqarah is recited."
+   ],
+   "wrong": 1,
+   "explain": "Surah At-Tawbah names Hunayn. Uhud is described but not named. The other two statements are correct.",
+   "sources": [
+    [
+     "Quran 2:286",
+     "beyond its scope"
+    ],
+    [
+     "Quran 9:25",
+     "Huneyn"
+    ],
+    [
+     "Muslim 780",
+     "Baqara"
+    ]
+   ]
+  },
+  {
+   "statements": [
+    "Ibrahim's father was named Imran in the Qur'an.",
+    "Tahajjud is prayed at night.",
+    "Zamzam appeared for Hajar and her son."
+   ],
+   "wrong": 0,
+   "explain": "Surah Al-An'am names Ibrahim's father Azar. The other two statements are correct.",
+   "sources": [
+    [
+     "Quran 6:74",
+     "Azar"
+    ],
+    [
+     "Quran 17:79",
+     "night"
+    ],
+    [
+     "Bukhari 3364",
+     "Zamzam"
+    ]
+   ]
+  },
+  {
+   "statements": [
+    "The Prophet ﷺ said the upper hand is better than the lower hand.",
+    "The Prophet ﷺ said whoever believes in Allah and the Last Day should speak good or stay silent.",
+    "The Hijrah took place in 610 CE."
+   ],
+   "wrong": 2,
+   "explain": "The Hijrah was in 622 CE. Revelation began around 610 CE. The other two statements are correct.",
+   "sources": [
+    [
+     "Bukhari 1429",
+     "upper hand"
+    ],
+    [
+     "Bukhari 6018",
+     "keep quiet"
+    ],
+    [
+     "Ar-Raheeq Al-Makhtum",
+     null
+    ]
+   ]
+  },
+  {
+   "statements": [
+    "Ali slept in the Prophet's bed on the night of the Hijrah.",
+    "Musa will return before the end of time.",
+    "Zakariyya was the guardian of Maryam."
+   ],
+   "wrong": 1,
+   "explain": "The Prophet ﷺ said the son of Maryam will descend as a just ruler. The other two statements are correct.",
+   "sources": [
+    [
+     "Ar-Raheeq Al-Makhtum",
+     null
+    ],
+    [
+     "Bukhari 2222",
+     "son of Mary"
+    ],
+    [
+     "Quran 3:37",
+     "Zachariah"
+    ]
+   ]
+  }
+ ],
+ "hard": [
+  {
+   "statements": [
+    "Cordoba was the last Muslim kingdom in al-Andalus to fall.",
+    "Qarn al-Manazil is the miqat for the people of Najd.",
+    "A fifth of the spoils is set aside in Surah Al-Anfal."
+   ],
+   "wrong": 0,
+   "explain": "Granada fell last, in 897 AH. The other two statements are correct.",
+   "sources": [
+    [
+     "Ibn al-Imad, Shadharat al-Dhahab",
+     null
+    ],
+    [
+     "Bukhari 1524",
+     "Qarn"
+    ],
+    [
+     "Quran 8:41",
+     "fifth"
+    ]
+   ]
+  },
+  {
+   "statements": [
+    "The name Muhammad appears four times in the Qur'an.",
+    "The Battle of Yamamah was fought against the Byzantines.",
+    "Ahmad ibn Hanbal studied under al-Shafi'i."
+   ],
+   "wrong": 1,
+   "explain": "Yamamah was fought against the false prophet Musaylimah. The other two statements are correct.",
+   "sources": [
+    [
+     "Quran 3:144",
+     "Muhammad"
+    ],
+    [
+     "Quran 33:40",
+     "Muhammad"
+    ],
+    [
+     "Quran 47:2",
+     "Muhammad"
+    ],
+    [
+     "Quran 48:29",
+     "Muhammad"
+    ],
+    [
+     "Al-Bidaya wan-Nihaya",
+     null
+    ],
+    [
+     "Siyar A'lam an-Nubala",
+     null
+    ]
+   ]
+  },
+  {
+   "statements": [
+    "Yahya spoke as a baby in the cradle to defend his mother.",
+    "The Prophet ﷺ was shrouded in three white cloths.",
+    "Ibn Kathir was a student of Ibn Taymiyyah."
+   ],
+   "wrong": 0,
+   "explain": "Isa spoke from the cradle to defend Maryam. The other two statements are correct.",
+   "sources": [
+    [
+     "Quran 19:29",
+     "cradle"
+    ],
+    [
+     "Bukhari 1264",
+     "white"
+    ],
+    [
+     "Ibn Hajar, Al-Durar al-Kaminah",
+     null
+    ]
+   ]
+  },
+  {
+   "statements": [
+    "The Throne shook at the death of Sa'd ibn Mu'adh.",
+    "Abu Bakr's caliphate lasted about twenty years.",
+    "The sheets of the Qur'an were kept with Hafsah before Uthman's copies."
+   ],
+   "wrong": 1,
+   "explain": "He ruled from 11 to 13 AH. The other two statements are correct.",
+   "sources": [
+    [
+     "Bukhari 3803",
+     "Throne"
+    ],
+    [
+     "Al-Bidaya wan-Nihaya",
+     null
+    ],
+    [
+     "Bukhari 4987",
+     "Hafsa"
+    ]
+   ]
+  },
+  {
+   "statements": [
+    "Ahmad ibn Hanbal was persecuted in the Mihnah over the createdness of the Qur'an.",
+    "A hadith qudsi is part of the Qur'an.",
+    "Surah Al-Hashr was revealed about Banu al-Nadir."
+   ],
+   "wrong": 1,
+   "explain": "A hadith qudsi conveys Allah's words in the Prophet's narration, but it is not Qur'an. The other two statements are correct.",
+   "sources": [
+    [
+     "Siyar A'lam an-Nubala",
+     null
+    ],
+    [
+     "Bukhari 6502",
+     "Allah said"
+    ],
+    [
+     "Bukhari 4882",
+     "Nadir"
+    ]
+   ]
+  },
+  {
+   "statements": [
+    "The flood of 'Arim destroyed the people of Lut.",
+    "Ammar ibn Yasir was killed at Siffin.",
+    "Twenty-five prophets are named in the Qur'an."
+   ],
+   "wrong": 0,
+   "explain": "Allah sent upon Saba' the flood of al-'Arim. The other two statements are correct.",
+   "sources": [
+    [
+     "Quran 34:16",
+     "flood"
+    ],
+    [
+     "Al-Bidaya wan-Nihaya",
+     null
+    ],
+    [
+     "Bukhari 447",
+     "Ammar"
+    ],
+    [
+     "Ibn Kathir, Qisas al-Anbiya",
+     null
+    ]
+   ]
+  },
+  {
+   "statements": [
+    "The Mongols sacked Baghdad in 656 AH.",
+    "The Prophet ﷺ met Ibrahim in the seventh heaven on the Mi'raj.",
+    "Fatimah is called the one with two waistbands."
+   ],
+   "wrong": 2,
+   "explain": "Asma tore her waistband in two for the Hijrah provisions. The other two statements are correct.",
+   "sources": [
+    [
+     "Al-Bidaya wan-Nihaya",
+     null
+    ],
+    [
+     "Bukhari 3207",
+     "Abraham"
+    ],
+    [
+     "Bukhari 2979",
+     "waist belt"
+    ]
+   ]
+  },
+  {
+   "statements": [
+    "Imam al-Bukhari died in 156 AH.",
+    "The incident of the Ifk happened on the return from Banu al-Mustaliq.",
+    "The Hijri calendar was adopted under Umar."
+   ],
+   "wrong": 0,
+   "explain": "Al-Bukhari died in 256 AH. The other two statements are correct.",
+   "sources": [
+    [
+     "Siyar A'lam an-Nubala",
+     null
+    ],
+    [
+     "Bukhari 4750",
+     "necklace"
+    ],
+    [
+     "Al-Bidaya wan-Nihaya",
+     null
+    ],
+    [
+     "Bukhari 3934",
+     "Medina"
+    ]
+   ]
+  },
+  {
+   "statements": [
+    "The Umayyad capital was Baghdad.",
+    "The People of the Ditch are mentioned in Surah Al-Buruj.",
+    "Al-Buraq was the mount of the Night Journey."
+   ],
+   "wrong": 0,
+   "explain": "The Umayyads ruled from Damascus. Baghdad was the Abbasid capital. The other two statements are correct.",
+   "sources": [
+    [
+     "Al-Bidaya wan-Nihaya",
+     null
+    ],
+    [
+     "Quran 85:4",
+     "ditch"
+    ],
+    [
+     "Bukhari 3207",
+     "Buraq"
+    ]
+   ]
+  },
+  {
+   "statements": [
+    "Abdullah ibn Ubayy withdrew about a third of the army before Uhud.",
+    "The Prophet ﷺ made qunut against the killers of the reciters for a month.",
+    "The People of the Sabbath were turned into stone."
+   ],
+   "wrong": 2,
+   "explain": "Allah said to them, \"Be apes, despised.\" The other two statements are correct.",
+   "sources": [
+    [
+     "Ar-Raheeq Al-Makhtum",
+     null
+    ],
+    [
+     "Bukhari 3039",
+     "Jubair"
+    ],
+    [
+     "Bukhari 4090",
+     "month"
+    ],
+    [
+     "Quran 2:65",
+     "apes"
+    ]
+   ]
+  },
+  {
+   "statements": [
+    "Musa is called Kalimullah because Allah spoke to him directly.",
+    "Seventy reciters were killed at Bi'r Ma'unah.",
+    "Ahmad ibn Hanbal compiled al-Muwatta'."
+   ],
+   "wrong": 2,
+   "explain": "Malik compiled al-Muwatta'. Ahmad compiled the Musnad. The other two statements are correct.",
+   "sources": [
+    [
+     "Quran 4:164",
+     "Moses"
+    ],
+    [
+     "Bukhari 4090",
+     "seventy"
+    ],
+    [
+     "Siyar A'lam an-Nubala",
+     null
+    ]
+   ]
+  },
+  {
+   "statements": [
+    "Ibn Hisham edited the Sirah of Ibn Ishaq.",
+    "Ibn Hajar compiled Riyad as-Salihin.",
+    "The plague of Amwas struck al-Sham in Umar's time."
+   ],
+   "wrong": 1,
+   "explain": "Riyad as-Salihin is al-Nawawi's. Ibn Hajar wrote Bulugh al-Maram. The other two statements are correct.",
+   "sources": [
+    [
+     "Siyar A'lam an-Nubala",
+     null
+    ],
+    [
+     "Al-Bidaya wan-Nihaya",
+     null
+    ],
+    [
+     "Bukhari 5729",
+     "plague"
+    ]
+   ]
+  },
+  {
+   "statements": [
+    "Ka'b ibn Malik was one of the three who stayed behind from Tabuk.",
+    "The miqat for the people of al-Sham is al-Juhfah.",
+    "Baghdad was founded by Umar ibn al-Khattab."
+   ],
+   "wrong": 2,
+   "explain": "Al-Mansur founded Baghdad in 145 AH. The other two statements are correct.",
+   "sources": [
+    [
+     "Bukhari 4418",
+     "Ka`b"
+    ],
+    [
+     "Bukhari 1524",
+     "Juhfa"
+    ],
+    [
+     "Al-Bidaya wan-Nihaya",
+     null
+    ]
+   ]
+  },
+  {
+   "statements": [
+    "In li'an each spouse swears four times and then a fifth oath.",
+    "A bequest may cover the whole estate even with heirs.",
+    "Sa'd ibn Abi Waqqas commanded the Muslims at Qadisiyyah."
+   ],
+   "wrong": 1,
+   "explain": "The Prophet ﷺ told Sa'd, \"A third, and a third is much.\" The other two statements are correct.",
+   "sources": [
+    [
+     "Quran 24:6",
+     "four testimonies"
+    ],
+    [
+     "Quran 24:7",
+     "fifth"
+    ],
+    [
+     "Bukhari 2742",
+     "third"
+    ],
+    [
+     "Al-Bidaya wan-Nihaya",
+     null
+    ]
+   ]
+  },
+  {
+   "statements": [
+    "Surah Al-Mujadilah mentions the name of Allah in every verse.",
+    "The Qur'an was gathered under Abu Bakr after many reciters died at Yamamah.",
+    "Hafs narrated the recitation of Nafi'."
+   ],
+   "wrong": 2,
+   "explain": "Hafs is 'Asim's narrator. Warsh and Qalun narrate from Nafi'. The other two statements are correct.",
+   "sources": [
+    [
+     "Quran.com data",
+     null
+    ],
+    [
+     "Bukhari 4986",
+     "Yamama"
+    ],
+    [
+     "Ibn al-Jazari, Al-Nashr fil-Qira'at al-'Ashr",
+     null
+    ]
+   ]
+  },
+  {
+   "statements": [
+    "Umar set Dhat 'Irq as the miqat for Iraq.",
+    "Imam Muslim was a student of al-Bukhari.",
+    "The six books of hadith include Musnad Ahmad."
+   ],
+   "wrong": 2,
+   "explain": "The six are al-Bukhari, Muslim, Abu Dawud, al-Tirmidhi, al-Nasa'i and Ibn Majah. The Musnad is not among them. The other two statements are correct.",
+   "sources": [
+    [
+     "Bukhari 1531",
+     "Dhat"
+    ],
+    [
+     "Siyar A'lam an-Nubala",
+     null
+    ],
+    [
+     "Ibn al-Salah, Muqaddimah",
+     null
+    ]
+   ]
+  },
+  {
+   "statements": [
+    "The man who died for a hundred years found his food unspoiled.",
+    "The Battle of the Camel was fought near Makkah.",
+    "The Qur'an calls Ibrahim \"Khalil\", the intimate friend of Allah."
+   ],
+   "wrong": 1,
+   "explain": "The Camel (36 AH) was fought near Basra. The other two statements are correct.",
+   "sources": [
+    [
+     "Quran 2:259",
+     "hundred years"
+    ],
+    [
+     "Al-Bidaya wan-Nihaya",
+     null
+    ],
+    [
+     "Quran 4:125",
+     "friend"
+    ]
+   ]
+  },
+  {
+   "statements": [
+    "Salah al-Din retook Jerusalem after the Battle of Hattin.",
+    "A widow's waiting period is three days.",
+    "Abu Musa al-Ash'ari came from Yemen."
+   ],
+   "wrong": 1,
+   "explain": "Al-Baqarah 234 sets four months and ten days. The other two statements are correct.",
+   "sources": [
+    [
+     "Al-Bidaya wan-Nihaya",
+     null
+    ],
+    [
+     "Quran 2:234",
+     "four months"
+    ],
+    [
+     "Siyar A'lam an-Nubala",
+     null
+    ]
+   ]
+  },
+  {
+   "statements": [
+    "Banu Qaynuqa' were the first Jewish tribe expelled from Madinah.",
+    "Kalalah is someone who leaves neither parent nor child.",
+    "The Prophet ﷺ forbade shaving the head in Hajj."
+   ],
+   "wrong": 2,
+   "explain": "He prayed for those who shave, then included those who trim. The other two statements are correct.",
+   "sources": [
+    [
+     "Ar-Raheeq Al-Makhtum",
+     null
+    ],
+    [
+     "Quran 4:176",
+     "pronouncement"
+    ],
+    [
+     "Bukhari 1727",
+     "shave"
+    ]
+   ]
+  },
+  {
+   "statements": [
+    "Abu Dharr's name was Jundub ibn Junadah.",
+    "A mawquf report is raised to the Prophet ﷺ.",
+    "The Prophet ﷺ performed four umrahs."
+   ],
+   "wrong": 1,
+   "explain": "Mawquf stops at a companion. A report raised to the Prophet ﷺ is marfu'. The other two statements are correct.",
+   "sources": [
+    [
+     "Siyar A'lam an-Nubala",
+     null
+    ],
+    [
+     "Ibn al-Salah, Muqaddimah",
+     null
+    ],
+    [
+     "Bukhari 1778",
+     "Four"
+    ]
+   ]
+  },
+  {
+   "statements": [
+    "Al-Samiri made the golden calf.",
+    "Abdullah ibn Salam was a Jewish scholar of Madinah before Islam.",
+    "Malik studied under al-Shafi'i."
+   ],
+   "wrong": 2,
+   "explain": "Al-Shafi'i, the younger, studied the Muwatta' under Malik in Madinah. The other two statements are correct.",
+   "sources": [
+    [
+     "Quran 20:85",
+     "Samiri"
+    ],
+    [
+     "Quran 20:90",
+     "Aaron"
+    ],
+    [
+     "Bukhari 3329",
+     "Salam"
+    ],
+    [
+     "Siyar A'lam an-Nubala",
+     null
+    ]
+   ]
+  },
+  {
+   "statements": [
+    "The Prophet's she-camel al-Qaswa' knelt at Badr and refused to fight.",
+    "Umar ibn Abd al-Aziz ruled for about two and a half years.",
+    "Ahmad, as a name of the Prophet ﷺ, appears in Surah As-Saff."
+   ],
+   "wrong": 0,
+   "explain": "Al-Qaswa' knelt at Hudaybiyyah. The other two statements are correct.",
+   "sources": [
+    [
+     "Bukhari 2731",
+     "Al-Qaswa"
+    ],
+    [
+     "Al-Bidaya wan-Nihaya",
+     null
+    ],
+    [
+     "Quran 61:6",
+     "Praised One"
+    ]
+   ]
+  },
+  {
+   "statements": [
+    "Salman al-Farisi came from Persia.",
+    "Hafsah was the daughter of Abu Bakr.",
+    "Al-Tabari wrote both a tafsir and a history."
+   ],
+   "wrong": 1,
+   "explain": "Hafsah was Umar's daughter. Aishah was Abu Bakr's. The other two statements are correct.",
+   "sources": [
+    [
+     "Bukhari 4897",
+     "Salman"
+    ],
+    [
+     "Bukhari 4005",
+     "Hafsa"
+    ],
+    [
+     "Siyar A'lam an-Nubala",
+     null
+    ]
+   ]
+  },
+  {
+   "statements": [
+    "Umar's caliphate lasted about one year.",
+    "Ayat al-Dayn is the longest verse in the Qur'an.",
+    "A mursal hadith omits the companion from the chain."
+   ],
+   "wrong": 0,
+   "explain": "Umar ruled from 13 to 23 AH. The other two statements are correct.",
+   "sources": [
+    [
+     "Al-Bidaya wan-Nihaya",
+     null
+    ],
+    [
+     "Quran 2:282",
+     "debt"
+    ],
+    [
+     "Ibn al-Salah, Muqaddimah",
+     null
+    ]
+   ]
+  },
+  {
+   "statements": [
+    "Seven angels enter al-Bayt al-Ma'mur every year.",
+    "Talut tested his army by forbidding them to drink from a river.",
+    "The Qur'an gives the husband four months in the case of ila'."
+   ],
+   "wrong": 0,
+   "explain": "The Prophet ﷺ was told seventy thousand angels pray in it daily. The other two statements are correct.",
+   "sources": [
+    [
+     "Bukhari 3207",
+     "70,000"
+    ],
+    [
+     "Quran 2:249",
+     "river"
+    ],
+    [
+     "Quran 2:226",
+     "four months"
+    ]
+   ]
+  },
+  {
+   "statements": [
+    "The prayers were first prescribed as three and increased to five.",
+    "Musa is the prophet named most often in the Qur'an.",
+    "The expiation for zihar includes fasting two consecutive months."
+   ],
+   "wrong": 0,
+   "explain": "On Musa's advice the Prophet ﷺ asked for a reduction until they became five. The other two statements are correct.",
+   "sources": [
+    [
+     "Bukhari 349",
+     "fifty"
+    ],
+    [
+     "Quran.com data",
+     null
+    ],
+    [
+     "Quran 58:4",
+     "two successive months"
+    ]
+   ]
+  },
+  {
+   "statements": [
+    "Thumamah ibn Uthal was tied to a pillar of the mosque before accepting Islam.",
+    "Zayd is named in Surah Al-Ahzab.",
+    "Days of Tashriq are the first three days of Shawwal."
+   ],
+   "wrong": 2,
+   "explain": "They are the three days after the Day of Sacrifice. The other two statements are correct.",
+   "sources": [
+    [
+     "Bukhari 4372",
+     "Thumama"
+    ],
+    [
+     "Quran 33:37",
+     "Zeyd"
+    ],
+    [
+     "Muslim 1141",
+     "Tashriq"
+    ]
+   ]
+  },
+  {
+   "statements": [
+    "Surah Al-Kahf contains a basmalah in the middle of the surah.",
+    "The white days are the 13th, 14th and 15th of the lunar month.",
+    "Ibn Hajar wrote Fath al-Bari on Sahih al-Bukhari."
+   ],
+   "wrong": 0,
+   "explain": "Sulayman's letter in Surah An-Naml begins with the basmalah. The other two statements are correct.",
+   "sources": [
+    [
+     "Quran 27:30",
+     "Beneficent"
+    ],
+    [
+     "Tirmidhi 761",
+     "thirteenth"
+    ],
+    [
+     "Ibn al-Imad, Shadharat al-Dhahab",
+     null
+    ]
+   ]
+  },
+  {
+   "statements": [
+    "Aishah gave her day to Sawdah.",
+    "The believer of Fir'awn's family hid his faith.",
+    "Abu Hanifah died in 150 AH."
+   ],
+   "wrong": 0,
+   "explain": "Sawdah gave her turn to Aishah. The other two statements are correct.",
+   "sources": [
+    [
+     "Bukhari 5212",
+     "Sauda"
+    ],
+    [
+     "Quran 40:28",
+     "hid his faith"
+    ],
+    [
+     "Siyar A'lam an-Nubala",
+     null
+    ]
+   ]
+  },
+  {
+   "statements": [
+    "Dhul-Qarnayn stayed in one city all his life.",
+    "Hudhayfah urged Uthman to unify the copies of the Qur'an.",
+    "Sa'd ibn Mu'adh judged the case of Banu Qurayzah."
+   ],
+   "wrong": 0,
+   "explain": "Al-Kahf describes his journeys west and east. The other two statements are correct.",
+   "sources": [
+    [
+     "Quran 18:86",
+     "setting-place"
+    ],
+    [
+     "Bukhari 4987",
+     "Hudhaifa"
+    ],
+    [
+     "Bukhari 3043",
+     "Sa`d"
+    ]
+   ]
+  },
+  {
+   "statements": [
+    "Idris is named twenty times in the Qur'an.",
+    "The Battle of Ain Jalut was fought against the Mongols.",
+    "The siege of Ta'if came after the Battle of Hunayn."
+   ],
+   "wrong": 0,
+   "explain": "Idris is named in Maryam and Al-Anbiya. The other two statements are correct.",
+   "sources": [
+    [
+     "Quran 19:56",
+     "Idris"
+    ],
+    [
+     "Quran 21:85",
+     "Idris"
+    ],
+    [
+     "Al-Bidaya wan-Nihaya",
+     null
+    ],
+    [
+     "Bukhari 4325",
+     "Taif"
+    ],
+    [
+     "Ar-Raheeq Al-Makhtum",
+     null
+    ]
+   ]
+  },
+  {
+   "statements": [
+    "The Dome of the Rock was built under Harun al-Rashid.",
+    "Umar was stabbed while leading the prayer in the mosque.",
+    "Umar appointed six men to choose the next caliph."
+   ],
+   "wrong": 0,
+   "explain": "Abd al-Malik built it, completed in 72 AH. The other two statements are correct.",
+   "sources": [
+    [
+     "Al-Bidaya wan-Nihaya",
+     null
+    ],
+    [
+     "Bukhari 3700",
+     "stabbed"
+    ],
+    [
+     "Bukhari 3700",
+     "six"
+    ]
+   ]
+  },
+  {
+   "statements": [
+    "Al-Khidr demanded payment for rebuilding a wall.",
+    "Zaynab bint Jahsh was previously married to Zayd ibn Harithah.",
+    "Safiyyah's dowry was her freedom."
+   ],
+   "wrong": 0,
+   "explain": "Musa suggested payment, but al-Khidr repaired it freely for two orphans. The other two statements are correct.",
+   "sources": [
+    [
+     "Quran 18:77",
+     "wall"
+    ],
+    [
+     "Quran 33:37",
+     "Zeyd"
+    ],
+    [
+     "Bukhari 371",
+     "Safiya"
+    ]
+   ]
+  },
+  {
+   "statements": [
+    "The Prophet's ring was engraved \"Muhammad Messenger of Allah\".",
+    "Juwayriyah was the daughter of the chief of Quraysh.",
+    "Expiation for a broken oath can be feeding ten poor people."
+   ],
+   "wrong": 1,
+   "explain": "She was the daughter of the chief of Banu al-Mustaliq. The other two statements are correct.",
+   "sources": [
+    [
+     "Bukhari 5872",
+     "ring"
+    ],
+    [
+     "Muslim 2726",
+     "Juwairiya"
+    ],
+    [
+     "Quran 5:89",
+     "ten"
+    ]
+   ]
+  },
+  {
+   "statements": [
+    "Abu Ayyub al-Ansari is buried near Constantinople.",
+    "Umar entered al-Sham during the plague to lead the prayer there.",
+    "Al-Shafi'i died in Egypt."
+   ],
+   "wrong": 1,
+   "explain": "On hearing the Prophet's instruction he returned. The other two statements are correct.",
+   "sources": [
+    [
+     "Siyar A'lam an-Nubala",
+     null
+    ],
+    [
+     "Bukhari 5729",
+     "plague"
+    ]
+   ]
+  },
+  {
+   "statements": [
+    "Uthman was martyred at Siffin.",
+    "Al-Tirmidhi often graded hadith as hasan in his Jami'.",
+    "Zaynab bint Jahsh was previously married to Zayd ibn Harithah."
+   ],
+   "wrong": 0,
+   "explain": "Uthman was killed by rebels in his house in 35 AH. The other two statements are correct.",
+   "sources": [
+    [
+     "Al-Bidaya wan-Nihaya",
+     null
+    ],
+    [
+     "Ibn al-Salah, Muqaddimah",
+     null
+    ],
+    [
+     "Quran 33:37",
+     "Zeyd"
+    ]
+   ]
+  },
+  {
+   "statements": [
+    "The miqat for the people of al-Sham is al-Juhfah.",
+    "Sa'd ibn Mu'adh judged the case of Banu Qurayzah.",
+    "Seven hundred reciters were killed at Bi'r Ma'unah."
+   ],
+   "wrong": 2,
+   "explain": "The Prophet ﷺ sent seventy reciters, who were betrayed and killed. The other two statements are correct.",
+   "sources": [
+    [
+     "Bukhari 1524",
+     "Juhfa"
+    ],
+    [
+     "Bukhari 3043",
+     "Sa`d"
+    ],
+    [
+     "Bukhari 4090",
+     "seventy"
+    ]
+   ]
+  },
+  {
+   "statements": [
+    "Banu Qaynuqa' were the first Jewish tribe expelled from Madinah.",
+    "A fifth of the spoils is set aside in Surah Al-Anfal.",
+    "Surah Al-Hashr was revealed about Abu Lahab."
+   ],
+   "wrong": 2,
+   "explain": "Ibn Abbas called Al-Hashr the surah of Banu al-Nadir. The other two statements are correct.",
+   "sources": [
+    [
+     "Ar-Raheeq Al-Makhtum",
+     null
+    ],
+    [
+     "Quran 8:41",
+     "fifth"
+    ],
+    [
+     "Bukhari 4882",
+     "Nadir"
+    ]
+   ]
+  },
+  {
+   "statements": [
+    "Imam al-Bukhari was a student of Imam Muslim.",
+    "The Battle of Ain Jalut was fought against the Mongols.",
+    "Abdullah ibn Salam was a Jewish scholar of Madinah before Islam."
+   ],
+   "wrong": 0,
+   "explain": "Muslim studied under al-Bukhari, who was older. The other two statements are correct.",
+   "sources": [
+    [
+     "Siyar A'lam an-Nubala",
+     null
+    ],
+    [
+     "Al-Bidaya wan-Nihaya",
+     null
+    ],
+    [
+     "Bukhari 3329",
+     "Salam"
+    ]
+   ]
+  },
+  {
+   "statements": [
+    "The Qur'an was gathered under Abu Bakr after many reciters died at Badr.",
+    "A hadith qudsi is narrated by the Prophet ﷺ from Allah.",
+    "In li'an each spouse swears four times and then a fifth oath."
+   ],
+   "wrong": 0,
+   "explain": "Umar urged Abu Bakr after many reciters were killed at Yamamah. The other two statements are correct.",
+   "sources": [
+    [
+     "Bukhari 4986",
+     "Yamama"
+    ],
+    [
+     "Bukhari 6502",
+     "Allah said"
+    ],
+    [
+     "Quran 24:6",
+     "four testimonies"
+    ],
+    [
+     "Quran 24:7",
+     "fifth"
+    ]
+   ]
+  },
+  {
+   "statements": [
+    "Days of Tashriq are the first three days of Shawwal.",
+    "The Battle of the Camel was fought near Basra.",
+    "Idris is named twice in the Qur'an."
+   ],
+   "wrong": 0,
+   "explain": "They are the three days after the Day of Sacrifice. The other two statements are correct.",
+   "sources": [
+    [
+     "Muslim 1141",
+     "Tashriq"
+    ],
+    [
+     "Al-Bidaya wan-Nihaya",
+     null
+    ],
+    [
+     "Quran 19:56",
+     "Idris"
+    ],
+    [
+     "Quran 21:85",
+     "Idris"
+    ]
+   ]
+  },
+  {
+   "statements": [
+    "Hafs narrated the recitation of 'Asim.",
+    "Ahmad, as a name of the Prophet ﷺ, appears in Surah As-Saff.",
+    "Zayd is named in Surah Al-Baqarah."
+   ],
+   "wrong": 2,
+   "explain": "Al-Ahzab 37 names Zayd. The other two statements are correct.",
+   "sources": [
+    [
+     "Ibn al-Jazari, Al-Nashr fil-Qira'at al-'Ashr",
+     null
+    ],
+    [
+     "Quran 61:6",
+     "Praised One"
+    ],
+    [
+     "Quran 33:37",
+     "Zeyd"
+    ]
+   ]
+  },
+  {
+   "statements": [
+    "The Hijri calendar was adopted under Umar.",
+    "The Prophet ﷺ met Ibrahim in the first heaven on the Mi'raj.",
+    "The sheets of the Qur'an were kept with Hafsah before Uthman's copies."
+   ],
+   "wrong": 1,
+   "explain": "He met Adam in the first heaven and Ibrahim in the seventh. The other two statements are correct.",
+   "sources": [
+    [
+     "Al-Bidaya wan-Nihaya",
+     null
+    ],
+    [
+     "Bukhari 3934",
+     "Medina"
+    ],
+    [
+     "Bukhari 3207",
+     "Abraham"
+    ],
+    [
+     "Bukhari 4987",
+     "Hafsa"
+    ]
+   ]
+  },
+  {
+   "statements": [
+    "Al-Shafi'i died in Yemen.",
+    "Umar's caliphate lasted about ten years.",
+    "Baghdad was founded by the Abbasid caliph al-Mansur."
+   ],
+   "wrong": 0,
+   "explain": "Al-Shafi'i spent his last years in Egypt and died there in 204 AH. The other two statements are correct.",
+   "sources": [
+    [
+     "Siyar A'lam an-Nubala",
+     null
+    ],
+    [
+     "Al-Bidaya wan-Nihaya",
+     null
+    ]
+   ]
+  },
+  {
+   "statements": [
+    "Ibn Hajar wrote Fath al-Bari on Sahih Muslim.",
+    "Safiyyah's dowry was her freedom.",
+    "Malik ibn Anas compiled al-Muwatta'."
+   ],
+   "wrong": 0,
+   "explain": "Fath al-Bari explains Sahih al-Bukhari. Al-Nawawi's commentary is on Sahih Muslim. The other two statements are correct.",
+   "sources": [
+    [
+     "Ibn al-Imad, Shadharat al-Dhahab",
+     null
+    ],
+    [
+     "Bukhari 371",
+     "Safiya"
+    ],
+    [
+     "Siyar A'lam an-Nubala",
+     null
+    ]
+   ]
+  },
+  {
+   "statements": [
+    "Ahmad ibn Hanbal studied under al-Shafi'i.",
+    "The plague of Amwas struck Makkah in Abu Bakr's time.",
+    "A mursal hadith omits the companion from the chain."
+   ],
+   "wrong": 1,
+   "explain": "It struck al-Sham around 18 AH, and Abu Ubaydah died in it. The other two statements are correct.",
+   "sources": [
+    [
+     "Siyar A'lam an-Nubala",
+     null
+    ],
+    [
+     "Bukhari 5729",
+     "plague"
+    ],
+    [
+     "Al-Bidaya wan-Nihaya",
+     null
+    ],
+    [
+     "Ibn al-Salah, Muqaddimah",
+     null
+    ]
+   ]
+  },
+  {
+   "statements": [
+    "Al-Tabari wrote both a tafsir and a history.",
+    "Salman al-Farisi came from Persia.",
+    "Khalid ibn al-Walid urged Uthman to unify the copies of the Qur'an."
+   ],
+   "wrong": 2,
+   "explain": "Hudhayfah, alarmed by differences in recitation, came to Uthman. The other two statements are correct.",
+   "sources": [
+    [
+     "Siyar A'lam an-Nubala",
+     null
+    ],
+    [
+     "Bukhari 4897",
+     "Salman"
+    ],
+    [
+     "Bukhari 4987",
+     "Hudhaifa"
+    ]
+   ]
+  },
+  {
+   "statements": [
+    "Granada was the last Muslim kingdom in al-Andalus.",
+    "Umar ibn Abd al-Aziz ruled for about forty years.",
+    "Uthman was martyred in his house in Madinah."
+   ],
+   "wrong": 1,
+   "explain": "He ruled from 99 to 101 AH. The other two statements are correct.",
+   "sources": [
+    [
+     "Ibn al-Imad, Shadharat al-Dhahab",
+     null
+    ],
+    [
+     "Al-Bidaya wan-Nihaya",
+     null
+    ]
+   ]
+  },
+  {
+   "statements": [
+    "Isa is called Kalimullah because Allah spoke to him on Mount Sinai.",
+    "The Mongols sacked Baghdad in 656 AH.",
+    "Qarn al-Manazil is the miqat for the people of Najd."
+   ],
+   "wrong": 0,
+   "explain": "Allah spoke to Musa directly. The other two statements are correct.",
+   "sources": [
+    [
+     "Quran 4:164",
+     "Moses"
+    ],
+    [
+     "Al-Bidaya wan-Nihaya",
+     null
+    ],
+    [
+     "Bukhari 1524",
+     "Qarn"
+    ]
+   ]
+  },
+  {
+   "statements": [
+    "Umar appointed his son as the next caliph.",
+    "Asma bint Abi Bakr is called the one with two waistbands.",
+    "Imam al-Bukhari died in 256 AH."
+   ],
+   "wrong": 0,
+   "explain": "Umar named six of the companions as a council. The other two statements are correct.",
+   "sources": [
+    [
+     "Bukhari 3700",
+     "six"
+    ],
+    [
+     "Bukhari 2979",
+     "waist belt"
+    ],
+    [
+     "Siyar A'lam an-Nubala",
+     null
+    ]
+   ]
+  },
+  {
+   "statements": [
+    "Seventy prophets are named in the Qur'an.",
+    "Umar was stabbed while leading the prayer in the mosque.",
+    "The incident of the Ifk happened on the return from Banu al-Mustaliq."
+   ],
+   "wrong": 0,
+   "explain": "Twenty-five prophets and messengers are named. The other two statements are correct.",
+   "sources": [
+    [
+     "Ibn Kathir, Qisas al-Anbiya",
+     null
+    ],
+    [
+     "Bukhari 3700",
+     "stabbed"
+    ],
+    [
+     "Bukhari 4750",
+     "necklace"
+    ]
+   ]
+  },
+  {
+   "statements": [
+    "Surah Al-Mujadilah mentions the name of Allah in every verse.",
+    "Abu Bakr's caliphate lasted about two years.",
+    "The white days are the 1st, 2nd and 3rd of the lunar month."
+   ],
+   "wrong": 2,
+   "explain": "The Prophet ﷺ advised fasting the 13th, 14th and 15th. The other two statements are correct.",
+   "sources": [
+    [
+     "Quran.com data",
+     null
+    ],
+    [
+     "Al-Bidaya wan-Nihaya",
+     null
+    ],
+    [
+     "Tirmidhi 761",
+     "thirteenth"
+    ]
+   ]
+  },
+  {
+   "statements": [
+    "Sa'd ibn Abi Waqqas commanded the Muslims at Qadisiyyah.",
+    "Abu Musa al-Ash'ari came from Persia.",
+    "The believer of Fir'awn's family hid his faith."
+   ],
+   "wrong": 1,
+   "explain": "He was of the Ash'ari tribe of Yemen. The other two statements are correct.",
+   "sources": [
+    [
+     "Al-Bidaya wan-Nihaya",
+     null
+    ],
+    [
+     "Siyar A'lam an-Nubala",
+     null
+    ],
+    [
+     "Quran 40:28",
+     "hid his faith"
+    ]
+   ]
+  },
+  {
+   "statements": [
+    "Al-Nawawi compiled Riyad as-Salihin.",
+    "The Battle of Yamamah was fought against Musaylimah.",
+    "Ibn Taymiyyah was a student of Ibn Kathir."
+   ],
+   "wrong": 2,
+   "explain": "Ibn Kathir (d. 774 AH) studied under Ibn Taymiyyah (d. 728 AH). The other two statements are correct.",
+   "sources": [
+    [
+     "Al-Bidaya wan-Nihaya",
+     null
+    ],
+    [
+     "Ibn Hajar, Al-Durar al-Kaminah",
+     null
+    ]
+   ]
+  },
+  {
+   "statements": [
+    "Al-Tirmidhi often graded hadith as hasan in his Jami'.",
+    "Ammar ibn Yasir was killed at Badr.",
+    "The prayers were first prescribed as fifty and reduced to five."
+   ],
+   "wrong": 1,
+   "explain": "Ammar was killed at Siffin in 37 AH. The other two statements are correct.",
+   "sources": [
+    [
+     "Ibn al-Salah, Muqaddimah",
+     null
+    ],
+    [
+     "Al-Bidaya wan-Nihaya",
+     null
+    ],
+    [
+     "Bukhari 447",
+     "Ammar"
+    ],
+    [
+     "Bukhari 349",
+     "fifty"
+    ]
+   ]
+  },
+  {
+   "statements": [
+    "Expiation for a broken oath is feeding one hundred poor people.",
+    "The Prophet ﷺ prayed for those who shave their heads three times in Hajj.",
+    "Sawdah gave her day to Aishah."
+   ],
+   "wrong": 0,
+   "explain": "Al-Ma'idah 89 names feeding ten needy people. The other two statements are correct.",
+   "sources": [
+    [
+     "Quran 5:89",
+     "ten"
+    ],
+    [
+     "Bukhari 1727",
+     "shave"
+    ],
+    [
+     "Bukhari 5212",
+     "Sauda"
+    ]
+   ]
+  },
+  {
+   "statements": [
+    "Isa spoke as a baby in the cradle.",
+    "Ka'b ibn Malik led the army to Tabuk.",
+    "Juwayriyah's people were freed after her marriage to the Prophet ﷺ."
+   ],
+   "wrong": 1,
+   "explain": "Ka'b told the story of how he stayed behind and was forgiven. The other two statements are correct.",
+   "sources": [
+    [
+     "Quran 19:29",
+     "cradle"
+    ],
+    [
+     "Bukhari 4418",
+     "Ka`b"
+    ],
+    [
+     "Muslim 2726",
+     "Juwairiya"
+    ]
+   ]
+  },
+  {
+   "statements": [
+    "Al-Shafi'i studied under Malik.",
+    "Al-Qaswa' was the mount of the Night Journey.",
+    "Dhul-Qarnayn travelled to where the sun sets and where it rises."
+   ],
+   "wrong": 1,
+   "explain": "The Prophet ﷺ rode al-Buraq on the Isra. The other two statements are correct.",
+   "sources": [
+    [
+     "Siyar A'lam an-Nubala",
+     null
+    ],
+    [
+     "Bukhari 3207",
+     "Buraq"
+    ],
+    [
+     "Quran 18:86",
+     "setting-place"
+    ]
+   ]
+  },
+  {
+   "statements": [
+    "Al-Khidr rebuilt a falling wall without asking for payment.",
+    "Abdullah ibn Ubayy led the archers at Uhud.",
+    "Umar turned back from al-Sham because of the plague."
+   ],
+   "wrong": 1,
+   "explain": "He turned back with about a third of the army. The archers were led by Abdullah ibn Jubayr. The other two statements are correct.",
+   "sources": [
+    [
+     "Quran 18:77",
+     "wall"
+    ],
+    [
+     "Ar-Raheeq Al-Makhtum",
+     null
+    ],
+    [
+     "Bukhari 3039",
+     "Jubair"
+    ],
+    [
+     "Bukhari 5729",
+     "plague"
+    ]
+   ]
+  },
+  {
+   "statements": [
+    "Ahmad ibn Hanbal was persecuted in the Mihnah over the createdness of the Qur'an.",
+    "The Qur'an gives the husband four years in the case of ila'.",
+    "Umar set Dhat 'Irq as the miqat for Iraq."
+   ],
+   "wrong": 1,
+   "explain": "Al-Baqarah 226: a wait of four months. The other two statements are correct.",
+   "sources": [
+    [
+     "Siyar A'lam an-Nubala",
+     null
+    ],
+    [
+     "Quran 2:226",
+     "four months"
+    ],
+    [
+     "Bukhari 1531",
+     "Dhat"
+    ]
+   ]
+  },
+  {
+   "statements": [
+    "Ayat al-Kursi is the longest verse in the Qur'an.",
+    "Musa is the prophet named most often in the Qur'an.",
+    "The siege of Ta'if came after the Battle of Hunayn."
+   ],
+   "wrong": 0,
+   "explain": "The verse of debt, Al-Baqarah 282, is the longest. The other two statements are correct.",
+   "sources": [
+    [
+     "Quran 2:282",
+     "debt"
+    ],
+    [
+     "Quran.com data",
+     null
+    ],
+    [
+     "Bukhari 4325",
+     "Taif"
+    ],
+    [
+     "Ar-Raheeq Al-Makhtum",
+     null
+    ]
+   ]
+  },
+  {
+   "statements": [
+    "Seventy thousand angels enter al-Bayt al-Ma'mur every day.",
+    "The Prophet ﷺ made qunut against the killers of the reciters for a month.",
+    "Ibn Ishaq edited the Sirah of Ibn Hisham."
+   ],
+   "wrong": 2,
+   "explain": "Ibn Ishaq wrote the earlier biography. Ibn Hisham edited it. The other two statements are correct.",
+   "sources": [
+    [
+     "Bukhari 3207",
+     "70,000"
+    ],
+    [
+     "Bukhari 4090",
+     "month"
+    ],
+    [
+     "Siyar A'lam an-Nubala",
+     null
+    ]
+   ]
+  },
+  {
+   "statements": [
+    "A mawquf report stops at a companion.",
+    "The six books of hadith include Sunan Ibn Majah.",
+    "The Qur'an calls Nuh \"Khalil\", the intimate friend of Allah."
+   ],
+   "wrong": 2,
+   "explain": "Allah took Ibrahim as a close friend. The other two statements are correct.",
+   "sources": [
+    [
+     "Ibn al-Salah, Muqaddimah",
+     null
+    ],
+    [
+     "Quran 4:125",
+     "friend"
+    ]
+   ]
+  },
+  {
+   "statements": [
+    "The People of the Ditch are mentioned in Surah Al-Buruj.",
+    "The Prophet ﷺ performed forty umrahs.",
+    "Talut tested his army by forbidding them to drink from a river."
+   ],
+   "wrong": 1,
+   "explain": "Anas said four umrahs. The other two statements are correct.",
+   "sources": [
+    [
+     "Quran 85:4",
+     "ditch"
+    ],
+    [
+     "Bukhari 1778",
+     "Four"
+    ],
+    [
+     "Quran 2:249",
+     "river"
+    ]
+   ]
+  },
+  {
+   "statements": [
+    "The Umayyad capital was Damascus.",
+    "Abu Ayyub al-Ansari is buried in Yemen.",
+    "The People of the Sabbath were turned into apes."
+   ],
+   "wrong": 1,
+   "explain": "He died on the expedition to Constantinople and was buried near its walls. The other two statements are correct.",
+   "sources": [
+    [
+     "Al-Bidaya wan-Nihaya",
+     null
+    ],
+    [
+     "Siyar A'lam an-Nubala",
+     null
+    ],
+    [
+     "Quran 2:65",
+     "apes"
+    ]
+   ]
+  },
+  {
+   "statements": [
+    "Abu Dharr's name was Abd al-Rahman ibn Sakhr.",
+    "The Prophet's she-camel al-Qaswa' knelt at Hudaybiyyah.",
+    "Salah al-Din retook Jerusalem after the Battle of Hattin."
+   ],
+   "wrong": 0,
+   "explain": "Abu Dharr was Jundub ibn Junadah. Abd al-Rahman ibn Sakhr is a name given for Abu Hurayrah. The other two statements are correct.",
+   "sources": [
+    [
+     "Siyar A'lam an-Nubala",
+     null
+    ],
+    [
+     "Bukhari 2731",
+     "Al-Qaswa"
+    ],
+    [
+     "Al-Bidaya wan-Nihaya",
+     null
+    ]
+   ]
+  },
+  {
+   "statements": [
+    "Abu Hanifah died in 250 AH.",
+    "The Dome of the Rock was built under Abd al-Malik ibn Marwan.",
+    "The expiation for zihar includes fasting two consecutive months."
+   ],
+   "wrong": 0,
+   "explain": "Abu Hanifah died in 150 AH, the year al-Shafi'i was born. The other two statements are correct.",
+   "sources": [
+    [
+     "Siyar A'lam an-Nubala",
+     null
+    ],
+    [
+     "Al-Bidaya wan-Nihaya",
+     null
+    ],
+    [
+     "Quran 58:4",
+     "two successive months"
+    ]
+   ]
+  },
+  {
+   "statements": [
+    "The name Muhammad appears forty times in the Qur'an.",
+    "Hafsah was the daughter of Umar.",
+    "A bequest is limited to a third of the estate."
+   ],
+   "wrong": 0,
+   "explain": "It appears in Ali 'Imran, Al-Ahzab, Muhammad and Al-Fath. The other two statements are correct.",
+   "sources": [
+    [
+     "Quran 3:144",
+     "Muhammad"
+    ],
+    [
+     "Quran 33:40",
+     "Muhammad"
+    ],
+    [
+     "Quran 47:2",
+     "Muhammad"
+    ],
+    [
+     "Quran 48:29",
+     "Muhammad"
+    ],
+    [
+     "Bukhari 4005",
+     "Hafsa"
+    ],
+    [
+     "Bukhari 2742",
+     "third"
+    ]
+   ]
+  },
+  {
+   "statements": [
+    "The Throne shook at the death of Sa'd ibn Mu'adh.",
+    "Surah An-Naml contains a basmalah in the middle of the surah.",
+    "The Prophet's ring was engraved with his date of birth."
+   ],
+   "wrong": 2,
+   "explain": "He had a silver ring engraved Muhammad Rasul Allah. The other two statements are correct.",
+   "sources": [
+    [
+     "Bukhari 3803",
+     "Throne"
+    ],
+    [
+     "Quran 27:30",
+     "Beneficent"
+    ],
+    [
+     "Bukhari 5872",
+     "ring"
+    ]
+   ]
+  }
+ ]
+}
