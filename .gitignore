@@ -11,3 +11,4 @@ Thumbs.db
 
 # npm (only for the Netlify functions)
 node_modules/
+/tools/.source_cache/

@@ -5,6 +5,7 @@ the script is safe to re-run. Run:  python tools/merge_additions.py
 """
 import json
 import os
+import re
 import sys
 import collections
 
@@ -35,9 +36,19 @@ def identity(mode, item):
     return item["set"]
 
 
-def validate(mode, level, item):
-    """Return a list of problems; empty means the item is well formed."""
+def validate(mode, level, item, sourced=False):
+    """Return a list of problems; empty means the item is well formed.
+
+    Items from sourced batches (<mode>-s<N>.json) must cite their sources;
+    tools/check_sources.py verifies them against the Qur'an and sunnah.com.
+    """
     bad = []
+    if sourced:
+        srcs = item.get("sources")
+        if not isinstance(srcs, list) or not srcs:
+            bad.append("missing sources")
+        elif not all(isinstance(x, list) and len(x) == 2 and isinstance(x[0], str) for x in srcs):
+            bad.append("sources must be [reference, keyword] pairs")
     if mode == "five-clues":
         for f in ("answer", "options", "clues", "explain"):
             if f not in item:
@@ -101,15 +112,18 @@ def main():
         incoming = {lv: [] for lv in LEVELS}
         for path in paths:
             batch = load(path)
+            sourced = bool(re.search(r"-s\d+\.json$", path))
             for lv in LEVELS:
-                incoming[lv].extend(batch.get(lv, []))
+                incoming[lv].extend((item, sourced) for item in batch.get(lv, []))
 
+        # One answer or set per mode across all three levels, so someone who
+        # plays every level never meets the same puzzle twice.
+        seen = {identity(mode, it) for lv in LEVELS for it in content[mode][lv]}
         for level in LEVELS:
             existing = content[mode][level]
-            seen = {identity(mode, it) for it in existing}
 
-            for item in incoming.get(level, []):
-                errs = validate(mode, level, item)
+            for item, sourced in incoming.get(level, []):
+                errs = validate(mode, level, item, sourced)
                 if errs:
                     problems.append(f"{mode}/{level}: {identity(mode, item)!r} -> " + "; ".join(errs))
                     continue
