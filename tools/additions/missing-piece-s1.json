@@ -1,0 +1,1176 @@
+{
+ "easy": [
+  {
+   "set": "Surahs that open with “Qul” (say)",
+   "items": [
+    "Al-Jinn",
+    "Al-Kafirun",
+    "Al-Ikhlas",
+    "Al-Falaq",
+    "An-Nas"
+   ],
+   "decoys": [
+    "Nuh",
+    "Al-Muzzammil",
+    "Al-Kawthar",
+    "An-Nasr"
+   ],
+   "explain": "Surahs Al-Jinn, Al-Kafirun, Al-Ikhlas, Al-Falaq and An-Nas open with the word qul.",
+   "sources": [
+    [
+     "Quran.com data",
+     null
+    ],
+    [
+     "Quran 72:1",
+     null
+    ],
+    [
+     "Quran 109:1",
+     null
+    ],
+    [
+     "Quran 112:1",
+     null
+    ],
+    [
+     "Quran 113:1",
+     null
+    ],
+    [
+     "Quran 114:1",
+     null
+    ]
+   ]
+  },
+  {
+   "set": "Six Juz 'Amma surahs that open with an oath",
+   "items": [
+    "An-Nazi'at",
+    "Al-Buruj",
+    "At-Tariq",
+    "Ash-Shams",
+    "At-Tin",
+    "Al-'Adiyat"
+   ],
+   "decoys": [
+    "An-Naba",
+    "'Abasa",
+    "Al-Inshiqaq",
+    "Al-A'la"
+   ],
+   "explain": "Surahs An-Nazi'at, Al-Buruj, At-Tariq, Ash-Shams, At-Tin and Al-'Adiyat open with an oath (wa...).",
+   "sources": [
+    [
+     "Quran.com data",
+     null
+    ],
+    [
+     "Quran 79:1",
+     null
+    ],
+    [
+     "Quran 85:1",
+     null
+    ],
+    [
+     "Quran 86:1",
+     null
+    ],
+    [
+     "Quran 91:1",
+     null
+    ],
+    [
+     "Quran 95:1",
+     null
+    ],
+    [
+     "Quran 100:1",
+     null
+    ]
+   ]
+  },
+  {
+   "set": "Surahs named after a time of day",
+   "items": [
+    "Al-Fajr",
+    "Al-Layl",
+    "Ad-Duhaa",
+    "Al-'Asr",
+    "Al-Falaq"
+   ],
+   "decoys": [
+    "Al-Ghashiyah",
+    "Al-Balad",
+    "Ash-Shams",
+    "Ash-Sharh"
+   ],
+   "explain": "Surahs Al-Fajr, Al-Layl, Ad-Duhaa, Al-'Asr and Al-Falaq are named after a time of day (dawn, night, forenoon, the declining day, daybreak).",
+   "sources": [
+    [
+     "Quran.com data",
+     null
+    ],
+    [
+     "Quran 89:1",
+     null
+    ],
+    [
+     "Quran 92:1",
+     null
+    ],
+    [
+     "Quran 93:1",
+     null
+    ],
+    [
+     "Quran 103:1",
+     null
+    ],
+    [
+     "Quran 113:1",
+     null
+    ]
+   ]
+  },
+  {
+   "set": "Surahs named after something in the sky",
+   "items": [
+    "An-Najm",
+    "Al-Qamar",
+    "Al-Buruj",
+    "At-Tariq",
+    "Ash-Shams"
+   ],
+   "decoys": [
+    "At-Tur",
+    "Ar-Rahman",
+    "Al-Inshiqaq",
+    "Al-A'la"
+   ],
+   "explain": "Surahs An-Najm, Al-Qamar, Al-Buruj, At-Tariq and Ash-Shams are named after the star, the moon, the constellations, the night star and the sun.",
+   "sources": [
+    [
+     "Quran.com data",
+     null
+    ],
+    [
+     "Quran 53:1",
+     null
+    ],
+    [
+     "Quran 54:1",
+     null
+    ],
+    [
+     "Quran 85:1",
+     null
+    ],
+    [
+     "Quran 86:1",
+     null
+    ],
+    [
+     "Quran 91:1",
+     null
+    ]
+   ]
+  },
+  {
+   "set": "Surahs 81 to 84, in order",
+   "items": [
+    "At-Takwir",
+    "Al-Infitar",
+    "Al-Mutaffifin",
+    "Al-Inshiqaq"
+   ],
+   "decoys": [
+    "An-Nazi'at",
+    "'Abasa",
+    "Al-Buruj",
+    "At-Tariq"
+   ],
+   "explain": "In the mushaf, surahs 81 to 84 are At-Takwir, Al-Infitar, Al-Mutaffifin, Al-Inshiqaq.",
+   "sources": [
+    [
+     "Quran.com data",
+     null
+    ]
+   ]
+  },
+  {
+   "set": "Surahs 88 to 91, in order",
+   "items": [
+    "Al-Ghashiyah",
+    "Al-Fajr",
+    "Al-Balad",
+    "Ash-Shams"
+   ],
+   "decoys": [
+    "At-Tariq",
+    "Al-A'la",
+    "Al-Layl",
+    "Ad-Duhaa"
+   ],
+   "explain": "In the mushaf, surahs 88 to 91 are Al-Ghashiyah, Al-Fajr, Al-Balad, Ash-Shams.",
+   "sources": [
+    [
+     "Quran.com data",
+     null
+    ]
+   ]
+  },
+  {
+   "set": "Surahs 93 to 96, in order",
+   "items": [
+    "Ad-Duhaa",
+    "Ash-Sharh",
+    "At-Tin",
+    "Al-'Alaq"
+   ],
+   "decoys": [
+    "Ash-Shams",
+    "Al-Layl",
+    "Al-Qadr",
+    "Al-Bayyinah"
+   ],
+   "explain": "In the mushaf, surahs 93 to 96 are Ad-Duhaa, Ash-Sharh, At-Tin, Al-'Alaq.",
+   "sources": [
+    [
+     "Quran.com data",
+     null
+    ]
+   ]
+  },
+  {
+   "set": "Surahs 99 to 102, in order",
+   "items": [
+    "Az-Zalzalah",
+    "Al-'Adiyat",
+    "Al-Qari'ah",
+    "At-Takathur"
+   ],
+   "decoys": [
+    "Al-Qadr",
+    "Al-Bayyinah",
+    "Al-'Asr",
+    "Al-Humazah"
+   ],
+   "explain": "In the mushaf, surahs 99 to 102 are Az-Zalzalah, Al-'Adiyat, Al-Qari'ah, At-Takathur.",
+   "sources": [
+    [
+     "Quran.com data",
+     null
+    ]
+   ]
+  },
+  {
+   "set": "Surahs 103 to 106, in order",
+   "items": [
+    "Al-'Asr",
+    "Al-Humazah",
+    "Al-Fil",
+    "Quraysh"
+   ],
+   "decoys": [
+    "Al-Qari'ah",
+    "At-Takathur",
+    "Al-Ma'un",
+    "Al-Kawthar"
+   ],
+   "explain": "In the mushaf, surahs 103 to 106 are Al-'Asr, Al-Humazah, Al-Fil, Quraysh.",
+   "sources": [
+    [
+     "Quran.com data",
+     null
+    ]
+   ]
+  },
+  {
+   "set": "Surahs 107 to 110, in order",
+   "items": [
+    "Al-Ma'un",
+    "Al-Kawthar",
+    "Al-Kafirun",
+    "An-Nasr"
+   ],
+   "decoys": [
+    "Al-Fil",
+    "Quraysh",
+    "Al-Masad",
+    "Al-Ikhlas"
+   ],
+   "explain": "In the mushaf, surahs 107 to 110 are Al-Ma'un, Al-Kawthar, Al-Kafirun, An-Nasr.",
+   "sources": [
+    [
+     "Quran.com data",
+     null
+    ]
+   ]
+  }
+ ],
+ "medium": [
+  {
+   "set": "Surahs that open with “Idha” (when)",
+   "items": [
+    "Al-Waqi'ah",
+    "Al-Munafiqun",
+    "At-Takwir",
+    "Al-Infitar",
+    "Al-Inshiqaq",
+    "Az-Zalzalah",
+    "An-Nasr"
+   ],
+   "decoys": [
+    "Ar-Rahman",
+    "Al-Hadid",
+    "Al-Jumu'ah",
+    "At-Taghabun"
+   ],
+   "explain": "Surahs Al-Waqi'ah, Al-Munafiqun, At-Takwir, Al-Infitar, Al-Inshiqaq, Az-Zalzalah and An-Nasr open with the word idha.",
+   "sources": [
+    [
+     "Quran.com data",
+     null
+    ],
+    [
+     "Quran 56:1",
+     null
+    ],
+    [
+     "Quran 63:1",
+     null
+    ],
+    [
+     "Quran 81:1",
+     null
+    ],
+    [
+     "Quran 82:1",
+     null
+    ],
+    [
+     "Quran 84:1",
+     null
+    ],
+    [
+     "Quran 99:1",
+     null
+    ],
+    [
+     "Quran 110:1",
+     null
+    ]
+   ]
+  },
+  {
+   "set": "Surahs that open with “Inna” (indeed We)",
+   "items": [
+    "Al-Fath",
+    "Nuh",
+    "Al-Qadr",
+    "Al-Kawthar"
+   ],
+   "decoys": [
+    "Muhammad",
+    "Al-Hujurat",
+    "Al-Ma'arij",
+    "Al-Jinn"
+   ],
+   "explain": "Surahs Al-Fath, Nuh, Al-Qadr and Al-Kawthar open with inna.",
+   "sources": [
+    [
+     "Quran.com data",
+     null
+    ],
+    [
+     "Quran 48:1",
+     null
+    ],
+    [
+     "Quran 71:1",
+     null
+    ],
+    [
+     "Quran 97:1",
+     null
+    ],
+    [
+     "Quran 108:1",
+     null
+    ]
+   ]
+  },
+  {
+   "set": "Surahs that open with “O you who believe”",
+   "items": [
+    "Al-Ma'idah",
+    "Al-Hujurat",
+    "Al-Mumtahanah"
+   ],
+   "decoys": [
+    "An-Nisa",
+    "Al-An'am",
+    "Al-Fath",
+    "Qaf"
+   ],
+   "explain": "Surahs Al-Ma'idah, Al-Hujurat and Al-Mumtahanah open with ya ayyuha alladhina amanu.",
+   "sources": [
+    [
+     "Quran.com data",
+     null
+    ],
+    [
+     "Quran 5:1",
+     null
+    ],
+    [
+     "Quran 49:1",
+     null
+    ],
+    [
+     "Quran 60:1",
+     null
+    ]
+   ]
+  },
+  {
+   "set": "Surahs that open with “O Prophet”",
+   "items": [
+    "Al-Ahzab",
+    "At-Talaq",
+    "At-Tahrim"
+   ],
+   "decoys": [
+    "As-Sajdah",
+    "Saba",
+    "At-Taghabun",
+    "Al-Mulk"
+   ],
+   "explain": "Surahs Al-Ahzab, At-Talaq and At-Tahrim open with ya ayyuha an-nabi.",
+   "sources": [
+    [
+     "Quran.com data",
+     null
+    ],
+    [
+     "Quran 33:1",
+     null
+    ],
+    [
+     "Quran 65:1",
+     null
+    ],
+    [
+     "Quran 66:1",
+     null
+    ]
+   ]
+  },
+  {
+   "set": "Surahs that open with a single letter",
+   "items": [
+    "Sad",
+    "Qaf",
+    "Al-Qalam"
+   ],
+   "decoys": [
+    "As-Saffat",
+    "Az-Zumar",
+    "Al-Hujurat",
+    "Adh-Dhariyat"
+   ],
+   "explain": "Surahs Sad, Qaf and Al-Qalam open with one disconnected letter (Sad, Qaf, Nun).",
+   "sources": [
+    [
+     "Quran.com data",
+     null
+    ],
+    [
+     "Quran 38:1",
+     null
+    ],
+    [
+     "Quran 50:1",
+     null
+    ],
+    [
+     "Quran 68:1",
+     null
+    ]
+   ]
+  },
+  {
+   "set": "Surahs that open with Alif Lam Ra",
+   "items": [
+    "Yunus",
+    "Hud",
+    "Yusuf",
+    "Ibrahim",
+    "Al-Hijr"
+   ],
+   "decoys": [
+    "At-Tawbah",
+    "Ar-Ra'd",
+    "An-Nahl",
+    "Al-Anfal"
+   ],
+   "explain": "Surahs Yunus, Hud, Yusuf, Ibrahim and Al-Hijr open with the letters Alif Lam Ra.",
+   "sources": [
+    [
+     "Quran.com data",
+     null
+    ],
+    [
+     "Quran 10:1",
+     null
+    ],
+    [
+     "Quran 11:1",
+     null
+    ],
+    [
+     "Quran 12:1",
+     null
+    ],
+    [
+     "Quran 14:1",
+     null
+    ],
+    [
+     "Quran 15:1",
+     null
+    ]
+   ]
+  },
+  {
+   "set": "Surahs that open with Ta Sin",
+   "items": [
+    "Ash-Shu'ara",
+    "An-Naml",
+    "Al-Qasas"
+   ],
+   "decoys": [
+    "Al-Furqan",
+    "Al-'Ankabut",
+    "An-Nur",
+    "Ar-Rum"
+   ],
+   "explain": "Surahs Ash-Shu'ara, An-Naml and Al-Qasas open with Ta Sin (two of them Ta Sin Mim).",
+   "sources": [
+    [
+     "Quran.com data",
+     null
+    ],
+    [
+     "Quran 26:1",
+     null
+    ],
+    [
+     "Quran 27:1",
+     null
+    ],
+    [
+     "Quran 28:1",
+     null
+    ]
+   ]
+  },
+  {
+   "set": "Surahs outside Juz 'Amma that open with an oath",
+   "items": [
+    "As-Saffat",
+    "Adh-Dhariyat",
+    "At-Tur",
+    "An-Najm",
+    "Al-Mursalat"
+   ],
+   "decoys": [
+    "Ya-Sin",
+    "Sad",
+    "Qaf",
+    "Al-Qamar"
+   ],
+   "explain": "Surahs As-Saffat, Adh-Dhariyat, At-Tur, An-Najm and Al-Mursalat open with an oath (wa...).",
+   "sources": [
+    [
+     "Quran.com data",
+     null
+    ],
+    [
+     "Quran 37:1",
+     null
+    ],
+    [
+     "Quran 51:1",
+     null
+    ],
+    [
+     "Quran 52:1",
+     null
+    ],
+    [
+     "Quran 53:1",
+     null
+    ],
+    [
+     "Quran 77:1",
+     null
+    ]
+   ]
+  },
+  {
+   "set": "Surahs named after a name of the Last Day",
+   "items": [
+    "Al-Waqi'ah",
+    "Al-Haqqah",
+    "Al-Qiyamah",
+    "Al-Ghashiyah",
+    "Al-Qari'ah"
+   ],
+   "decoys": [
+    "Ar-Rahman",
+    "Al-Hadid",
+    "Al-Qalam",
+    "Al-Ma'arij"
+   ],
+   "explain": "Surahs Al-Waqi'ah, Al-Haqqah, Al-Qiyamah, Al-Ghashiyah and Al-Qari'ah are named after names of the Last Day (al-Waqi'ah, al-Haqqah, al-Qiyamah, al-Ghashiyah, al-Qari'ah).",
+   "sources": [
+    [
+     "Quran.com data",
+     null
+    ],
+    [
+     "Quran 56:1",
+     null
+    ],
+    [
+     "Quran 69:1",
+     null
+    ],
+    [
+     "Quran 75:1",
+     null
+    ],
+    [
+     "Quran 88:1",
+     null
+    ],
+    [
+     "Quran 101:1",
+     null
+    ]
+   ]
+  },
+  {
+   "set": "Surahs named after a place",
+   "items": [
+    "Al-Hijr",
+    "Al-Kahf",
+    "Saba",
+    "Al-Ahqaf",
+    "At-Tur",
+    "Al-Balad"
+   ],
+   "decoys": [
+    "Ibrahim",
+    "An-Nahl",
+    "Al-Isra",
+    "Maryam"
+   ],
+   "explain": "Surahs Al-Hijr, Al-Kahf, Saba, Al-Ahqaf, At-Tur and Al-Balad are named after places (the Rocky Tract, the Cave, Sheba, the sandhills, the Mount, the City).",
+   "sources": [
+    [
+     "Quran.com data",
+     null
+    ],
+    [
+     "Quran 15:1",
+     null
+    ],
+    [
+     "Quran 18:1",
+     null
+    ],
+    [
+     "Quran 34:1",
+     null
+    ],
+    [
+     "Quran 46:1",
+     null
+    ],
+    [
+     "Quran 52:1",
+     null
+    ],
+    [
+     "Quran 90:1",
+     null
+    ]
+   ]
+  },
+  {
+   "set": "Surahs 50 to 54, in order",
+   "items": [
+    "Qaf",
+    "Adh-Dhariyat",
+    "At-Tur",
+    "An-Najm",
+    "Al-Qamar"
+   ],
+   "decoys": [
+    "Al-Fath",
+    "Al-Hujurat",
+    "Ar-Rahman",
+    "Al-Waqi'ah"
+   ],
+   "explain": "In the mushaf, surahs 50 to 54 are Qaf, Adh-Dhariyat, At-Tur, An-Najm, Al-Qamar.",
+   "sources": [
+    [
+     "Quran.com data",
+     null
+    ]
+   ]
+  },
+  {
+   "set": "Surahs 55 to 59, in order",
+   "items": [
+    "Ar-Rahman",
+    "Al-Waqi'ah",
+    "Al-Hadid",
+    "Al-Mujadila",
+    "Al-Hashr"
+   ],
+   "decoys": [
+    "An-Najm",
+    "Al-Qamar",
+    "Al-Mumtahanah",
+    "As-Saf"
+   ],
+   "explain": "In the mushaf, surahs 55 to 59 are Ar-Rahman, Al-Waqi'ah, Al-Hadid, Al-Mujadila, Al-Hashr.",
+   "sources": [
+    [
+     "Quran.com data",
+     null
+    ]
+   ]
+  },
+  {
+   "set": "Surahs 63 to 67, in order",
+   "items": [
+    "Al-Munafiqun",
+    "At-Taghabun",
+    "At-Talaq",
+    "At-Tahrim",
+    "Al-Mulk"
+   ],
+   "decoys": [
+    "As-Saf",
+    "Al-Jumu'ah",
+    "Al-Qalam",
+    "Al-Haqqah"
+   ],
+   "explain": "In the mushaf, surahs 63 to 67 are Al-Munafiqun, At-Taghabun, At-Talaq, At-Tahrim, Al-Mulk.",
+   "sources": [
+    [
+     "Quran.com data",
+     null
+    ]
+   ]
+  },
+  {
+   "set": "Surahs 69 to 73, in order",
+   "items": [
+    "Al-Haqqah",
+    "Al-Ma'arij",
+    "Nuh",
+    "Al-Jinn",
+    "Al-Muzzammil"
+   ],
+   "decoys": [
+    "Al-Mulk",
+    "Al-Qalam",
+    "Al-Muddaththir",
+    "Al-Qiyamah"
+   ],
+   "explain": "In the mushaf, surahs 69 to 73 are Al-Haqqah, Al-Ma'arij, Nuh, Al-Jinn, Al-Muzzammil.",
+   "sources": [
+    [
+     "Quran.com data",
+     null
+    ]
+   ]
+  }
+ ],
+ "hard": [
+  {
+   "set": "Surahs that open with Alif Lam Mim",
+   "items": [
+    "Al-Baqarah",
+    "Ali 'Imran",
+    "Al-'Ankabut",
+    "Ar-Rum",
+    "Luqman",
+    "As-Sajdah"
+   ],
+   "decoys": [
+    "Al-Fatihah",
+    "An-Nisa",
+    "Al-Qasas",
+    "Al-Ahzab"
+   ],
+   "explain": "Surahs Al-Baqarah, Ali 'Imran, Al-'Ankabut, Ar-Rum, Luqman and As-Sajdah open with the letters Alif Lam Mim.",
+   "sources": [
+    [
+     "Quran.com data",
+     null
+    ],
+    [
+     "Quran 2:1",
+     null
+    ],
+    [
+     "Quran 3:1",
+     null
+    ],
+    [
+     "Quran 29:1",
+     null
+    ],
+    [
+     "Quran 30:1",
+     null
+    ],
+    [
+     "Quran 31:1",
+     null
+    ],
+    [
+     "Quran 32:1",
+     null
+    ]
+   ]
+  },
+  {
+   "set": "Surahs that open with Ha Mim",
+   "items": [
+    "Ghafir",
+    "Fussilat",
+    "Ash-Shuraa",
+    "Az-Zukhruf",
+    "Ad-Dukhan",
+    "Al-Jathiyah",
+    "Al-Ahqaf"
+   ],
+   "decoys": [
+    "Az-Zumar",
+    "Muhammad",
+    "Sad",
+    "Al-Fath"
+   ],
+   "explain": "Surahs Ghafir, Fussilat, Ash-Shuraa, Az-Zukhruf, Ad-Dukhan, Al-Jathiyah and Al-Ahqaf open with Ha Mim, known together as the Hawamim.",
+   "sources": [
+    [
+     "Quran.com data",
+     null
+    ],
+    [
+     "Quran 40:1",
+     null
+    ],
+    [
+     "Quran 41:1",
+     null
+    ],
+    [
+     "Quran 42:1",
+     null
+    ],
+    [
+     "Quran 43:1",
+     null
+    ],
+    [
+     "Quran 44:1",
+     null
+    ],
+    [
+     "Quran 45:1",
+     null
+    ],
+    [
+     "Quran 46:1",
+     null
+    ]
+   ]
+  },
+  {
+   "set": "Surahs with exactly 8 ayat",
+   "items": [
+    "Ash-Sharh",
+    "At-Tin",
+    "Al-Bayyinah",
+    "Az-Zalzalah",
+    "At-Takathur"
+   ],
+   "decoys": [
+    "Ad-Duhaa",
+    "Al-'Alaq",
+    "Al-Qadr",
+    "Al-'Adiyat"
+   ],
+   "explain": "Surahs Ash-Sharh, At-Tin, Al-Bayyinah, Az-Zalzalah and At-Takathur have exactly 8 ayat.",
+   "sources": [
+    [
+     "Quran.com data",
+     null
+    ],
+    [
+     "Quran 94:1",
+     null
+    ],
+    [
+     "Quran 95:1",
+     null
+    ],
+    [
+     "Quran 98:1",
+     null
+    ],
+    [
+     "Quran 99:1",
+     null
+    ],
+    [
+     "Quran 102:1",
+     null
+    ]
+   ]
+  },
+  {
+   "set": "Surahs with exactly 11 ayat",
+   "items": [
+    "Al-Jumu'ah",
+    "Al-Munafiqun",
+    "Ad-Duhaa",
+    "Al-'Adiyat",
+    "Al-Qari'ah"
+   ],
+   "decoys": [
+    "As-Saf",
+    "At-Taghabun",
+    "Al-Layl",
+    "Ash-Sharh"
+   ],
+   "explain": "Surahs Al-Jumu'ah, Al-Munafiqun, Ad-Duhaa, Al-'Adiyat and Al-Qari'ah have exactly 11 ayat.",
+   "sources": [
+    [
+     "Quran.com data",
+     null
+    ],
+    [
+     "Quran 62:1",
+     null
+    ],
+    [
+     "Quran 63:1",
+     null
+    ],
+    [
+     "Quran 93:1",
+     null
+    ],
+    [
+     "Quran 100:1",
+     null
+    ],
+    [
+     "Quran 101:1",
+     null
+    ]
+   ]
+  },
+  {
+   "set": "Surahs with exactly 19 ayat",
+   "items": [
+    "Al-Infitar",
+    "Al-A'la",
+    "Al-'Alaq"
+   ],
+   "decoys": [
+    "At-Takwir",
+    "Al-Mutaffifin",
+    "At-Tariq",
+    "Al-Ghashiyah"
+   ],
+   "explain": "Surahs Al-Infitar, Al-A'la and Al-'Alaq have exactly 19 ayat.",
+   "sources": [
+    [
+     "Quran.com data",
+     null
+    ],
+    [
+     "Quran 82:1",
+     null
+    ],
+    [
+     "Quran 87:1",
+     null
+    ],
+    [
+     "Quran 96:1",
+     null
+    ]
+   ]
+  },
+  {
+   "set": "Surahs with exactly 29 ayat",
+   "items": [
+    "Al-Fath",
+    "Al-Hadid",
+    "At-Takwir"
+   ],
+   "decoys": [
+    "Muhammad",
+    "Al-Hujurat",
+    "Al-Waqi'ah",
+    "Al-Mujadila"
+   ],
+   "explain": "Surahs Al-Fath, Al-Hadid and At-Takwir have exactly 29 ayat.",
+   "sources": [
+    [
+     "Quran.com data",
+     null
+    ],
+    [
+     "Quran 48:1",
+     null
+    ],
+    [
+     "Quran 57:1",
+     null
+    ],
+    [
+     "Quran 81:1",
+     null
+    ]
+   ]
+  },
+  {
+   "set": "Surahs with exactly 30 ayat",
+   "items": [
+    "As-Sajdah",
+    "Al-Mulk",
+    "Al-Fajr"
+   ],
+   "decoys": [
+    "Luqman",
+    "Al-Ahzab",
+    "At-Tahrim",
+    "Al-Qalam"
+   ],
+   "explain": "Surahs As-Sajdah, Al-Mulk and Al-Fajr have exactly 30 ayat.",
+   "sources": [
+    [
+     "Quran.com data",
+     null
+    ],
+    [
+     "Quran 32:1",
+     null
+    ],
+    [
+     "Quran 67:1",
+     null
+    ],
+    [
+     "Quran 89:1",
+     null
+    ]
+   ]
+  },
+  {
+   "set": "Surahs with exactly 52 ayat",
+   "items": [
+    "Ibrahim",
+    "Al-Qalam",
+    "Al-Haqqah"
+   ],
+   "decoys": [
+    "Ar-Ra'd",
+    "Al-Hijr",
+    "Al-Mulk",
+    "Al-Ma'arij"
+   ],
+   "explain": "Surahs Ibrahim, Al-Qalam and Al-Haqqah have exactly 52 ayat.",
+   "sources": [
+    [
+     "Quran.com data",
+     null
+    ],
+    [
+     "Quran 14:1",
+     null
+    ],
+    [
+     "Quran 68:1",
+     null
+    ],
+    [
+     "Quran 69:1",
+     null
+    ]
+   ]
+  },
+  {
+   "set": "Surahs 17 to 22, in order",
+   "items": [
+    "Al-Isra",
+    "Al-Kahf",
+    "Maryam",
+    "Taha",
+    "Al-Anbya",
+    "Al-Hajj"
+   ],
+   "decoys": [
+    "Al-Hijr",
+    "An-Nahl",
+    "Al-Mu'minun",
+    "An-Nur"
+   ],
+   "explain": "In the mushaf, surahs 17 to 22 are Al-Isra, Al-Kahf, Maryam, Taha, Al-Anbya, Al-Hajj.",
+   "sources": [
+    [
+     "Quran.com data",
+     null
+    ]
+   ]
+  },
+  {
+   "set": "Surahs 43 to 48, in order",
+   "items": [
+    "Az-Zukhruf",
+    "Ad-Dukhan",
+    "Al-Jathiyah",
+    "Al-Ahqaf",
+    "Muhammad",
+    "Al-Fath"
+   ],
+   "decoys": [
+    "Fussilat",
+    "Ash-Shuraa",
+    "Al-Hujurat",
+    "Qaf"
+   ],
+   "explain": "In the mushaf, surahs 43 to 48 are Az-Zukhruf, Ad-Dukhan, Al-Jathiyah, Al-Ahqaf, Muhammad, Al-Fath.",
+   "sources": [
+    [
+     "Quran.com data",
+     null
+    ]
+   ]
+  }
+ ]
+}

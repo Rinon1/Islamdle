@@ -1,0 +1,48 @@
+{
+ "easy": [
+  {"set": "Six animals in the stories of the Qur'an", "items": ["The she-camel of Salih", "The cow of Bani Isra'il", "The dog of the Cave", "The hoopoe", "The fish of Yunus", "The ant of Sulayman"], "decoys": ["A lion", "A tiger", "A bear", "A giraffe"],
+   "explain": "Each of these animals has a part in a story of the Qur'an.", "sources": [["Quran 11:64", "camel"], ["Quran 2:67", "cow"], ["Quran 18:18", "dog"], ["Quran 27:20", "hoopoe"], ["Quran 37:142", "fish"], ["Quran 27:18", "ant"]]},
+  {"set": "The steps of wudu named in Al-Ma'idah 5:6", "items": ["Wash the face", "Wash the arms up to the elbows", "Wipe the head", "Wash the feet up to the ankles"], "decoys": ["Wash the back", "Wipe the neck", "Wash the chest", "Wash the hair fully"],
+   "explain": "Al-Ma'idah 6 names washing the face, the arms to the elbows, wiping the head and washing the feet to the ankles.", "sources": [["Quran 5:6", "faces"]]},
+  {"set": "The phrases of the adhan, in order", "items": ["Allahu Akbar", "I testify there is no god but Allah", "I testify Muhammad is the Messenger of Allah", "Come to prayer", "Come to success", "Allahu Akbar, again", "La ilaha illallah"], "decoys": ["SubhanAllah", "Alhamdulillah", "Astaghfirullah", "Labbayk Allahumma"],
+   "explain": "Abdullah ibn Zayd saw the words of the adhan in a dream, and the Prophet ﷺ confirmed them and told Bilal to call them.", "sources": [["Abu Dawud 499", "prayer"]]}
+ ],
+ "medium": [
+  {"set": "Surahs named after a woman or women", "items": ["An-Nisa", "Maryam", "Al-Mujadila", "Al-Mumtahanah"], "decoys": ["Al-Ma'idah", "Al-Hujurat", "Al-Ahzab", "Ash-Shu'ara"],
+   "explain": "An-Nisa means the women, Maryam is named after the mother of Isa, Al-Mujadila is the woman who pleaded, and Al-Mumtahanah the woman who is examined.", "sources": [["Quran.com data", null], ["Quran 58:1", "disputeth"], ["Quran 60:10", "examine"]]},
+  {"set": "Seven surahs named after a group of people", "items": ["Al-Mu'minun", "Al-Munafiqun", "Al-Kafirun", "Ash-Shu'ara", "Ar-Rum", "Quraysh", "An-Nas"], "decoys": ["Al-Furqan", "Al-Qalam", "An-Nur", "Al-Hadid"],
+   "explain": "These are named after the believers, the hypocrites, the disbelievers, the poets, the Romans, the tribe of Quraysh and mankind.", "sources": [["Quran.com data", null]]},
+  {"set": "Surahs named after an object", "items": ["Al-Qalam", "Al-Hadid", "Al-Ma'idah", "Az-Zukhruf", "Al-Masad"], "decoys": ["Al-Fajr", "Al-Layl", "Al-Insan", "Al-Waqi'ah"],
+   "explain": "They are named after the pen, iron, the table spread, ornaments of gold and the palm-fibre rope.", "sources": [["Quran.com data", null], ["Quran 68:1", "pen"], ["Quran 57:25", "iron"], ["Quran 111:5", "palm-fibre"]]},
+  {"set": "Surahs named after something in nature", "items": ["Ar-Ra'd", "Ad-Dukhan", "Az-Zalzalah", "Adh-Dhariyat"], "decoys": ["Al-Ma'idah", "Luqman", "Yusuf", "Al-Hujurat"],
+   "explain": "They are named after the thunder, the smoke, the earthquake and the scattering winds.", "sources": [["Quran.com data", null], ["Quran 13:13", "thunder"], ["Quran 44:10", "smoke"]]},
+  {"set": "Names the Qur'an gives itself", "items": ["Al-Kitab (the Book)", "Al-Furqan (the Criterion)", "Adh-Dhikr (the Reminder)", "An-Nur (the Light)", "Ash-Shifa' (a healing)"], "decoys": ["Al-Injil", "Az-Zabur", "At-Tawrat", "As-Suhuf"],
+   "explain": "The Qur'an calls itself the Book, the Criterion, the Reminder, a light and a healing.", "sources": [["Quran 2:2", "Scripture"], ["Quran 25:1", "Criterion"], ["Quran 15:9", "Reminder"], ["Quran 4:174", "light"], ["Quran 17:82", "healing"]]},
+  {"set": "Names of Paradise in the Qur'an", "items": ["Al-Firdaws", "Jannat Adn", "Jannat al-Ma'wa", "Dar as-Salam", "Jannat an-Na'im"], "decoys": ["Saqar", "Sijjin", "Al-Hutamah", "Al-Barzakh"],
+   "explain": "The Qur'an speaks of the Gardens of Firdaws, of Eden, of Refuge, the Home of Peace and the Gardens of Delight.", "sources": [["Quran 18:107", "Paradise"], ["Quran 9:72", "Eden"], ["Quran 53:15", "Garden"], ["Quran 10:25", "abode of peace"], ["Quran 56:12", "Gardens of delight"]]}
+ ],
+ "hard": [
+  {"set": "Teacher to student among the imams: Malik, al-Shafi'i, Ahmad", "items": ["Malik ibn Anas", "Al-Shafi'i", "Ahmad ibn Hanbal"], "decoys": ["Abu Hanifah", "Al-Nawawi", "Ibn Kathir", "Al-Tabari"],
+   "explain": "Al-Shafi'i studied under Malik in Madinah, and Ahmad ibn Hanbal studied under al-Shafi'i.", "sources": [["Siyar A'lam an-Nubala", null]]},
+  {"set": "Books by al-Nawawi", "items": ["Riyad as-Salihin", "Al-Arba'in (the Forty Hadith)", "Al-Adhkar", "Sharh Sahih Muslim", "Al-Majmu'"], "decoys": ["Fath al-Bari", "Al-Muwatta'", "Tafsir al-Tabari", "Al-Bidaya wan-Nihaya"],
+   "explain": "Al-Nawawi wrote Riyad as-Salihin, the Forty Hadith, al-Adhkar, a commentary on Sahih Muslim and al-Majmu' in Shafi'i fiqh.", "sources": [["Al-Bidaya wan-Nihaya", null]]},
+  {"set": "Books by Ibn Kathir", "items": ["Tafsir al-Qur'an al-Azim", "Al-Bidaya wan-Nihaya", "Qisas al-Anbiya"], "decoys": ["Fath al-Bari", "Riyad as-Salihin", "Al-Muwatta'", "Ihya' Ulum al-Din"],
+   "explain": "Ibn Kathir wrote his famous tafsir and the history al-Bidaya wan-Nihaya. Qisas al-Anbiya, the stories of the prophets, is drawn from it.", "sources": [["Ibn Hajar, Al-Durar al-Kaminah", null]]},
+  {"set": "Books by Ibn Hajar al-Asqalani", "items": ["Fath al-Bari", "Bulugh al-Maram", "Al-Isabah", "Tahdhib al-Tahdhib"], "decoys": ["Riyad as-Salihin", "Al-Bidaya wan-Nihaya", "Al-Muwatta'", "Zad al-Ma'ad"],
+   "explain": "Ibn Hajar wrote Fath al-Bari on al-Bukhari, Bulugh al-Maram, al-Isabah on the companions and Tahdhib al-Tahdhib on narrators.", "sources": [["Ibn al-Imad, Shadharat al-Dhahab", null]]},
+  {"set": "Books by Ibn al-Qayyim", "items": ["Zad al-Ma'ad", "Madarij as-Salikin", "I'lam al-Muwaqqi'in", "Al-Jawab al-Kafi"], "decoys": ["Fath al-Bari", "Riyad as-Salihin", "Al-Muwatta'", "Bulugh al-Maram"],
+   "explain": "Ibn al-Qayyim wrote Zad al-Ma'ad on the Prophet's guidance, Madarij as-Salikin, I'lam al-Muwaqqi'in and al-Jawab al-Kafi.", "sources": [["Ibn Hajar, Al-Durar al-Kaminah", null]]},
+  {"set": "Students of Ibn Taymiyyah", "items": ["Ibn al-Qayyim", "Ibn Kathir", "Al-Dhahabi"], "decoys": ["Al-Nawawi", "Ibn Hajar al-Asqalani", "Al-Ghazali", "Al-Bukhari"],
+   "explain": "Ibn al-Qayyim, Ibn Kathir and al-Dhahabi all studied with Ibn Taymiyyah in Damascus. Al-Nawawi died before him, Ibn Hajar lived after.", "sources": [["Ibn Hajar, Al-Durar al-Kaminah", null]]},
+  {"set": "Peoples Surah Al-Fajr mentions being punished", "items": ["'Ad", "Thamud", "Fir'awn"], "decoys": ["Madyan", "Saba'", "The people of Lut", "The people of Nuh"],
+   "explain": "Al-Fajr 6 to 13 mentions 'Ad and Iram, Thamud who hewed the rocks, and Fir'awn of the stakes.", "sources": [["Quran 89:6", "A'ad"], ["Quran 89:9", "Thamud"], ["Quran 89:10", "Pharaoh"]]},
+  {"set": "Peoples listed in Surah Qaf 50:12 to 14", "items": ["The people of Nuh", "The dwellers of al-Rass", "Thamud", "'Ad", "Fir'awn", "The brothers of Lut", "The dwellers of the wood", "The people of Tubba'"], "decoys": ["The people of Saba'", "The people of the Cave", "The people of the Elephant", "Quraysh"],
+   "explain": "Qaf 12 to 14 lists these peoples, who all denied the messengers.", "sources": [["Quran 50:12", "Ar-Rass"], ["Quran 50:13", "Lot"], ["Quran 50:14", "Tubb'a"]]},
+  {"set": "Prophets named in Surah As-Saffat", "items": ["Nuh", "Ibrahim", "Ishaq", "Musa", "Harun", "Ilyas", "Lut", "Yunus"], "decoys": ["Hud", "Salih", "Shu'ayb", "Yusuf"],
+   "explain": "As-Saffat names Nuh, Ibrahim, Ishaq, Musa, Harun, Ilyas, Lut and Yunus.", "sources": [["Quran 37:75", "Noah"], ["Quran 37:83", "Abraham"], ["Quran 37:112", "Isaac"], ["Quran 37:114", "Moses"], ["Quran 37:123", "Elias"], ["Quran 37:133", "Lot"], ["Quran 37:139", "Jonah"]]},
+  {"set": "Names of the Last Day in the Qur'an", "items": ["Yawm ad-Din (the Day of Judgement)", "Yawm al-Fasl (the Day of Decision)", "Yawm al-Hasrah (the Day of Regret)", "Yawm at-Taghabun (the Day of Mutual Loss)", "Yawm al-Khulud (the Day of Eternity)"], "decoys": ["Yawm al-Jumu'ah", "Yawm Ashura", "Yawm at-Tarwiyah", "Yawm al-Arba'a'"],
+   "explain": "The Qur'an calls the Last Day by many names, among them these five.", "sources": [["Quran 1:4", "Judgment"], ["Quran 77:13", "Decision"], ["Quran 19:39", "anguish"], ["Quran 64:9", "mutual disillusion"], ["Quran 50:34", "immortality"]]},
+  {"set": "Names of Hell in the Qur'an", "items": ["Jahannam", "Saqar", "Al-Hutamah", "Al-Hawiyah", "Al-Jahim"], "decoys": ["Al-Firdaws", "Jannat Adn", "An-Na'im", "Illiyyin"],
+   "explain": "The Qur'an names the Fire Jahannam, Saqar, al-Hutamah, al-Hawiyah and al-Jahim, among others.", "sources": [["Quran 74:26", "burning"], ["Quran 104:4", "Consuming One"], ["Quran 101:9", "Hungry"]]}
+ ]
+}

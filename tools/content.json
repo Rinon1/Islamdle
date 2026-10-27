@@ -44597,6 +44597,842 @@
           "Spending nights at Mina"
         ],
         "explain": "Ihram, Tawaf and Sa'i are common to both. The decoys are rites of Hajj alone."
+      },
+      {
+        "set": "Surahs that open with “Qul” (say)",
+        "items": [
+          "Al-Jinn",
+          "Al-Kafirun",
+          "Al-Ikhlas",
+          "Al-Falaq",
+          "An-Nas"
+        ],
+        "decoys": [
+          "Nuh",
+          "Al-Muzzammil",
+          "Al-Kawthar",
+          "An-Nasr"
+        ],
+        "explain": "Surahs Al-Jinn, Al-Kafirun, Al-Ikhlas, Al-Falaq and An-Nas open with the word qul.",
+        "sources": [
+          [
+            "Quran.com data",
+            null
+          ],
+          [
+            "Quran 72:1",
+            null
+          ],
+          [
+            "Quran 109:1",
+            null
+          ],
+          [
+            "Quran 112:1",
+            null
+          ],
+          [
+            "Quran 113:1",
+            null
+          ],
+          [
+            "Quran 114:1",
+            null
+          ]
+        ]
+      },
+      {
+        "set": "Six Juz 'Amma surahs that open with an oath",
+        "items": [
+          "An-Nazi'at",
+          "Al-Buruj",
+          "At-Tariq",
+          "Ash-Shams",
+          "At-Tin",
+          "Al-'Adiyat"
+        ],
+        "decoys": [
+          "An-Naba",
+          "'Abasa",
+          "Al-Inshiqaq",
+          "Al-A'la"
+        ],
+        "explain": "Surahs An-Nazi'at, Al-Buruj, At-Tariq, Ash-Shams, At-Tin and Al-'Adiyat open with an oath (wa...).",
+        "sources": [
+          [
+            "Quran.com data",
+            null
+          ],
+          [
+            "Quran 79:1",
+            null
+          ],
+          [
+            "Quran 85:1",
+            null
+          ],
+          [
+            "Quran 86:1",
+            null
+          ],
+          [
+            "Quran 91:1",
+            null
+          ],
+          [
+            "Quran 95:1",
+            null
+          ],
+          [
+            "Quran 100:1",
+            null
+          ]
+        ]
+      },
+      {
+        "set": "Surahs named after a time of day",
+        "items": [
+          "Al-Fajr",
+          "Al-Layl",
+          "Ad-Duhaa",
+          "Al-'Asr",
+          "Al-Falaq"
+        ],
+        "decoys": [
+          "Al-Ghashiyah",
+          "Al-Balad",
+          "Ash-Shams",
+          "Ash-Sharh"
+        ],
+        "explain": "Surahs Al-Fajr, Al-Layl, Ad-Duhaa, Al-'Asr and Al-Falaq are named after a time of day (dawn, night, forenoon, the declining day, daybreak).",
+        "sources": [
+          [
+            "Quran.com data",
+            null
+          ],
+          [
+            "Quran 89:1",
+            null
+          ],
+          [
+            "Quran 92:1",
+            null
+          ],
+          [
+            "Quran 93:1",
+            null
+          ],
+          [
+            "Quran 103:1",
+            null
+          ],
+          [
+            "Quran 113:1",
+            null
+          ]
+        ]
+      },
+      {
+        "set": "Surahs named after something in the sky",
+        "items": [
+          "An-Najm",
+          "Al-Qamar",
+          "Al-Buruj",
+          "At-Tariq",
+          "Ash-Shams"
+        ],
+        "decoys": [
+          "At-Tur",
+          "Ar-Rahman",
+          "Al-Inshiqaq",
+          "Al-A'la"
+        ],
+        "explain": "Surahs An-Najm, Al-Qamar, Al-Buruj, At-Tariq and Ash-Shams are named after the star, the moon, the constellations, the night star and the sun.",
+        "sources": [
+          [
+            "Quran.com data",
+            null
+          ],
+          [
+            "Quran 53:1",
+            null
+          ],
+          [
+            "Quran 54:1",
+            null
+          ],
+          [
+            "Quran 85:1",
+            null
+          ],
+          [
+            "Quran 86:1",
+            null
+          ],
+          [
+            "Quran 91:1",
+            null
+          ]
+        ]
+      },
+      {
+        "set": "Surahs 81 to 84, in order",
+        "items": [
+          "At-Takwir",
+          "Al-Infitar",
+          "Al-Mutaffifin",
+          "Al-Inshiqaq"
+        ],
+        "decoys": [
+          "An-Nazi'at",
+          "'Abasa",
+          "Al-Buruj",
+          "At-Tariq"
+        ],
+        "explain": "In the mushaf, surahs 81 to 84 are At-Takwir, Al-Infitar, Al-Mutaffifin, Al-Inshiqaq.",
+        "sources": [
+          [
+            "Quran.com data",
+            null
+          ]
+        ]
+      },
+      {
+        "set": "Surahs 88 to 91, in order",
+        "items": [
+          "Al-Ghashiyah",
+          "Al-Fajr",
+          "Al-Balad",
+          "Ash-Shams"
+        ],
+        "decoys": [
+          "At-Tariq",
+          "Al-A'la",
+          "Al-Layl",
+          "Ad-Duhaa"
+        ],
+        "explain": "In the mushaf, surahs 88 to 91 are Al-Ghashiyah, Al-Fajr, Al-Balad, Ash-Shams.",
+        "sources": [
+          [
+            "Quran.com data",
+            null
+          ]
+        ]
+      },
+      {
+        "set": "Surahs 93 to 96, in order",
+        "items": [
+          "Ad-Duhaa",
+          "Ash-Sharh",
+          "At-Tin",
+          "Al-'Alaq"
+        ],
+        "decoys": [
+          "Ash-Shams",
+          "Al-Layl",
+          "Al-Qadr",
+          "Al-Bayyinah"
+        ],
+        "explain": "In the mushaf, surahs 93 to 96 are Ad-Duhaa, Ash-Sharh, At-Tin, Al-'Alaq.",
+        "sources": [
+          [
+            "Quran.com data",
+            null
+          ]
+        ]
+      },
+      {
+        "set": "Surahs 99 to 102, in order",
+        "items": [
+          "Az-Zalzalah",
+          "Al-'Adiyat",
+          "Al-Qari'ah",
+          "At-Takathur"
+        ],
+        "decoys": [
+          "Al-Qadr",
+          "Al-Bayyinah",
+          "Al-'Asr",
+          "Al-Humazah"
+        ],
+        "explain": "In the mushaf, surahs 99 to 102 are Az-Zalzalah, Al-'Adiyat, Al-Qari'ah, At-Takathur.",
+        "sources": [
+          [
+            "Quran.com data",
+            null
+          ]
+        ]
+      },
+      {
+        "set": "Surahs 103 to 106, in order",
+        "items": [
+          "Al-'Asr",
+          "Al-Humazah",
+          "Al-Fil",
+          "Quraysh"
+        ],
+        "decoys": [
+          "Al-Qari'ah",
+          "At-Takathur",
+          "Al-Ma'un",
+          "Al-Kawthar"
+        ],
+        "explain": "In the mushaf, surahs 103 to 106 are Al-'Asr, Al-Humazah, Al-Fil, Quraysh.",
+        "sources": [
+          [
+            "Quran.com data",
+            null
+          ]
+        ]
+      },
+      {
+        "set": "Surahs 107 to 110, in order",
+        "items": [
+          "Al-Ma'un",
+          "Al-Kawthar",
+          "Al-Kafirun",
+          "An-Nasr"
+        ],
+        "decoys": [
+          "Al-Fil",
+          "Quraysh",
+          "Al-Masad",
+          "Al-Ikhlas"
+        ],
+        "explain": "In the mushaf, surahs 107 to 110 are Al-Ma'un, Al-Kawthar, Al-Kafirun, An-Nasr.",
+        "sources": [
+          [
+            "Quran.com data",
+            null
+          ]
+        ]
+      },
+      {
+        "set": "What Allah swears by at the start of Surah At-Tin",
+        "items": [
+          "The fig",
+          "The olive",
+          "Mount Sinai",
+          "This secure city"
+        ],
+        "decoys": [
+          "The sun",
+          "The dawn",
+          "The pen",
+          "The night"
+        ],
+        "explain": "Surah At-Tin opens: \"By the fig and the olive, and Mount Sinai, and this secure city.\"",
+        "sources": [
+          [
+            "Quran 95:1",
+            "fig"
+          ],
+          [
+            "Quran 95:2",
+            "Sinai"
+          ],
+          [
+            "Quran 95:3",
+            "land made safe"
+          ]
+        ]
+      },
+      {
+        "set": "What Allah swears by at the start of Surah Ash-Shams",
+        "items": [
+          "The sun",
+          "The moon",
+          "The day",
+          "The night",
+          "The sky",
+          "The earth",
+          "The soul"
+        ],
+        "decoys": [
+          "The fig",
+          "The pen",
+          "The dawn",
+          "The mount"
+        ],
+        "explain": "Surah Ash-Shams swears by the sun, the moon, the day, the night, the sky, the earth and the soul.",
+        "sources": [
+          [
+            "Quran 91:1",
+            "sun"
+          ],
+          [
+            "Quran 91:5",
+            "heaven"
+          ],
+          [
+            "Quran 91:7",
+            "soul"
+          ]
+        ]
+      },
+      {
+        "set": "The seven whom Allah will shade on the Day of Judgement",
+        "items": [
+          "A just ruler",
+          "A youth raised in worship",
+          "One whose heart is attached to the mosque",
+          "Two who love each other for Allah",
+          "One who refuses a tempting invitation out of fear of Allah",
+          "One who gives charity in secret",
+          "One who remembers Allah alone and weeps"
+        ],
+        "decoys": [
+          "A wealthy merchant",
+          "A famous poet",
+          "A strong wrestler",
+          "A tireless traveller"
+        ],
+        "explain": "The Prophet ﷺ named seven people Allah will shade on the day when there is no shade but His.",
+        "sources": [
+          [
+            "Bukhari 660",
+            "shade"
+          ]
+        ]
+      },
+      {
+        "set": "The five acts of the fitrah",
+        "items": [
+          "Circumcision",
+          "Removing the pubic hair",
+          "Trimming the moustache",
+          "Clipping the nails",
+          "Removing the armpit hair"
+        ],
+        "decoys": [
+          "Dyeing the hair",
+          "Wearing a turban",
+          "Wearing perfume",
+          "Shaving the head"
+        ],
+        "explain": "The Prophet ﷺ said five things are of the fitrah: circumcision, shaving the pubic hair, trimming the moustache, cutting the nails and plucking the armpit hair.",
+        "sources": [
+          [
+            "Bukhari 5889",
+            "five"
+          ]
+        ]
+      },
+      {
+        "set": "The parts of the body that touch the ground in sujud",
+        "items": [
+          "The forehead and nose",
+          "The two hands",
+          "The two knees",
+          "The toes of both feet"
+        ],
+        "decoys": [
+          "The elbows",
+          "The chin",
+          "The forearms",
+          "The shoulders"
+        ],
+        "explain": "The Prophet ﷺ was commanded to prostrate on seven bones: the forehead (and he pointed to his nose), the two hands, the two knees and the ends of the two feet.",
+        "sources": [
+          [
+            "Bukhari 812",
+            "seven"
+          ]
+        ]
+      },
+      {
+        "set": "The four things a woman may be married for",
+        "items": [
+          "Her wealth",
+          "Her lineage",
+          "Her beauty",
+          "Her religion"
+        ],
+        "decoys": [
+          "Her height",
+          "Her language",
+          "Her age",
+          "Her fame"
+        ],
+        "explain": "The Prophet ﷺ said a woman is married for four things and told us to choose the one with religion.",
+        "sources": [
+          [
+            "Bukhari 5090",
+            "religion"
+          ]
+        ]
+      },
+      {
+        "set": "The rights of a Muslim over another Muslim",
+        "items": [
+          "Returning his greeting",
+          "Accepting his invitation",
+          "Giving him sincere advice",
+          "Praying for him when he sneezes",
+          "Visiting him when he is ill",
+          "Following his funeral"
+        ],
+        "decoys": [
+          "Always lending him money",
+          "Praising him in public",
+          "Never disagreeing with him",
+          "Sharing his home"
+        ],
+        "explain": "The Prophet ﷺ listed six rights: greet him, accept his invitation, advise him, respond when he sneezes and praises Allah, visit him when sick, and follow his funeral.",
+        "sources": [
+          [
+            "Muslim 2162b",
+            "six"
+          ]
+        ]
+      },
+      {
+        "set": "Gates of Paradise named in one hadith of al-Bukhari",
+        "items": [
+          "The gate of prayer",
+          "The gate of jihad",
+          "Ar-Rayyan, the gate of fasting",
+          "The gate of charity"
+        ],
+        "decoys": [
+          "The gate of trade",
+          "The gate of poetry",
+          "The gate of travel",
+          "The gate of building"
+        ],
+        "explain": "The Prophet ﷺ said people of prayer, jihad, fasting and charity will be called from their gates, and the gate of fasting is ar-Rayyan.",
+        "sources": [
+          [
+            "Bukhari 1897",
+            "Ar-Raiyan"
+          ]
+        ]
+      },
+      {
+        "set": "The miqats for pilgrims",
+        "items": [
+          "Dhul-Hulayfah",
+          "Al-Juhfah",
+          "Qarn al-Manazil",
+          "Yalamlam",
+          "Dhat 'Irq"
+        ],
+        "decoys": [
+          "Arafah",
+          "Mina",
+          "Ta'if",
+          "Jeddah"
+        ],
+        "explain": "The Prophet ﷺ set Dhul-Hulayfah, al-Juhfah, Qarn al-Manazil and Yalamlam. Umar later set Dhat 'Irq for Iraq.",
+        "sources": [
+          [
+            "Bukhari 1524",
+            "Yalamlam"
+          ],
+          [
+            "Bukhari 1531",
+            "Dhat"
+          ]
+        ]
+      },
+      {
+        "set": "The commanders at Mu'tah, in the order they took the banner",
+        "items": [
+          "Zayd ibn Harithah",
+          "Ja'far ibn Abi Talib",
+          "Abdullah ibn Rawahah",
+          "Khalid ibn al-Walid"
+        ],
+        "decoys": [
+          "Abu Ubaydah ibn al-Jarrah",
+          "Sa'd ibn Abi Waqqas",
+          "Amr ibn al-As",
+          "Usamah ibn Zayd"
+        ],
+        "explain": "Zayd took the banner and fell, then Ja'far, then Ibn Rawahah, and then Khalid, a sword of Allah.",
+        "sources": [
+          [
+            "Bukhari 4262",
+            "Rawaha"
+          ]
+        ]
+      },
+      {
+        "set": "Birds named in the Qur'an",
+        "items": [
+          "The hoopoe",
+          "The raven",
+          "The quail"
+        ],
+        "decoys": [
+          "The eagle",
+          "The parrot",
+          "The owl",
+          "The peacock"
+        ],
+        "explain": "The Qur'an mentions the hoopoe of Sulayman, the raven sent to Adam's son, and the quails sent to Bani Isra'il.",
+        "sources": [
+          [
+            "Quran 27:20",
+            "hoopoe"
+          ],
+          [
+            "Quran 5:31",
+            "raven"
+          ],
+          [
+            "Quran 2:57",
+            "quails"
+          ]
+        ]
+      },
+      {
+        "set": "Five small creatures named in the Qur'an",
+        "items": [
+          "The bee",
+          "The ant",
+          "The spider",
+          "The fly",
+          "The gnat"
+        ],
+        "decoys": [
+          "The butterfly",
+          "The scorpion",
+          "The beetle",
+          "The cockroach"
+        ],
+        "explain": "The Qur'an mentions the bee, the ant, the spider, the fly and the gnat. Three surahs are named after the first three.",
+        "sources": [
+          [
+            "Quran 16:68",
+            "bee"
+          ],
+          [
+            "Quran 27:18",
+            "ant"
+          ],
+          [
+            "Quran 29:41",
+            "spider"
+          ],
+          [
+            "Quran 22:73",
+            "fly"
+          ],
+          [
+            "Quran 2:26",
+            "gnat"
+          ]
+        ]
+      },
+      {
+        "set": "Five fruits named in the Qur'an",
+        "items": [
+          "Dates",
+          "Grapes",
+          "Pomegranates",
+          "Olives",
+          "Figs"
+        ],
+        "decoys": [
+          "Apples",
+          "Oranges",
+          "Mangoes",
+          "Peaches"
+        ],
+        "explain": "The Qur'an names the date palm, grapes, pomegranates, olives and figs.",
+        "sources": [
+          [
+            "Quran 6:99",
+            "pomegranate"
+          ],
+          [
+            "Quran 95:1",
+            "fig"
+          ],
+          [
+            "Quran 16:67",
+            "grapes"
+          ]
+        ]
+      },
+      {
+        "set": "Five colours named in the Qur'an",
+        "items": [
+          "White",
+          "Red",
+          "Black",
+          "Green",
+          "Yellow"
+        ],
+        "decoys": [
+          "Purple",
+          "Orange",
+          "Pink",
+          "Grey"
+        ],
+        "explain": "Surah Fatir mentions white, red and black streaks in the mountains, Al-Kahf green garments, and Al-Baqarah the yellow cow.",
+        "sources": [
+          [
+            "Quran 35:27",
+            "white"
+          ],
+          [
+            "Quran 18:31",
+            "green"
+          ],
+          [
+            "Quran 2:69",
+            "yellow"
+          ]
+        ]
+      },
+      {
+        "set": "The four rivers of Paradise in Surah Muhammad",
+        "items": [
+          "Water that does not go stale",
+          "Milk whose taste never changes",
+          "Wine delicious to those who drink",
+          "Pure honey"
+        ],
+        "decoys": [
+          "Rivers of oil",
+          "Rivers of perfume",
+          "Rivers of silver",
+          "Rivers of juice"
+        ],
+        "explain": "Surah Muhammad describes rivers of unchanging water, milk, delicious wine and pure honey.",
+        "sources": [
+          [
+            "Quran 47:15",
+            "milk"
+          ]
+        ]
+      },
+      {
+        "set": "Stories told in Surah Al-Kahf",
+        "items": [
+          "The People of the Cave",
+          "The owner of two gardens",
+          "Musa and al-Khidr",
+          "Dhul-Qarnayn"
+        ],
+        "decoys": [
+          "The People of the Elephant",
+          "The she-camel of Salih",
+          "Yusuf and his brothers",
+          "The Queen of Saba'"
+        ],
+        "explain": "Surah Al-Kahf tells four stories: the sleepers in the cave, the man with two gardens, Musa and the servant of Allah, and Dhul-Qarnayn.",
+        "sources": [
+          [
+            "Quran 18:9",
+            "Cave"
+          ],
+          [
+            "Quran 18:32",
+            "two men"
+          ],
+          [
+            "Quran 18:60",
+            "Moses"
+          ],
+          [
+            "Quran 18:83",
+            "Dhu'l-Qarneyn"
+          ]
+        ]
+      },
+      {
+        "set": "Six animals in the stories of the Qur'an",
+        "items": [
+          "The she-camel of Salih",
+          "The cow of Bani Isra'il",
+          "The dog of the Cave",
+          "The hoopoe",
+          "The fish of Yunus",
+          "The ant of Sulayman"
+        ],
+        "decoys": [
+          "A lion",
+          "A tiger",
+          "A bear",
+          "A giraffe"
+        ],
+        "explain": "Each of these animals has a part in a story of the Qur'an.",
+        "sources": [
+          [
+            "Quran 11:64",
+            "camel"
+          ],
+          [
+            "Quran 2:67",
+            "cow"
+          ],
+          [
+            "Quran 18:18",
+            "dog"
+          ],
+          [
+            "Quran 27:20",
+            "hoopoe"
+          ],
+          [
+            "Quran 37:142",
+            "fish"
+          ],
+          [
+            "Quran 27:18",
+            "ant"
+          ]
+        ]
+      },
+      {
+        "set": "The steps of wudu named in Al-Ma'idah 5:6",
+        "items": [
+          "Wash the face",
+          "Wash the arms up to the elbows",
+          "Wipe the head",
+          "Wash the feet up to the ankles"
+        ],
+        "decoys": [
+          "Wash the back",
+          "Wipe the neck",
+          "Wash the chest",
+          "Wash the hair fully"
+        ],
+        "explain": "Al-Ma'idah 6 names washing the face, the arms to the elbows, wiping the head and washing the feet to the ankles.",
+        "sources": [
+          [
+            "Quran 5:6",
+            "faces"
+          ]
+        ]
+      },
+      {
+        "set": "The phrases of the adhan, in order",
+        "items": [
+          "Allahu Akbar",
+          "I testify there is no god but Allah",
+          "I testify Muhammad is the Messenger of Allah",
+          "Come to prayer",
+          "Come to success",
+          "Allahu Akbar, again",
+          "La ilaha illallah"
+        ],
+        "decoys": [
+          "SubhanAllah",
+          "Alhamdulillah",
+          "Astaghfirullah",
+          "Labbayk Allahumma"
+        ],
+        "explain": "Abdullah ibn Zayd saw the words of the adhan in a dream, and the Prophet ﷺ confirmed them and told Bilal to call them.",
+        "sources": [
+          [
+            "Abu Dawud 499",
+            "prayer"
+          ]
+        ]
       }
     ],
     "medium": [
@@ -45564,6 +46400,1547 @@
           "Zayd ibn Harithah"
         ],
         "explain": "The decoys were companions, not relatives of that degree. Of the uncles listed, Hamza and al-Abbas accepted Islam."
+      },
+      {
+        "set": "Surahs that open with “Idha” (when)",
+        "items": [
+          "Al-Waqi'ah",
+          "Al-Munafiqun",
+          "At-Takwir",
+          "Al-Infitar",
+          "Al-Inshiqaq",
+          "Az-Zalzalah",
+          "An-Nasr"
+        ],
+        "decoys": [
+          "Ar-Rahman",
+          "Al-Hadid",
+          "Al-Jumu'ah",
+          "At-Taghabun"
+        ],
+        "explain": "Surahs Al-Waqi'ah, Al-Munafiqun, At-Takwir, Al-Infitar, Al-Inshiqaq, Az-Zalzalah and An-Nasr open with the word idha.",
+        "sources": [
+          [
+            "Quran.com data",
+            null
+          ],
+          [
+            "Quran 56:1",
+            null
+          ],
+          [
+            "Quran 63:1",
+            null
+          ],
+          [
+            "Quran 81:1",
+            null
+          ],
+          [
+            "Quran 82:1",
+            null
+          ],
+          [
+            "Quran 84:1",
+            null
+          ],
+          [
+            "Quran 99:1",
+            null
+          ],
+          [
+            "Quran 110:1",
+            null
+          ]
+        ]
+      },
+      {
+        "set": "Surahs that open with “Inna” (indeed We)",
+        "items": [
+          "Al-Fath",
+          "Nuh",
+          "Al-Qadr",
+          "Al-Kawthar"
+        ],
+        "decoys": [
+          "Muhammad",
+          "Al-Hujurat",
+          "Al-Ma'arij",
+          "Al-Jinn"
+        ],
+        "explain": "Surahs Al-Fath, Nuh, Al-Qadr and Al-Kawthar open with inna.",
+        "sources": [
+          [
+            "Quran.com data",
+            null
+          ],
+          [
+            "Quran 48:1",
+            null
+          ],
+          [
+            "Quran 71:1",
+            null
+          ],
+          [
+            "Quran 97:1",
+            null
+          ],
+          [
+            "Quran 108:1",
+            null
+          ]
+        ]
+      },
+      {
+        "set": "Surahs that open with “O you who believe”",
+        "items": [
+          "Al-Ma'idah",
+          "Al-Hujurat",
+          "Al-Mumtahanah"
+        ],
+        "decoys": [
+          "An-Nisa",
+          "Al-An'am",
+          "Al-Fath",
+          "Qaf"
+        ],
+        "explain": "Surahs Al-Ma'idah, Al-Hujurat and Al-Mumtahanah open with ya ayyuha alladhina amanu.",
+        "sources": [
+          [
+            "Quran.com data",
+            null
+          ],
+          [
+            "Quran 5:1",
+            null
+          ],
+          [
+            "Quran 49:1",
+            null
+          ],
+          [
+            "Quran 60:1",
+            null
+          ]
+        ]
+      },
+      {
+        "set": "Surahs that open with “O Prophet”",
+        "items": [
+          "Al-Ahzab",
+          "At-Talaq",
+          "At-Tahrim"
+        ],
+        "decoys": [
+          "As-Sajdah",
+          "Saba",
+          "At-Taghabun",
+          "Al-Mulk"
+        ],
+        "explain": "Surahs Al-Ahzab, At-Talaq and At-Tahrim open with ya ayyuha an-nabi.",
+        "sources": [
+          [
+            "Quran.com data",
+            null
+          ],
+          [
+            "Quran 33:1",
+            null
+          ],
+          [
+            "Quran 65:1",
+            null
+          ],
+          [
+            "Quran 66:1",
+            null
+          ]
+        ]
+      },
+      {
+        "set": "Surahs that open with a single letter",
+        "items": [
+          "Sad",
+          "Qaf",
+          "Al-Qalam"
+        ],
+        "decoys": [
+          "As-Saffat",
+          "Az-Zumar",
+          "Al-Hujurat",
+          "Adh-Dhariyat"
+        ],
+        "explain": "Surahs Sad, Qaf and Al-Qalam open with one disconnected letter (Sad, Qaf, Nun).",
+        "sources": [
+          [
+            "Quran.com data",
+            null
+          ],
+          [
+            "Quran 38:1",
+            null
+          ],
+          [
+            "Quran 50:1",
+            null
+          ],
+          [
+            "Quran 68:1",
+            null
+          ]
+        ]
+      },
+      {
+        "set": "Surahs that open with Alif Lam Ra",
+        "items": [
+          "Yunus",
+          "Hud",
+          "Yusuf",
+          "Ibrahim",
+          "Al-Hijr"
+        ],
+        "decoys": [
+          "At-Tawbah",
+          "Ar-Ra'd",
+          "An-Nahl",
+          "Al-Anfal"
+        ],
+        "explain": "Surahs Yunus, Hud, Yusuf, Ibrahim and Al-Hijr open with the letters Alif Lam Ra.",
+        "sources": [
+          [
+            "Quran.com data",
+            null
+          ],
+          [
+            "Quran 10:1",
+            null
+          ],
+          [
+            "Quran 11:1",
+            null
+          ],
+          [
+            "Quran 12:1",
+            null
+          ],
+          [
+            "Quran 14:1",
+            null
+          ],
+          [
+            "Quran 15:1",
+            null
+          ]
+        ]
+      },
+      {
+        "set": "Surahs that open with Ta Sin",
+        "items": [
+          "Ash-Shu'ara",
+          "An-Naml",
+          "Al-Qasas"
+        ],
+        "decoys": [
+          "Al-Furqan",
+          "Al-'Ankabut",
+          "An-Nur",
+          "Ar-Rum"
+        ],
+        "explain": "Surahs Ash-Shu'ara, An-Naml and Al-Qasas open with Ta Sin (two of them Ta Sin Mim).",
+        "sources": [
+          [
+            "Quran.com data",
+            null
+          ],
+          [
+            "Quran 26:1",
+            null
+          ],
+          [
+            "Quran 27:1",
+            null
+          ],
+          [
+            "Quran 28:1",
+            null
+          ]
+        ]
+      },
+      {
+        "set": "Surahs outside Juz 'Amma that open with an oath",
+        "items": [
+          "As-Saffat",
+          "Adh-Dhariyat",
+          "At-Tur",
+          "An-Najm",
+          "Al-Mursalat"
+        ],
+        "decoys": [
+          "Ya-Sin",
+          "Sad",
+          "Qaf",
+          "Al-Qamar"
+        ],
+        "explain": "Surahs As-Saffat, Adh-Dhariyat, At-Tur, An-Najm and Al-Mursalat open with an oath (wa...).",
+        "sources": [
+          [
+            "Quran.com data",
+            null
+          ],
+          [
+            "Quran 37:1",
+            null
+          ],
+          [
+            "Quran 51:1",
+            null
+          ],
+          [
+            "Quran 52:1",
+            null
+          ],
+          [
+            "Quran 53:1",
+            null
+          ],
+          [
+            "Quran 77:1",
+            null
+          ]
+        ]
+      },
+      {
+        "set": "Surahs named after a name of the Last Day",
+        "items": [
+          "Al-Waqi'ah",
+          "Al-Haqqah",
+          "Al-Qiyamah",
+          "Al-Ghashiyah",
+          "Al-Qari'ah"
+        ],
+        "decoys": [
+          "Ar-Rahman",
+          "Al-Hadid",
+          "Al-Qalam",
+          "Al-Ma'arij"
+        ],
+        "explain": "Surahs Al-Waqi'ah, Al-Haqqah, Al-Qiyamah, Al-Ghashiyah and Al-Qari'ah are named after names of the Last Day (al-Waqi'ah, al-Haqqah, al-Qiyamah, al-Ghashiyah, al-Qari'ah).",
+        "sources": [
+          [
+            "Quran.com data",
+            null
+          ],
+          [
+            "Quran 56:1",
+            null
+          ],
+          [
+            "Quran 69:1",
+            null
+          ],
+          [
+            "Quran 75:1",
+            null
+          ],
+          [
+            "Quran 88:1",
+            null
+          ],
+          [
+            "Quran 101:1",
+            null
+          ]
+        ]
+      },
+      {
+        "set": "Surahs named after a place",
+        "items": [
+          "Al-Hijr",
+          "Al-Kahf",
+          "Saba",
+          "Al-Ahqaf",
+          "At-Tur",
+          "Al-Balad"
+        ],
+        "decoys": [
+          "Ibrahim",
+          "An-Nahl",
+          "Al-Isra",
+          "Maryam"
+        ],
+        "explain": "Surahs Al-Hijr, Al-Kahf, Saba, Al-Ahqaf, At-Tur and Al-Balad are named after places (the Rocky Tract, the Cave, Sheba, the sandhills, the Mount, the City).",
+        "sources": [
+          [
+            "Quran.com data",
+            null
+          ],
+          [
+            "Quran 15:1",
+            null
+          ],
+          [
+            "Quran 18:1",
+            null
+          ],
+          [
+            "Quran 34:1",
+            null
+          ],
+          [
+            "Quran 46:1",
+            null
+          ],
+          [
+            "Quran 52:1",
+            null
+          ],
+          [
+            "Quran 90:1",
+            null
+          ]
+        ]
+      },
+      {
+        "set": "Surahs 50 to 54, in order",
+        "items": [
+          "Qaf",
+          "Adh-Dhariyat",
+          "At-Tur",
+          "An-Najm",
+          "Al-Qamar"
+        ],
+        "decoys": [
+          "Al-Fath",
+          "Al-Hujurat",
+          "Ar-Rahman",
+          "Al-Waqi'ah"
+        ],
+        "explain": "In the mushaf, surahs 50 to 54 are Qaf, Adh-Dhariyat, At-Tur, An-Najm, Al-Qamar.",
+        "sources": [
+          [
+            "Quran.com data",
+            null
+          ]
+        ]
+      },
+      {
+        "set": "Surahs 55 to 59, in order",
+        "items": [
+          "Ar-Rahman",
+          "Al-Waqi'ah",
+          "Al-Hadid",
+          "Al-Mujadila",
+          "Al-Hashr"
+        ],
+        "decoys": [
+          "An-Najm",
+          "Al-Qamar",
+          "Al-Mumtahanah",
+          "As-Saf"
+        ],
+        "explain": "In the mushaf, surahs 55 to 59 are Ar-Rahman, Al-Waqi'ah, Al-Hadid, Al-Mujadila, Al-Hashr.",
+        "sources": [
+          [
+            "Quran.com data",
+            null
+          ]
+        ]
+      },
+      {
+        "set": "Surahs 63 to 67, in order",
+        "items": [
+          "Al-Munafiqun",
+          "At-Taghabun",
+          "At-Talaq",
+          "At-Tahrim",
+          "Al-Mulk"
+        ],
+        "decoys": [
+          "As-Saf",
+          "Al-Jumu'ah",
+          "Al-Qalam",
+          "Al-Haqqah"
+        ],
+        "explain": "In the mushaf, surahs 63 to 67 are Al-Munafiqun, At-Taghabun, At-Talaq, At-Tahrim, Al-Mulk.",
+        "sources": [
+          [
+            "Quran.com data",
+            null
+          ]
+        ]
+      },
+      {
+        "set": "Surahs 69 to 73, in order",
+        "items": [
+          "Al-Haqqah",
+          "Al-Ma'arij",
+          "Nuh",
+          "Al-Jinn",
+          "Al-Muzzammil"
+        ],
+        "decoys": [
+          "Al-Mulk",
+          "Al-Qalam",
+          "Al-Muddaththir",
+          "Al-Qiyamah"
+        ],
+        "explain": "In the mushaf, surahs 69 to 73 are Al-Haqqah, Al-Ma'arij, Nuh, Al-Jinn, Al-Muzzammil.",
+        "sources": [
+          [
+            "Quran.com data",
+            null
+          ]
+        ]
+      },
+      {
+        "set": "Prophets named together in Al-Anbiya 21:85",
+        "items": [
+          "Isma'il",
+          "Idris",
+          "Dhul-Kifl"
+        ],
+        "decoys": [
+          "Ilyas",
+          "Hud",
+          "Salih",
+          "Yunus"
+        ],
+        "explain": "Allah says, \"And Isma'il and Idris and Dhul-Kifl, all were among the patient.\"",
+        "sources": [
+          [
+            "Quran 21:85",
+            "Idris"
+          ]
+        ]
+      },
+      {
+        "set": "Prophets named in Surah Sad 38:45 to 48",
+        "items": [
+          "Ibrahim",
+          "Ishaq",
+          "Ya'qub",
+          "Isma'il",
+          "Al-Yasa'",
+          "Dhul-Kifl"
+        ],
+        "decoys": [
+          "Musa",
+          "Nuh",
+          "Yunus",
+          "Idris"
+        ],
+        "explain": "Surah Sad tells the Prophet ﷺ to remember Ibrahim, Ishaq and Ya'qub, and Isma'il, Al-Yasa' and Dhul-Kifl.",
+        "sources": [
+          [
+            "Quran 38:45",
+            "Abraham"
+          ],
+          [
+            "Quran 38:48",
+            "Elisha"
+          ]
+        ]
+      },
+      {
+        "set": "Names of Allah in Al-Hashr 59:23",
+        "items": [
+          "Al-Malik",
+          "Al-Quddus",
+          "As-Salam",
+          "Al-Mu'min",
+          "Al-Muhaymin",
+          "Al-Aziz",
+          "Al-Jabbar",
+          "Al-Mutakabbir"
+        ],
+        "decoys": [
+          "Al-Khaliq",
+          "Ar-Razzaq",
+          "Al-Ghafur",
+          "Al-Wadud"
+        ],
+        "explain": "Al-Hashr 23 names Allah the King, the Holy, the Peace, the Giver of security, the Guardian, the Mighty, the Compeller and the Supreme.",
+        "sources": [
+          [
+            "Quran 59:23",
+            "Sovereign"
+          ]
+        ]
+      },
+      {
+        "set": "Names of Allah in Al-Hashr 59:24",
+        "items": [
+          "Al-Khaliq",
+          "Al-Bari'",
+          "Al-Musawwir",
+          "Al-Aziz",
+          "Al-Hakim"
+        ],
+        "decoys": [
+          "Al-Malik",
+          "Al-Quddus",
+          "Ar-Razzaq",
+          "Al-Wahhab"
+        ],
+        "explain": "Al-Hashr 24: He is Allah, the Creator, the Maker, the Fashioner. His are the best names, and He is the Mighty, the Wise.",
+        "sources": [
+          [
+            "Quran 59:24",
+            "Creator"
+          ]
+        ]
+      },
+      {
+        "set": "Names of Allah in Al-Hadid 57:3",
+        "items": [
+          "Al-Awwal",
+          "Al-Akhir",
+          "Az-Zahir",
+          "Al-Batin"
+        ],
+        "decoys": [
+          "Al-Hayy",
+          "Al-Qayyum",
+          "Al-Ahad",
+          "As-Samad"
+        ],
+        "explain": "Al-Hadid 3: He is the First and the Last, the Outward and the Inward.",
+        "sources": [
+          [
+            "Quran 57:3",
+            "First"
+          ]
+        ]
+      },
+      {
+        "set": "Names of Allah in Ayat al-Kursi",
+        "items": [
+          "Al-Hayy",
+          "Al-Qayyum",
+          "Al-Aliyy",
+          "Al-Azim"
+        ],
+        "decoys": [
+          "Al-Ahad",
+          "As-Samad",
+          "Al-Awwal",
+          "Al-Ghaniyy"
+        ],
+        "explain": "Ayat al-Kursi calls Allah the Ever-Living, the Sustainer, the Most High, the Most Great.",
+        "sources": [
+          [
+            "Quran 2:255",
+            "Alive"
+          ]
+        ]
+      },
+      {
+        "set": "What Allah swears by at the start of Surah Al-Fajr",
+        "items": [
+          "The dawn",
+          "The ten nights",
+          "The even and the odd",
+          "The night as it passes"
+        ],
+        "decoys": [
+          "The fig",
+          "The sun",
+          "The pen",
+          "The mount"
+        ],
+        "explain": "Surah Al-Fajr opens: \"By the dawn, and the ten nights, and the even and the odd, and the night when it departs.\"",
+        "sources": [
+          [
+            "Quran 89:1",
+            "Dawn"
+          ],
+          [
+            "Quran 89:2",
+            "ten nights"
+          ]
+        ]
+      },
+      {
+        "set": "What Allah swears by at the start of Surah At-Tur",
+        "items": [
+          "The Mount",
+          "A Book inscribed",
+          "The much-frequented House",
+          "The raised canopy",
+          "The kindled sea"
+        ],
+        "decoys": [
+          "The fig",
+          "The dawn",
+          "The sun",
+          "The pen"
+        ],
+        "explain": "Surah At-Tur swears by the Mount, a Book inscribed, the much-frequented House, the raised roof and the kindled sea.",
+        "sources": [
+          [
+            "Quran 52:1",
+            "Mount"
+          ],
+          [
+            "Quran 52:4",
+            "House"
+          ],
+          [
+            "Quran 52:6",
+            "sea"
+          ]
+        ]
+      },
+      {
+        "set": "What Allah swears by at the start of Surah Al-Buruj",
+        "items": [
+          "The sky with its constellations",
+          "The promised Day",
+          "The witness and the witnessed"
+        ],
+        "decoys": [
+          "The sun",
+          "The fig",
+          "The dawn",
+          "The pen"
+        ],
+        "explain": "Surah Al-Buruj swears by the sky with its great stars, the promised Day, and the witness and what is witnessed.",
+        "sources": [
+          [
+            "Quran 85:1",
+            "mansions"
+          ],
+          [
+            "Quran 85:2",
+            "promised"
+          ]
+        ]
+      },
+      {
+        "set": "What Allah swears by at the start of Surah Al-Layl",
+        "items": [
+          "The night",
+          "The day",
+          "The creation of male and female"
+        ],
+        "decoys": [
+          "The sun",
+          "The fig",
+          "The pen",
+          "The dawn"
+        ],
+        "explain": "Surah Al-Layl swears by the night as it covers, the day as it shines, and the creation of male and female.",
+        "sources": [
+          [
+            "Quran 92:1",
+            "night"
+          ],
+          [
+            "Quran 92:3",
+            "male"
+          ]
+        ]
+      },
+      {
+        "set": "The signs sent on Fir'awn's people in Surah Al-A'raf 7:133",
+        "items": [
+          "The flood",
+          "The locusts",
+          "The lice",
+          "The frogs",
+          "The blood"
+        ],
+        "decoys": [
+          "The earthquake",
+          "The wind",
+          "The darkness",
+          "The stones"
+        ],
+        "explain": "Allah sent upon them the flood, the locusts, the lice, the frogs and the blood, as clear signs.",
+        "sources": [
+          [
+            "Quran 7:133",
+            "locusts"
+          ]
+        ]
+      },
+      {
+        "set": "Luqman's advice to his son",
+        "items": [
+          "Do not associate partners with Allah",
+          "Establish the prayer",
+          "Enjoin good and forbid evil",
+          "Be patient with what befalls you",
+          "Do not turn your cheek in pride",
+          "Be moderate in your walk",
+          "Lower your voice"
+        ],
+        "decoys": [
+          "Gather as much wealth as you can",
+          "Travel far from home",
+          "Learn poetry above all",
+          "Seek to become a king"
+        ],
+        "explain": "Surah Luqman gives his advice: no shirk, prayer, enjoining good, patience, humility, moderation in walking and lowering the voice.",
+        "sources": [
+          [
+            "Quran 31:13",
+            "partners"
+          ],
+          [
+            "Quran 31:17",
+            "Establish worship"
+          ],
+          [
+            "Quran 31:19",
+            "voice"
+          ]
+        ]
+      },
+      {
+        "set": "What is made attractive to people in Ali 'Imran 3:14",
+        "items": [
+          "Women",
+          "Sons",
+          "Heaped-up gold and silver",
+          "Branded horses",
+          "Cattle",
+          "Tilled land"
+        ],
+        "decoys": [
+          "Knowledge",
+          "Prayer",
+          "Fasting",
+          "Travel"
+        ],
+        "explain": "Ali 'Imran 14 lists what is made beautiful to people of worldly desires, then says that with Allah is the better return.",
+        "sources": [
+          [
+            "Quran 3:14",
+            "horses"
+          ]
+        ]
+      },
+      {
+        "set": "Animals for riding and beauty in An-Nahl 16:8",
+        "items": [
+          "Horses",
+          "Mules",
+          "Donkeys"
+        ],
+        "decoys": [
+          "Elephants",
+          "Dogs",
+          "Lions",
+          "Deer"
+        ],
+        "explain": "An-Nahl 8: \"And horses, mules and donkeys for you to ride, and as adornment.\"",
+        "sources": [
+          [
+            "Quran 16:8",
+            "mules"
+          ]
+        ]
+      },
+      {
+        "set": "Five foods forbidden in Al-Ma'idah 5:3",
+        "items": [
+          "Carrion",
+          "Blood",
+          "Pork",
+          "An animal strangled to death",
+          "An animal gored to death"
+        ],
+        "decoys": [
+          "Fish",
+          "Honey",
+          "Milk",
+          "Dates"
+        ],
+        "explain": "Al-Ma'idah 3 forbids carrion, blood, swine, what is dedicated to other than Allah, the strangled, the beaten, the fallen and the gored, among others.",
+        "sources": [
+          [
+            "Quran 5:3",
+            "carrion"
+          ]
+        ]
+      },
+      {
+        "set": "Seven of the relatives one may never marry, from An-Nisa 4:23",
+        "items": [
+          "Mothers",
+          "Daughters",
+          "Sisters",
+          "Paternal aunts",
+          "Maternal aunts",
+          "Brothers' daughters",
+          "Sisters' daughters"
+        ],
+        "decoys": [
+          "Cousins",
+          "Neighbours",
+          "Colleagues",
+          "Distant tribeswomen"
+        ],
+        "explain": "An-Nisa 23 lists them. Cousins are not among those forbidden.",
+        "sources": [
+          [
+            "Quran 4:23",
+            "mothers"
+          ]
+        ]
+      },
+      {
+        "set": "Qualities of the successful believers in Al-Mu'minun",
+        "items": [
+          "They are humble in their prayers",
+          "They turn away from idle talk",
+          "They pay zakat",
+          "They guard their chastity",
+          "They keep their trusts and promises",
+          "They guard their prayers"
+        ],
+        "decoys": [
+          "They seek fame",
+          "They gather wealth",
+          "They build tall homes",
+          "They win every argument"
+        ],
+        "explain": "Surah Al-Mu'minun opens by describing the successful believers in these terms.",
+        "sources": [
+          [
+            "Quran 23:2",
+            "humble"
+          ],
+          [
+            "Quran 23:9",
+            "prayers"
+          ]
+        ]
+      },
+      {
+        "set": "Five qualities of the servants of the Most Merciful in Al-Furqan",
+        "items": [
+          "They walk humbly on the earth",
+          "They spend the night in prostration",
+          "They are moderate in spending",
+          "They do not call on another god",
+          "They do not bear false witness"
+        ],
+        "decoys": [
+          "They speak harshly to the ignorant",
+          "They spend lavishly",
+          "They seek high office",
+          "They avoid people"
+        ],
+        "explain": "The end of Al-Furqan describes the servants of the Most Merciful.",
+        "sources": [
+          [
+            "Quran 25:63",
+            "modestly"
+          ],
+          [
+            "Quran 25:67",
+            "prodigal"
+          ],
+          [
+            "Quran 25:72",
+            "witness vanity"
+          ]
+        ]
+      },
+      {
+        "set": "The seven destructive sins",
+        "items": [
+          "Shirk",
+          "Magic",
+          "Killing a soul Allah has forbidden",
+          "Consuming riba",
+          "Consuming an orphan's wealth",
+          "Fleeing from the battlefield",
+          "Slandering chaste believing women"
+        ],
+        "decoys": [
+          "Sleeping late",
+          "Eating too much",
+          "Travelling at night",
+          "Laughing loudly"
+        ],
+        "explain": "The Prophet ﷺ said, \"Avoid the seven destructive sins,\" and named these.",
+        "sources": [
+          [
+            "Bukhari 2766",
+            "seven"
+          ]
+        ]
+      },
+      {
+        "set": "Five creatures that may be killed even in the Haram",
+        "items": [
+          "The crow",
+          "The kite",
+          "The scorpion",
+          "The rat",
+          "The rabid dog"
+        ],
+        "decoys": [
+          "The cat",
+          "The sheep",
+          "The camel",
+          "The deer"
+        ],
+        "explain": "The Prophet ﷺ said five harmful creatures may be killed even in the sanctuary.",
+        "sources": [
+          [
+            "Bukhari 1829",
+            "five"
+          ]
+        ]
+      },
+      {
+        "set": "The major signs of the Hour in Sahih Muslim",
+        "items": [
+          "The smoke",
+          "The Dajjal",
+          "The beast",
+          "The sun rising from the west",
+          "The descent of Isa",
+          "Ya'juj and Ma'juj",
+          "Three great landslides",
+          "A fire from Yemen"
+        ],
+        "decoys": [
+          "The splitting of the moon",
+          "The army of the elephant",
+          "The flood of Nuh",
+          "The building of the Ka'bah"
+        ],
+        "explain": "The Prophet ﷺ said the Hour will not come until ten signs appear, and named these.",
+        "sources": [
+          [
+            "Muslim 2901",
+            "smoke"
+          ]
+        ]
+      },
+      {
+        "set": "What the Prophet ﷺ sought refuge from after the final tashahhud",
+        "items": [
+          "The punishment of Hell",
+          "The punishment of the grave",
+          "The trials of life and death",
+          "The evil of the Dajjal"
+        ],
+        "decoys": [
+          "Heat",
+          "Rain",
+          "Wind",
+          "Travel"
+        ],
+        "explain": "He taught us to seek refuge from four: the punishment of Hell, the punishment of the grave, the trials of life and death, and the Dajjal.",
+        "sources": [
+          [
+            "Muslim 588",
+            "grave"
+          ]
+        ]
+      },
+      {
+        "set": "The three who stayed behind from Tabuk",
+        "items": [
+          "Ka'b ibn Malik",
+          "Murarah ibn al-Rabi'",
+          "Hilal ibn Umayyah"
+        ],
+        "decoys": [
+          "Bilal ibn Rabah",
+          "Ammar ibn Yasir",
+          "Salman al-Farisi",
+          "Mu'adh ibn Jabal"
+        ],
+        "explain": "Ka'b named the two others who stayed behind with him: Murarah ibn al-Rabi' and Hilal ibn Umayyah.",
+        "sources": [
+          [
+            "Bukhari 4418",
+            "Hilal"
+          ],
+          [
+            "Quran 9:118",
+            "three"
+          ]
+        ]
+      },
+      {
+        "set": "The sons of the Prophet ﷺ",
+        "items": [
+          "Al-Qasim",
+          "Abdullah",
+          "Ibrahim"
+        ],
+        "decoys": [
+          "Al-Hasan",
+          "Al-Husayn",
+          "Ja'far",
+          "Muhsin"
+        ],
+        "explain": "According to most historians the Prophet's sons were al-Qasim and Abdullah, born to Khadijah, and Ibrahim, born to Mariyah. All three died young.",
+        "sources": [
+          [
+            "Ar-Raheeq Al-Makhtum",
+            null
+          ],
+          [
+            "Bukhari 1043",
+            "Ibrahim"
+          ]
+        ]
+      },
+      {
+        "set": "Angels named in the Prophet's night prayer supplication",
+        "items": [
+          "Jibril",
+          "Mika'il",
+          "Israfil"
+        ],
+        "decoys": [
+          "Malik",
+          "Harut",
+          "Marut",
+          "Munkar"
+        ],
+        "explain": "He opened his night prayer with, \"O Allah, Lord of Jibril, Mika'il and Israfil.\"",
+        "sources": [
+          [
+            "Muslim 770",
+            "Israfil"
+          ]
+        ]
+      },
+      {
+        "set": "Women given as examples in Surah At-Tahrim",
+        "items": [
+          "The wife of Nuh",
+          "The wife of Lut",
+          "The wife of Fir'awn",
+          "Maryam daughter of Imran"
+        ],
+        "decoys": [
+          "Sarah",
+          "Hajar",
+          "Khadijah",
+          "The Queen of Saba'"
+        ],
+        "explain": "At-Tahrim gives the wives of Nuh and Lut as examples for the disbelievers, and Fir'awn's wife and Maryam for the believers.",
+        "sources": [
+          [
+            "Quran 66:10",
+            "Noah"
+          ],
+          [
+            "Quran 66:11",
+            "Pharaoh"
+          ],
+          [
+            "Quran 66:12",
+            "Mary"
+          ]
+        ]
+      },
+      {
+        "set": "The five things only Allah knows, in Surah Luqman 31:34",
+        "items": [
+          "When the Hour will come",
+          "When rain will fall",
+          "What is in the wombs",
+          "What a soul will earn tomorrow",
+          "In what land a soul will die"
+        ],
+        "decoys": [
+          "The number of the surahs",
+          "The direction of the qiblah",
+          "The names of the prophets",
+          "The length of the year"
+        ],
+        "explain": "Luqman 34 lists them, and the Prophet ﷺ called them the five keys of the unseen.",
+        "sources": [
+          [
+            "Quran 31:34",
+            "Hour"
+          ],
+          [
+            "Bukhari 4697",
+            "five"
+          ]
+        ]
+      },
+      {
+        "set": "Metals named in the Qur'an",
+        "items": [
+          "Iron",
+          "Copper",
+          "Gold",
+          "Silver"
+        ],
+        "decoys": [
+          "Tin",
+          "Lead",
+          "Platinum",
+          "Aluminium"
+        ],
+        "explain": "Al-Hadid names iron, Al-Kahf molten copper, and gold and silver appear in several verses.",
+        "sources": [
+          [
+            "Quran 57:25",
+            "iron"
+          ],
+          [
+            "Quran 18:96",
+            "copper"
+          ],
+          [
+            "Quran 9:34",
+            "silver"
+          ]
+        ]
+      },
+      {
+        "set": "What rain brings forth in An-Nahl 16:11",
+        "items": [
+          "Crops",
+          "Olives",
+          "Date palms",
+          "Grapes",
+          "All kinds of fruit"
+        ],
+        "decoys": [
+          "Cotton",
+          "Roses",
+          "Coffee",
+          "Tea"
+        ],
+        "explain": "An-Nahl 11: with it He grows for you crops, olives, date palms, grapes and every kind of fruit.",
+        "sources": [
+          [
+            "Quran 16:11",
+            "olive"
+          ]
+        ]
+      },
+      {
+        "set": "Righteousness in Ayat al-Birr (Al-Baqarah 2:177)",
+        "items": [
+          "Believing in the angels",
+          "Giving wealth to relatives and orphans",
+          "Establishing the prayer",
+          "Keeping promises",
+          "Patience in hardship"
+        ],
+        "decoys": [
+          "Turning to the east or the west",
+          "Owning much land",
+          "Being famous",
+          "Travelling widely"
+        ],
+        "explain": "Al-Baqarah 177 says righteousness is not turning your faces east or west, but belief, giving, prayer, zakat, keeping promises and patience.",
+        "sources": [
+          [
+            "Quran 2:177",
+            "east"
+          ]
+        ]
+      },
+      {
+        "set": "Prophets whose stories are told in Surah Hud",
+        "items": [
+          "Nuh",
+          "Hud",
+          "Salih",
+          "Ibrahim",
+          "Lut",
+          "Shu'ayb",
+          "Musa"
+        ],
+        "decoys": [
+          "Yusuf",
+          "Isa",
+          "Sulayman",
+          "Dawud"
+        ],
+        "explain": "Surah Hud tells of Nuh, Hud, Salih, Ibrahim, Lut and Shu'ayb, and mentions Musa.",
+        "sources": [
+          [
+            "Quran 11:25",
+            "Noah"
+          ],
+          [
+            "Quran 11:50",
+            "Hud"
+          ],
+          [
+            "Quran 11:61",
+            "Salih"
+          ],
+          [
+            "Quran 11:77",
+            "Lot"
+          ],
+          [
+            "Quran 11:84",
+            "Midian"
+          ],
+          [
+            "Quran 11:96",
+            "Moses"
+          ]
+        ]
+      },
+      {
+        "set": "Prophets whose stories are told in Surah Ash-Shu'ara",
+        "items": [
+          "Musa",
+          "Ibrahim",
+          "Nuh",
+          "Hud",
+          "Salih",
+          "Lut",
+          "Shu'ayb"
+        ],
+        "decoys": [
+          "Yusuf",
+          "Isa",
+          "Sulayman",
+          "Yunus"
+        ],
+        "explain": "Ash-Shu'ara tells the stories of Musa, Ibrahim, Nuh, Hud, Salih, Lut and Shu'ayb, each ending with the same refrain.",
+        "sources": [
+          [
+            "Quran 26:10",
+            "Moses"
+          ],
+          [
+            "Quran 26:69",
+            "Abraham"
+          ],
+          [
+            "Quran 26:105",
+            "Noah"
+          ],
+          [
+            "Quran 26:124",
+            "Hud"
+          ],
+          [
+            "Quran 26:142",
+            "Salih"
+          ],
+          [
+            "Quran 26:161",
+            "Lot"
+          ],
+          [
+            "Quran 26:177",
+            "Shueyb"
+          ]
+        ]
+      },
+      {
+        "set": "Surahs named after a woman or women",
+        "items": [
+          "An-Nisa",
+          "Maryam",
+          "Al-Mujadila",
+          "Al-Mumtahanah"
+        ],
+        "decoys": [
+          "Al-Ma'idah",
+          "Al-Hujurat",
+          "Al-Ahzab",
+          "Ash-Shu'ara"
+        ],
+        "explain": "An-Nisa means the women, Maryam is named after the mother of Isa, Al-Mujadila is the woman who pleaded, and Al-Mumtahanah the woman who is examined.",
+        "sources": [
+          [
+            "Quran.com data",
+            null
+          ],
+          [
+            "Quran 58:1",
+            "disputeth"
+          ],
+          [
+            "Quran 60:10",
+            "examine"
+          ]
+        ]
+      },
+      {
+        "set": "Seven surahs named after a group of people",
+        "items": [
+          "Al-Mu'minun",
+          "Al-Munafiqun",
+          "Al-Kafirun",
+          "Ash-Shu'ara",
+          "Ar-Rum",
+          "Quraysh",
+          "An-Nas"
+        ],
+        "decoys": [
+          "Al-Furqan",
+          "Al-Qalam",
+          "An-Nur",
+          "Al-Hadid"
+        ],
+        "explain": "These are named after the believers, the hypocrites, the disbelievers, the poets, the Romans, the tribe of Quraysh and mankind.",
+        "sources": [
+          [
+            "Quran.com data",
+            null
+          ]
+        ]
+      },
+      {
+        "set": "Surahs named after an object",
+        "items": [
+          "Al-Qalam",
+          "Al-Hadid",
+          "Al-Ma'idah",
+          "Az-Zukhruf",
+          "Al-Masad"
+        ],
+        "decoys": [
+          "Al-Fajr",
+          "Al-Layl",
+          "Al-Insan",
+          "Al-Waqi'ah"
+        ],
+        "explain": "They are named after the pen, iron, the table spread, ornaments of gold and the palm-fibre rope.",
+        "sources": [
+          [
+            "Quran.com data",
+            null
+          ],
+          [
+            "Quran 68:1",
+            "pen"
+          ],
+          [
+            "Quran 57:25",
+            "iron"
+          ],
+          [
+            "Quran 111:5",
+            "palm-fibre"
+          ]
+        ]
+      },
+      {
+        "set": "Surahs named after something in nature",
+        "items": [
+          "Ar-Ra'd",
+          "Ad-Dukhan",
+          "Az-Zalzalah",
+          "Adh-Dhariyat"
+        ],
+        "decoys": [
+          "Al-Ma'idah",
+          "Luqman",
+          "Yusuf",
+          "Al-Hujurat"
+        ],
+        "explain": "They are named after the thunder, the smoke, the earthquake and the scattering winds.",
+        "sources": [
+          [
+            "Quran.com data",
+            null
+          ],
+          [
+            "Quran 13:13",
+            "thunder"
+          ],
+          [
+            "Quran 44:10",
+            "smoke"
+          ]
+        ]
+      },
+      {
+        "set": "Names the Qur'an gives itself",
+        "items": [
+          "Al-Kitab (the Book)",
+          "Al-Furqan (the Criterion)",
+          "Adh-Dhikr (the Reminder)",
+          "An-Nur (the Light)",
+          "Ash-Shifa' (a healing)"
+        ],
+        "decoys": [
+          "Al-Injil",
+          "Az-Zabur",
+          "At-Tawrat",
+          "As-Suhuf"
+        ],
+        "explain": "The Qur'an calls itself the Book, the Criterion, the Reminder, a light and a healing.",
+        "sources": [
+          [
+            "Quran 2:2",
+            "Scripture"
+          ],
+          [
+            "Quran 25:1",
+            "Criterion"
+          ],
+          [
+            "Quran 15:9",
+            "Reminder"
+          ],
+          [
+            "Quran 4:174",
+            "light"
+          ],
+          [
+            "Quran 17:82",
+            "healing"
+          ]
+        ]
+      },
+      {
+        "set": "Names of Paradise in the Qur'an",
+        "items": [
+          "Al-Firdaws",
+          "Jannat Adn",
+          "Jannat al-Ma'wa",
+          "Dar as-Salam",
+          "Jannat an-Na'im"
+        ],
+        "decoys": [
+          "Saqar",
+          "Sijjin",
+          "Al-Hutamah",
+          "Al-Barzakh"
+        ],
+        "explain": "The Qur'an speaks of the Gardens of Firdaws, of Eden, of Refuge, the Home of Peace and the Gardens of Delight.",
+        "sources": [
+          [
+            "Quran 18:107",
+            "Paradise"
+          ],
+          [
+            "Quran 9:72",
+            "Eden"
+          ],
+          [
+            "Quran 53:15",
+            "Garden"
+          ],
+          [
+            "Quran 10:25",
+            "abode of peace"
+          ],
+          [
+            "Quran 56:12",
+            "Gardens of delight"
+          ]
+        ]
       }
     ],
     "hard": [
@@ -46591,6 +48968,967 @@
           "Al-Asr — 3"
         ],
         "explain": "The longer surahs of juz 30 cluster at its start; the very short ones come near the end of the mushaf."
+      },
+      {
+        "set": "Surahs that open with Alif Lam Mim",
+        "items": [
+          "Al-Baqarah",
+          "Ali 'Imran",
+          "Al-'Ankabut",
+          "Ar-Rum",
+          "Luqman",
+          "As-Sajdah"
+        ],
+        "decoys": [
+          "Al-Fatihah",
+          "An-Nisa",
+          "Al-Qasas",
+          "Al-Ahzab"
+        ],
+        "explain": "Surahs Al-Baqarah, Ali 'Imran, Al-'Ankabut, Ar-Rum, Luqman and As-Sajdah open with the letters Alif Lam Mim.",
+        "sources": [
+          [
+            "Quran.com data",
+            null
+          ],
+          [
+            "Quran 2:1",
+            null
+          ],
+          [
+            "Quran 3:1",
+            null
+          ],
+          [
+            "Quran 29:1",
+            null
+          ],
+          [
+            "Quran 30:1",
+            null
+          ],
+          [
+            "Quran 31:1",
+            null
+          ],
+          [
+            "Quran 32:1",
+            null
+          ]
+        ]
+      },
+      {
+        "set": "Surahs that open with Ha Mim",
+        "items": [
+          "Ghafir",
+          "Fussilat",
+          "Ash-Shuraa",
+          "Az-Zukhruf",
+          "Ad-Dukhan",
+          "Al-Jathiyah",
+          "Al-Ahqaf"
+        ],
+        "decoys": [
+          "Az-Zumar",
+          "Muhammad",
+          "Sad",
+          "Al-Fath"
+        ],
+        "explain": "Surahs Ghafir, Fussilat, Ash-Shuraa, Az-Zukhruf, Ad-Dukhan, Al-Jathiyah and Al-Ahqaf open with Ha Mim, known together as the Hawamim.",
+        "sources": [
+          [
+            "Quran.com data",
+            null
+          ],
+          [
+            "Quran 40:1",
+            null
+          ],
+          [
+            "Quran 41:1",
+            null
+          ],
+          [
+            "Quran 42:1",
+            null
+          ],
+          [
+            "Quran 43:1",
+            null
+          ],
+          [
+            "Quran 44:1",
+            null
+          ],
+          [
+            "Quran 45:1",
+            null
+          ],
+          [
+            "Quran 46:1",
+            null
+          ]
+        ]
+      },
+      {
+        "set": "Surahs with exactly 8 ayat",
+        "items": [
+          "Ash-Sharh",
+          "At-Tin",
+          "Al-Bayyinah",
+          "Az-Zalzalah",
+          "At-Takathur"
+        ],
+        "decoys": [
+          "Ad-Duhaa",
+          "Al-'Alaq",
+          "Al-Qadr",
+          "Al-'Adiyat"
+        ],
+        "explain": "Surahs Ash-Sharh, At-Tin, Al-Bayyinah, Az-Zalzalah and At-Takathur have exactly 8 ayat.",
+        "sources": [
+          [
+            "Quran.com data",
+            null
+          ],
+          [
+            "Quran 94:1",
+            null
+          ],
+          [
+            "Quran 95:1",
+            null
+          ],
+          [
+            "Quran 98:1",
+            null
+          ],
+          [
+            "Quran 99:1",
+            null
+          ],
+          [
+            "Quran 102:1",
+            null
+          ]
+        ]
+      },
+      {
+        "set": "Surahs with exactly 11 ayat",
+        "items": [
+          "Al-Jumu'ah",
+          "Al-Munafiqun",
+          "Ad-Duhaa",
+          "Al-'Adiyat",
+          "Al-Qari'ah"
+        ],
+        "decoys": [
+          "As-Saf",
+          "At-Taghabun",
+          "Al-Layl",
+          "Ash-Sharh"
+        ],
+        "explain": "Surahs Al-Jumu'ah, Al-Munafiqun, Ad-Duhaa, Al-'Adiyat and Al-Qari'ah have exactly 11 ayat.",
+        "sources": [
+          [
+            "Quran.com data",
+            null
+          ],
+          [
+            "Quran 62:1",
+            null
+          ],
+          [
+            "Quran 63:1",
+            null
+          ],
+          [
+            "Quran 93:1",
+            null
+          ],
+          [
+            "Quran 100:1",
+            null
+          ],
+          [
+            "Quran 101:1",
+            null
+          ]
+        ]
+      },
+      {
+        "set": "Surahs with exactly 19 ayat",
+        "items": [
+          "Al-Infitar",
+          "Al-A'la",
+          "Al-'Alaq"
+        ],
+        "decoys": [
+          "At-Takwir",
+          "Al-Mutaffifin",
+          "At-Tariq",
+          "Al-Ghashiyah"
+        ],
+        "explain": "Surahs Al-Infitar, Al-A'la and Al-'Alaq have exactly 19 ayat.",
+        "sources": [
+          [
+            "Quran.com data",
+            null
+          ],
+          [
+            "Quran 82:1",
+            null
+          ],
+          [
+            "Quran 87:1",
+            null
+          ],
+          [
+            "Quran 96:1",
+            null
+          ]
+        ]
+      },
+      {
+        "set": "Surahs with exactly 29 ayat",
+        "items": [
+          "Al-Fath",
+          "Al-Hadid",
+          "At-Takwir"
+        ],
+        "decoys": [
+          "Muhammad",
+          "Al-Hujurat",
+          "Al-Waqi'ah",
+          "Al-Mujadila"
+        ],
+        "explain": "Surahs Al-Fath, Al-Hadid and At-Takwir have exactly 29 ayat.",
+        "sources": [
+          [
+            "Quran.com data",
+            null
+          ],
+          [
+            "Quran 48:1",
+            null
+          ],
+          [
+            "Quran 57:1",
+            null
+          ],
+          [
+            "Quran 81:1",
+            null
+          ]
+        ]
+      },
+      {
+        "set": "Surahs with exactly 30 ayat",
+        "items": [
+          "As-Sajdah",
+          "Al-Mulk",
+          "Al-Fajr"
+        ],
+        "decoys": [
+          "Luqman",
+          "Al-Ahzab",
+          "At-Tahrim",
+          "Al-Qalam"
+        ],
+        "explain": "Surahs As-Sajdah, Al-Mulk and Al-Fajr have exactly 30 ayat.",
+        "sources": [
+          [
+            "Quran.com data",
+            null
+          ],
+          [
+            "Quran 32:1",
+            null
+          ],
+          [
+            "Quran 67:1",
+            null
+          ],
+          [
+            "Quran 89:1",
+            null
+          ]
+        ]
+      },
+      {
+        "set": "Surahs with exactly 52 ayat",
+        "items": [
+          "Ibrahim",
+          "Al-Qalam",
+          "Al-Haqqah"
+        ],
+        "decoys": [
+          "Ar-Ra'd",
+          "Al-Hijr",
+          "Al-Mulk",
+          "Al-Ma'arij"
+        ],
+        "explain": "Surahs Ibrahim, Al-Qalam and Al-Haqqah have exactly 52 ayat.",
+        "sources": [
+          [
+            "Quran.com data",
+            null
+          ],
+          [
+            "Quran 14:1",
+            null
+          ],
+          [
+            "Quran 68:1",
+            null
+          ],
+          [
+            "Quran 69:1",
+            null
+          ]
+        ]
+      },
+      {
+        "set": "Surahs 17 to 22, in order",
+        "items": [
+          "Al-Isra",
+          "Al-Kahf",
+          "Maryam",
+          "Taha",
+          "Al-Anbya",
+          "Al-Hajj"
+        ],
+        "decoys": [
+          "Al-Hijr",
+          "An-Nahl",
+          "Al-Mu'minun",
+          "An-Nur"
+        ],
+        "explain": "In the mushaf, surahs 17 to 22 are Al-Isra, Al-Kahf, Maryam, Taha, Al-Anbya, Al-Hajj.",
+        "sources": [
+          [
+            "Quran.com data",
+            null
+          ]
+        ]
+      },
+      {
+        "set": "Surahs 43 to 48, in order",
+        "items": [
+          "Az-Zukhruf",
+          "Ad-Dukhan",
+          "Al-Jathiyah",
+          "Al-Ahqaf",
+          "Muhammad",
+          "Al-Fath"
+        ],
+        "decoys": [
+          "Fussilat",
+          "Ash-Shuraa",
+          "Al-Hujurat",
+          "Qaf"
+        ],
+        "explain": "In the mushaf, surahs 43 to 48 are Az-Zukhruf, Ad-Dukhan, Al-Jathiyah, Al-Ahqaf, Muhammad, Al-Fath.",
+        "sources": [
+          [
+            "Quran.com data",
+            null
+          ]
+        ]
+      },
+      {
+        "set": "The seven famous reciters of the Qur'an",
+        "items": [
+          "Nafi'",
+          "Ibn Kathir al-Makki",
+          "Abu 'Amr",
+          "Ibn 'Amir",
+          "'Asim",
+          "Hamzah",
+          "Al-Kisa'i"
+        ],
+        "decoys": [
+          "Hafs",
+          "Warsh",
+          "Malik ibn Anas",
+          "Al-Bukhari"
+        ],
+        "explain": "These seven reciters, chosen by Ibn Mujahid, are the basis of the seven readings. Hafs and Warsh are narrators from two of them.",
+        "sources": [
+          [
+            "Ibn al-Jazari, Al-Nashr fil-Qira'at al-'Ashr",
+            null
+          ]
+        ]
+      },
+      {
+        "set": "Prophets named in Surah Maryam",
+        "items": [
+          "Zakariyya",
+          "Yahya",
+          "Isa",
+          "Ibrahim",
+          "Musa",
+          "Harun",
+          "Isma'il",
+          "Idris"
+        ],
+        "decoys": [
+          "Yusuf",
+          "Hud",
+          "Salih",
+          "Lut"
+        ],
+        "explain": "Surah Maryam names Zakariyya, Yahya, Isa, Ibrahim, Musa, Harun, Isma'il and Idris.",
+        "sources": [
+          [
+            "Quran 19:2",
+            "Zachariah"
+          ],
+          [
+            "Quran 19:41",
+            "Abraham"
+          ],
+          [
+            "Quran 19:51",
+            "Moses"
+          ],
+          [
+            "Quran 19:54",
+            "Ishmael"
+          ],
+          [
+            "Quran 19:56",
+            "Idris"
+          ]
+        ]
+      },
+      {
+        "set": "Prophets named in An-Nisa 4:163",
+        "items": [
+          "Nuh",
+          "Ibrahim",
+          "Isma'il",
+          "Ishaq",
+          "Ya'qub",
+          "Isa",
+          "Ayyub",
+          "Yunus",
+          "Harun",
+          "Sulayman",
+          "Dawud"
+        ],
+        "decoys": [
+          "Hud",
+          "Salih",
+          "Shu'ayb",
+          "Idris"
+        ],
+        "explain": "An-Nisa 163 lists those to whom Allah gave revelation as He gave it to the Prophet ﷺ.",
+        "sources": [
+          [
+            "Quran 4:163",
+            "Jonah"
+          ]
+        ]
+      },
+      {
+        "set": "Those Allah chose above the worlds in Ali 'Imran 3:33",
+        "items": [
+          "Adam",
+          "Nuh",
+          "The family of Ibrahim",
+          "The family of Imran"
+        ],
+        "decoys": [
+          "The family of Fir'awn",
+          "The people of 'Ad",
+          "The family of Qarun",
+          "The people of Saba'"
+        ],
+        "explain": "Ali 'Imran 33: Allah chose Adam, Nuh, the family of Ibrahim and the family of Imran above the worlds.",
+        "sources": [
+          [
+            "Quran 3:33",
+            "Imran"
+          ]
+        ]
+      },
+      {
+        "set": "The kinds of tawaf in Hajj",
+        "items": [
+          "Tawaf al-Qudum",
+          "Tawaf al-Ifadah",
+          "Tawaf al-Wada'"
+        ],
+        "decoys": [
+          "Tawaf al-Arafah",
+          "Tawaf al-Mina",
+          "Tawaf al-Muzdalifah",
+          "Tawaf al-Jumu'ah"
+        ],
+        "explain": "The tawaf of arrival, the tawaf of ifadah after Arafah, and the farewell tawaf before leaving.",
+        "sources": [
+          [
+            "Ibn Qudamah, Al-Mughni",
+            null
+          ],
+          [
+            "Bukhari 1755",
+            "last"
+          ]
+        ]
+      },
+      {
+        "set": "Bounties named in Surah 'Abasa 80:27 to 31",
+        "items": [
+          "Grain",
+          "Grapes",
+          "Olives",
+          "Date palms",
+          "Fodder"
+        ],
+        "decoys": [
+          "Pomegranates",
+          "Figs",
+          "Honey",
+          "Milk"
+        ],
+        "explain": "'Abasa lists grain, grapes, herbage, olives, date palms, gardens, fruit and fodder.",
+        "sources": [
+          [
+            "Quran 80:27",
+            "grain"
+          ],
+          [
+            "Quran 80:29",
+            "olive"
+          ],
+          [
+            "Quran 80:31",
+            "grasses"
+          ]
+        ]
+      },
+      {
+        "set": "Commands in Al-Isra 17:23 to 37",
+        "items": [
+          "Worship none but Allah",
+          "Be good to your parents",
+          "Do not kill your children for fear of poverty",
+          "Do not go near zina",
+          "Fulfil the covenant",
+          "Give full measure",
+          "Do not walk on the earth arrogantly"
+        ],
+        "decoys": [
+          "Pray facing Jerusalem",
+          "Fast every day",
+          "Avoid all trade",
+          "Leave the cities"
+        ],
+        "explain": "Al-Isra 23 to 37 gathers these commands, from tawhid and kindness to parents to honest measure and humility.",
+        "sources": [
+          [
+            "Quran 17:23",
+            "parents"
+          ],
+          [
+            "Quran 17:31",
+            "Slay not your children"
+          ],
+          [
+            "Quran 17:37",
+            "walk"
+          ]
+        ]
+      },
+      {
+        "set": "Kings the Prophet ﷺ wrote to",
+        "items": [
+          "Heraclius of Byzantium",
+          "Chosroes of Persia",
+          "The Negus of Abyssinia",
+          "Al-Muqawqis of Egypt"
+        ],
+        "decoys": [
+          "Fir'awn",
+          "Abraha",
+          "Namrud",
+          "Talut"
+        ],
+        "explain": "After Hudaybiyyah the Prophet ﷺ sent letters inviting rulers to Islam, among them these four.",
+        "sources": [
+          [
+            "Bukhari 7",
+            "Heraclius"
+          ],
+          [
+            "Ar-Raheeq Al-Makhtum",
+            null
+          ]
+        ]
+      },
+      {
+        "set": "The three idols named in Surah An-Najm",
+        "items": [
+          "Al-Lat",
+          "Al-Uzza",
+          "Manat"
+        ],
+        "decoys": [
+          "Hubal",
+          "Wadd",
+          "Suwa'",
+          "Nasr"
+        ],
+        "explain": "An-Najm 19 and 20: \"Have you considered al-Lat and al-Uzza, and Manat, the third, the other?\"",
+        "sources": [
+          [
+            "Quran 53:19",
+            "Lat"
+          ],
+          [
+            "Quran 53:20",
+            "Manat"
+          ]
+        ]
+      },
+      {
+        "set": "The idols of Nuh's people",
+        "items": [
+          "Wadd",
+          "Suwa'",
+          "Yaghuth",
+          "Ya'uq",
+          "Nasr"
+        ],
+        "decoys": [
+          "Al-Lat",
+          "Hubal",
+          "Manat",
+          "Al-Uzza"
+        ],
+        "explain": "Surah Nuh 23 names the five idols his people refused to abandon.",
+        "sources": [
+          [
+            "Quran 71:23",
+            "Wadd"
+          ]
+        ]
+      },
+      {
+        "set": "Teacher to student among the imams: Malik, al-Shafi'i, Ahmad",
+        "items": [
+          "Malik ibn Anas",
+          "Al-Shafi'i",
+          "Ahmad ibn Hanbal"
+        ],
+        "decoys": [
+          "Abu Hanifah",
+          "Al-Nawawi",
+          "Ibn Kathir",
+          "Al-Tabari"
+        ],
+        "explain": "Al-Shafi'i studied under Malik in Madinah, and Ahmad ibn Hanbal studied under al-Shafi'i.",
+        "sources": [
+          [
+            "Siyar A'lam an-Nubala",
+            null
+          ]
+        ]
+      },
+      {
+        "set": "Books by al-Nawawi",
+        "items": [
+          "Riyad as-Salihin",
+          "Al-Arba'in (the Forty Hadith)",
+          "Al-Adhkar",
+          "Sharh Sahih Muslim",
+          "Al-Majmu'"
+        ],
+        "decoys": [
+          "Fath al-Bari",
+          "Al-Muwatta'",
+          "Tafsir al-Tabari",
+          "Al-Bidaya wan-Nihaya"
+        ],
+        "explain": "Al-Nawawi wrote Riyad as-Salihin, the Forty Hadith, al-Adhkar, a commentary on Sahih Muslim and al-Majmu' in Shafi'i fiqh.",
+        "sources": [
+          [
+            "Al-Bidaya wan-Nihaya",
+            null
+          ]
+        ]
+      },
+      {
+        "set": "Books by Ibn Kathir",
+        "items": [
+          "Tafsir al-Qur'an al-Azim",
+          "Al-Bidaya wan-Nihaya",
+          "Qisas al-Anbiya"
+        ],
+        "decoys": [
+          "Fath al-Bari",
+          "Riyad as-Salihin",
+          "Al-Muwatta'",
+          "Ihya' Ulum al-Din"
+        ],
+        "explain": "Ibn Kathir wrote his famous tafsir and the history al-Bidaya wan-Nihaya. Qisas al-Anbiya, the stories of the prophets, is drawn from it.",
+        "sources": [
+          [
+            "Ibn Hajar, Al-Durar al-Kaminah",
+            null
+          ]
+        ]
+      },
+      {
+        "set": "Books by Ibn Hajar al-Asqalani",
+        "items": [
+          "Fath al-Bari",
+          "Bulugh al-Maram",
+          "Al-Isabah",
+          "Tahdhib al-Tahdhib"
+        ],
+        "decoys": [
+          "Riyad as-Salihin",
+          "Al-Bidaya wan-Nihaya",
+          "Al-Muwatta'",
+          "Zad al-Ma'ad"
+        ],
+        "explain": "Ibn Hajar wrote Fath al-Bari on al-Bukhari, Bulugh al-Maram, al-Isabah on the companions and Tahdhib al-Tahdhib on narrators.",
+        "sources": [
+          [
+            "Ibn al-Imad, Shadharat al-Dhahab",
+            null
+          ]
+        ]
+      },
+      {
+        "set": "Books by Ibn al-Qayyim",
+        "items": [
+          "Zad al-Ma'ad",
+          "Madarij as-Salikin",
+          "I'lam al-Muwaqqi'in",
+          "Al-Jawab al-Kafi"
+        ],
+        "decoys": [
+          "Fath al-Bari",
+          "Riyad as-Salihin",
+          "Al-Muwatta'",
+          "Bulugh al-Maram"
+        ],
+        "explain": "Ibn al-Qayyim wrote Zad al-Ma'ad on the Prophet's guidance, Madarij as-Salikin, I'lam al-Muwaqqi'in and al-Jawab al-Kafi.",
+        "sources": [
+          [
+            "Ibn Hajar, Al-Durar al-Kaminah",
+            null
+          ]
+        ]
+      },
+      {
+        "set": "Students of Ibn Taymiyyah",
+        "items": [
+          "Ibn al-Qayyim",
+          "Ibn Kathir",
+          "Al-Dhahabi"
+        ],
+        "decoys": [
+          "Al-Nawawi",
+          "Ibn Hajar al-Asqalani",
+          "Al-Ghazali",
+          "Al-Bukhari"
+        ],
+        "explain": "Ibn al-Qayyim, Ibn Kathir and al-Dhahabi all studied with Ibn Taymiyyah in Damascus. Al-Nawawi died before him, Ibn Hajar lived after.",
+        "sources": [
+          [
+            "Ibn Hajar, Al-Durar al-Kaminah",
+            null
+          ]
+        ]
+      },
+      {
+        "set": "Peoples Surah Al-Fajr mentions being punished",
+        "items": [
+          "'Ad",
+          "Thamud",
+          "Fir'awn"
+        ],
+        "decoys": [
+          "Madyan",
+          "Saba'",
+          "The people of Lut",
+          "The people of Nuh"
+        ],
+        "explain": "Al-Fajr 6 to 13 mentions 'Ad and Iram, Thamud who hewed the rocks, and Fir'awn of the stakes.",
+        "sources": [
+          [
+            "Quran 89:6",
+            "A'ad"
+          ],
+          [
+            "Quran 89:9",
+            "Thamud"
+          ],
+          [
+            "Quran 89:10",
+            "Pharaoh"
+          ]
+        ]
+      },
+      {
+        "set": "Peoples listed in Surah Qaf 50:12 to 14",
+        "items": [
+          "The people of Nuh",
+          "The dwellers of al-Rass",
+          "Thamud",
+          "'Ad",
+          "Fir'awn",
+          "The brothers of Lut",
+          "The dwellers of the wood",
+          "The people of Tubba'"
+        ],
+        "decoys": [
+          "The people of Saba'",
+          "The people of the Cave",
+          "The people of the Elephant",
+          "Quraysh"
+        ],
+        "explain": "Qaf 12 to 14 lists these peoples, who all denied the messengers.",
+        "sources": [
+          [
+            "Quran 50:12",
+            "Ar-Rass"
+          ],
+          [
+            "Quran 50:13",
+            "Lot"
+          ],
+          [
+            "Quran 50:14",
+            "Tubb'a"
+          ]
+        ]
+      },
+      {
+        "set": "Prophets named in Surah As-Saffat",
+        "items": [
+          "Nuh",
+          "Ibrahim",
+          "Ishaq",
+          "Musa",
+          "Harun",
+          "Ilyas",
+          "Lut",
+          "Yunus"
+        ],
+        "decoys": [
+          "Hud",
+          "Salih",
+          "Shu'ayb",
+          "Yusuf"
+        ],
+        "explain": "As-Saffat names Nuh, Ibrahim, Ishaq, Musa, Harun, Ilyas, Lut and Yunus.",
+        "sources": [
+          [
+            "Quran 37:75",
+            "Noah"
+          ],
+          [
+            "Quran 37:83",
+            "Abraham"
+          ],
+          [
+            "Quran 37:112",
+            "Isaac"
+          ],
+          [
+            "Quran 37:114",
+            "Moses"
+          ],
+          [
+            "Quran 37:123",
+            "Elias"
+          ],
+          [
+            "Quran 37:133",
+            "Lot"
+          ],
+          [
+            "Quran 37:139",
+            "Jonah"
+          ]
+        ]
+      },
+      {
+        "set": "Names of the Last Day in the Qur'an",
+        "items": [
+          "Yawm ad-Din (the Day of Judgement)",
+          "Yawm al-Fasl (the Day of Decision)",
+          "Yawm al-Hasrah (the Day of Regret)",
+          "Yawm at-Taghabun (the Day of Mutual Loss)",
+          "Yawm al-Khulud (the Day of Eternity)"
+        ],
+        "decoys": [
+          "Yawm al-Jumu'ah",
+          "Yawm Ashura",
+          "Yawm at-Tarwiyah",
+          "Yawm al-Arba'a'"
+        ],
+        "explain": "The Qur'an calls the Last Day by many names, among them these five.",
+        "sources": [
+          [
+            "Quran 1:4",
+            "Judgment"
+          ],
+          [
+            "Quran 77:13",
+            "Decision"
+          ],
+          [
+            "Quran 19:39",
+            "anguish"
+          ],
+          [
+            "Quran 64:9",
+            "mutual disillusion"
+          ],
+          [
+            "Quran 50:34",
+            "immortality"
+          ]
+        ]
+      },
+      {
+        "set": "Names of Hell in the Qur'an",
+        "items": [
+          "Jahannam",
+          "Saqar",
+          "Al-Hutamah",
+          "Al-Hawiyah",
+          "Al-Jahim"
+        ],
+        "decoys": [
+          "Al-Firdaws",
+          "Jannat Adn",
+          "An-Na'im",
+          "Illiyyin"
+        ],
+        "explain": "The Qur'an names the Fire Jahannam, Saqar, al-Hutamah, al-Hawiyah and al-Jahim, among others.",
+        "sources": [
+          [
+            "Quran 74:26",
+            "burning"
+          ],
+          [
+            "Quran 104:4",
+            "Consuming One"
+          ],
+          [
+            "Quran 101:9",
+            "Hungry"
+          ]
+        ]
       }
     ]
   }
